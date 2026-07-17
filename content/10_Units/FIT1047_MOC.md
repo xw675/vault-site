@@ -14,6 +14,10 @@ tags: [Monash/CS_DS, CS/Systems]
 - **Remaining weight** ➔ networks + security half (LO5–7) and final assessment *(⚠ split not stated in W1 deck)*.
 - **LO1 (W1–2):** number representations + Boolean algebra → logic circuits · **LO2:** hardware/software architectures · **LO3:** MARIE assembly · **LO4:** OS functions.
 
+## 🧰 Unit Cheatsheet (pinned — SWOTVAC single re-read)
+
+- 📌 [[FIT1047 Unit Cheatsheet]] — whole-unit exam crib — systems → networks → security in one re-read
+
 ## 📅 Knowledge Index
 
 ### Week 1 — Data Representation (Foundations of Computing)

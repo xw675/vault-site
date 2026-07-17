@@ -14,6 +14,10 @@ tags: [Monash/CS_DS, 2026/S1]
 - **Exam skills:** raw-code data structures (no magic methods), Best/Average/Worst complexity tables, hand-traces of sorts/hashing/trees.
 - **Mid-semester test** ➔ Weeks 1–5 (complexity → ADTs → linked structures + iterators); **exam** ➔ whole unit, weighted to Weeks 6–11 structures.
 
+## 🧰 Unit Cheatsheet (pinned — SWOTVAC single re-read)
+
+- 📌 [[FIT1008 Unit Cheatsheet]] — whole-unit exam crib — complexity tables, ADT matrix, sorting suite, trees/heaps/hashing
+
 ## 📅 Knowledge Index
 
 ### Week 1 — Algorithms and Complexity

@@ -14,6 +14,7 @@ tags: [Monash/CS_DS, 2026/S1]
 - **Test (30%)** ➔ theory: relational model, relational algebra, normalisation reasoning. No exam.
 
 ## 🧰 Toolkit Cheatsheets (pinned — pre-lab / pre-exam single re-reads)
+- 📌 [[FIT2094 Unit Cheatsheet]] — whole-unit exam crib — design pipeline, normalisation, SQL decision rules, transactions, NoSQL
 - [[Oracle SQL Toolkit (Cheatsheet)]] -> integrates Topics 8–9: anatomy, predicates, functions, joins, subqueries + integration katas
 
 ## 📅 Knowledge Index

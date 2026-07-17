@@ -14,6 +14,7 @@ tags: [Monash/CS_DS, 2026/S1]
 - **Assessed skills:** design rationale in Coupling/Cohesion/Extensibility terms, UML/Mermaid diagrams, SOLID application, smell → refactor.
 
 ## 🧰 Toolkit Cheatsheets (pinned — pre-lab / pre-exam single re-reads)
+- 📌 [[FIT2099 Unit Cheatsheet]] — whole-unit exam crib — principles, smells→refactors, contracts, UML rules
 - [[Java Toolkit (Cheatsheet)]] — code a class from a blank editor: class anatomy, modifiers, types/`==`-vs-`equals`, collections, inheritance/polymorphism/interfaces/enums, exceptions/DbC/CQS, DI/defensive copying, Factory Method, and the smell→refactoring quick-map.
 - [[UML Toolkit (Cheatsheet)]] — draw from a blank page: class-diagram compartments/visibility/**relationship-arrow legend**/multiplicity/stereotypes, sequence-diagram lifelines/messages/activation/fragments, and the domain/activity/use-case/CRC modelling tools (Mermaid syntax throughout).
 

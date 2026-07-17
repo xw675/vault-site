@@ -16,6 +16,7 @@ tags:
 - **Test (10%)** + **Examination (50%)** ➔ concept-explainable material: lifecycle, models, Big Data, ethics (Weeks 1–11 LOs below).
 
 ## 🧰 Toolkit Cheatsheets (pinned — pre-lab / pre-exam single re-reads)
+- 📌 [[FIT1043 Unit Cheatsheet]] — whole-unit exam crib — the CONCEPT half; pairs with the code toolkits below
 - [[Pandas Toolkit (Cheatsheet)]] -> integrates Weeks 3–4: audit → clean → groupby/agg → plot
 - [[Sklearn Workflow (Cheatsheet)]] -> integrates Weeks 6–7: one estimator skeleton + metrics
 - [[R Toolkit (Cheatsheet)]] -> integrates Week 8: syntax → data frames → plots → lm
