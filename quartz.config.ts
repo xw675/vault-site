@@ -16,7 +16,7 @@ const config: QuartzConfig = {
       provider: null,
     },
     locale: "en-US",
-    baseUrl: "xw675.github.io/vault-site",
+    baseUrl: "xw675.github.io/monash-cs-notes",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {
