@@ -1,12 +1,13 @@
 ---
-unit: FIT1043
+unit: [FIT1043, FIT2086]
 parent: "[[Types of Data (Numeric and Categorical)]]"
 tags: [DataScience/Statistics, Monash/CS_DS]
 aliases: [Descriptive Statistics, Mean, Median, Mode, Skewness]
 ---
 # [[Measures of Centrality]]
 
-**Context:** [[FIT1043_MOC]] · the "typical value" of a sample · the first of the [[Measures of Spread and Boxplots|descriptive statistics]] · numerically interpreting [[Types of Data (Numeric and Categorical)|numeric data]]
+**Context:** [[FIT1043_MOC]], [[FIT2086_MOC]] · the "typical value" of a sample · the first of the [[Measures of Spread and Boxplots|descriptive statistics]] · numerically interpreting [[Types of Data (Numeric and Categorical)|numeric data]]
+**FIT2086 framing:** a **statistic** is *any* function $s(\mathbf{y})$ of a sample; the mean $\bar y=\frac1n\sum_j y_j$, median $\mathrm{med}(\mathbf{y})$ and mode are the simplest — later reused as **estimators** of population parameters (see [[Statistical Modelling and Inference]]).
 
 > [!abstract] Quick Revision
 > - **🎯 Objective:** summarise a sample's centre ➔ mean, median, mode.

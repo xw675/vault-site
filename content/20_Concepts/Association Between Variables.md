@@ -1,12 +1,13 @@
 ---
-unit: FIT1043
+unit: [FIT1043, FIT2086]
 parent: "[[Measures of Centrality]]"
 tags: [DataScience/Statistics, DataScience/Visualisation, Monash/CS_DS]
 aliases: [Correlation, Pearson Correlation, Association, Scatter Plot]
 ---
 # [[Association Between Variables]]
 
-**Context:** [[FIT1043_MOC]] · is there a relationship between two variables? · method depends on the [[Types of Data (Numeric and Categorical)|type pair]] · Pearson via [[Data Auditing in Pandas|df.corr()]]
+**Context:** [[FIT1043_MOC]], [[FIT2086_MOC]] · is there a relationship between two variables? · method depends on the [[Types of Data (Numeric and Categorical)|type pair]] · Pearson via [[Data Auditing in Pandas|df.corr()]]
+**FIT2086 framing:** Pearson correlation $R(\mathbf{x},\mathbf{y})=\dfrac{\sum_j (x_j-\bar x)(y_j-\bar y)}{n\,s(\mathbf{x})\,s(\mathbf{y})}\in[-1,1]$ measures **linear** association only — $R\approx 0$ does **not** imply independence ($y=x^2$ and points on a circle both give $R\approx 0$ despite deterministic association); and correlation $\neq$ causation.
 
 > [!abstract] Quick Revision
 > - **🎯 Objective:** detect a relationship between two variables ➔ pick the tool by the variable-type pair.

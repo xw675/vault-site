@@ -106,17 +106,51 @@ tags: [Monash/CS_DS, 2026/S1]
 
 ## 🎯 Learning Outcomes
 
-**Unit LOs:** 1 design with UML (class + interaction diagrams) · 2 judge design quality · 3 implement abstraction/information-hiding/inheritance/polymorphism in Java · 4 refactor + debug · 5 practise with IDEs, UML tools, version control.
+**Unit LOs:** 
+1. design with UML (class + interaction diagrams) 
+2. judge design quality 
+3. implement abstraction/information-hiding/inheritance/polymorphism in Java 
+4. refactor + debug 
+5. practise with IDEs, UML tools, version control
 
 **Key skills per week:**
 
-- **W1** ➔ static typing catches errors at compile time · class = blueprint, object = instance · value vs reference semantics · constructors, control flow, arrays · client couples to the interface only *(LO3)*
-- **W2** ➔ private fields + deliberate accessors · static = class-level, final = assign-once (reference ≠ immutable) · draw association vs dependency vs inheritance arrows · DRY / own-your-properties / no magic literals *(LO1–3)*
-- **W3** ➔ program to the collection interface (wrapper types in generics) · runtime type dispatches the override, declared type limits visibility · abstract = never instantiated *(LO3)*
-- **W4** ➔ one `extends`, many `implements` — capability contracts · enums kill magic-number smells with compile-time checks *(LO3)*
-- **W5** ➔ argue every design decision through SRP/OCP/LSP/ISP/DIP · principles are guidelines — over-application is its own smell *(LO1–2)*
-- **W6** ➔ inject collaborators from outside (DI beyond DIP) · defensive-copy mutable state at boundaries · write rationale = WHY + alternative + trade-off, never description *(LO1–3, A1)*
-- **W7** ➔ sequence diagram one narrow scenario, concrete classes only, correct message/activation notation *(LO1, A1)*
-- **W8** ➔ precondition breach = client bug (exception), postcondition = supplier bug (assertion) · commands vs queries · Factory Method returns the parent type *(LO2–3)*
-- **W9–10** ➔ recognise smell families as hints not proofs · type-branching → Replace Conditional with Polymorphism · refactor behaviour-preserving under tests, two hats *(LO4)*
-- **W11** ➔ decide as late as responsibly possible (Lean) · take technical debt deliberately + repay by refactoring to better design · explore with CRC cards, split when the card overflows *(LO1, LO5)*
+- **W1** ➔ 
+	- static typing catches errors at compile time 
+	- class = blueprint, object = instance 
+	- value vs reference semantics 
+	- constructors, control flow, arrays 
+	- client couples to the interface only *(LO3)*
+- **W2** ➔ 
+	- private fields + deliberate accessors 
+	- static = class-level, final = assign-once (reference ≠ immutable) 
+	- draw association vs dependency vs inheritance arrows 
+	- DRY / own-your-properties / no magic literals *(LO1–3)*
+- **W3** ➔ 
+	- program to the collection interface (wrapper types in generics) 
+	- runtime type dispatches the override, declared type limits visibility 
+	- abstract = never instantiated *(LO3)*
+- **W4** ➔ 
+	- one `extends`, many `implements` — capability contracts 
+	- enums kill magic-number smells with compile-time checks *(LO3)*
+- **W5** ➔ 
+	- argue every design decision through SRP/OCP/LSP/ISP/DIP 
+	- principles are guidelines — over-application is its own smell *(LO1–2)*
+- **W6** ➔ 
+	- inject collaborators from outside (DI beyond DIP) 
+	- defensive-copy mutable state at boundaries 
+	- write rationale = WHY + alternative + trade-off, never description *(LO1–3, A1)*
+- **W7** ➔ 
+	- sequence diagram one narrow scenario, concrete classes only, correct message/activation notation *(LO1, A1)*
+- **W8** ➔ 
+	- precondition breach = client bug (exception), postcondition = supplier bug (assertion) 
+	- commands vs queries 
+	- Factory Method returns the parent type *(LO2–3)*
+- **W9–10** ➔ 
+	- recognise smell families as hints not proofs 
+	- type-branching → Replace Conditional with Polymorphism 
+	- refactor behaviour-preserving under tests, two hats *(LO4)*
+- **W11** ➔ 
+	- decide as late as responsibly possible (Lean) 
+	- take technical debt deliberately + repay by refactoring to better design 
+	- explore with CRC cards, split when the card overflows *(LO1, LO5)*

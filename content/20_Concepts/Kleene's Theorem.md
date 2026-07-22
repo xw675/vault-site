@@ -42,9 +42,10 @@ stateDiagram-v2
 
 ## ❓ What Kleene's Theorem does *not* settle
 - **Answered YES** ➔ every regex language has an FA; every FA language has a regex. The two circles **coincide**.
-- **Still open at this point** ➔ *can **every** language be represented by a regular expression or finite automaton?* — **No.** Two later results close it:
+- **Now answered** ➔ *can **every** language be represented by a regular expression or finite automaton?* — **No**, on two independent grounds:
   - **Counting** ➔ there are **uncountably many** languages but only countably many expressions/automata ([[Countability and Cantor Diagonalisation]]).
-  - **Concretely** ➔ the **pumping lemma** exhibits specific non-regular languages (the standing questions about DOUBLEWORD and PALINDROMES).
+  - **Concretely** ➔ the [[Pumping Lemma for Regular Languages|pumping lemma]] exhibits **named** non-regular languages — HALF-AND-HALF $\{\mathtt{a}^{n}\mathtt{b}^{n}\}$, EQUAL and PALINDROME (see [[Proving a Language Non-Regular]]).
+- **The final picture** ➔ $\{\text{regular languages}\}$ is a **proper subset** of $\{\text{all languages}\}$.
 
 ## ⚠️ Pitfalls
 - 💡 **Equivalence is about the language, not the machine** ➔ converting changes size and shape drastically (an $n$-state NFA can need $2^{n}$ DFA states); only the **set of accepted strings** is preserved.

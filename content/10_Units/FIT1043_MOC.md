@@ -124,14 +124,57 @@ tags:
 
 ## 🎯 Learning Outcomes (key skills per week)
 
-- **W1** ➔ define DS + Conway's Venn (danger zone) · when ML earns its keep · recite the value chain · separate DS from engineering/analysis/management
-- **W2** ➔ three roles by primary output · impact vs privacy trade-offs · four data-specific business models · justify Python + Anaconda
-- **W3** ➔ open data = machine-readable + public, LOD triples · consume APIs (consumer/provider, keys) · detect each quality problem + justify the fix (IQR/3σ outliers) · audit with `shape`/`info`/`describe`/`value_counts`
-- **W4** ➔ classify variable types FIRST · match chart to type · mean vs median (skew), SD vs IQR (robustness) · Pearson $r$ = linear only, correlation ≠ causation · groupby split-apply-combine + plot
-- **W5** ➔ classifier vs regression · supervised vs unsupervised by "is it labelled?" · loss turns error into quality · fit $\hat y = a_0 + a_1 x$ by minimising MSE (scipy `linregress`)
-- **W6** ➔ diagnose under/overfitting via train/test gap · bias trades against variance · No Free Lunch ⟹ match algorithm to problem · ensembles express prediction variability
-- **W7** ➔ build + read a confusion matrix · choose the metric by error cost · decision trees = recursive partitioning (entropy splits) · random forest = uncorrelated errors cancel · k-means assign↔move loop + init sensitivity
-- **W8** ➔ `<-` assignment + R types · vector/data-frame indexing (`df[i, ]` comma!) · audit/extract/sort/merge/aggregate · `barplot`/`hist`/`boxplot`/`plot` · `lm(y ~ x)` + `ctree`
-- **W9** ➔ Laney's Vs (bigness/problems/aspirations) · machine-processable metadata · four growth laws (Koomey/Bell ⊂ Moore) · shell pipelines scale past RAM (`grep`/`sort`/`awk`/pipes)
-- **W10** ➔ SQL vs NoSQL: schema rigidity + scaling direction · Map-Reduce needs data-parallel work · Hadoop disk-batch vs Spark in-memory/real-time
-- **W11** ➔ management (internal lifecycle) vs governance (external value) · privacy/confidentiality/security + implicit-data threat · PDPA vs stricter GDPR (72 h, 4%/€20M)
+- **W1** ➔ 
+	- define DS + Conway's Venn (danger zone) 
+	- when ML earns its keep 
+	- recite the value chain 
+	- separate DS from engineering/analysis/management
+- **W2** ➔ 
+	- three roles by primary output 
+	- impact vs privacy trade-offs 
+	- four data-specific business models 
+	- justify Python + Anaconda
+- **W3** ➔ 
+	- open data = machine-readable + public, LOD triples 
+	- consume APIs (consumer/provider, keys) 
+	- detect each quality problem + justify the fix (IQR/3σ outliers) 
+	- audit with `shape`/`info`/`describe`/`value_counts`
+- **W4** ➔ 
+	- classify variable types FIRST 
+	- match chart to type 
+	- mean vs median (skew), SD vs IQR (robustness) 
+	- Pearson $r$ = linear only, correlation ≠ causation 
+	- groupby split-apply-combine + plot
+- **W5** ➔ 
+	- classifier vs regression 
+	- supervised vs unsupervised by "is it labelled?" 
+	- loss turns error into quality 
+	- fit $\hat y = a_0 + a_1 x$ by minimising MSE (scipy `linregress`)
+- **W6** ➔ 
+	- diagnose under/overfitting via train/test gap 
+	- bias trades against variance 
+	- No Free Lunch ⟹ match algorithm to problem 
+	- ensembles express prediction variability
+- **W7** ➔ 
+	- build + read a confusion matrix 
+	- choose the metric by error cost 
+	- decision trees = recursive partitioning (entropy splits) random forest = uncorrelated errors cancel 
+	- k-means assign↔move loop + init sensitivity
+- **W8** ➔ 
+	- `<-` assignment + R types 
+	- vector/data-frame indexing (`df[i, ]` comma!) 
+	- audit/extract/sort/merge/aggregate 
+	- `barplot`/`hist`/`boxplot`/`plot` · `lm(y ~ x)` + `ctree`
+- **W9** ➔ 
+	- Laney's Vs (bigness/problems/aspirations) 
+	- machine-processable metadata 
+	- four growth laws (Koomey/Bell ⊂ Moore) 
+	- shell pipelines scale past RAM (`grep`/`sort`/`awk`/pipes)
+- **W10** ➔ 
+	- SQL vs NoSQL: schema rigidity + scaling direction 
+	- Map-Reduce needs data-parallel work 
+	- Hadoop disk-batch vs Spark in-memory/real-time
+- **W11** ➔ 
+	- management (internal lifecycle) vs governance (external value) 
+	- privacy/confidentiality/security + implicit-data threat 
+	- PDPA vs stricter GDPR (72 h, 4%/€20M)

@@ -1,12 +1,13 @@
 ---
-unit: FIT1043
+unit: [FIT1043, FIT2086]
 parent: "[[Measures of Centrality]]"
 tags: [DataScience/Statistics, DataScience/Visualisation, Monash/CS_DS]
 aliases: [Measures of Spread, Range, Variance, Standard Deviation, Boxplot, Five-Number Summary]
 ---
 # [[Measures of Spread and Boxplots]]
 
-**Context:** [[FIT1043_MOC]] · how far samples differ from the [[Measures of Centrality|centre]] · percentiles feed the IQR and the boxplot · outlier rule shared with [[Data Quality Problems]]
+**Context:** [[FIT1043_MOC]], [[FIT2086_MOC]] · how far samples differ from the [[Measures of Centrality|centre]] · percentiles feed the IQR and the boxplot · outlier rule shared with [[Data Quality Problems]]
+**FIT2086 framing:** sample **variance** $v(\mathbf{y})=s^2(\mathbf{y})$ where $s(\mathbf{y})=\sqrt{\frac1n\sum_j (y_j-\bar y)^2}$ (same unit as the data); the **percentile** $Q(\mathbf{y},p)$ generalises the median $Q(\mathbf{y},50)$, with quartiles $Q(\mathbf{y},25),Q(\mathbf{y},75)$ — the population analogue is the [[Random Variables and Probability Distributions (FIT2086)|quantile function]].
 
 > [!abstract] Quick Revision
 > - **🎯 Objective:** quantify dispersion ➔ range, variance/standard deviation, and the IQR from percentiles.

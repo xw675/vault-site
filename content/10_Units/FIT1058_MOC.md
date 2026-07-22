@@ -170,15 +170,68 @@ tags: [Monash/CS_DS, 2025/S2]
 
 ## 🎯 Learning Outcomes (key skills per week)
 
-- **W1** ➔ specify sets three ways + cardinality · $|\mathcal P(A)| = 2^n$, binomials + Pascal's identity · set ops incl. De Morgan · prove equality by double inclusion
-- **W2** ➔ classify injective/surjective/bijective + when the inverse exists · compose functions (socks-and-shoes inversion) · count functions/injections/bijections · relation properties → equivalence ⟺ partition
-- **W3** ➔ check a proof's validity · reason with $P \Rightarrow Q$ + modus ponens (converse trap) · pick the blueprint: construction/cases/contradiction/manipulation · run induction with BOTH obligations
-- **W4** ➔ truth-table every connective · simplify via the Boolean laws · convert to DNF/CNF · encode rule sets as CNF · spot universal operation sets
-- **W5** ➔ separate free vs bound variables · restrict with the right connective ($\exists{+}\wedge$, $\forall{+}\Rightarrow$) · respect mixed quantifier order · negate by flipping every quantifier
-- **W6** ➔ convert recurrence ↔ closed form (explore–formulate–prove) · handle arithmetic/geometric/Fibonacci (Binet) · apply the $\varepsilon$–$N$ limit definition · derive both series sums · apply Big-O from its formal definition
-- **W7** ➔ run Euclid + Extended Euclid (Bézout) · test coprimality ⟺ invertibility · compute in $\mathbb Z_n$ + modular inverses · shrink exponents with $\phi(n)$/Euler/FLT · square-and-multiply · explain Diffie-Hellman + discrete log
-- **W8** ➔ choose add vs multiply by hypothesis · apply inclusion–exclusion · classify selections in the order×replacement 2×2 · count $\sum x_i = r$ via stars and bars
-- **W9** ➔ set up sample spaces ($|A|/|U|$ needs uniform + finite) · apply complement/union rules · test independence (≠ exclusivity) · chain conditional → total probability → Bayes
-- **W10** ➔ define RVs + distributions · use $E$ linearity always, $\mathrm{Var}$ additivity only if independent · contrast mean/median/mode · deploy the five standard distributions + coupon collector
-- **W11** ➔ model with graphs + four representations · apply handshaking + corollaries · distinguish walk/trail/path/cycle + connectivity · test bipartite ⟺ no odd cycle · decide Euler tours by the degree test
-- **W12** ➔ use tree characterisations ($n{-}1$ edges, unique paths) · count forest edges ($n{-}k$) · build spanning trees + run Kruskal · apply $n{-}m{+}f{=}2$ and the planarity bounds to $K_5$/$K_{3,3}$
+- **W1** ➔ 
+	- specify sets three ways + cardinality 
+	- $|\mathcal P(A)| = 2^n$, binomials + Pascal's identity 
+	- set ops incl. De Morgan 
+	- prove equality by double inclusion
+- **W2** ➔ 
+	- classify injective/surjective/bijective + when the inverse exists 
+	- compose functions (socks-and-shoes inversion) 
+	- count functions/injections/bijections 
+	- relation properties → equivalence ⟺ partition
+- **W3** ➔ 
+	- check a proof's validity 
+	- reason with $P \Rightarrow Q$ + modus ponens (converse trap) 
+	- pick the blueprint: construction/cases/contradiction/manipulation 
+	- run induction with BOTH obligations
+- **W4** ➔ 
+	- truth-table every connective 
+	- simplify via the Boolean laws 
+	- convert to DNF/CNF 
+	- encode rule sets as CNF 
+	- spot universal operation sets
+- **W5** ➔ 
+	- separate free vs bound variables 
+	- restrict with the right connective ($\exists{+}\wedge$, $\forall{+}\Rightarrow$) 
+	- respect mixed quantifier order 
+	- negate by flipping every quantifier
+- **W6** ➔ 
+	- convert recurrence ↔ closed form (explore–formulate–prove) 
+	- handle arithmetic/geometric/Fibonacci (Binet) 
+	- apply the $\varepsilon$–$N$ limit definition 
+	- derive both series sums 
+	- apply Big-O from its formal definition
+- **W7** ➔ 
+	- run Euclid + Extended Euclid (Bézout) 
+	- test coprimality ⟺ invertibility 
+	- compute in $\mathbb Z_n$ + modular inverses 
+	- shrink exponents with $\phi(n)$/Euler/FLT 
+	- square-and-multiply 
+	- explain Diffie-Hellman + discrete log
+- **W8** ➔ 
+	- choose add vs multiply by hypothesis 
+	- apply inclusion–exclusion 
+	- classify selections in the order×replacement 2×2 
+	- count $\sum x_i = r$ via stars and bars
+- **W9** ➔ 
+	- set up sample spaces ($|A|/|U|$ needs uniform + finite) 
+	- apply complement/union rules 
+	- test independence (≠ exclusivity) 
+	- chain conditional → total probability → Bayes
+- **W10** ➔ 
+	- define RVs + distributions 
+	- use $E$ linearity always, $\mathrm{Var}$ additivity only if independent 
+	- contrast mean/median/mode 
+	- deploy the five standard distributions + coupon collector
+- **W11** ➔ 
+	- model with graphs + four representations 
+	- apply handshaking + corollaries 
+	- distinguish walk/trail/path/cycle + connectivity 
+	- test bipartite ⟺ no odd cycle 
+	- decide Euler tours by the degree test
+- **W12** ➔ 
+	- use tree characterisations ($n{-}1$ edges, unique paths) 
+	- count forest edges ($n{-}k$) 
+	- build spanning trees + run Kruskal 
+	- apply $n{-}m{+}f{=}2$ and the planarity bounds to $K_5$/$K_{3,3}$

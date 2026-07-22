@@ -109,14 +109,52 @@ tags: [Monash/CS_DS, 2026/S1]
 
 ## 🎯 Learning Outcomes (key skills per week)
 
-- **W1** ➔ define algorithm vs problem (lower bounds live on problems) · measure $T(n)$ best/worst · apply Big-O algebra + the class ladder · state search preconditions (binary = sorted + random access) · analyse the three $O(n^2)$ sorts via invariants, stability, adaptivity
-- **W2** ➔ separate contract (ADT) from cost (implementation) · code ArrayStack with $O(1)$ ops · choose ArraySet vs BVSet by data type + universe size
-- **W3** ➔ code ArrayList ops + shift costs · explain factor-growth amortised $O(1)$ append (vs additive $\Theta(n^2)$) · code Linear and Circular queues (mod-arithmetic ring)
-- **W4** ➔ state SortedList's add-replaces-insert contract + $O(\log n)$/$O(n)$ split · code LinkList relink ops · argue array vs linked as mirror images
-- **W5** ➔ code LinkStack/LinkQueue (never full, pointer overhead) · write an Iterator (`__iter__`/`__next__`/`StopIteration`, single-use) · use lazy generators for $O(1)$ memory
-- **W6** ➔ write recursion with base + call + convergence · convert recursion↔iteration (accumulator forward, explicit stack backward) · trace Hanoi's $2^n - 1$ moves · analyse via recurrences
-- **W7** ➔ derive $\Theta(n\log n)$ from balanced splits · code merge sort (stable, $\Theta(n)$ scratch) · code quicksort + explain pivot pathology ($\Theta(n^2)$)
-- **W8** ➔ use tree vocabulary + $O(\text{height})$ law · run pre/in/post/level traversals · code BST insert (return-and-relink) + delete (in-order successor) · explain the degenerate stick
-- **W9** ➔ show every linear PQ has one $O(N)$ op · code heap rise/sink at $O(\log n)$ · prove bottom-up build is $\Theta(n)$ · run heapsort in place, unstable
-- **W10** ➔ state the Dictionary contract · design hash functions (Horner's method, prime base + TABLESIZE) · derive expected $\Theta(1+\alpha)$
-- **W11** ➔ compare chaining vs open addressing · maintain the linear-probing invariant (incl. deletion) · trigger rehash from load factor $\alpha$
+- **W1** ➔ 
+	- define algorithm vs problem (lower bounds live on problems) 
+	- measure $T(n)$ best/worst 
+	- apply Big-O algebra + the class ladder 
+	- state search preconditions (binary = sorted + random access) 
+	- analyse the three $O(n^2)$ sorts via invariants, stability, adaptivity
+- **W2** ➔ 
+	- separate contract (ADT) from cost (implementation) 
+	- code ArrayStack with $O(1)$ ops 
+	- choose ArraySet vs BVSet by data type + universe size
+- **W3** ➔ 
+	- code ArrayList ops + shift costs 
+	- explain factor-growth amortised $O(1)$ append (vs additive $\Theta(n^2)$) 
+	- code Linear and Circular queues (mod-arithmetic ring)
+- **W4** ➔ 
+	- state SortedList's add-replaces-insert contract + $O(\log n)$/$O(n)$ split 
+	- code LinkList relink ops 
+	- argue array vs linked as mirror images
+- **W5** ➔ 
+	- code LinkStack/LinkQueue (never full, pointer overhead) 
+	- write an Iterator (`__iter__`/`__next__`/`StopIteration`, single-use) 
+	- use lazy generators for $O(1)$ memory
+- **W6** ➔ 
+	- write recursion with base + call + convergence 
+	- convert recursion↔iteration (accumulator forward, explicit stack backward) 
+	- trace Hanoi's $2^n - 1$ moves 
+	- analyse via recurrences
+- **W7** ➔ 
+	- derive $\Theta(n\log n)$ from balanced splits 
+	- code merge sort (stable, $\Theta(n)$ scratch) 
+	- code quicksort + explain pivot pathology ($\Theta(n^2)$)
+- **W8** ➔ 
+	- use tree vocabulary + $O(\text{height})$ law 
+	- run pre/in/post/level traversals 
+	- code BST insert (return-and-relink) + delete (in-order successor) 
+	- explain the degenerate stick
+- **W9** ➔ 
+	- show every linear PQ has one $O(N)$ op 
+	- code heap rise/sink at $O(\log n)$ 
+	- prove bottom-up build is $\Theta(n)$ 
+	- run heapsort in place, unstable
+- **W10** ➔ 
+	- state the Dictionary contract 
+	- design hash functions (Horner's method, prime base + TABLESIZE) 
+	- derive expected $\Theta(1+\alpha)$
+- **W11** ➔ 
+	- compare chaining vs open addressing 
+	- maintain the linear-probing invariant (incl. deletion) 
+	- trigger rehash from load factor $\alpha$

@@ -1,5 +1,5 @@
 ---
-unit: FIT1043
+unit: [FIT1043, FIT2086]
 parent: "[[Data Science Process (Standard Value Chain)]]"
 tags: [DataScience/Statistics, DataScience/Visualisation, Monash/CS_DS]
 aliases: [Data Types, Nominal, Ordinal, Discrete, Continuous]

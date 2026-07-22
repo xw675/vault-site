@@ -125,15 +125,82 @@ tags: [Monash/CS_DS, CS/Systems]
 
 ## 🎯 Learning Outcomes (key skills per week)
 
-- **W1** ➔ convert dec↔bin↔hex + add binary by hand · negate via flip+1, range + overflow by sign rule · normalise IEEE 754 + explain why $0.1$ is inexact · decode ASCII hex, Unicode vs UTF-8 · switch → transistor → gate story
-- **W2** ➔ build truth tables (precedence NOT>AND>OR) · apply the Boolean laws to simplify/prove equivalence · truth table → SOP → circuit · minimise with a K-map (Gray code, maximal groups, wrap-around) · NAND/NOR universality
-- **W3** ➔ explain adders/decoder/MUX + compute-all-MUX-select ALU · SR latch (hold row, forbidden $11$), D flip-flop, registers · Von Neumann + stored program · hand-trace fetch-decode-execute in RTL · write MARIE with SkipCond+Jump idioms
-- **W4** ➔ direct vs indirect addressing ($M[X]$ vs $M[M[X]]$) · pointer-walk array loops, counter vs sentinel termination · JnS/JumpI subroutines (`HEX 0` slot, no recursion) · capacity from address width × addressability · cache vs swap directions
-- **W5** ➔ board components + interface trade-offs · memory-mapped vs port I/O · polling vs interrupts vs DMA · the 12-step boot chain, BIOS vs UEFI · Running/Ready/Blocked trace, user/kernel mode, system calls · MMU isolation + page faults
-- **W6** ➔ client/server/switch/router + reach ladder · transfer time with $\times 8$ · five layers + PDUs, protocol vs interface · encapsulation both directions · label a raw HTTP session · email's three hops, POP vs IMAP, MIME
-- **W7** ➔ digital encodings vs modulation · CSMA/CD's three parts · one address per layer · $/26$ subnet arithmetic · DNS (iterative vs recursive) + ARP broadcast · per-hop routing, RIP vs OSPF · TCP seq/ack lifecycle vs UDP
-- **W8** ➔ switch learning/flood-when-unknown/store-and-forward · switch vs hub vs router · WiFi channels ($1/6/11$), CSMA/CA + hidden node, BSS/ESS · rank open/WEP/WPA2-PSK/Enterprise · owned LAN/backbone vs the leased WAN triangle
-- **W9** ➔ AS + BGP, interior vs exterior routing · peering vs transit, IXPs, tiers · access technologies (ADSL/DSLAM, NBN/GPON, 4G/5G) · load balancing vs caching vs CDN · IoT security + Mirai/Dyn · net-neutrality trade-offs
-- **W10** ➔ match security goal → mechanism · AES + its three weaknesses ($O(n^2)$ keys) · RSA ops + key-length pairs · hash properties + MAC-not-bare-hash · DH exchange + discrete log, no authentication · certificates/CA/revocation · TLS + VPN endpoint limits
-- **W11** ➔ three authentication factors · salted-hash password storage · MFA + biometric/token/app trade-offs, SIM swap · ACL scaling wall → Kerberos/SSO · firewall = filter-not-block + its limits · IDS vs IPS, NGF TLS-proxy cost
-- **W12** ➔ attack/malware taxonomy (virus vs worm vs trojan) · four vulnerability classes + shared root cause (unchecked input) · case-study lesson: exposure + insecure defaults · residual risk + NIST RMF · profiling, PETs, data minimisation
+- **W1** ➔ 
+	- convert dec↔bin↔hex + add binary by hand 
+	- negate via flip+1, range + overflow by sign rule 
+	- normalise IEEE 754 + explain why $0.1$ is inexact 
+	- decode ASCII hex, Unicode vs UTF-8 
+	- switch → transistor → gate story
+- **W2** ➔ 
+	- build truth tables (precedence NOT>AND>OR) 
+	- apply the Boolean laws to simplify/prove equivalence 
+	- truth table → SOP → circuit 
+	- minimise with a K-map (Gray code, maximal groups, wrap-around) 
+	- NAND/NOR universality
+- **W3** ➔ 
+	- explain adders/decoder/MUX + compute-all-MUX-select ALU 
+	- SR latch (hold row, forbidden $11$), D flip-flop, registers 
+	- Von Neumann + stored program 
+	- hand-trace fetch-decode-execute in RTL 
+	- write MARIE with SkipCond+Jump idioms
+- **W4** ➔ 
+	- direct vs indirect addressing ($M[X]$ vs $M[M[X]]$) 
+	- pointer-walk array loops, counter vs sentinel termination 
+	- JnS/JumpI subroutines (`HEX 0` slot, no recursion) 
+	- capacity from address width × addressability 
+	- cache vs swap directions
+- **W5** ➔ 
+	- board components + interface trade-offs 
+	- memory-mapped vs port I/O 
+	- polling vs interrupts vs DMA 
+	- the 12-step boot chain, BIOS vs UEFI 
+	- Running/Ready/Blocked trace, user/kernel mode, system calls 
+	- MMU isolation + page faults
+- **W6** ➔ 
+	- client/server/switch/router + reach ladder 
+	- transfer time with $\times 8$ 
+	- five layers + PDUs, protocol vs interface 
+	- encapsulation both directions 
+	- label a raw HTTP session 
+	- email's three hops, POP vs IMAP, MIME
+- **W7** ➔ 
+	- digital encodings vs modulation 
+	- CSMA/CD's three parts 
+	- one address per layer
+	- $/26$ subnet arithmetic
+	- DNS (iterative vs recursive) + ARP broadcast 
+	- per-hop routing, RIP vs OSPF 
+	- TCP seq/ack lifecycle vs UDP
+- **W8** ➔ 
+	- switch learning/flood-when-unknown/store-and-forward 
+	- switch vs hub vs router 
+	- WiFi channels ($1/6/11$), CSMA/CA + hidden node, BSS/ESS 
+	- rank open/WEP/WPA2-PSK/Enterprise 
+	- owned LAN/backbone vs the leased WAN triangle
+- **W9** ➔ 
+	- AS + BGP, interior vs exterior routing 
+	- peering vs transit, IXPs, tiers 
+	- access technologies (ADSL/DSLAM, NBN/GPON, 4G/5G) 
+	- load balancing vs caching vs CDN 
+	- IoT security + Mirai/Dyn 
+	- net-neutrality trade-offs
+- **W10** ➔ 
+	- match security goal → mechanism 
+	- AES + its three weaknesses ($O(n^2)$ keys) 
+	- RSA ops + key-length pairs 
+	- hash properties + MAC-not-bare-hash 
+	- DH exchange + discrete log, no authentication 
+	- certificates/CA/revocation 
+	- TLS + VPN endpoint limits
+- **W11** ➔ 
+	- three authentication factors 
+	- salted-hash password storage 
+	- MFA + biometric/token/app trade-offs, SIM swap 
+	- ACL scaling wall → Kerberos/SSO 
+	- firewall = filter-not-block + its limits 
+	- IDS vs IPS, NGF TLS-proxy cost
+- **W12** ➔ 
+	- attack/malware taxonomy (virus vs worm vs trojan) 
+	- four vulnerability classes + shared root cause (unchecked input) 
+	- case-study lesson: exposure + insecure defaults 
+	- residual risk + NIST RMF · profiling, PETs, data minimisation

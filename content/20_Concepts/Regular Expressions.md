@@ -66,7 +66,7 @@ $$(\mathtt{aa}\cup\mathtt{bb})^{*}=(\mathtt{aa}\cup\mathtt{bb})^{0}\cup(\mathtt{
 - 💡 **$\mathtt{ab}^{*}\neq(\mathtt{ab})^{*}$** ➔ the star applies to the **immediately preceding** expression; group explicitly when you mean the block.
 - 💡 **$^{*}$ includes zero copies** ➔ $R^{*}$ always contains $\varepsilon$; if you need at least one, write $RR^{*}$ (i.e. $R^{+}$).
 - 💡 **$\emptyset$ vs $\varepsilon$** ➔ $\emptyset$ represents the language with **no** words; $\varepsilon$ represents $\{\varepsilon\}$, which has **one**. *(same trap as in [[Formal Languages (Alphabets, Words, Languages)]])*
-- 💡 **Not every language is regular** ➔ open questions worth holding: are DOUBLEWORD and PALINDROMES regular? (Answered later by the pumping lemma.)
+- 💡 **Not every language is regular** ➔ **PALINDROME is now settled: it is *not* regular**, proved by the [[Pumping Lemma for Regular Languages|pumping lemma]] (see [[Proving a Language Non-Regular]]). DOUBLEWORD is likewise non-regular, though the unit has not yet proved it.
 
 ## 🧠 Active Recall
 > [!FAQ]- Distinguish the languages of $\mathtt{ab}^{*}$, $(\mathtt{ab})^{*}$ and $\mathtt{a}^{*}\mathtt{b}^{*}$.

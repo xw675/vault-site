@@ -127,13 +127,61 @@ tags: [Monash/CS_DS, 2026/S1]
 
 ## 🎯 Learning Outcomes (key skills per week)
 
-- **W2** ➔ place conceptual modelling in the life cycle · draw Crow's Foot ERDs (strong/weak, attribute types, verb labels) · show min AND max cardinality · solid vs dashed lines · resolve M:N with an associative entity
-- **W3** ➔ relation = set ≠ table (degree vs cardinality) · derive super → candidate → primary keys · enforce entity/referential/column integrity · write $\sigma$, $\pi$, set ops, joins in relational algebra
-- **W4** ➔ name the anomaly + its redundancy cause · classify FDs full/partial/transitive · run UNF → 1NF → 2NF → 3NF listing the right dependencies each step · synthesise multi-form 3NF schemas
-- **W5** ➔ map entity→relation, relationship→FK · handle composite/multivalued/weak cases · apply 1:M / M:N / 1:1 / unary / ternary rules · spot impossible configurations · add surrogates last + UNIQUE the natural key
-- **W6** ➔ minimise personal data (client decides) · DDL auto-commits vs transactional DML · pick CHAR/VARCHAR2/NUMBER/DATE · CREATE + named ALTER constraints in valid order (split-then-ALTER for cycles) · CHECK vs lookup · choose on-delete actions from participation
-- **W7** ➔ INSERT with TO_DATE + sequences (NEXTVAL before CURRVAL) · UPDATE/DELETE with subquery-driven WHERE (never hardcode, never omit WHERE) · explain ACID via log + locks · lost update, 2PL, deadlock handling · REDO vs UNDO by write policy
-- **W8** ➔ filter with full WHERE predicate set under three-valued logic · alias/sort/DISTINCT (NULLs sort largest) · NVL/TO_CHAR/TO_DATE type discipline · ANSI joins only (natural-join Cartesian trap) · subquery instead of hardcoded lookup
-- **W9** ➔ COUNT(*) vs COUNT(col) · every SELECT column grouped or aggregated · WHERE (rows) vs HAVING (groups) + logical clause order · pick subquery operator by output shape (scalar / IN / row-constructor)
-- **W10** ➔ CASE (ranges) vs DECODE (equality) · nested vs correlated vs inline vs scalar subqueries + cost reasoning · INSERT-SELECT and CTAS (constraints lost) · self joins on recursive FKs · outer joins to keep unmatched rows · UNION/INTERSECT/MINUS union-compatibility
-- **W11** ➔ why the Vs overwhelm an RDBMS (scale up vs out) · four NoSQL models by access pattern · embed vs reference in MongoDB · CRUD with `$set` (no ROLLBACK!) mapped to SQL equivalents
+- **W2** ➔ 
+	- place conceptual modelling in the life cycle 
+	- draw Crow's Foot ERDs (strong/weak, attribute types, verb labels) 
+	- show min AND max cardinality 
+	- solid vs dashed lines 
+	- resolve M:N with an associative entity
+- **W3** ➔ 
+	- relation = set ≠ table (degree vs cardinality) 
+	- derive super → candidate → primary keys 
+	- enforce entity/referential/column integrity 
+	- write $\sigma$, $\pi$, set ops, joins in relational algebra
+- **W4** ➔ 
+	- name the anomaly + its redundancy cause 
+	- classify FDs full/partial/transitive 
+	- run UNF → 1NF → 2NF → 3NF listing the right dependencies each step 
+	- synthesise multi-form 3NF schemas
+- **W5** ➔ 
+	- map entity→relation, relationship→FK 
+	- handle composite/multivalued/weak cases 
+	- apply 1:M / M:N / 1:1 / unary / ternary rules 
+	- spot impossible configurations 
+	- add surrogates last + UNIQUE the natural key
+- **W6** ➔ 
+	- minimise personal data (client decides) 
+	- DDL auto-commits vs transactional DML 
+	- pick CHAR/VARCHAR2/NUMBER/DATE 
+	- CREATE + named ALTER constraints in valid order (split-then-ALTER for cycles) 
+	- CHECK vs lookup 
+	- choose on-delete actions from participation
+- **W7** ➔ 
+	- INSERT with TO_DATE + sequences (NEXTVAL before CURRVAL) 
+	- UPDATE/DELETE with subquery-driven WHERE (never hardcode, never omit WHERE) 
+	- explain ACID via log + locks 
+	- lost update, 2PL, deadlock handling 
+	- REDO vs UNDO by write policy
+- **W8** ➔ 
+	- filter with full WHERE predicate set under three-valued logic 
+	- alias/sort/DISTINCT (NULLs sort largest) 
+	- NVL/TO_CHAR/TO_DATE type discipline 
+	- ANSI joins only (natural-join Cartesian trap) 
+	- subquery instead of hardcoded lookup
+- **W9** ➔ 
+	- COUNT(*) vs COUNT(col) 
+	- every SELECT column grouped or aggregated 
+	- WHERE (rows) vs HAVING (groups) + logical clause order 
+	- pick subquery operator by output shape (scalar / IN / row-constructor)
+- **W10** ➔ 
+	- CASE (ranges) vs DECODE (equality) 
+	- nested vs correlated vs inline vs scalar subqueries + cost reasoning 
+	- INSERT-SELECT and CTAS (constraints lost) 
+	- self joins on recursive FKs 
+	- outer joins to keep unmatched rows 
+	- UNION/INTERSECT/MINUS union-compatibility
+- **W11** ➔ 
+	- why the Vs overwhelm an RDBMS (scale up vs out) 
+	- four NoSQL models by access pattern 
+	- embed vs reference in MongoDB 
+	- CRUD with `$set` (no ROLLBACK!) mapped to SQL equivalents

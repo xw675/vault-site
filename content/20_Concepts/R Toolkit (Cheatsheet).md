@@ -1,13 +1,13 @@
 ---
-unit: FIT1043
+unit: [FIT1043, FIT2086]
 parent: "[[Data Science]]"
-tags: [DS/R, DS/Wrangling]
+tags: [DS/R, DS/Wrangling, Stats/Modelling]
 type: cheatsheet
-aliases: [R Cheatsheet, R Basics]
+aliases: [R Cheatsheet, R Basics, R simulation cheatsheet]
 ---
 # [[R Toolkit (Cheatsheet)]]
 
-**Context:** [[FIT1043_MOC]] · Week 8 in one place — syntax → vectors → data frames → CSV → plots → `lm` · plots detailed in [[R Visualisation (base graphics)]] · also the Week 9/10 shell→R handoff · lab: `30_Projects/FIT1043_Labs/Week8-R-Solution.pdf`
+**Context:** [[FIT1043_MOC]], [[FIT2086_MOC]] · base R in one place — syntax → vectors → data frames → CSV → plots → `lm` → **simulation/distributions** · plots detailed in [[R Visualisation (base graphics)]]; simulation detailed in [[R Simulation and Random Sampling]] · lab: `30_Projects/FIT1043_Labs/Week8-R-Solution.pdf`
 **Read protocol:** scan tables → attempt the kata blank → follow links only where you failed.
 
 > [!abstract] Quick Revision
@@ -67,6 +67,21 @@ aliases: [R Cheatsheet, R Basics]
 - **Fit** ➔ `fit <- lm(height ~ weight)` — formula reads "height explained by weight".
 - **Read** ➔ `fit$coefficients[1]` intercept · `[2]` slope · `summary(fit)` full report (residuals, $R^2$).
 - **Meaning** ➔ $\hat{h} = 61.38 + 1.415\,w$ from the lecture data; same model family as [[Linear and Polynomial Regression]].
+
+## 🎲 Simulation & Distributions (FIT2086 — details ➔ [[R Simulation and Random Sampling]])
+| Task | Micro-syntax | Gotcha |
+| :-- | :-- | :-- |
+| reproducible RNG | `set.seed(1)` | set **before each** block you want repeatable |
+| sample (no replace) | `sample(1:10, 4)` | default; `size` ≤ set size |
+| sample (with replace) | `sample(1:6, 10, replace=TRUE)` | needed when `size` > set size (dice rolls) |
+| permutation | `sample(1:10)` | omit `size` → shuffle all |
+| density (pmf/pdf) | `dnorm(x, mean, sd)` · `dpois(x, lambda)` | a density, **not** a probability |
+| CDF $P(X\le q)$ | `pnorm(q, mean, sd)` · `lower.tail=FALSE` for $>$ | `p` = probability |
+| quantile $F^{-1}(p)$ | `qnorm(p, mean, sd)` | inverse of `pnorm` |
+| random draws | `rnorm(n, mean, sd)` · `runif(n)` · `rbinom(n,size,prob)` | `r` = simulate `n` values |
+| Monte Carlo prob | `mean(rnorm(1e6) > 1.5)` | proportion of draws = estimated probability |
+
+*(the four prefixes `d`/`p`/`q`/`r` attach to every distribution suffix: `norm`, `binom`, `pois`, `unif`, `exp`, …)*
 
 ## 🥋 Kata (write from blank)
 > [!QUESTION]- Load `students.csv` (columns Name, Age, Score); report dimensions and structure; mean and sd of Score; the top-3 rows by Score (descending); boxplot Score and extract its outliers; fit Score ~ Age and state the slope.
