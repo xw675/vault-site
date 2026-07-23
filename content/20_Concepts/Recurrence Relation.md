@@ -1,11 +1,12 @@
 ---
-unit: FIT1058
+unit: [FIT1058, FIT2004]
 parent: "[[Sequence (Mathematics)]]"
 tags: [Math/Discrete, Math/Sequences, Monash/CS_DS]
 ---
 # [[Recurrence Relation]]
 
-**Context:** [[FIT1058_MOC]] · defines a [[Sequence (Mathematics)|sequence]] from earlier terms · base case(s) + general case · turned into a closed form by [[Mathematical Induction]]
+**Context:** [[FIT1058_MOC]], [[FIT2004_MOC]] · defines a [[Sequence (Mathematics)|sequence]] from earlier terms · base case(s) + general case · turned into a closed form by [[Mathematical Induction]]
+**FIT2004 use:** a recursive algorithm's running time obeys a recurrence (e.g. $T(N)=T(N/2)+c$, $T(n)=a\,T(n/b)+f(n)$) — solved for a Big-O class by **telescoping** (repeated substitution) in [[Solving Recurrences (Telescoping)]].
 
 > [!abstract] Quick Revision
 > - **🎯 Objective:** each term as an expression in previous terms ➔ base case(s) + general case.

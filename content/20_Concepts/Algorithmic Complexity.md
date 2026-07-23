@@ -1,11 +1,12 @@
 ---
-unit: FIT1008
+unit: [FIT1008, FIT2004]
 parent: "[[Algorithm]]"
 tags: [CS/Algorithms, CS/Complexity, CS/Foundations]
 ---
 # [[Algorithmic Complexity]]
 
-**Context:** [[FIT1008_MOC]] · backbone clustering the **measurement foundation** — input size, the RAM cost model, time complexity, per-operation cost, and best/worst/average cases
+**Context:** [[FIT1008_MOC]], [[FIT2004_MOC]] · backbone clustering the **measurement foundation** — input size, the RAM cost model, time complexity, per-operation cost, and best/worst/average cases
+**FIT2004 emphasis:** distinguish **total** space from **auxiliary** space (extra beyond the input — an in-place algorithm uses $O(1)$ auxiliary); and always quote the **tightest** ($\Theta$) bound available, not just an $O$ upper bound. Input size is often **bit-length** (e.g. $n$ digits in [[Karatsuba Integer Multiplication]]).
 
 > [!abstract] Quick Revision
 > - **🎯 Objective:** measure the resource (time/space) as a function of input size $n$ ➔ the question is scalability as $n\to\infty$.

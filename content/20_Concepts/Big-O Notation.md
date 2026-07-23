@@ -1,5 +1,5 @@
 ---
-unit: [FIT1008, FIT1058]
+unit: [FIT1008, FIT1058, FIT2004]
 parent: "[[Algorithmic Complexity]]"
 tags: [CS/Complexity, Math/Analysis, CS/Algorithms, Math/Sequences]
 ---

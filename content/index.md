@@ -21,7 +21,7 @@ Exam-ready notes for a Monash CS + Data Science double degree. Start from a unit
 ## 📅 Year 2 — Semester 1
 
 - [[FIT2014_MOC|📘 FIT2014 — Theory of Computation]]
-- [[FIT2086_MOC|📘 FIT2014 — Modelling for Data Analysis]]
+- [[FIT2086_MOC|📘 FIT2086 — Modelling for Data Analysis]]
 - FIT2004
 - FIT3003
 
