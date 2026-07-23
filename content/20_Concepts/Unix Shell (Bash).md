@@ -1,13 +1,14 @@
 ---
-unit: FIT1043
+unit: [FIT1043, FIT2014]
 parent: "[[Data Wrangling]]"
 tags: [DataScience/Tools, Unix/Shell, Monash/CS_DS]
 type: pattern
-aliases: [Unix Shell, Bash, Shell Commands, grep, awk, pipes]
+aliases: [Unix Shell, Unix Shell for Data Science, Bash, Shell Commands, grep, awk, pipes]
 ---
-# [[Unix Shell for Data Science]]
+# [[Unix Shell (Bash)]]
 
-**Context:** [[FIT1043_MOC]] · a CLI to explore/[[Data Wrangling|wrangle]] **large** data files before [[Python for Data Science|Python]]/[[R for Data Science|R]] · pipes let you process files too big for memory · labs: `30_Projects/FIT1043_Labs/Week9-Shell-Twitter.pdf`, `Week10-Shell-BigFiles-Solution.txt`, `Running-BASH-Setup.pdf`
+**Context:** [[FIT1043_MOC]], [[FIT2014_MOC]] · a CLI to explore/[[Data Wrangling|wrangle]] **large** data files before [[Python for Data Science|Python]]/[[R for Data Science|R]] · pipes let you process files too big for memory · labs: `30_Projects/FIT1043_Labs/Week9-Shell-Twitter.pdf`, `Week10-Shell-BigFiles-Solution.txt`
+**FIT2014 (Lab 0):** all assignment work runs in Linux (Ed Workspaces); `grep` patterns are **regular expressions**, and text-transform tooling (`sed`, `tr`) lives in [[Text Processing with sed and tr]].
 **Task signature:** inspect, search, sort, filter and reshape a big text/CSV file from the command line.
 **Command reference:** [[Shell Toolkit (Cheatsheet)]] — the full `tool | micro-syntax | gotcha` tables for code-from-blank revision.
 

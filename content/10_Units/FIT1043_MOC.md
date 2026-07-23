@@ -83,7 +83,7 @@ tags:
 - [[Big Data and the Vs]] -> Parent Framework: [[Relational Model]] *(shared with FIT2094; extended with Laney's V-taxonomy)*
 - [[Metadata]] -> Parent Framework: [[Data Sources and Open Data]]
 - [[Growth Laws (Moore, Koomey, Bell, Zimmerman)]] -> Parent Framework: [[Big Data and the Vs]]
-- [[Unix Shell for Data Science]] -> Parent Framework: [[Data Wrangling]]
+- [[Unix Shell (Bash)]] -> Parent Framework: [[Data Wrangling]]
 
 ### Week 10 — Databases & Big Data Processing
 - [[SQL vs NoSQL Databases]] -> Parent Framework: [[Big Data and the Vs]]
@@ -104,7 +104,7 @@ tags:
 - [[Linear Regression in Python (scipy)]] -> Parent Framework: [[Linear and Polynomial Regression]] *(Week 5)*
 - [[Scikit-learn Classification and Clustering]] -> Parent Framework: [[Predictive Models]] *(Week 7; trees/forest/k-means)*
 - [[Data Auditing in Pandas]] -> Parent Framework: [[Data Wrangling]] *(Week 3/4)*
-- [[Unix Shell for Data Science]] -> Parent Framework: [[Data Wrangling]] *(Weeks 9 & 10; awk/grep/cut/pipes)*
+- [[Unix Shell (Bash)]] -> Parent Framework: [[Data Wrangling]] *(Weeks 9 & 10; awk/grep/cut/pipes)*
 - [[R Modelling (lm and Decision Trees)]] / [[R Visualisation (base graphics)]] *(Week 8 R lab)*
 
 ## 🧭 Suggested Reading Order
@@ -118,7 +118,7 @@ tags:
 - **W6 — model quality:** **[[Bias-Variance Tradeoff (Underfitting vs Overfitting)]]** → [[No Free Lunch Theorem]] → [[Ensemble Models]]
 - **W7 — classification & clustering:** **[[Classification Evaluation (Confusion Matrix and Metrics)]]** → [[Decision Trees and Regression Trees]] → [[Random Forest]] → [[k-means Clustering]]
 - **W8 — R:** [[R for Data Science]] → [[R Basics (Syntax, Types, Control Flow)]] → [[R Vectors]] → **[[R Data Frames and IO]]** → [[R Visualisation (base graphics)]] → [[R Modelling (lm and Decision Trees)]]
-- **W9 — big data & shell:** **[[Big Data and the Vs]]** → [[Metadata]] → [[Growth Laws (Moore, Koomey, Bell, Zimmerman)]] → [[Unix Shell for Data Science]]
+- **W9 — big data & shell:** **[[Big Data and the Vs]]** → [[Metadata]] → [[Growth Laws (Moore, Koomey, Bell, Zimmerman)]] → [[Unix Shell (Bash)]]
 - **W10 — big-data tools:** [[SQL vs NoSQL Databases]] → **[[Distributed Processing and Map-Reduce]]** → [[Hadoop and Spark]]
 - **W11 — governance & ethics:** [[Data Management and Data Governance]] → [[Privacy, Confidentiality, and Security]] → **[[Data Compliance and Regulations (PDPA, GDPR)]]**
 

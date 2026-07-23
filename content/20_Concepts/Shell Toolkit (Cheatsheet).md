@@ -1,13 +1,13 @@
 ---
-unit: FIT1043
+unit: [FIT1043, FIT2014]
 parent: "[[Data Wrangling]]"
-tags: [DS/Shell, DS/Wrangling]
+tags: [DS/Shell, DS/Wrangling, CS/Languages]
 type: cheatsheet
-aliases: [Shell Cheatsheet, Bash Cheatsheet, Unix Cheatsheet, grep awk sort cut cheatsheet]
+aliases: [Shell Cheatsheet, Bash Cheatsheet, Unix Cheatsheet, grep awk sort cut cheatsheet, sed tr cheatsheet]
 ---
 # [[Shell Toolkit (Cheatsheet)]]
 
-**Context:** [[FIT1043_MOC]] · Weeks 9–10 in one place — navigate → inspect → search/count → sort → cut columns → pipe → compress → `awk` power → hand off to R/Python · depth + task-thinking in [[Unix Shell for Data Science]] · labs: `30_Projects/FIT1043_Labs/Week9-Shell-Twitter.pdf`, `Week10-Shell-BigFiles-Solution.txt`
+**Context:** [[FIT1043_MOC]], [[FIT2014_MOC]] · navigate → inspect → search/count → sort → cut columns → pipe → compress → `awk` → **`sed`/`tr`/regex** → hand off · depth in [[Unix Shell (Bash)]]; text-transform detail in [[Text Processing with sed and tr]] · FIT2014 = Lab 0 tooling
 **Read protocol:** scan tables → attempt the katas blank → follow the pattern-note link only where you failed.
 
 > [!abstract] Quick Revision
@@ -91,6 +91,21 @@ cat big.csv.gz | gunzip | awk -F',' 'NR>1 {print $6,$14}' | sort -n | head
 | shell → R | `awk … > out.txt` then in `R`: `df <- read.table('out.txt', header=TRUE)` | reduce first, analyse in R |
 | Windows setup | install **Cygwin** | provides a Unix shell on Windows |
 | macOS (Big Sur+) | `chsh -s /bin/bash` | default is now **zsh**; switch to bash |
+
+## 🔤 Text transform — sed / tr / grep-regex (FIT2014 — details ➔ [[Text Processing with sed and tr]])
+| Tool | Micro-syntax | Job / gotcha |
+| :-- | :-- | :-- |
+| `sed` substitute | `sed 's/pat/rep/' file` | first match per line; **file unchanged** (stdout) |
+| `sed` global | `sed 's/pat/rep/g' file` | `g` = every match on the line |
+| `sed` backref | `sed 's/2\([0-9]*\)/3\1/'` | `\(...\)` captures, `\1`..`\9` reuse in replacement |
+| `sed` delete chars | `sed 's/[^a-zA-Z]//g'` | replace-with-nothing = delete |
+| char class | `[aeiou]` · `[a-z]` · `[^a-z]` | set · range (ASCII) · complement (`^` first) |
+| anchors | `^pat` · `pat$` · `^pat$` | starts / ends / whole line |
+| `tr` map | `tr 'A-Z' 'a-z'` | per-**character** map (not words) |
+| `tr -d` / `-s` | `tr -d 'aeiou'` · `tr -s ' '` | delete listed · squeeze runs to one |
+| `grep` regex | `grep '[aeiou][aeiou]' f` · `grep '^a.*b$' f` | grep patterns **are** regexes ([[Regular Expressions]]) |
+
+*(⚠ POSIX **BRE**: grouping/repetition are escaped — `\(...\)`, `\{n\}`; bare `()` `{}` are literal. Opposite of the theory notation.)*
 
 ## 🥋 Integration Katas
 > [!QUESTION]- Kata 1: From gzipped `air.csv.gz` (comma-delimited, header on line 1), print the **10 largest** values of column 14, ignoring the header.

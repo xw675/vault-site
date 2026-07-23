@@ -19,6 +19,13 @@ tags: [Monash/CS_DS, Math/Theory, CS/Computation]
 
 ## 📅 Knowledge Index
 
+### 🧰 Toolkit Cheatsheets
+- [[Shell Toolkit (Cheatsheet)]] -> dual-unit (FIT1043 + FIT2014); FIT2014 adds the `sed`/`tr`/grep-regex block (Lab 0)
+
+### Lab 0 — Linux Tooling *(all assignment work runs in Linux)*
+- [[Unix Shell (Bash)]] -> Parent Framework: [[FIT2014_MOC]] *(dual-unit — navigate/inspect/pipe/grep; grep patterns are regexes)*
+- [[Text Processing with sed and tr]] -> Parent Framework: [[Unix Shell (Bash)]] *(applied bridge to [[Regular Expressions]] — POSIX BRE)*
+
 ### Week 1 — Languages, Propositional & Predicate Logic *(Lectures 1–3)*
 - [[Formal Languages (Alphabets, Words, Languages)]] -> Parent Framework: [[FIT2014_MOC]]
 - [[Theorem and Proof]] -> Parent Framework: [[FIT1058_MOC]] *(shared with FIT1058 — existential vs universal claims, "proof by example is not a proof")*
@@ -64,11 +71,12 @@ tags: [Monash/CS_DS, Math/Theory, CS/Computation]
 - *(Picks up the pumping-lemma escapees: EQUAL, HALF-AND-HALF, PALINDROME are all **context-free** — see [[Proving a Language Non-Regular]].)*
 
 ### 🔭 Coming later in the unit *(from the Lecture 1 roadmap — no notes yet)*
-- Parsing · Turing machines · computability & decidability · computational complexity · classes **P** and **NP** · **NP-completeness** · Linux tooling.
+- Parsing · Turing machines · computability & decidability · computational complexity · classes **P** and **NP** · **NP-completeness**.
 
 ## 🧭 Suggested Reading Order
 *(read left→right within each week · **bold** = assessment-critical hand skill)*
 
+- **Lab 0 — Linux:** [[Unix Shell (Bash)]] → [[Text Processing with sed and tr]] *(sed/grep = regex in practice)*
 - **W1 — languages & logic:** [[Formal Languages (Alphabets, Words, Languages)]] → [[Theorem and Proof]] → [[Proposition and Truth Value]] → [[Logical Connectives]] → [[Boolean Algebra Laws]] → [[Disjunctive Normal Form]] → [[Conjunctive Normal Form]] → **[[Encoding Problems in Propositional Logic]]** *(assessable skill)* → **[[CNF Encoding Patterns (At Least, At Most, Exactly)]]** *(fastest marks)* → [[Predicate]] → **[[Quantifiers (Existential and Universal)]]** *(order sensitivity)*
 - **W2 — proof craft → regex:** **[[Proof Techniques]]** *(subset-proof blueprint)* → **[[Mathematical Induction]]** *(hypothesis phrasing)* → [[Proof Critique (Good, Bad and Ugly Proofs)]] *(spot-the-flaw)* → [[Countability and Cantor Diagonalisation]] → [[Regular Expressions]] → **[[Finding Regular Expressions]]** *(A1 hand skill)*
 - **W3 — automata & equivalence:** **[[Finite Automata (DFA and NFA)]]** *(trace + complement)* → [[Kleene's Theorem]] *(the cycle)* → **[[Converting Regular Expressions to NFA]]** → **[[NFA to DFA (Subset Construction)]]** → **[[FA to Regular Expression (GNFA State Elimination)]]** *(all three are A1 hand skills)*
@@ -77,6 +85,11 @@ tags: [Monash/CS_DS, Math/Theory, CS/Computation]
 
 ## 🎯 Learning Outcomes (key skills per week)
 
+- **Lab 0 (Linux)** ➔ 
+	- navigate the filesystem (`pwd`/`ls`/`cd`/`mkdir`) 
+	- pipe & redirect (`|`, `>`, `>>`, `<`) 
+	- transform text with `sed 's/pat/rep/g'` (backrefs `\(...\)`/`\1`, char classes, anchors), `tr` (map/`-d`/`-s`), `grep` regex 
+	- know `sed`/`grep` use **POSIX BRE** (escaped `\(...\)`) — the applied face of [[Regular Expressions]]
 - **W1** ➔ 
 	- define $\Sigma$/word/language ($\emptyset \neq \{\varepsilon\}$, $\Sigma^*$, $x^0 = \varepsilon$) 
 	- decide EVEN-EVEN / DOUBLEWORD / PALINDROMES membership 

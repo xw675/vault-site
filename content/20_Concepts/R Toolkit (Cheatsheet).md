@@ -52,7 +52,7 @@ aliases: [R Cheatsheet, R Basics, R simulation cheatsheet]
 
 ## 📂 Files, Libraries, Environment
 - **Working dir** ➔ `getwd()` / `setwd("D:/Folder")` — set BEFORE read/write.
-- **CSV / tables** ➔ `read.csv("file.csv")` · `write.csv(df, "file.csv")` · `read.table("out.txt", header=TRUE)` (the shell→R handoff after `awk … > out.txt`, see [[Unix Shell for Data Science]]).
+- **CSV / tables** ➔ `read.csv("file.csv")` · `write.csv(df, "file.csv")` · `read.table("out.txt", header=TRUE)` (the shell→R handoff after `awk … > out.txt`, see [[Unix Shell (Bash)]]).
 - **Packages** ➔ once: `install.packages("moments")`; per session: `library(moments)`; built-ins: `data()` then `data(mtcars)`.
 
 ## 📊 Plots (details ➔ [[R Visualisation (base graphics)]])

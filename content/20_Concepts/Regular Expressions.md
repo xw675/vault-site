@@ -15,7 +15,7 @@ aliases: [regular expression, regex, regular language, Kleene star, concatenatio
 
 ## 📝 Why they exist
 - **Pattern matching** ➔ find URLs in logs, valid variable names, dates, numbers in mixed text.
-- **Everywhere in tools** ➔ editors (vi, emacs), filters (grep, sed, awk), lexical-analyser generators (lex, flex, JFlex), compiler generators (yacc, bison), and languages (Python `re`, Perl, Java `java.util.regex`). *(cf. [[Unix Shell for Data Science]])*
+- **Everywhere in tools** ➔ editors (vi, emacs), filters (grep, sed, awk), lexical-analyser generators (lex, flex, JFlex), compiler generators (yacc, bison), and languages (Python `re`, Perl, Java `java.util.regex`). *(applied hands-on: [[Text Processing with sed and tr]], Lab 0)*
 
 ## 🧱 Inductive definition — the expressions
 1. $\emptyset$ and $\varepsilon$ are regular expressions.
