@@ -34,7 +34,6 @@ $$\text{1:1}\quad \text{CARECENTER}(\underline{\text{center\_id}}, \dots, \text{
 
 > [!NOTE] **Crossover Invariant:** the two M:N FKs *usually* form the PK, but a supplied surrogate/own identifier ([[Associative Entity]]) makes them non-key FKs. Placing a 1:1 FK on the mandatory side both minimises [[NULL Value|NULLs]] and enforces the "must participate" rule.
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -50,7 +49,6 @@ Choosing FK placement:
 ## ⚠️ Pitfalls
 - 💡 **1:M FK direction is determined, not chosen** ➔ the FK must go on the many side; reversing it would need a multivalued attribute.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- Give the mapping rule for a 1:M and an M:N binary relationship.
 > - **Core Insight Requirement:** FK-on-many vs bridge.

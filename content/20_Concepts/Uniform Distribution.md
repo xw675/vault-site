@@ -30,7 +30,6 @@ tags: [Math/Probability, Math/Discrete, Monash/CS_DS]
 
 $$\mathrm{Pr}(X=x)=\tfrac1{b-a+1}\ (a\le x\le b),\quad E=\tfrac{a+b}2,\quad \mathrm{Var}=\tfrac{(b-a+1)^2-1}{12}$$
 
----
 ## ⚖️ Core Decision Matrix
 | Case | $E$ | $\mathrm{Var}$ |
 | :--- | :--- | :--- |
@@ -40,7 +39,6 @@ $$\mathrm{Pr}(X=x)=\tfrac1{b-a+1}\ (a\le x\le b),\quad E=\tfrac{a+b}2,\quad \mat
 
 > [!NOTE] **Crossover Invariant:** uniform over a sample space = [[Probability|Equally Likely Outcomes]]; $\mathrm{Unif}(0,1)$ is a fair [[Binomial Distribution|Bernoulli Trial]]. It is the natural prior when the distribution's shape is entirely unknown.
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -56,7 +54,6 @@ $\mathrm{Unif}(1,6)$:
 ## ⚠️ Pitfalls
 - 💡 **Count is $b-a+1$, not $b-a$** ➔ inclusive endpoints; the uniform is the maximally non-committal choice given only the range.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- Give the pmf, mean, and variance of $\mathrm{Unif}(a,b)$ and verify on a fair die.
 > - **Core Insight Requirement:** Inclusive count.

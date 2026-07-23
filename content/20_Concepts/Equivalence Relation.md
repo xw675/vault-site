@@ -32,7 +32,6 @@ tags: [Math/Relations, Math/Discrete, Monash/CS_DS]
 $$\underbrace{\forall x:xRx}_{\text{refl}}\wedge\underbrace{xRy\Rightarrow yRx}_{\text{sym}}\wedge\underbrace{xRy\wedge yRz\Rightarrow xRz}_{\text{trans}}$$
 $$[x]=\{y\in A:x\,R\,y\}$$
 
----
 ## ⚖️ Core Decision Matrix
 | Structure | Properties | Divides set into |
 | :--- | :--- | :--- |
@@ -43,7 +42,6 @@ $$[x]=\{y\in A:x\,R\,y\}$$
 
 > [!NOTE] **Crossover Invariant:** symmetry vs antisymmetry is the dividing line between equivalences and partial orders. The transitive closure of any reflexive + symmetric relation is automatically an equivalence relation.
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -60,7 +58,6 @@ Congruence mod 3 on $\{0,\dots,5\}$:
 ## ⚠️ Pitfalls
 - 💡 **All three are needed** ➔ drop reflexivity (an element in no class), symmetry (one-directional), or transitivity (classes overlap without merging) and the partition breaks.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- State the three defining properties and what fails if each is dropped.
 > - **Core Insight Requirement:** Partition needs all three.

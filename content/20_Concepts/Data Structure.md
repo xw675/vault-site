@@ -23,7 +23,6 @@ tags: [CS/DataStructures, CS/Abstraction]
 - **Linked** (nodes) ➔ $O(1)$ insert/delete given position, grows freely, but $O(n)$ access + **cache-hostile**.
 - **Inheritance** ➔ higher structures inherit this (array vs linked [[Stack (ADT)]]; open-addressing vs chaining [[Hash Table]]).
 
----
 ## ⚙️ Core Implementation
 ### 🔹 The native access operation
 > [!code]- $O(1)$ array access by address arithmetic
@@ -32,7 +31,6 @@ tags: [CS/DataStructures, CS/Abstraction]
 > ```
 > 💡 **Exam Pitfall:** **Cache locality is a first-order cost the RAM model hides** ➔ a contiguous scan and a linked scan can both be $O(n)$ yet differ by an order of magnitude (each cache miss ~100× a hit) — see [[Algorithmic Complexity|RAM model]].
 
----
 ## ⚖️ Core Decision Matrix
 | Variant / Strategy | Access | Insert/delete at position | Growth | Cache / Memory Impact |
 | :--- | :--- | :--- | :--- | :--- |
@@ -41,7 +39,6 @@ tags: [CS/DataStructures, CS/Abstraction]
 
 > [!NOTE] **Crossover Invariant:** layout ≠ ADT — the same ADT on different structures differs in real-world performance even at identical Big-O (cache + constants). [[Tree]]s/graphs extend the linked layout to multi-child pointer nodes.
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -67,7 +64,6 @@ $$
 $$
 **Final Extracted Output:** identical Big-O, very different constants — the memory hierarchy is the hidden variable.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- Contrast contiguous and linked data structures across access, insertion, and cache behaviour.
 > - **Core Insight Requirement:** Opposite optimisation profiles.

@@ -29,7 +29,6 @@ aliases: [Descriptive Statistics, Mean, Median, Mode, Skewness]
 - **Median** ➔ uses at most **two** middle values ➔ resistant to changes away from the middle.
 - **Worked** ➔ $y=(1,2,3,4,5)\Rightarrow \bar y=3,\ \operatorname{med}=3$; $y=(1,2,3,4,50)\Rightarrow \bar y=12,\ \operatorname{med}=3$.
 
----
 ## ⚖️ Core Decision Matrix
 | Distribution | Mean vs Median | Tail |
 | :--- | :--- | :--- |
@@ -39,7 +38,6 @@ aliases: [Descriptive Statistics, Mean, Median, Mode, Skewness]
 
 > [!NOTE] **Crossover Invariant:** the **sign of (mean − median)** diagnoses skew — the mean chases the long tail while the median stays put; equal ⇒ symmetric.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- Why does changing one value from 5 to 50 move the mean from 3 to 12 but leave the median at 3?
 > - **Core Insight Requirement:** All-values vs middle-value.

@@ -37,7 +37,7 @@ FROM   uni.enrolment;
 - **Filter by date part** ➔ `WHERE EXTRACT(MONTH FROM ds_date_serviced) BETWEEN 1 AND 3` (Q1) — no TO_CHAR needed.
 - **Text bar chart** ➔ `LPAD(LTRIM(TO_CHAR(pct,'990.99')), 15, '*')` renders `**********22.73` (LTRIM removes TO_CHAR's sign space, LPAD pads to width). Only aligns in a **monospaced** font / "Run Script".
 
-## 🥋 Kata (write from blank)
+## 🥋 Kata 
 > [!QUESTION]- Kata 1: For each rental show `rent_no` and a return date as `dd-Mon-yyyy`, or `'Still out'` when not yet returned.
 > > [!SUCCESS]- Reference solution
 > > ```sql

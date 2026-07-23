@@ -31,7 +31,6 @@ tags: [Math/Logic, CS/DigitalLogic, Monash/CS_DS]
 
 $$P\vee Q = \neg(\neg P\wedge\neg Q), \qquad P\Rightarrow Q = \neg P\vee Q = \neg(P\wedge\neg Q)$$
 
----
 ## ⚖️ Core Decision Matrix
 | Set | Universal? | Reason |
 | :--- | :--- | :--- |
@@ -43,7 +42,6 @@ $$P\vee Q = \neg(\neg P\wedge\neg Q), \qquad P\Rightarrow Q = \neg P\vee Q = \ne
 
 > [!NOTE] **Crossover Invariant:** universality guarantees *expressibility*, not minimal *circuit size* — a single-gate realisation may need more gates/longer chains than a mixed set. Trade-off: fewer component types (manufacturing) vs circuit depth.
 
----
 ## 📊 Exam Execution Trace
 
 ### Applied Exercise
@@ -60,7 +58,6 @@ $$
 ## ⚠️ Pitfalls
 - 💡 **A universal singleton must be binary** ➔ $\{\neg\}$ can't combine two variables; $\{\wedge,\vee\}$ can't flip a value (any $\wedge/\vee$ of $P$ stays T when $P$ is T), so negation is indispensable.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- Why is $\{\neg,\wedge,\vee\}$ universal, and how do you shrink it to two operations?
 > - **Core Insight Requirement:** DNF/CNF + De Morgan.

@@ -24,7 +24,6 @@ tags: [CS/DataStructures, OOP/Python]
 - **Internal (push)** ➔ collection pushes each element to a callback ([[Binary Tree|Tree Traversal]]'s `f`, `map`, `forEach`).
 - **Fail-fast** ➔ detects structural modification during iteration and raises (Java `ConcurrentModificationException`, Python `RuntimeError`).
 
----
 ## ⚙️ Core Implementation
 ### 🔹 `LinkListIterator`
 > [!code]- `__next__` advances the bookmark
@@ -43,7 +42,6 @@ tags: [CS/DataStructures, OOP/Python]
 
 > [!NOTE] **Crossover Invariant:** external (pull) is flexible — `for x in it`, early break, interleave with `zip`; internal (push) encapsulates order — `map(f, xs)`, tree callback. For deliberate mutation during traversal use a **modifying iterator** ([[List (ADT)|LinkListIterator]]), not a fail-fast read-only one.
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -68,7 +66,6 @@ $$
 $$
 **Final Extracted Output:** external wins on control; internal on encapsulating traversal order.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- Contrast external (pull) and internal (push) iteration and give a Python example of each.
 > - **Core Insight Requirement:** Who drives the loop.

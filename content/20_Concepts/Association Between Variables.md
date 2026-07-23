@@ -26,7 +26,6 @@ aliases: [Correlation, Pearson Correlation, Association, Scatter Plot]
 ### 3. Categorical + Numeric
 - **Side-by-side boxplots** ➔ split the numeric variable by category and compare boxplots; different distributions ⇒ association (e.g. price varies with number of rooms, but not much between two suburbs).
 
----
 ## ⚖️ Core Decision Matrix
 | Variable pair | Visualisation | Quantify |
 | :--- | :--- | :--- |
@@ -36,7 +35,6 @@ aliases: [Correlation, Pearson Correlation, Association, Scatter Plot]
 
 > [!NOTE] **Crossover Invariant:** $r$ near $\pm1$ tightens the scatter toward a line (e.g. $r\approx0.9$ vs $0.44$); but $r$ only sees *linear* trend, so always **plot** as well as compute.
 
----
 ## ⚠️ Pitfalls
 - 💡 **Correlation ≠ causation** ➔ a strong $r$ never proves one variable causes the other.
 - 💡 **$r=0$ ≠ no relationship** ➔ it means no *linear* relationship; a scatter may reveal a clear curve (e.g. $y=x^2$).

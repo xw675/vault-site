@@ -36,7 +36,6 @@ aliases: [Boolean Laws, De Morgan's Laws (Logic)]
 - **Why simplify** ➔ simpler expression ⟹ simpler [[Transistors and Logic Gates|circuit]] ⟹ **cheaper, smaller, more power-efficient, faster** — the whole point of the algebra in hardware.
 - **Limit of hand algebra** ➔ law-chasing is unsystematic; [[Karnaugh Maps]] give a guaranteed-minimal method for ≤6 variables.
 
----
 ## ⚖️ Core Decision Matrix
 | Use | Goal | Tool |
 | :--- | :--- | :--- |
@@ -47,7 +46,6 @@ aliases: [Boolean Laws, De Morgan's Laws (Logic)]
 
 > [!NOTE] **Crossover Invariant:** every law mirrors a [[Set Operations (Mathematics)|set law]] under $\wedge\leftrightarrow\cap$, $\vee\leftrightarrow\cup$, $\neg\leftrightarrow$ complement, $\text{T}\leftrightarrow U$, $\text{F}\leftrightarrow\emptyset$ — so set and logical De Morgan are the *same* statements.
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -64,7 +62,6 @@ Simplify $(P\vee Q)\wedge(P\vee\neg Q)$:
 - 💡 **Logic has TWO distributive laws** ➔ both $\wedge/\vee$ directions hold; number algebra only has $\times$ over $+$ ($p+qr\neq(p+q)(p+r)$).
 - 💡 **Precedence slips in circuit notation** ➔ $\overline{X}Y \neq \overline{XY}$ — the bar's extent matters; De Morgan converts between them at the cost of swapping the operator.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- Define tautology and logical equivalence, and how they relate.
 > - **Core Insight Requirement:** All-true vs identical tables.

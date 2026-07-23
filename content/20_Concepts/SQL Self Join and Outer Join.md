@@ -39,7 +39,7 @@ ORDER BY e1.empname;
 
 - **Keep KING** ➔ swap to `LEFT OUTER JOIN payroll.employee e2 ON e1.mgrno = e2.empno` so the manager-less employee is retained (manager shows NULL).
 
-## 🥋 Kata (write from blank)
+## 🥋 Kata 
 > [!QUESTION]- Kata 1: List every employee with their manager's name, **including** those with no manager.
 > > [!SUCCESS]- Reference solution
 > > ```sql

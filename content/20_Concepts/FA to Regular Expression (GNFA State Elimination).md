@@ -71,7 +71,7 @@ $$\mathtt{a}\cup(\mathtt{a}\mathtt{a}^{*}\mathtt{b})\;\cup\;\Big(\big(\mathtt{b}
 
 - **Shape of the answer** ➔ each elimination round wraps the previous labels in one more $R_{\text{in}}R_{\text{loop}}^{*}R_{\text{out}}$ layer, which is why these expressions grow quickly and rarely look "simplified".
 
-## 🥋 Kata (write from blank)
+## 🥋 Kata
 > [!QUESTION]- Kata: A GNFA has Start $S$, one middle state $q$ and Final $F$, with $S\xrightarrow{\mathtt{a}}q$, $q\xrightarrow{\mathtt{b}}q$, $q\xrightarrow{\mathtt{a}}F$, and no direct $S\to F$ edge. Eliminate $q$.
 > > [!SUCCESS]- Reference solution
 > > $R_{\text{direct}}=\emptyset$ (no edge), $R_{\text{in}}=\mathtt{a}$, $R_{\text{loop}}=\mathtt{b}$, $R_{\text{out}}=\mathtt{a}$:

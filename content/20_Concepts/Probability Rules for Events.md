@@ -32,7 +32,6 @@ tags: [Math/Probability, Math/Discrete, Monash/CS_DS]
 $$\mathrm{Pr}(\overline A)=1-\mathrm{Pr}(A),\quad \mathrm{Pr}(B\setminus A)=\mathrm{Pr}(B)-\mathrm{Pr}(A\cap B)$$
 $$\mathrm{Pr}(A\cup B)=\mathrm{Pr}(A)+\mathrm{Pr}(B)-\mathrm{Pr}(A\cap B)$$
 
----
 ## ⚖️ Core Decision Matrix
 | Target | Set form | Rule |
 | :--- | :--- | :--- |
@@ -43,7 +42,6 @@ $$\mathrm{Pr}(A\cup B)=\mathrm{Pr}(A)+\mathrm{Pr}(B)-\mathrm{Pr}(A\cap B)$$
 
 > [!NOTE] **Crossover Invariant:** these mirror the set-size laws over $|U|$ — dividing $|A\cup B|=|A|+|B|-|A\cap B|$ by $|U|$ gives the probability rule in the uniform case; the general-union rule is two-event [[Inclusion-Exclusion Principle|inclusion–exclusion]].
 
----
 ## 📊 Exam Execution Trace
 
 ### Applied Exercise
@@ -60,7 +58,6 @@ $$
 ## ⚠️ Pitfalls
 - 💡 **Difference needs $A\cap B$, not $A$** ➔ $\mathrm{Pr}(B)-\mathrm{Pr}(A)$ only holds when $A\subseteq B$; in general subtract $\mathrm{Pr}(A\cap B)$.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- Derive $\mathrm{Pr}(A)=1-\mathrm{Pr}(\overline A)$ and $\mathrm{Pr}(A\cup B)=\mathrm{Pr}(A)+\mathrm{Pr}(B)-\mathrm{Pr}(A\cap B)$.
 > - **Core Insight Requirement:** Disjoint decomposition.

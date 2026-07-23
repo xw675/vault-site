@@ -32,7 +32,6 @@ tags: [CS/Databases, SWE/Design, Monash/CS_DS]
 $$\text{CUSTOMER}(\underline{\text{custno}}, \text{custname}, \text{street}, \text{city}, \text{postcode})$$
 $$\text{ORDER}(\underline{\text{orderno}}, \text{orderdate}) \quad \text{[total = }\Sigma\text{ line items, derived]}$$
 
----
 ## ⚖️ Core Decision Matrix
 | Axis | Types | Logical effect |
 | :--- | :--- | :--- |
@@ -43,7 +42,6 @@ $$\text{ORDER}(\underline{\text{orderno}}, \text{orderdate}) \quad \text{[total 
 
 > [!NOTE] **Crossover Invariant:** classification is **client-driven** — the same field (phone number) may be simple or composite, single- or multi-valued, depending on requirements. Names share an entity prefix (`cust_…`), underscores not spaces.
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -59,7 +57,6 @@ Classifying attributes:
 ## ⚠️ Pitfalls
 - 💡 **Carry a derived attribute alongside its sources** ➔ during design always include every client-required attribute; store-vs-compute is decided later with sample data, not at conceptual stage.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- Classify attributes along the three axes with an example of each.
 > - **Core Insight Requirement:** Three independent axes.

@@ -39,7 +39,6 @@ tags: [CS/Algorithms, CS/Complexity, CS/Foundations]
 - **Best ≠ worst only on short-circuit** ➔ requires an `if`/`break`/early return, else best=worst (selection sort).
 - **Average ≠ amortised** ➔ average needs a **distribution**; amortised is a worst-case-sequence guarantee with **no probability**.
 
----
 ## ⚙️ Core Implementation
 ### 🔹 Step-counting & the input-size gotcha
 > [!code]- counting rules + bit-length trap
@@ -71,7 +70,6 @@ tags: [CS/Algorithms, CS/Complexity, CS/Foundations]
 > ```
 > 💡 **Exam Pitfall:** **Best case ≠ "small input"** ➔ both fix size $n$ and differ by **arrangement**; if comparison costs $O(m)$, multiply every bound by $m$ ($O(n^2)\to O(n^2m)$).
 
----
 ## ⚖️ Core Decision Matrix
 *(Best / Average / Worst time, with the worst-case trigger.)*
 
@@ -85,7 +83,6 @@ tags: [CS/Algorithms, CS/Complexity, CS/Foundations]
 
 > [!NOTE] **Crossover Invariant:** quote **worst** for guarantees (real-time/adversarial), **average** for typical (quicksort, hashing), best rarely. **Average ≠ amortised** — average assumes a distribution (fails on skewed inputs); amortised is a hard worst-case-sequence guarantee with no probability.
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -110,7 +107,6 @@ O(nW) &= O\!\big(n\,2^{\log_2 W}\big) = \textbf{exponential in the encoding leng
 $$
 **Final Extracted Output:** polynomial in the *value* $W$ but exponential in its *bit-length* ⟹ pseudo-polynomial (why Knapsack stays NP-hard).
 
----
 ## 🧠 Active Recall
 > [!FAQ]- Distinguish worst-case, average-case, and amortised complexity, stressing each assumption.
 > - **Core Insight Requirement:** Each makes a different assumption.

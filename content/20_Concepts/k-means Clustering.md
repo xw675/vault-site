@@ -28,7 +28,6 @@ aliases: [Clustering, k-means, Centroid, Cluster Assignment]
 - **Random init** ➔ pick $k$ random data points as starting centroids; **highly volatile** — poorly positioned seeds give poor/different clusterings.
 - **Choosing $k$** ➔ **a priori** domain knowledge ($k=2$ two kinds of people; $k=5$ bacteria types; $k=3$ T-shirt sizes); **search** (try several $k$, evaluate quality); or run **hierarchical clustering** on a subset.
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -44,7 +43,6 @@ k-means with $k=2$:
 
 **Final Extracted Output:** $k$ stable clusters, each summarised by its centroid (the mean of its members).
 
----
 ## ⚠️ Pitfalls
 - 💡 **Different seeds → different clusters** ➔ random initialisation is volatile; run multiple times or seed carefully.
 - 💡 **You must pick $k$** ➔ k-means can't discover the number of clusters; use domain knowledge or search over $k$.

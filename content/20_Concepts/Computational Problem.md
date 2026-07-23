@@ -27,7 +27,6 @@ tags: [CS/Foundations, CS/Algorithms]
 - **Lower bounds** ➔ bound *all* algorithms (comparison sorting $\Omega(n\log n)$, see [[Sorting Problem]]).
 - **Reductions** ➔ $A\le_p B$ transfers hardness: $A$ hard and $A\le_p B$ ⟹ $B$ at least as hard.
 
----
 ## ⚖️ Core Decision Matrix
 | Term | Meaning | Owns |
 | :--- | :--- | :--- |
@@ -37,7 +36,6 @@ tags: [CS/Foundations, CS/Algorithms]
 
 > [!NOTE] **Crossover Invariant:** tractability classes — **P** (poly-time solvable) vs **NP-hard/NP-complete** (no known poly algorithm). Reductions propagate both hardness ($A\le_p B$, $A$ hard ⟹ $B$ hard) and tractability (an efficient $B$-solver solves $A$).
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -53,7 +51,6 @@ Classifying three problems:
 ## ⚠️ Pitfalls
 - 💡 **Lower bound = about the problem** ➔ no algorithm beats it; an **upper bound** is exhibited by a *specific* [[Algorithm]] — matching the two proves optimal complexity.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- Distinguish decision, search, and optimisation problems and say which underpins P vs NP.
 > - **Core Insight Requirement:** Output shape defines the class.

@@ -32,7 +32,7 @@ System.out.println(students.length);                 // 3  (field, not method)
 - **Iterate with index** ➔ `for (int i = 0; i < a.length; i++) …` when you need `i`.
 - **Iterate values** ➔ `for (String s : a) …` (for-each) to just visit each element.
 
-## 🥋 Kata (write from blank)
+## 🥋 Kata
 > [!QUESTION]- Kata 1: Make a 5-element `int` array, fill it with the squares 1²…5², and print each on its own line.
 > > [!SUCCESS]- Reference solution
 > > ```java

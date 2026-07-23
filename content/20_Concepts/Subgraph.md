@@ -31,7 +31,6 @@ $$F\le G \iff U\subseteq V \wedge D\subseteq E \wedge (\forall\{v,w\}\in D:\ v,w
 
 > [!NOTE] **Crossover Invariant:** $\le$ is a [[Subset and Superset|partial order]] — it *is* double containment. Proper $<$ excludes $G$ itself, used to define a **maximal** connected subgraph = a [[Connectivity|component]]. Special graphs appear as subgraphs ("$G$ contains a $K_3$").
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -47,7 +46,6 @@ Is $F=(\{a,b,c\},\{ab,ac,bc\})\le G$?
 ## ⚠️ Pitfalls
 - 💡 **$D\subseteq E$ alone is not enough** ➔ every retained edge needs both endpoints retained, else $F$ isn't a graph.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- Define a subgraph and proper subgraph, and the extra validity condition.
 > - **Core Insight Requirement:** Double containment + graph.

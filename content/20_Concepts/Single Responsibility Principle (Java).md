@@ -55,7 +55,7 @@ classDiagram
 - **`Employee` example** ➔ `computePay()` (finance's concern) and `reportHours()` (operations' concern) change for different stakeholders ➔ belong in **different classes**.
 - **Over-applying SRP** ➔ splitting until classes are trivially tiny **overcomplicates** the design; Martin targeted the common tendency to make classes *too large*, not to atomise everything.
 
-## 🥋 Kata (write from blank)
+## 🥋 Kata 
 > [!QUESTION]- Kata 1: A `Report` class both computes figures and formats them as HTML. Name the two responsibilities and refactor into two classes.
 > > [!SUCCESS]- Reference solution
 > > ```java

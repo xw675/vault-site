@@ -33,7 +33,7 @@ df.describe()       # numeric summary: count, mean, std, min, quartiles, max
 - **Categorical audit** ➔ `df.describe(include=['O'])`; per-column `df["suburb"].unique()` and `df["suburb"].value_counts()` to find inconsistent/misspelled values.
 - **Numeric vs categorical split** ➔ use `info()` dtypes to decide which columns get `describe()` vs `describe(include=['O'])`.
 
-## 🥋 Kata (write from blank)
+## 🥋 Kata 
 > [!QUESTION]- Kata 1: You've loaded a housing dataset into `df`. Write the initial audit that would reveal its size, dtypes/nulls, numeric ranges, and the distinct values of the `suburb` column.
 > > [!SUCCESS]- Reference solution
 > > ```python

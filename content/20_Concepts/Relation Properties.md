@@ -27,7 +27,6 @@ tags: [CS/Databases, Math/SetTheory, Monash/CS_DS]
 - **Table** ➔ may have duplicate/ordered rows, composite cells.
 - **Relation** ➔ forbids duplicates, unordered, atomic — logical structure with integrity.
 
----
 ## ⚖️ Core Decision Matrix
 | Property | From | Consequence |
 | :--- | :--- | :--- |
@@ -38,7 +37,6 @@ tags: [CS/Databases, Math/SetTheory, Monash/CS_DS]
 
 > [!NOTE] **Crossover Invariant:** unordered tuples force declarative [[Relational Algebra]]/SQL querying by value; tuple uniqueness guarantees the full attribute set is a super key. SQL tables relax some rules (permit duplicate rows unless constrained).
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -54,7 +52,6 @@ Checking a candidate relation:
 ## ⚠️ Pitfalls
 - 💡 **Never name a tuple by position** ➔ tuples are unordered, so access is always by attribute value; a multivalued cell violates atomicity (1NF).
 
----
 ## 🧠 Active Recall
 > [!FAQ]- State the four properties of a relation and why each follows from it being a set.
 > - **Core Insight Requirement:** Set ⟹ properties.

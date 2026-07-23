@@ -119,8 +119,6 @@ aliases: [HTML CSS Cheatsheet, HTML Cheatsheet, CSS Cheatsheet, Flexbox Grid che
 └─── <footer> ────────────────────────────┘
 ```
 
----
-
 ## 🎨 CSS — how to add styles
 | Method | Syntax | When |
 | :--- | :--- | :--- |
@@ -328,7 +326,7 @@ body {
 }
 ```
 
-## 🥋 Integration Katas (≥3 tools each — write from blank)
+## 🥋 Integration Katas
 > [!QUESTION]- Kata 1: Build a responsive card grid — 6 cards with a title, image, and description. 1 column on mobile, 2 on tablet, 3 on desktop. Cards have rounded borders, padding, and a subtle shadow. Include viewport meta tag. (uses: semantic HTML + Grid `auto-fit` or media queries + box model + responsive images)
 > > [!SUCCESS]- Reference solution
 > > ```html

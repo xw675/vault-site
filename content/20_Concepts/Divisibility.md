@@ -30,7 +30,6 @@ $$\text{proof: } m=q_1d,\ n=q_2d \Rightarrow xm+yn=(xq_1+yq_2)d$$
 
 > [!NOTE] **Crossover Invariant:** the sum/difference rule is the engine of the [[Euclidean Algorithm]] ($\gcd(a,b)=\gcd(b,a-b)$) and [[Integer Linear Combination|Bézout's identity]]. $d\mathbb Z$ is symmetric about $0$ and always contains $0$ ($q=0$).
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -46,7 +45,6 @@ Divisors of 18:
 ## ⚠️ Pitfalls
 - 💡 **Converse fails** ➔ $d\mid(m+n)$ does *not* give $d\mid m$ and $d\mid n$; the rule moves from divisors to combinations, never back.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- If $d\mid m$ and $d\mid n$, what else must $d$ divide — and why doesn't $2\mid(3+5)$ make 2 divide 3?
 > - **Core Insight Requirement:** Combinations, not summands.

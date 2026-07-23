@@ -29,7 +29,6 @@ aliases: [BST]
 - **One child** ➔ bypass (parent points to the child).
 - **Two children** ➔ replace key/item with the **in-order successor** (one step right, then all the way left), then delete it (successor has no left child ➔ easy case).
 
----
 ## ⚙️ Core Implementation
 ### 🔹 Search + Insert
 > [!code]- `find_aux` (search) + `insert_aux` (return-and-relink)
@@ -71,7 +70,6 @@ aliases: [BST]
 > ```
 > 💡 **Exam Pitfall:** **A tree has no single "next" link** ➔ an external [[Iterator]] keeps its own [[Stack (ADT)]]; push right then left to emit **preorder** (the [[Recursion|recursion→explicit-stack]] conversion).
 
----
 ## ⚖️ Core Decision Matrix
 | Variant / Strategy | search | insert / delete | Ordered? | Cache / Note |
 | :--- | :--- | :--- | :--- | :--- |
@@ -83,7 +81,6 @@ aliases: [BST]
 
 > [!NOTE] **Crossover Invariant:** a BST is good at **both** search and insert/delete (binary search + constant re-link), unlike a sorted array/linked list (each wins one); vs a hash table it is slower per op but **traversable in key order** with range/predecessor/successor queries. Correctness = ops **maintain the BST invariant** (BST in ⟹ BST out).
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -111,7 +108,6 @@ $$
 $$
 **Final Extracted Output:** substituting the next-largest key preserves left<root<right; the successor has no left child, so its removal is the easy case.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- A recursive `insert_aux` that does `current = Node(key, item)` "finishes without modifying the tree" — why, and how is it fixed?
 > - **Core Insight Requirement:** Local rebinding vs parent-link update.

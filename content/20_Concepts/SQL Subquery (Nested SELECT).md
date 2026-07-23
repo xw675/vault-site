@@ -59,7 +59,7 @@ ORDER BY dt_code, drone_id;
 - **`ANY`/`ALL`** ➔ `> ANY(...)` = greater than at least one; `> ALL(...)` = greater than every value.
 - **Anti-membership** ➔ `WHERE cust_id NOT IN (SELECT DISTINCT cust_id FROM cust_train)` selects the non-participants.
 
-## 🥋 Kata (write from blank)
+## 🥋 Kata 
 > [!QUESTION]- Kata 1: Delete customers who never attended any training (`CUST_TRAIN` holds attendance).
 > > [!SUCCESS]- Reference solution
 > > ```sql

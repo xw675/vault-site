@@ -27,7 +27,6 @@ tags: [CS/Databases, SWE/Design, Monash/CS_DS]
 - **NULL ≠ 0** ➔ 0 is a value; NULL is absence.
 - **NULL ≠ ''** ➔ empty string is a value too.
 
----
 ## ⚙️ Core Implementation
 
 ### 🔹 The four reasons (worked)
@@ -41,7 +40,6 @@ tags: [CS/Databases, SWE/Design, Monash/CS_DS]
 
 > [!NOTE] **Crossover Invariant:** [[Data Integrity|entity integrity]] forbids a NULL **primary key**; [[Foreign Key and Referential Integrity|referential integrity]] permits a NULL **foreign key** (optional participation). Comparisons/aggregates over NULLs need three-valued logic — an extension of FIT1058 [[Proposition and Truth Value|two-valued logic]].
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -65,7 +63,6 @@ $$
 $$
 **Final Extracted Output:** incorrect — use NULL, not 0; the attribute does not apply.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- Is NULL a value? Give the four reasons a NULL can arise.
 > - **Core Insight Requirement:** Absence marker.

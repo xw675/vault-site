@@ -31,7 +31,6 @@ tags: [CS/Databases, SWE/Design, Monash/CS_DS]
 $$\text{PROFESSOR}(\underline{\text{prof\_id}}, \text{name}) \quad(\text{strong})$$
 $$\text{CLASS}(\underline{\text{prof\_id}}, \underline{\text{class\_no}}, \text{class\_day}, \dots),\ \text{prof\_id}^*\ (\text{weak})$$
 
----
 ## ⚖️ Core Decision Matrix
 | Property | Strong | Weak |
 | :--- | :--- | :--- |
@@ -42,7 +41,6 @@ $$\text{CLASS}(\underline{\text{prof\_id}}, \underline{\text{class\_no}}, \text{
 
 > [!NOTE] **Crossover Invariant:** weak ⟹ identifying relationship — the two ideas always travel together. The identity test decides: if the entity's own attributes uniquely identify it, it is strong; if it must borrow a parent's key, it is weak.
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -58,7 +56,6 @@ Deciding CLASS strong/weak:
 ## ⚠️ Pitfalls
 - 💡 **`class_no` restarts per professor** ➔ not unique alone, so CLASS's key needs `prof_id` too — the identity test that makes it weak; a surrogate key would resolve it but is **banned conceptually**.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- Distinguish a strong from a weak entity, and how each is shown in Crow's Foot.
 > - **Core Insight Requirement:** Own key vs borrowed key.

@@ -29,7 +29,6 @@ tags: [CS/Databases, SWE/Design, Monash/CS_DS]
 - **Single subject per table** ➔ each fact stored once (minimal redundancy).
 - **Anomaly-free** ➔ no insert/update/delete anomalies.
 
----
 ## ⚙️ Core Implementation
 
 ### 🔹 Resulting 3NF relations (PART)
@@ -43,7 +42,6 @@ tags: [CS/Databases, SWE/Design, Monash/CS_DS]
 > $$\text{PART}(\underline{\text{part\_no}}, \text{part\_name}, \text{cat\_code}^{*}, \dots)\quad \text{RESTOCK}(\underline{\text{part\_no}^{*}, \text{vendor\_no}^{*}, \text{restock\_date}}, \dots)$$
 > 💡 **Exam Pitfall:** **Minimal, not zero, redundancy** ➔ PK/FK columns repeat by design; the goal is each *fact* stored once, not every value unique.
 
----
 ## ⚖️ Core Decision Matrix
 | Step | Removes | Creates |
 | :--- | :--- | :--- |
@@ -54,7 +52,6 @@ tags: [CS/Databases, SWE/Design, Monash/CS_DS]
 
 > [!NOTE] **Crossover Invariant:** normalise each supplied form independently UNF→3NF, then [[Synthesis (Normalisation)|synthesise]] (merge overlapping 3NF relations). It both *builds* a schema from forms and *validates* one from an ER model — the two design directions meet at 3NF.
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -78,7 +75,6 @@ $$
 $$
 **Final Extracted Output:** each step spins off a new relation, moved key left as an FK.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- State the normalisation progression and what is removed at each step.
 > - **Core Insight Requirement:** Repeating / partial / transitive.

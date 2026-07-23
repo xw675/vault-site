@@ -22,7 +22,6 @@ tags: [OOP/Python, CS/DataStructures]
 - **Hidden cost** ➔ slicing inside a loop can hide a $\Theta(n^2)$ cost.
 - **NumPy views** ➔ return **views** (no copy, $O(1)$) sharing the parent buffer ➔ fast but **aliased** (mutating the view mutates the original).
 
----
 ## ⚙️ Core Implementation
 ### 🔹 Slice reads, reverse, and assignment
 > [!code]- slicing operations
@@ -35,7 +34,6 @@ tags: [OOP/Python, CS/DataStructures]
 > ```
 > 💡 **Exam Pitfall:** **`x[::-1]` makes a reversed copy** ($\Theta(n)$ time + space) ➔ it does **not** reverse in place (use `list.reverse()`/`reversed()`); every read-slice allocates.
 
----
 ## ⚖️ Core Decision Matrix
 | Slice use | Cost | Note |
 | :--- | :--- | :--- |
@@ -46,7 +44,6 @@ tags: [OOP/Python, CS/DataStructures]
 
 > [!NOTE] **Crossover Invariant:** slicing is concise and often C-optimised (small constant) but **allocates** — for huge ranges or hot loops, in-place index manipulation avoids the copy.
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -69,7 +66,6 @@ $$
 $$
 **Final Extracted Output:** same $\Theta(N)$ asymptotics — slice assignment is a readability/constant-factor win, not a complexity win.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- A Python slice and a NumPy slice look identical — how do they differ, and what bug does each invite?
 > - **Core Insight Requirement:** Copy vs view.

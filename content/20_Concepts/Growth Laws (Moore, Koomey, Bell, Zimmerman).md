@@ -29,7 +29,6 @@ aliases: [Growth Laws, Moore's Law, Koomey's Law, Bell's Law, Zimmerman's Law]
 ### 4. Zimmerman's Law (Phil Zimmermann, 2013, PGP creator)
 - **Claim** ➔ **surveillance constantly increasing**, **privacy constantly decreasing**.
 
----
 ## ⚖️ Core Decision Matrix
 | Law | Who / year | What grows | Rate / effect |
 | :--- | :--- | :--- | :--- |

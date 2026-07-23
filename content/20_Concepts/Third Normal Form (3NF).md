@@ -26,7 +26,6 @@ aliases: [3NF]
 - **List all full dependencies** ➔ confirm no partial/transitive slipped through.
 - **Single subject** ➔ each relation now models one subject.
 
----
 ## ⚙️ Core Implementation
 
 ### 🔹 PART → 3NF ($\text{cat\_code}\to\text{cat\_name}$)
@@ -42,7 +41,6 @@ aliases: [3NF]
 
 > [!NOTE] **Crossover Invariant:** the PART final set (PART, RESTOCK, VENDOR, CATEGORY) has **4 PKs and 3 FKs** (`PART.cat_code`→CATEGORY, `RESTOCK.part_no`→PART, `RESTOCK.vendor_no`→VENDOR). Each relation now represents a single subject.
 
----
 ## 📊 Exam Execution Trace
 
 ### Applied Exercise
@@ -56,7 +54,6 @@ $$
 $$
 **Final Extracted Output:** 4 PKs, 3 FKs.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- Give the 3NF condition and the 2NF→3NF steps.
 > - **Core Insight Requirement:** No non-key → non-key.

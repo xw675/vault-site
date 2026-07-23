@@ -32,7 +32,6 @@ tags: [Math/Functions, Math/Discrete, Monash/CS_DS]
 $$\text{Image}(f)=\{f(x):x\in A\}\subseteq B=\text{codomain}$$
 $$\text{surjective}\iff \text{Image}(f)=\text{codomain}$$
 
----
 ## ⚖️ Core Decision Matrix
 | Set | Meaning | Determined by |
 | :--- | :--- | :--- |
@@ -43,7 +42,6 @@ $$\text{surjective}\iff \text{Image}(f)=\text{codomain}$$
 
 > [!NOTE] **Crossover Invariant:** the codomain is chosen for convenience; the image is forced by the rule. "Surjective" is exactly "the codomain promise is met with nothing unused". The preimages $f^{-1}(y)$ partition the domain ([[Equivalence Relation]]).
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -59,7 +57,6 @@ $f:\{-1,0,1,2\}\to\mathbb Z$, $f(x)=x^2$:
 ## ⚠️ Pitfalls
 - 💡 **Codomain must contain all values** ➔ a set smaller than the image is not a valid codomain; a generous codomain (e.g. $\mathbb Z$) is chosen because the exact image may be intractable.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- Distinguish codomain and image, and why do we usually specify a codomain rather than the image?
 > - **Core Insight Requirement:** Promise vs truth.

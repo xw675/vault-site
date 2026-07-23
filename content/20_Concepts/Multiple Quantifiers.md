@@ -28,7 +28,6 @@ tags: [Math/Logic, Math/Discrete, Monash/CS_DS]
 - **Full distribution** ➔ $\forall$ over $\wedge$, $\exists$ over $\vee$ (equivalences).
 - **One-way only** ➔ $\forall$ over $\vee$, $\exists$ over $\wedge$ (no converse).
 
----
 ## ⚖️ Core Decision Matrix
 | Distribution | Direction | Holds? |
 | :--- | :--- | :--- |
@@ -39,7 +38,6 @@ tags: [Math/Logic, Math/Discrete, Monash/CS_DS]
 
 > [!NOTE] **Crossover Invariant:** counterexample to the missing converse — on $\mathbb Z$ every number satisfies $\text{even}\vee\text{odd}$, so $\forall X(p\vee q)$ holds, yet $(\forall X\,p)\vee(\forall X\,q)$ (all even or all odd) fails.
 
----
 ## 📊 Exam Execution Trace
 
 ### Applied Exercise
@@ -57,7 +55,6 @@ $$
 ## ⚠️ Pitfalls
 - 💡 **Mixed $\exists/\forall$ do not commute** ➔ $\exists X\forall Y$ (one witness for all) is strictly stronger than $\forall Y\exists X$ (witness may vary); only like quantifiers merge to $\exists(X,Y)$/$\forall(X,Y)$.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- Why does the order of mixed quantifiers matter — $\exists X\forall Y\,\text{adj}$ vs $\forall Y\exists X\,\text{adj}$?
 > - **Core Insight Requirement:** Witness dependence.

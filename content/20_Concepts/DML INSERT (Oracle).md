@@ -30,7 +30,7 @@ VALUES (200, TO_DATE('10 Dec 2022','DD Mon YYYY'), 1200.10, 0, 120, 'DIN2');
 - **No column list** ➔ `INSERT INTO drone VALUES (200, TO_DATE(...), 1200.10, 0, 120, NULL, 'DIN2');` — all columns, NULL placed positionally.
 - **Reuse a generated key** ➔ parent uses `seq.NEXTVAL`, child reuses `seq.CURRVAL` for the same value within the session.
 
-## 🥋 Kata (write from blank)
+## 🥋 Kata
 > [!QUESTION]- Kata 1: Insert manufacturer `'Monash Drones'` with a sequence-generated PK, then a `drone_type` row reusing that same manufacturer id.
 > > [!SUCCESS]- Reference solution
 > > ```sql

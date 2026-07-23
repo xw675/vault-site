@@ -35,7 +35,6 @@ $$\text{PATIENT\_TREATMENT}(\underline{\text{patient\_id}^{*}, \text{physician\_
 
 > [!NOTE] **Crossover Invariant:** a true ternary can't be safely split into three binaries — that loses the combination semantics; keep it as one associative relation. Recursive *identifying* relationships are forbidden ([[Logical Modelling Constraints]]).
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -51,7 +50,6 @@ Mapping non-binary cases:
 ## ⚠️ Pitfalls
 - 💡 **Only the 1:M unary FK may be renamed** ➔ to avoid a name clash with the PK; elsewhere FK names match the referenced PK.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- How is a 1:M unary relationship mapped, and what is special about its FK?
 > - **Core Insight Requirement:** Recursive renamed FK.

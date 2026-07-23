@@ -78,7 +78,7 @@ g.rename(columns={'count':'passengers'}, inplace=True)
 Always label: `plt.xlabel/ylabel/title` then `plt.show()`. Encode a 3rd var: `plt.scatter(x, y, c=df['g'], s=40, cmap='hot')`.
 - **Fit a trend line** ➔ FIT1043 uses `scipy.stats.linregress(x, y)` → `slope, intercept, r, p, std_err`; see [[Linear Regression in Python (scipy)]].
 
-## 🥋 Kata (write from blank)
+## 🥋 Kata 
 > [!QUESTION]- Titanic-style df `(891, 12)`: audit missing values; drop rows lacking `age`; then per `class` report passenger count, mean age, and the number of passengers older than 50; plot mean age per class as a bar chart.
 > > [!SUCCESS]- Reference solution
 > > ```python

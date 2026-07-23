@@ -25,7 +25,6 @@ tags: [CS/Databases, SWE/Design, Monash/CS_DS]
 - **Identifying ⟺ weak child** ➔ a weak entity is precisely one identified *via* an identifying relationship.
 - **Test** ➔ "can B be identified without A's key?" No ⟹ identifying.
 
----
 ## ⚙️ Core Implementation
 
 ### 🔹 Identifying vs non-identifying
@@ -38,7 +37,6 @@ tags: [CS/Databases, SWE/Design, Monash/CS_DS]
 > $$\text{ROOM}(\underline{\text{hotel\_id}}^{*}, \underline{\text{room\_no}}) \quad\text{vs}\quad \text{EMPLOYEE}(\underline{\text{emp\_no}}, \text{dept\_no}^{*})$$
 > 💡 **Exam Pitfall:** **It's about the *key*, not mere association** ➔ every relationship is an association; only an *identifying* one puts the parent's key *inside* the child's identifier (solid line).
 
----
 ## ⚖️ Core Decision Matrix
 | Aspect | Identifying | Non-identifying |
 | :--- | :--- | :--- |
@@ -49,7 +47,6 @@ tags: [CS/Databases, SWE/Design, Monash/CS_DS]
 
 > [!NOTE] **Crossover Invariant:** identifying relationships and weak entities are two views of the same dependency. Logically: identifying ⟹ parent PK becomes part of the child's **composite Primary Key**; non-identifying ⟹ parent PK is a plain **Foreign Key**. Line style is independent of the [[Cardinality (Crow's Foot Notation)|cardinality]] symbols.
 
----
 ## 📊 Exam Execution Trace
 
 ### Applied Exercise
@@ -63,7 +60,6 @@ $$
 $$
 **Final Extracted Output:** identifying; ROOM's composite PK includes HOTEL's `hotel_id` (weak entity).
 
----
 ## 🧠 Active Recall
 > [!FAQ]- Define identifying vs non-identifying relationships and their Crow's Foot line styles.
 > - **Core Insight Requirement:** Key inheritance.

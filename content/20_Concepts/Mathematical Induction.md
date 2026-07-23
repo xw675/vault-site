@@ -39,7 +39,6 @@ tags: [Math/Proof, Math/Induction, Monash/CS_DS]
 
 $$\begin{aligned}\textbf{Basis }(n{=}1)&:\ 1=\tfrac{1\cdot2}{2}=1\ \checkmark \\ \textbf{Step}&:\ \sum_{i=1}^{k+1}i=\underbrace{\tfrac{k(k+1)}{2}}_{\text{hyp.}}+(k+1)=(k+1)\tfrac{k+2}{2}=\tfrac{(k+1)(k+2)}{2}\end{aligned}$$
 
----
 ## ⚖️ Core Decision Matrix
 | Obligation | Role | Omitting it |
 | :--- | :--- | :--- |
@@ -49,7 +48,6 @@ $$\begin{aligned}\textbf{Basis }(n{=}1)&:\ 1=\tfrac{1\cdot2}{2}=1\ \checkmark \\
 
 > [!NOTE] **Crossover Invariant:** basis + step together are equivalent to the well-ordering of $\mathbb N$ — neither alone proves anything. Application: the nested loop `for i=1..N, for j=i+1..N` runs $\sum_{i=1}^{N-1}(N-i)=\tfrac{N(N-1)}{2}$ times, an [[Arithmetic Series]] proved by this very formula.
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -65,7 +63,6 @@ Discharging both obligations for $\sum_{i=1}^n i=\tfrac{n(n+1)}{2}$:
 ## ⚠️ Pitfalls
 - 💡 **Induction is deductive, not empirical** ➔ the basis + implication *force* $S(n)$ for every $n$ with zero error; statistical "induction" from sampled data is probabilistic and **cannot** be a proof step.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- State the two obligations of an induction proof and why both are necessary (domino analogy).
 > - **Core Insight Requirement:** Start the chain *and* propagate it.

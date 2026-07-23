@@ -31,7 +31,6 @@ aliases: [1NF]
 
 > [!NOTE] **Crossover Invariant:** if the UNF had no repeating group (ENROLMENT), 1NF creates **no** new relation — only a PK is added. 1NF *is* the valid-relation requirement ([[Relation Properties]]) plus a PK; anomalies persist until 2NF/3NF.
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -47,7 +46,6 @@ UNF → 1NF for PART:
 ## ⚠️ Pitfalls
 - 💡 **Move the repeating group, never flatten** ➔ a multivalued cell breaks atomicity; 1NF removes only repeating groups, leaving partial/transitive dependencies.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- State the conditions for 1NF and the UNF→1NF steps.
 > - **Core Insight Requirement:** PK + atomic + remove repeating group.

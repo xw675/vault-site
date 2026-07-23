@@ -33,7 +33,6 @@ $$E(Z)=\sum_{k=1}^n\tfrac{n}{n-k+1}=n\sum_{j=1}^n\tfrac1j=nH_n$$
 
 > [!NOTE] **Crossover Invariant:** another showcase of [[Expectation|linearity]] — a hard distribution's mean via a chain of independent geometric stages. Applications: black-box output coverage, RNG testing, ecology species counts.
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -49,7 +48,6 @@ $n=4$ coupons:
 ## ⚠️ Pitfalls
 - 💡 **The last coupon dominates** ➔ $X_n$ has success probability $\tfrac1n$, so $E(X_n)=n$ alone — most of the wait chases the final few.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- Derive $E(Z)=nH_n$ for the coupon collector's problem.
 > - **Core Insight Requirement:** Stagewise geometric.

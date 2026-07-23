@@ -34,7 +34,6 @@ tags: [CS/Databases, SWE/Design, Monash/CS_DS]
 $$\text{natural: } \text{ENROLMENT}(\underline{\text{unitcode}, \text{student\_id}, \text{enrol\_sem}, \text{enrol\_year}}, \dots)$$
 $$\text{surrogate: } \text{ENROLMENT}(\underline{\text{enrolment\_id}}, \text{unitcode}, \text{student\_id}, \text{enrol\_sem}, \text{enrol\_year}, \dots)$$
 
----
 ## ⚖️ Core Decision Matrix
 | Criterion | Good PK | Bad PK (name) |
 | :--- | :--- | :--- |
@@ -45,7 +44,6 @@ $$\text{surrogate: } \text{ENROLMENT}(\underline{\text{enrolment\_id}}, \text{un
 
 > [!NOTE] **Crossover Invariant:** composite natural keys are valid but bloat FKs in children — the motivation for a single numeric surrogate. The PK functionally determines all attributes ([[Functional Dependency]]); it must reflect future data, not just current rows.
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -61,7 +59,6 @@ Testing name as PK:
 ## ⚠️ Pitfalls
 - 💡 **Carry the natural key through the design** ➔ it encodes the business rules; a surrogate is added only at the final step (and is banned at the [[Conceptual Model|conceptual stage]]).
 
----
 ## 🧠 Active Recall
 > [!FAQ]- List the desirable characteristics of a primary key and why a name is poor.
 > - **Core Insight Requirement:** Unique/stable/non-intelligent.

@@ -57,7 +57,7 @@ classDiagram
 ```
 *(`*` marks `speak()` abstract; each concrete subclass supplies its own `speak()` — the basis for [[Polymorphism (Java)|polymorphic]] dispatch.)*
 
-## 🥋 Kata (write from blank)
+## 🥋 Kata 
 > [!QUESTION]- Kata 1: `Person` should never be instantiated, but `Student` and `Lecturer` should. Model this. Give `Person` an abstract `role()` that each subclass implements.
 > > [!SUCCESS]- Reference solution
 > > ```java

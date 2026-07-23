@@ -50,7 +50,7 @@ db.dronerent.deleteOne({ "drone_id": { "$eq": 103 } });   // DELETE
 | `DELETE … WHERE …` | `db.t.deleteMany({filter})` |
 | `DROP TABLE t` | `db.t.drop()` |
 
-## 🥋 Kata (write from blank)
+## 🥋 Kata 
 > [!QUESTION]- Kata 1: Raise `cost_per_hour` to 55 for **all** PAPR-type drones.
 > > [!SUCCESS]- Reference solution
 > > ```javascript

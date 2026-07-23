@@ -28,7 +28,6 @@ tags: [CS/DataStructures, OOP/Python, CS/Abstraction, CS/Complexity]
 - **Pointer mechanics** ➔ `push` ➔ `new.link=top` | `top=new`; `pop` ➔ `top=top.link` (old node GC'd).
 - **Never full** ➔ no `is_full`, no resize; memory shrinks on `pop` — a fixed array cannot.
 
----
 ## ⚙️ Core Implementation
 ### 🔹 Abstract Base — the contract
 > [!code]- `Stack(ABC, Generic[T])`
@@ -72,27 +71,26 @@ tags: [CS/DataStructures, OOP/Python, CS/Abstraction, CS/Complexity]
 > [!code]- `LinkStack(Stack[T])`
 > ```python
 > class LinkStack(Stack[T]):
->     def __init__(self): 
->         Stack.__init__(self); 
+>     def __init__(self):
+>         Stack.__init__(self);
 >         self.top = None
->     def is_full(self): 
+>     def is_full(self):
 >         return False                 # linked -> never full
 >     def push(self, item):
->         new = Node(item); 
->         new.link = self.top; 
->         self.top = new; 
+>         new = Node(item);
+>         new.link = self.top;
+>         self.top = new;
 >         self.length += 1
 >     def pop(self):
->         if self.is_empty(): 
+>         if self.is_empty():
 >             raise ValueError("Stack is empty")
->         item = self.top.item; 
->         self.top = self.top.link; 
+>         item = self.top.item;
+>         self.top = self.top.link;
 >         self.length -= 1  # old node GC'd
 >         return item
 > ```
 > 💡 **Exam Pitfall:** **Reassign `top` before unreachable** ➔ `pop` must set `top=top.link` so GC reclaims the old node; cost is one pointer/element + poor locality.
 
----
 ## ⚖️ Core Decision Matrix
 | Variant / Strategy | Trigger Condition | Advantage (Pro) | Disadvantage (Con) / Complexity Bound | Cache / Memory Impact |
 | :--- | :--- | :--- | :--- | :--- |
@@ -102,7 +100,6 @@ tags: [CS/DataStructures, OOP/Python, CS/Abstraction, CS/Complexity]
 
 > [!NOTE] **Crossover Invariant:** array of capacity $C$ holding $n$ uses $\approx Cw$; LinkStack uses $\approx 2nw$ ➔ **LinkStack wins when $n < C/2$** (array under half-full), ArrayStack wins when nearly full.
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -128,7 +125,6 @@ $$
 $$
 **Final Extracted Output:** `push` is $O(1)$ **amortised** (not worst-case); a single resize is $O(n)$.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- Why does a stack underlie both recursion and DFS, and what does that imply for converting recursion to iteration?
 > - **Core Insight Requirement:** Identify the LIFO ⟷ call-stack equivalence and its de-recursification consequence.

@@ -32,7 +32,6 @@ tags: [Math/SetTheory, Math/Combinatorics, Math/Discrete]
 $$\textbf{(1) nonempty},\quad \textbf{(2) disjoint},\quad \textbf{(3) covering (union }=A)$$
 $$\{\{a,b,c\}\},\ \{\{a,b\},\{c\}\},\ \{\{a,c\},\{b\}\},\ \{\{b,c\},\{a\}\},\ \{\{a\},\{b\},\{c\}\}$$
 
----
 ## ⚖️ Core Decision Matrix
 | Concept | Restriction | Count |
 | :--- | :--- | :--- |
@@ -43,7 +42,6 @@ $$\{\{a,b,c\}\},\ \{\{a,b\},\{c\}\},\ \{\{a,c\},\{b\}\},\ \{\{b,c\},\{a\}\},\ \{
 
 > [!NOTE] **Crossover Invariant:** partitions correspond exactly to **equivalence relations** on $A$ (each part = an equivalence class). A partition is a *restricted* subcollection of $\mathcal P(A)$, so $B_n\ll 2^n$ but still grows super-exponentially.
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -59,7 +57,6 @@ Partitions of $\{1,2,3\}$ by block count:
 ## ⚠️ Pitfalls
 - 💡 **Each element in exactly one part** ➔ $\{\{a,b\},\{c\},\emptyset\}$ fails (1); $\{\{a,b\},\{b,c\}\}$ fails (2); $\{\{a\},\{b\}\}$ fails (3).
 
----
 ## 🧠 Active Recall
 > [!FAQ]- State the three conditions for a partition and a counter-example violating each ($A=\{a,b,c\}$).
 > - **Core Insight Requirement:** Nonempty / disjoint / covering.

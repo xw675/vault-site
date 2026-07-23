@@ -34,7 +34,6 @@ $$\textbf{Delete: } \text{remove edges keeping connectivity} \Rightarrow \text{s
 
 > [!NOTE] **Crossover Invariant:** minimality is the point — drop every redundant edge for the cheapest connectivity ($n-1$ edges). [[Kruskal's Greedy Algorithm]] adds costs, choosing a *minimum-cost* spanning tree.
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -51,7 +50,6 @@ Add edges to $G$ (4-cycle + diagonal $ac$):
 ## ⚠️ Pitfalls
 - 💡 **Add-method stays a forest** ➔ acyclic throughout, connected only at the end; the final tree has $n-1$ edges (minimum to connect all).
 
----
 ## 🧠 Active Recall
 > [!FAQ]- Define a spanning tree and give two methods proving every connected graph has one.
 > - **Core Insight Requirement:** Add / delete.

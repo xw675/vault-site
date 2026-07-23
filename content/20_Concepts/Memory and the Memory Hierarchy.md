@@ -41,7 +41,7 @@ aliases: [RAM, Memory Hierarchy, Caching, Swapping]
 | Disk/SSD | ~$1000\times$ slower | TBs | external |
 | Network | $10^4\times$–∞ | ? | external |
 
-## 🥋 Kata (write from blank)
+## 🥋 Kata 
 > [!QUESTION]- An architecture has 20-bit addresses and is byte-addressable. (a) How much memory can it address? (b) Same bits but word-addressable with 32-bit words — now how much? (c) Why does the array-sum loop from [[MARIE Patterns (Indirect Addressing, Arrays, Subroutines)]] run cache-friendly?
 > > [!SUCCESS]- Answer
 > > - (a) $2^{20}$ bytes $= 1$ MiB. (b) $2^{20}$ words $\times 4$ B $= 4$ MiB. (c) It touches consecutive addresses ⟹ each miss prefetches the following elements — sequential access is the cache's best case.

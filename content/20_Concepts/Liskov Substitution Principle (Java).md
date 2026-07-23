@@ -56,7 +56,7 @@ classDiagram
 - **Resolutions** ➔ (a) don't make `Circle` extend `Ellipse`; (b) both extend a shared `Shape`/`ConicSection`; the right choice **depends on circumstances**.
 - **Java hint** ➔ extending a **concrete** class often breaks LSP (and OCP) — a `Creature creature = new FlyingCreature();` that can suddenly fly surprises callers.
 
-## 🥋 Kata (write from blank)
+## 🥋 Kata
 > [!QUESTION]- Kata 1: `Square extends Rectangle` overrides `setWidth` to also set height (to stay square). Why does this break LSP, and what's a fix?
 > > [!SUCCESS]- Reference solution
 > > - **Why:** code that expects a `Rectangle` can `setWidth(5); setHeight(4)` and assume area 20; a `Square` silently forces 4×4=16 — behaviour changed under substitution.

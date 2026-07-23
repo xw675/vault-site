@@ -28,7 +28,6 @@ tags: [CS/Databases, SWE/Design, Monash/CS_DS]
 
 > [!NOTE] **Crossover Invariant:** without synthesis, the same subject persists as two near-duplicate relations across forms — reintroducing cross-form redundancy and the [[Database Anomalies|anomalies]] normalisation removed. It reconciles bottom-up results, complementing top-down ER design.
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -44,7 +43,6 @@ Merging DRONE:
 ## ⚠️ Pitfalls
 - 💡 **Do it last** ➔ merging before every form is at 3NF risks combining partially-normalised structure and reintroducing partial/transitive dependencies.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- What is synthesis, when is it needed, and how do you decide which relations to merge?
 > - **Core Insight Requirement:** Same PK + subject.

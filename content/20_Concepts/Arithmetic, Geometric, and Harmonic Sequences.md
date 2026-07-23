@@ -23,7 +23,6 @@ tags: [Math/Discrete, Math/Sequences, Monash/CS_DS]
 - **Geometric** ➔ powers of 2 ($a{=}1,r{=}2$).
 - **Harmonic** ➔ canonical $(\tfrac1n)$ (integers are arithmetic).
 
----
 ## ⚖️ Core Decision Matrix
 | Family            | Growth                     | Sum                   |
 | :---------------- | :------------------------- | :-------------------- |
@@ -34,7 +33,6 @@ tags: [Math/Discrete, Math/Sequences, Monash/CS_DS]
 
 > [!NOTE] **Crossover Invariant:** the constant *difference* vs constant *ratio* is exactly why arithmetic is linear and geometric exponential — the same gap that makes geometric series converge while arithmetic ones diverge. Degenerate: $d=0$ or $r=1$ gives a constant sequence.
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -50,7 +48,6 @@ Identify families:
 ## ⚠️ Pitfalls
 - 💡 **Harmonic is indirect** ➔ it is not itself arithmetic/geometric; prove harmonic facts by passing to reciprocals ($3,4,6,12$ → $\tfrac{4}{12},\tfrac{3}{12},\tfrac{2}{12},\tfrac{1}{12}$).
 
----
 ## 🧠 Active Recall
 > [!FAQ]- Give the recurrence and closed form for arithmetic and geometric sequences, and contrast their growth.
 > - **Core Insight Requirement:** Difference vs ratio.

@@ -32,7 +32,6 @@ tags: [CS/Databases, SWE/Design, Monash/CS_DS]
 - **Example** ➔ EMPLOYEE **member of** TEAM *and* **leader of** TEAM = two lines.
 - **Label direction** ➔ name in the 1:M direction (`places`, `has`).
 
----
 ## ⚙️ Core Implementation
 
 ### 🔹 Binary relationship
@@ -43,7 +42,6 @@ tags: [CS/Databases, SWE/Design, Monash/CS_DS]
 > ```
 > 💡 **Exam Pitfall:** **Model only the brief's relationships** ➔ a derivable/redundant association (already implied by existing relationships) must **not** be added; the brief decides, not intuition.
 
----
 ## ⚖️ Core Decision Matrix
 | Degree | Entities | Resolution |
 | :--- | :--- | :--- |
@@ -54,7 +52,6 @@ tags: [CS/Databases, SWE/Design, Monash/CS_DS]
 
 > [!NOTE] **Crossover Invariant:** M:N is **kept** on the conceptual model (simpler/desirable) and resolved into an [[Associative Entity]] only when attributes must be stored or at the [[Conceptual vs Logical Model|logical stage]]. A relationship here is the ER counterpart of a [[Binary Relation]].
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -78,7 +75,6 @@ $$
 $$
 **Final Extracted Output:** two labelled relationships; no redundant/derivable relationship added.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- Define relationship degree and give unary/binary/ternary examples.
 > - **Core Insight Requirement:** Entity count.

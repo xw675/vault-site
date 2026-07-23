@@ -80,7 +80,7 @@ Double,    HEX 0            / RESERVED: return address lands here
 ```
 - **Calling convention** ➔ argument in a labelled cell · `JnS` deposits return PC in the `HEX 0` slot · body runs · `JumpI` jumps *through* that slot.
 
-## 🥋 Kata (write from blank)
+## 🥋 Kata
 > [!QUESTION]- Write a subroutine `Triple` that triples `TripleArg`, and a main program that inputs a number, calls it, outputs the result. No peeking at Pattern 4.
 > > [!SUCCESS]- Reference solution
 > > Same skeleton as `Double` with `Load TripleArg / Add TripleArg / Add TripleArg / Store TripleArg / JumpI Triple`, and `Triple, HEX 0` heading the subroutine.

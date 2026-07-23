@@ -32,7 +32,6 @@ tags: [Math/Functions, Math/Discrete, Monash/CS_DS]
 $$f^{-1}=\{(y,x):(x,y)\in f\},\qquad f^{-1}\circ f=i_A,\ f\circ f^{-1}=i_B$$
 $$(g\circ f)^{-1}=f^{-1}\circ g^{-1}\ (\text{socks-and-shoes})$$
 
----
 ## ⚖️ Core Decision Matrix
 | Obstacle | Blocked by | Ensures |
 | :--- | :--- | :--- |
@@ -43,7 +42,6 @@ $$(g\circ f)^{-1}=f^{-1}\circ g^{-1}\ (\text{socks-and-shoes})$$
 
 > [!NOTE] **Crossover Invariant:** encryption must be bijective so decryption $=f^{-1}$ exists ([[Cryptosystem]]); $x\mapsto x^2$ on $\mathbb R$ has no inverse (not injective, not surjective). $f^{-1}$ is itself a bijection $B\to A$.
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -59,7 +57,6 @@ $f=\{(1,b),(2,c),(3,a)\}$:
 ## ⚠️ Pitfalls
 - 💡 **Inverse *relation* always exists** ➔ swapping pairs works for any relation; it's a *function* only if $f$ was bijective (else not single-valued or not total).
 
----
 ## 🧠 Active Recall
 > [!FAQ]- Exactly when does $f:A\to B$ have an inverse function, and why each condition?
 > - **Core Insight Requirement:** Bijection = uniqueness + existence.

@@ -32,7 +32,6 @@ tags: [Math/Discrete, Math/Sequences, Monash/CS_DS]
 $$f_n\le2^n \text{ (induction)},\qquad r^2=r+1 \Rightarrow r_1=\tfrac{1+\sqrt5}2,\ r_2=\tfrac{1-\sqrt5}2$$
 $$f_n=\frac1{\sqrt5}\left(\tfrac{1+\sqrt5}2\right)^n-\frac1{\sqrt5}\left(\tfrac{1-\sqrt5}2\right)^n \text{ (Binet)}$$
 
----
 ## ⚖️ Core Decision Matrix
 | Goal | Roots used | Base cases matched |
 | :--- | :--- | :--- |
@@ -43,7 +42,6 @@ $$f_n=\frac1{\sqrt5}\left(\tfrac{1+\sqrt5}2\right)^n-\frac1{\sqrt5}\left(\tfrac{
 
 > [!NOTE] **Crossover Invariant:** a bound of form $r^n$ needs $r^2\ge r+1$ (one free constant, one base case); an exact formula needs equality $r^2=r+1$ and both roots (two constants, two base cases). $r_2<0$ can't be a bound but is essential in Binet. Ratio $f_{n+1}/f_n\to r_1$ (golden ratio).
 
----
 ## 📊 Exam Execution Trace
 
 ### Applied Exercise
@@ -60,7 +58,6 @@ $$
 ## ⚠️ Pitfalls
 - 💡 **Two base cases required** ➔ the step uses the hypothesis at $k$ *and* $k-1$ (strong induction), so $n=1,2$ must be checked separately.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- Why does proving $f_n\le2^n$ require *two* base cases?
 > - **Core Insight Requirement:** Strong induction.

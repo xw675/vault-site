@@ -36,7 +36,6 @@ $$\text{ORDER\_PRODUCT}(\underline{\text{orderno}}^{*}, \underline{\text{prodno}
 
 > [!NOTE] **Crossover Invariant:** a relationship (an *association* conceptually) becomes a concrete **column** (the FK, the parent's PK in the child) logically. Surrogate keys, banned conceptually, may be introduced from the logical model onward. The relations produced are [[n-ary Relation|n-ary relations]].
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -52,7 +51,6 @@ Mapping CUSTOMER places ORDER (M:N ORDER–PRODUCT):
 ## ⚠️ Pitfalls
 - 💡 **M:N must be resolved logically even without attributes** ➔ a relational DB can't implement M:N, so ORDER–PRODUCT becomes a composite-PK bridge with two FKs.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- How are entities, keys, and relationships mapped to a relational logical model?
 > - **Core Insight Requirement:** Relation / PK / FK.

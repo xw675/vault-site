@@ -46,7 +46,7 @@ ALTER TABLE rental ADD CONSTRAINT cust_train_rental_fk
     REFERENCES cust_train (train_code, cust_id, ct_date_start);
 ```
 
-## 🥋 Kata (write from blank)
+## 🥋 Kata 
 > [!QUESTION]- Kata 1: Implement $\text{TRAINING}(\underline{\text{train\_code}},\text{train\_desc},\text{train\_hrs})$ then $\text{CUST\_TRAIN}(\underline{\text{ct\_id}},\text{train\_code}^{*},\dots)$ using the unit method, in a valid order.
 > > [!SUCCESS]- Reference solution
 > > ```sql

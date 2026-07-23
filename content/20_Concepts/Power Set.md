@@ -32,7 +32,6 @@ tags: [Math/SetTheory, Math/Combinatorics, Math/Discrete]
 $$\lvert\mathcal P(B)\rvert=2^n,\qquad \sum_{k=0}^{n}\binom{n}{k}=2^n$$
 $$\mathcal P(\{a,b\})=\{\emptyset,\{a\},\{b\},\{a,b\}\}$$
 
----
 ## ⚖️ Core Decision Matrix
 | Notion | Meaning | Example |
 | :--- | :--- | :--- |
@@ -43,7 +42,6 @@ $$\mathcal P(\{a,b\})=\{\emptyset,\{a\},\{b\},\{a,b\}\}$$
 
 > [!NOTE] **Crossover Invariant:** subsets split by size — $\binom{n}{k}$ per layer, summing to $2^n$ ([[Binomial Coefficient]]). Contrast the [[Cartesian Product]]: its size $\lvert A\rvert\lvert B\rvert$ multiplies, whereas the power set's $2^{\lvert B\rvert}$ is exponential.
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -60,7 +58,6 @@ $\mathcal P(\{a,b,c\})$ by size:
 ## ⚠️ Pitfalls
 - 💡 **Elements of $\mathcal P(B)$ are sets** ➔ $\emptyset$ and $B$ are members; and enumerating $\mathcal P(B)$ is infeasible for large $B$ (over $10^6$ subsets at $\lvert B\rvert=20$).
 
----
 ## 🧠 Active Recall
 > [!FAQ]- Prove that a set with $n$ elements has exactly $2^n$ subsets.
 > - **Core Insight Requirement:** Independent binary choice.

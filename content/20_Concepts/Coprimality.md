@@ -25,7 +25,6 @@ tags: [Math/NumberTheory, Math/Discrete, Monash/CS_DS]
 
 > [!NOTE] **Crossover Invariant:** the payoff theorem — $x$ has a [[Modular Inverse]] in $\mathbb Z_n$ **iff** $\gcd(x,n)=1$; the Bézout coefficient is the inverse. Coprimality sidesteps factorisation entirely, so it is far easier than primality.
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -41,7 +40,6 @@ $\gcd(25,21)$:
 ## ⚠️ Pitfalls
 - 💡 **Coprime ≠ prime** ➔ 21, 25 are coprime with neither prime; the Bézout coefficient $x$ *is* the modular inverse ($\gcd(x,n)=1$).
 
----
 ## 🧠 Active Recall
 > [!FAQ]- Prove $m,n$ coprime iff $xm+yn=1$ for some integers $x,y$.
 > - **Core Insight Requirement:** gcd = smallest positive combination.

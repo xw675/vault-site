@@ -26,7 +26,6 @@ aliases: [design by contract, DbC, precondition, postcondition, invariant, subco
 | **Client** | ensure **preconditions** (be at MEL 30 min early, allowable luggage, pay) | may enjoy the **postcondition** (reach Sydney) |
 | **Supplier** | ensure the **postcondition** (bring client to Sydney) | may **assume** the precondition (no duty to carry a late/unpaid/over-luggage client) |
 
----
 ## ⚙️ Breach Handling & Fail-Fast
 > [!code]- Executable specification (Javadoc + code)
 > ```java

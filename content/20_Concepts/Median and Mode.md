@@ -31,7 +31,6 @@ tags: [Math/Probability, Math/Discrete, Monash/CS_DS]
 $$\text{median } m:\ \mathrm{Pr}(X\le m)\ge\tfrac12 \text{ and } \mathrm{Pr}(X\ge m)\ge\tfrac12$$
 $$\text{mode } g = \arg\max_k \mathrm{Pr}(X=k)$$
 
----
 ## ⚖️ Core Decision Matrix
 | Measure | Definition | Property |
 | :--- | :--- | :--- |
@@ -42,7 +41,6 @@ $$\text{mode } g = \arg\max_k \mathrm{Pr}(X=k)$$
 
 > [!NOTE] **Crossover Invariant:** median is robust to outliers ($1,2,3,4,90$: median 3, mean 20) but has **no linearity**, so expectation is preferred for arithmetic. Spread needs [[Variance and Standard Deviation]], not location.
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -58,7 +56,6 @@ Scrabble points CDF:
 ## ⚠️ Pitfalls
 - 💡 **Median ≠ mid-range** ➔ mid-range ignores all probabilities; the median's balance point need not be halfway between extremes.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- Define the median and contrast it with the mid-range and the mean.
 > - **Core Insight Requirement:** Balance point, robust.

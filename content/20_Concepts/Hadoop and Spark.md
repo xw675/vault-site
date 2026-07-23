@@ -23,7 +23,6 @@ aliases: [Hadoop, Spark, Apache Spark]
 - **Interfaces** ➔ Java, Scala, Python, R.
 - **Edge** ➔ **in-memory** analytics ➔ **real-time** processing, **much faster** than Hadoop; works with parts of the Hadoop ecosystem; includes Map-Reduce capabilities.
 
----
 ## ⚖️ Core Decision Matrix
 | Aspect | Hadoop | Spark |
 | :--- | :--- | :--- |

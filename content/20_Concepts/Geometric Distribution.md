@@ -27,7 +27,6 @@ tags: [Math/Probability, Math/Discrete, Monash/CS_DS]
 
 $$\mathrm{Pr}(X=k)=(1-p)^{k-1}p,\qquad \sum_{k\ge1}(1-p)^{k-1}p=\frac{p}{1-(1-p)}=1$$
 
----
 ## ⚖️ Core Decision Matrix
 | Aspect | Geometric | vs Binomial |
 | :--- | :--- | :--- |
@@ -38,7 +37,6 @@ $$\mathrm{Pr}(X=k)=(1-p)^{k-1}p,\qquad \sum_{k\ge1}(1-p)^{k-1}p=\frac{p}{1-(1-p)
 
 > [!NOTE] **Crossover Invariant:** smaller $p$ ⟹ longer wait ($E=1/p$). Models loop iterations to a stopping condition, time-to-failure; a sum of geometric waits gives the [[Coupon Collector's Problem]].
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -54,7 +52,6 @@ Fair coin to first Heads, $\mathrm{Geom}(\tfrac12)$:
 ## ⚠️ Pitfalls
 - 💡 **Law of averages is a fallacy** ➔ a run of failures does not make success "due"; each trial keeps probability $p$ (memorylessness formalises this).
 
----
 ## 🧠 Active Recall
 > [!FAQ]- Derive the geometric pmf and show it sums to 1.
 > - **Core Insight Requirement:** $k-1$ failures then success.

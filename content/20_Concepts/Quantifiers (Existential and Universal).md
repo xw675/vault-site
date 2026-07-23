@@ -53,7 +53,6 @@ $$\exists x\in S,\ P(x): \text{ one witness (e.g. palindrome } \texttt{rotator}\
 $$\neg(\forall x\,P(x)) \equiv \exists x\,\neg P(x), \qquad \neg(\exists x\,P(x)) \equiv \forall x\,\neg P(x)$$
 $$\neg\forall X\,(\mathrm{dog}(X)\Rightarrow\mathrm{happy}(X))\;=\;\exists X\,(\mathrm{dog}(X)\wedge\neg\mathrm{happy}(X))$$
 
----
 ## ⚖️ Core Decision Matrix
 | Task | $\exists x\,P(x)$ | $\forall x\,P(x)$ |
 | :--- | :--- | :--- |
@@ -64,7 +63,6 @@ $$\neg\forall X\,(\mathrm{dog}(X)\Rightarrow\mathrm{happy}(X))\;=\;\exists X\,(\
 
 > [!NOTE] **Crossover Invariant:** effort is asymmetric — $\exists$ needs one example to prove, a full argument to disprove; $\forall$ needs a full argument to prove, one counterexample to disprove. Finite vs infinite domain decides exhaustion vs arbitrary-element.
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -81,7 +79,6 @@ $S=\{2,3,4,5,6\}$, $P(x)=$ "$x$ prime":
 ## ⚠️ Pitfalls
 - 💡 **Wrong restriction connective** ➔ using $\Rightarrow$ for $\exists$ is satisfied by any non-computer (too weak); using $\wedge$ for $\forall$ claims *everything* is a computer (too strong).
 
----
 ## 🧠 Active Recall
 > [!FAQ]- Contrast proving an existential vs a universal, and why a single example differs in each.
 > - **Core Insight Requirement:** Witness vs every-case.

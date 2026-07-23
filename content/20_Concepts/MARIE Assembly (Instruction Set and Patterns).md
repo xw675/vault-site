@@ -65,7 +65,7 @@ Else, ...
 ```
 - **Countdown loop shape** ➔ load counter → body → decrement (`Subt One`) → `SkipCond 400` (done?) → `Jump Loop`.
 
-## 🥋 Kata (write from blank)
+## 🥋 Kata
 > [!QUESTION]- Kata 1: hand-assemble `Store A` where label `A` sits at address $01F_{16}$.
 > > [!SUCCESS]- Answer
 > > - Opcode `Store` $=0010$; address $01F$ ⟹ word $= 0010\,0000\,0001\,1111_2 = 201F_{16}$.

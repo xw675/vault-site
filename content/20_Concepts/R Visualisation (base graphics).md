@@ -31,7 +31,7 @@ barplot(H, names.arg=M, xlab="City", ylab="Happiness", col="blue", main="Happine
 - **Outliers from a boxplot** ➔ `outliers <- boxplot(mydata)$out` returns the flagged points (IQR rule; see [[Measures of Spread and Boxplots]]).
 - **Plot to a file** ➔ `png("chart.png")` → draw → `dev.off()` to close the device (repeat `dev.off()` until "null device").
 
-## 🥋 Kata (write from blank)
+## 🥋 Kata 
 > [!QUESTION]- Kata 1: From `mydata <- c(1,5,6,6,6,6,7,10)`, extract the outlier values using a boxplot.
 > > [!SUCCESS]- Reference solution
 > > ```r

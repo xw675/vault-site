@@ -30,7 +30,6 @@ tags: [CS/Databases, Math/Discrete, Monash/CS_DS]
 - **SQL** ➔ declarative, transform-oriented.
 - **Graphical** ➔ visual query-by-form.
 
----
 ## ⚙️ Core Implementation
 
 ### 🔹 SQL → algebra
@@ -43,7 +42,6 @@ tags: [CS/Databases, Math/Discrete, Monash/CS_DS]
 > $$\pi_{\text{project\_manager}}\bigl(\sigma_{\text{project\_code}=\text{'25-5A'}}(\text{PRDETAIL})\bigr)$$
 > 💡 **Exam Pitfall:** **Pure algebra has no NULLs** ➔ it assumes complete information; NULLs are an SQL addition. Algebra's explicit operation order is what enables optimisation.
 
----
 ## ⚖️ Core Decision Matrix
 | Language | Procedural? | Role |
 | :--- | :--- | :--- |
@@ -54,7 +52,6 @@ tags: [CS/Databases, Math/Discrete, Monash/CS_DS]
 
 > [!NOTE] **Crossover Invariant:** algebra prescribes an operation order (good for the optimiser); calculus/SQL state only the result — the DBMS bridges them by compiling SQL to algebra. Relational join generalises FIT1058 [[Properties of Binary Relations|relational composition]] to data.
 
----
 ## 📊 Exam Execution Trace
 
 ### Applied Exercise
@@ -68,7 +65,6 @@ $$
 $$
 **Final Extracted Output:** $\pi_{\text{project\_manager}}(\sigma_{\text{project\_code}=\text{'25-5A'}}(\text{PRDETAIL}))$.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- What does the closure property mean, and why does it matter?
 > - **Core Insight Requirement:** Result is a relation.

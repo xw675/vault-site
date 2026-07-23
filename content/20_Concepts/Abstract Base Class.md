@@ -22,7 +22,6 @@ tags: [OOP/Python, CS/Abstraction]
 - **Concrete (base)** ➔ storage-**independent** logic (`__len__`, `is_empty`, `clear`) reads shared `length` ➔ written once, inherited.
 - **Abstract** ➔ storage-**dependent** logic (`push`/`pop`/`peek`/`is_full`) ➔ only a subclass that knows its storage can implement it.
 
----
 ## ⚙️ Core Implementation
 ### 🔹 `Stack(ABC, Generic[T])`
 > [!code]- abstract + concrete methods
@@ -43,7 +42,6 @@ tags: [OOP/Python, CS/Abstraction]
 > ```
 > 💡 **Exam Pitfall:** **Instantiation blocked until all abstract methods exist** ➔ `Generic[T]` parameterises by element type (`Stack[int]`) for consistent checking without per-type duplication.
 
----
 ## ⚖️ Core Decision Matrix
 | | Abstract method | Concrete method |
 | :--- | :--- | :--- |
@@ -54,7 +52,6 @@ tags: [OOP/Python, CS/Abstraction]
 
 > [!NOTE] **Crossover Invariant:** three ways to satisfy an interface — **ABC** (nominal, enforced, allows shared code), **pure interface** (Java `interface`, contract only), **duck typing** (structural, flexible but unchecked until call time). ABCs trade flexibility for early, checked guarantees.
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -79,7 +76,6 @@ $$
 $$
 **Final Extracted Output:** the ABC blocks instantiation until the full abstract set is implemented — a compile/instantiation-time guarantee.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- Compare an ABC, a pure interface, and duck typing as ways to satisfy an ADT's contract.
 > - **Core Insight Requirement:** Nominal-enforced vs structural-deferred.

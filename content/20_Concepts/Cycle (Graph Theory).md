@@ -25,7 +25,6 @@ tags: [Math/GraphTheory, Math/Discrete, Monash/CS_DS]
 ### 3. Strictness
 - **Closed walk** ➔ reuse freely; **closed trail** ➔ no edge reuse; **cycle** ➔ also no interior vertex reuse.
 
----
 ## ⚖️ Core Decision Matrix
 | Traversal | Edge reuse | Interior vertex reuse |
 | :--- | :--- | :--- |
@@ -36,7 +35,6 @@ tags: [Math/GraphTheory, Math/Discrete, Monash/CS_DS]
 
 > [!NOTE] **Crossover Invariant:** odd cycles are exactly what stop a graph being [[Bipartite Graph|2-colourable]]; the cycle/closed-walk equivalence converts the easy "odd closed walk" into the structural "odd cycle". A [[Tree]] is a connected acyclic graph.
 
----
 ## 📊 Exam Execution Trace
 
 ### Applied Exercise
@@ -53,7 +51,6 @@ $$
 ## ⚠️ Pitfalls
 - 💡 **"Odd" is essential** ➔ $K_2$ has the even closed walk $v,w,v$ (reuses the edge) but no cycle; even closed walks need not contain cycles.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- Define a cycle and prove an odd closed walk implies an odd cycle.
 > - **Core Insight Requirement:** Minimal counterexample.

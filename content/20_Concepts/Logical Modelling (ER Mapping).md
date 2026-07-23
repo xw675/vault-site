@@ -27,7 +27,6 @@ tags: [CS/Databases, SWE/Design, Monash/CS_DS]
 - **Atomic attributes** ➔ one [[Domain (Relational Model)|domain]] each, order immaterial.
 - **Logical links** ➔ PK/FK pairs, no physical pointers.
 
----
 ## ⚖️ Core Decision Matrix
 | Level | Dependence | Output |
 | :--- | :--- | :--- |
@@ -38,7 +37,6 @@ tags: [CS/Databases, SWE/Design, Monash/CS_DS]
 
 > [!NOTE] **Crossover Invariant:** bottom-up [[Normalisation|3NF]] relations integrate with this top-down ER mapping (unify attribute names). The relationship **line is kept** even after the FK — it carries optionality developers need. Surrogate keys may now be introduced ([[Surrogate Key]]).
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -54,7 +52,6 @@ Mapping CUSTOMER places ORDER:
 ## ⚠️ Pitfalls
 - 💡 **Relationships are not relations** ➔ realised by placing the parent's PK as an FK in the child; only entities become relations.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- Give the conceptual→logical→physical terminology, and the general ER-to-relational rule.
 > - **Core Insight Requirement:** Entity→relation, relationship→FK.

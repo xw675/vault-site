@@ -32,7 +32,6 @@ aliases: [Confusion Matrix, Accuracy, Precision, Recall, Sensitivity, Specificit
 - **Fraud detector** ➔ optimise **sensitivity/recall** — a FP (normal flagged) is tolerable; a FN (missed fraud) is costly.
 - **Covid test** ➔ balance sensitivity (catch the sick) vs specificity (don't alarm the healthy).
 
----
 ## ⚖️ Core Decision Matrix
 | Metric | Question it answers | Formula |
 | :--- | :--- | :--- |
@@ -43,7 +42,6 @@ aliases: [Confusion Matrix, Accuracy, Precision, Recall, Sensitivity, Specificit
 
 > [!NOTE] **Crossover Invariant:** recall and precision pull apart — flagging **everything** positive gives perfect recall but poor precision; flagging **only sure** cases gives high precision but poor recall. The task's error costs pick which to favour.
 
----
 ## 📊 Exam Execution Trace
 
 ### Applied Exercise
@@ -58,7 +56,6 @@ $$
 $$
 **Final Extracted Output:** 70% accurate; catches 80% of positives (recall) but only 67% of its positive calls are right (precision).
 
----
 ## 🧠 Active Recall
 > [!FAQ]- For a fraud detector, which metric matters most and why — precision or recall?
 > - **Core Insight Requirement:** Cost of a false negative.

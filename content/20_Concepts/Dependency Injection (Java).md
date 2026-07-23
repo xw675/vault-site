@@ -64,7 +64,7 @@ classDiagram
   MyApp ..> PetrolEngine : creates
 ```
 
-## 🥋 Kata (write from blank)
+## 🥋 Kata
 > [!QUESTION]- Kata 1: A `WeatherApp` `new`s a real `HttpApi` internally, so tests hit the network. Use constructor injection so a test can pass a mock.
 > > [!SUCCESS]- Reference solution
 > > ```java

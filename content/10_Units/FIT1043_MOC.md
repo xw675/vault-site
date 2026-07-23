@@ -8,7 +8,7 @@ tags:
 # 📘 FIT1043: Introduction to Data Science
 
 > [!INFO] Map of Content
-> Index for **FIT1043 Introduction to Data Science**. Each link below is a standalone atomic note. Start with [[Data Science]] and follow the links. Week 1 is conceptual — *what* data science is, the process, and how it relates to neighbouring disciplines.
+> Index for **FIT1043 Introduction to Data Science**. Start with [[Data Science]].
 
 ## 📊 Assessment Map
 

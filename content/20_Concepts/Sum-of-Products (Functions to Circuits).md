@@ -29,7 +29,7 @@ F(X,Y,Z) &= \overline{X}Y\overline{Z} + \overline{X}YZ + X\overline{Y}\,\overlin
 $$
 **Final Extracted Output:** valid SOP; [[Karnaugh Maps]] reduces the same table to $Y + X\overline{Z}$.
 
-## 🥋 Kata (write from blank)
+## 🥋 Kata 
 > [!QUESTION]- $G(A,B)$ is $1$ exactly when the inputs differ (rows $01$ and $10$). Extract the SOP and name the function.
 > > [!SUCCESS]- Answer
 > > - $G = \overline{A}B + A\overline{B}$ — this is XOR ([[Exclusive-or]]).

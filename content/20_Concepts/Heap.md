@@ -28,7 +28,6 @@ tags: [CS/DataStructures, OOP/Python, CS/Complexity, Math/Discrete]
 - **Cost** ➔ **$\Theta(n)$, not $O(n\log n)$** — sum of node heights $= 2^h-1-h = N-h = \Theta(N)$.
 - **Boundary** ➔ requires all elements up front (**offline**); a stream must use `add`/rise ($O(\log n)$ each).
 
----
 ## ⚙️ Core Implementation
 ### 🔹 `rise` / `sink`
 > [!code]- the two heap-repair primitives
@@ -57,7 +56,6 @@ tags: [CS/DataStructures, OOP/Python, CS/Complexity, Math/Discrete]
 > ```
 > 💡 **Exam Pitfall:** **Start at $\lfloor n/2\rfloor$, go downward** ➔ guarantees both subtrees of node $i$ are valid heaps when sunk, so one sink fixes $i$; inserting one-by-one is $O(n\log n)$.
 
----
 ## ⚖️ Core Decision Matrix
 | Operation / Build | Complexity | Trigger / Note |
 | :--- | :--- | :--- |
@@ -70,7 +68,6 @@ tags: [CS/DataStructures, OOP/Python, CS/Complexity, Math/Discrete]
 
 > [!NOTE] **Crossover Invariant:** a heap is always balanced + constant-space-per-element but supports only **min/max** (`search(x)` is $O(n)$) ➔ use a balanced [[Binary Tree|BST]] when you need search, ordered iteration, or predecessor/successor. Bottom-up build never dominates heapsort: $\Theta(n)+\Theta(n\log n)=\Theta(n\log n)$.
 
----
 ## 📊 Exam Execution Trace
 
 ### Applied Exercise
@@ -83,7 +80,6 @@ S = \sum_{j=0}^{h-1} j\,2^{\,h-1-j} \;\xrightarrow{\;2S-S\;}\; (2^{h-1}+\dots+2^
 $$
 **Final Extracted Output:** build is $\Theta(N)$ — most nodes are near-leaves (sink $O(1)$); the $\log n$ height is paid by very few.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- Prove that building a heap from an arbitrary array is $O(n)$, not $O(n\log n)$.
 > - **Core Insight Requirement:** Weight node heights by their counts.

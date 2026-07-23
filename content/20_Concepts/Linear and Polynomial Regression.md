@@ -39,7 +39,6 @@ $$\mathcal{L}(a_0,a_1) = \sum_{i=1}^{N} \big(y_i - (a_0 + a_1 x_i)\big)^2, \qqua
 - **Learning curve** ➔ a plot of error (**MSE**) vs training-set size; MSE **decreases** as data grows.
 - **Algorithm-dependent** ➔ different algorithms show different decay rates on the learning curve.
 
----
 ## 📊 Exam Execution Trace
 
 ### Applied Exercise
@@ -53,7 +52,6 @@ r &= y - \hat y = 15 - 14 = +1
 $$
 **Final Extracted Output:** prediction $14$; residual $+1$ (actual sits just above the line).
 
----
 ## ⚠️ Pitfalls
 - 💡 **Higher degree ≠ better** ➔ a 10th-order polynomial can wiggle to chase noise; the goal is the *loss-minimising* fit that generalises, not one through every point.
 - 💡 **"Linear" means linear in parameters** ➔ polynomial regression is still solved by linear-regression machinery because it's linear in the coefficients $a_j$.

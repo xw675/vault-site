@@ -28,7 +28,6 @@ tags: [Math/Logic, Math/Proof, Monash/CS_DS]
 $$P:\ X\in\mathcal P(A)\ (\text{true}),\qquad P\Rightarrow Q:\ \text{definition of } \mathcal P(A)$$
 $$\therefore\ Q:\ X\subseteq A \quad(\text{modus ponens})$$
 
----
 ## ⚖️ Core Decision Matrix
 | Have | Rule | Conclude | Valid? |
 | :--- | :--- | :--- | :--- |
@@ -38,7 +37,6 @@ $$\therefore\ Q:\ X\subseteq A \quad(\text{modus ponens})$$
 
 > [!NOTE] **Crossover Invariant:** so natural it is rarely named in prose — "we have $P$, and $P$ implies $Q$, therefore $Q$" is just "a deduction". Its premises must themselves be established (definition/axiom/prior theorem/earlier step).
 
----
 ## 📊 Exam Execution Trace
 
 ### Applied Exercise
@@ -56,7 +54,6 @@ $$
 ## ⚠️ Pitfalls
 - 💡 **Don't affirm the consequent** ➔ having $Q$ and $P\Rightarrow Q$ does *not* give $P$ (converse fallacy); you need the antecedent $P$ itself.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- State modus ponens and explain why both premises are essential.
 > - **Core Insight Requirement:** Fact + conditional.

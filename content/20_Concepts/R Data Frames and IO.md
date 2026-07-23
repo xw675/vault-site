@@ -36,7 +36,7 @@ summary(myTable)  # per-column summary stats
 - **I/O** ➔ `getwd()` / `setwd("D:/Folder")`; `write.csv(df, "F.csv")`; `df <- read.csv("F.csv")`.
 - **Libraries & datasets** ➔ `install.packages("moments")` once, then `library(moments)`; `data()` lists built-ins, `data(mtcars)` loads one.
 
-## 🥋 Kata (write from blank)
+## 🥋 Kata 
 > [!QUESTION]- Kata 1: Load `mtcars`, show its first rows, and the mean of every numeric column grouped by `cyl` and `vs`.
 > > [!SUCCESS]- Reference solution
 > > ```r

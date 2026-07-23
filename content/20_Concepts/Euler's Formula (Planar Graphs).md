@@ -32,7 +32,6 @@ $$f=2-n+m \Rightarrow 2-n+m\le\tfrac{2m}3 \Rightarrow m\le3n-6$$
 
 > [!NOTE] **Crossover Invariant:** the "sides $=2m$" double-count parallels the [[Degree and the Handshaking Lemma|degree-sum]] argument. Faces depend on connectivity; $n-m+f=2$ assumes the plane graph is connected.
 
----
 ## 📊 Exam Execution Trace
 
 ### Applied Exercise
@@ -49,7 +48,6 @@ $$
 ## ⚠️ Pitfalls
 - 💡 **Necessary, not sufficient** ➔ $K_{3,3}$ passes $m\le3n-6$ yet is nonplanar; only a *violation* proves nonplanarity.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- State Euler's formula and derive $m\le3n-6$.
 > - **Core Insight Requirement:** Double-count sides.

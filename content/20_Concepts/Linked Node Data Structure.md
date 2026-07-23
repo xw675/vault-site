@@ -23,7 +23,6 @@ tags: [CS/DataStructures, CS/Complexity]
 - **Circular** ➔ tail→head ➔ round-robin.
 - **Sentinel** ➔ dummy head/tail nodes ➔ remove empty-list/head-insertion special cases (every real node has a predecessor).
 
----
 ## ⚖️ Core Decision Matrix
 | Operation | [[Array (Data Structure)]] | Linked nodes |
 | :--- | :--- | :--- |
@@ -35,7 +34,6 @@ tags: [CS/DataStructures, CS/Complexity]
 
 > [!NOTE] **Crossover Invariant:** prefer linked for frequent front/held-node insert-delete with little indexed access (stacks, queues, LRU caches, adjacency lists); prefer array for random access, binary search, cache-sensitive scans.
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -51,7 +49,6 @@ Insert at index $i$ decomposed:
 ## ⚠️ Pitfalls
 - 💡 **"$O(1)$ insert" needs the node in hand** ➔ reaching index $i$ first is still $O(i)$, so insert-at-index is $O(i)$, not $O(1)$.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- State the array-vs-linked trade-off across access, structural edits, and cache behaviour.
 > - **Core Insight Requirement:** They optimise opposite operations.

@@ -36,7 +36,6 @@ aliases: [Union and Intersection, Set Complement and Difference, Symmetric Diffe
 - **Equality test** ➔ $A\triangle B=\emptyset\Leftrightarrow A=B$; self-difference $A\triangle A=\emptyset$.
 - **XOR algebra** ➔ associative, commutative, identity $\emptyset$, every set self-inverse; $A\triangle B=\overline A\triangle\overline B$; set analogue of [[Exclusive-or]].
 
----
 ## ⚖️ Core Decision Matrix
 | Operation | Membership | Logic dual | Needs $U$? | Symmetric? | Identity |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -48,7 +47,6 @@ aliases: [Union and Intersection, Set Complement and Difference, Symmetric Diffe
 
 > [!NOTE] **Crossover Invariant:** every operation is a membership predicate, so set algebra inherits Boolean algebra — De Morgan binds $\cup,\cap$ to complement, and $\triangle$ behaves as bitwise XOR on membership.
 
----
 ## 📊 Exam Execution Trace & Applied Exercises
 
 ### 1. Manual Execution Trace Layout
@@ -69,7 +67,6 @@ $U=\{1,\dots,6\}$, $A=\{1,2,3,4\}$, $B=\{3,4,5,6\}$:
 - 💡 **Difference is not symmetric** ➔ $B\setminus A\neq A\setminus B$ in general; the order-free version is $A\triangle B$.
 - 💡 **Inclusive vs exclusive or** ➔ $A\cup B$ keeps "at least one", $A\triangle B$ keeps "exactly one" — they differ by $A\cap B$.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- State De Morgan's laws for sets and put each into words.
 > - **Core Insight Requirement:** Complement swaps $\cup\leftrightarrow\cap$.

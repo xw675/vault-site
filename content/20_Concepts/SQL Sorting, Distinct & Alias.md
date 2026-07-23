@@ -32,7 +32,7 @@ ORDER BY drone_flight_time DESC, drone_id;
 - **Sort by alias or expression** ➔ `ORDER BY "Taxed Price" DESC` ≡ `ORDER BY drone_pur_price*1.1 DESC` (alias is allowed in ORDER BY).
 - **Unreturned rentals on top** ➔ `ORDER BY rent_in_dt NULLS FIRST` surfaces NULL (not-yet-returned) rows first.
 
-## 🥋 Kata (write from blank)
+## 🥋 Kata 
 > [!QUESTION]- Kata 1: List each distinct rented `drone_id` from `RENTAL`, ascending.
 > > [!SUCCESS]- Reference solution
 > > ```sql

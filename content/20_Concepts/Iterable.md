@@ -24,7 +24,6 @@ tags: [CS/DataStructures, OOP/Python, CS/Abstraction]
 - **One-way** ➔ every iterator is iterable, but **not** conversely — a LinkList is iterable, not an iterator (no `__next__`).
 - **Laziness** ➔ iterator mediation lets an iterable be **lazy/infinite** (`itertools.count()`, a file, a [[Generator Expression]]).
 
----
 ## ⚙️ Core Implementation
 ### 🔹 `__iter__` returns a fresh iterator
 > [!code]- making a LinkList iterable
@@ -38,7 +37,6 @@ tags: [CS/DataStructures, OOP/Python, CS/Abstraction]
 > ```
 > 💡 **Exam Pitfall:** **`__iter__` must return a fresh iterator** ➔ so two loops don't interfere — *unless* the object is itself an iterator, in which case `__iter__` returns the same (exhausting) object.
 
----
 ## ⚖️ Core Decision Matrix
 | Property | Iterable | [[Iterator]] |
 | :--- | :--- | :--- |
@@ -50,7 +48,6 @@ tags: [CS/DataStructures, OOP/Python, CS/Abstraction]
 
 > [!NOTE] **Crossover Invariant:** encapsulation (traverse without internals) + uniformity (one syntax over lists, strings, ranges, trees, custom classes). Because elements come from the iterator's `__next__` on demand, an iterable can represent an unbounded sequence in $O(1)$ memory.
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -74,7 +71,6 @@ $$
 $$
 **Final Extracted Output:** iterators are a strict subset of iterables — holding a cursor is the extra requirement.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- Distinguish an iterable from an iterator precisely, and why is a `LinkList` one but not the other?
 > - **Core Insight Requirement:** `__iter__` vs `__iter__`+`__next__`.

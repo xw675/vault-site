@@ -36,7 +36,7 @@ df['Total'] = df['Math'] + df['English']   # add a computed column
 - **Fix inconsistent values (conditional assign)** ➔ `df.loc[df['Gender']=='f', 'Gender'] = 'F'` — the correct, copy-safe way to edit selected cells.
 - **Stack DataFrames** ➔ `pd.concat([df1, df2]).reset_index()` (renumber the combined index).
 
-## 🥋 Kata (write from blank)
+## 🥋 Kata 
 > [!QUESTION]- Kata 1: From patient `df`, keep rows with `SBP` ≤ 370 **and** `HR` ≥ 30, then report the shape.
 > > [!SUCCESS]- Reference solution
 > > ```python

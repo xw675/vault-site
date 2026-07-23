@@ -30,7 +30,6 @@ tags: [Math/Relations, CS/Databases, Monash/CS_DS]
 
 $$\#\{\text{relations }A\to B\}=2^{mn},\qquad \#\{\text{relations on }A\}=2^{m^2},\qquad \#\{n\text{-ary}\}=2^{m_1\cdots m_n}$$
 
----
 ## ⚖️ Core Decision Matrix
 | Object | Count ($m\times n$) | Constraint |
 | :--- | :--- | :--- |
@@ -41,7 +40,6 @@ $$\#\{\text{relations }A\to B\}=2^{mn},\qquad \#\{\text{relations on }A\}=2^{m^2
 
 > [!NOTE] **Crossover Invariant:** $n=2$ recovers the [[Binary Relation]]; restricting to single-valued total tuples recovers multi-argument [[Function (Mathematics)|functions]] $X_1\times\cdots\times X_{n-1}\to X_n$. Dropping single-valuedness explodes $n^m$ to $2^{mn}$.
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -57,7 +55,6 @@ $\lvert A\rvert=2$, $\lvert B\rvert=3$:
 ## ⚠️ Pitfalls
 - 💡 **Tuples are ordered** ➔ column order is part of the schema; relations vastly outnumber functions because each of the $mn$ pairs is independently in or out.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- Why is a relational database table an $n$-ary relation, and what plays the role of domains and tuples?
 > - **Core Insight Requirement:** Columns = domains, rows = tuples.

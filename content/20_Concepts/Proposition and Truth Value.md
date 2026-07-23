@@ -27,7 +27,6 @@ tags: [Math/Logic, Math/Discrete, Monash/CS_DS]
 - **Question** ➔ not an assertion.
 - **Paradox** ➔ "This statement is false" ➔ self-referential, neither T nor F.
 
----
 ## ⚖️ Core Decision Matrix
 | Category | Truth value? | Proposition? | Example |
 | :--- | :--- | :--- | :--- |
@@ -38,7 +37,6 @@ tags: [Math/Logic, Math/Discrete, Monash/CS_DS]
 
 > [!NOTE] **Crossover Invariant:** **bivalence** — every proposition has *exactly one* truth value — is the assumption the whole module rests on. A Boolean *variable* ranges over $\{$T,F$\}$; a *proposition* has a fixed (possibly unknown) value.
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -55,7 +53,6 @@ Classifying statements:
 ## ⚠️ Pitfalls
 - 💡 **"Unknown" ≠ "not a proposition"** ➔ "it will rain tomorrow" is a proposition (definite truth value, merely unknown now); only commands, questions, and paradoxes are excluded.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- What makes a statement a proposition, and why are "Come and work for us!" and "This statement is false" excluded?
 > - **Core Insight Requirement:** Definite truth value required.

@@ -29,7 +29,6 @@ tags: [Math/Combinatorics, Math/Discrete, Monash/CS_DS]
 
 > [!NOTE] **Crossover Invariant:** the key CS move is **reducing a new problem to a solved one** — with-replacement → without-replacement — by an explicit bijection $x_i\mapsto x_i+1$.
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -45,7 +44,6 @@ $n=5$, $r=3$; solution $(2,0,0,1,0)$:
 ## ⚠️ Pitfalls
 - 💡 **With ≠ without replacement** ➔ without replacement ($x_i\in\{0,1\}$) gives $\binom{n}{r}$; allowing $x_i\ge0$ changes it to $\binom{r+n-1}{r}$.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- What does $\binom{r+n-1}{r}$ count, and what is the stars-and-bars model?
 > - **Core Insight Requirement:** Solutions of $x_1+\dots+x_n=r$.

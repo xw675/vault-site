@@ -26,7 +26,6 @@ tags: [Math/Combinatorics, Math/Probability, Math/Discrete, Monash/CS_DS]
 - **Same identity** ➔ for [[Probability|probabilities]] of [[Sample Space and Events|events]].
 - **Counting = uniform case** ➔ divide sizes by $|U|$ ([[Probability|Equally Likely Outcomes]]).
 
----
 ## ⚖️ Core Decision Matrix
 | $k$ | Sign | Term |
 | :--- | :--- | :--- |
@@ -37,7 +36,6 @@ tags: [Math/Combinatorics, Math/Probability, Math/Discrete, Monash/CS_DS]
 
 > [!NOTE] **Crossover Invariant:** the disjoint case (all intersections empty) is the [[Counting Principles|Addition Principle]]. A dual form expresses $\lvert\bigcap A_i\rvert$ via union sizes (De Morgan). $\binom{n}{k}$ counts the $k$-fold terms at each level.
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -53,7 +51,6 @@ Divisible by 2, 3, or 5 among 100:
 ## ⚠️ Pitfalls
 - 💡 **$2^n-1$ terms** ➔ one per non-empty subset ([[Power Set]] count) — exact but exponential; practical only for small $n$ or when most intersections vanish.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- State inclusion–exclusion for three sets and why each sign is needed.
 > - **Core Insight Requirement:** Count each element once.

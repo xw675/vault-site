@@ -37,7 +37,7 @@ len(lst)                          # 2
 - **Input + dynamic year** ➔ avoid hard-coding: `import datetime; now = datetime.datetime.now(); now.year - int(input('age: '))`.
 - **Membership branch** ➔ `if currentYear in [2019, 2018]: ...` tests several values at once.
 
-## 🥋 Kata (write from blank)
+## 🥋 Kata 
 > [!QUESTION]- Kata 1: Ask for a birth year and print the person's age using the *current* year (not a hard-coded 2019).
 > > [!SUCCESS]- Reference solution
 > > ```python

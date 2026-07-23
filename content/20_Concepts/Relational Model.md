@@ -27,7 +27,6 @@ tags: [CS/Databases, Math/SetTheory, Monash/CS_DS]
 - **Declarative** ➔ non-navigational access by value.
 - **Closure** ➔ [[Relational Algebra]] results are relations, so queries compose.
 
----
 ## ⚖️ Core Decision Matrix
 | Model | Access | Structure |
 | :--- | :--- | :--- |
@@ -38,7 +37,6 @@ tags: [CS/Databases, Math/SetTheory, Monash/CS_DS]
 
 > [!NOTE] **Crossover Invariant:** the logical relation is independent of the physical binary storage — the separation that makes relational designs portable across vendors. A relation *is* the FIT1058 [[n-ary Relation]]; the ER design becomes relations in the [[Conceptual vs Logical Model|logical model]].
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -54,7 +52,6 @@ Classifying access:
 ## ⚠️ Pitfalls
 - 💡 **Relation ≠ table** ➔ a relation is a *set* of tuples (no duplicates, unordered, atomic); a table is a display that may have duplicate/ordered rows.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- What does the relational model represent data with, and how does it differ from hierarchical/network models?
 > - **Core Insight Requirement:** Content vs navigation.

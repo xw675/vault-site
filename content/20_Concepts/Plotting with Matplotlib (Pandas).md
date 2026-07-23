@@ -35,7 +35,7 @@ plt.show()
 - **Control histogram detail** ➔ raise/lower `bins=` (few = coarse shape, many = ragged).
 - **Encode a 3rd/4th variable on a scatter** ➔ colour by a column and size the points: `plt.scatter(df['HR'], df['SBP'], c=df['DBP'], s=40, cmap='hot')` — `c=` colours, `cmap=` the palette, `s=` the marker size.
 
-## 🥋 Kata (write from blank)
+## 🥋 Kata 
 > [!QUESTION]- Kata 1: For numeric column `price`, draw a histogram with 20 bins and a boxplot to inspect its spread/outliers.
 > > [!SUCCESS]- Reference solution
 > > ```python

@@ -27,7 +27,6 @@ aliases: [Privacy, Confidentiality, Security, Implicit Data, Explicit Data]
 - **Prediction** ➔ retailers predicting pregnancy from purchases; many traits inferred from Facebook **"likes"** ("curly fry conundrum").
 - **Consumer control** ➔ often you must **accept a data-sharing policy** or can't fully use a service; ideally an agent asks "share your health data with company X?".
 
----
 ## ⚖️ Core Decision Matrix
 | Term | Protects | Example |
 | :--- | :--- | :--- |

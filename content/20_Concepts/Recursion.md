@@ -43,7 +43,6 @@ tags: [CS/Algorithms, OOP/Python, CS/Complexity, CS/DataStructures]
 - **When** ➔ general conversion when an accumulator can't (work builds on the way *back*).
 - **Payoff** ➔ same $\Theta(\text{depth})$ space but on the **heap** ➔ no fixed call-stack limit.
 
----
 ## ⚙️ Core Implementation
 ### 🔹 Basic vs Accumulator (factorial / Fibonacci)
 > [!code]- non-tail vs tail-recursive forms
@@ -98,7 +97,6 @@ tags: [CS/Algorithms, OOP/Python, CS/Complexity, CS/DataStructures]
 > ```
 > 💡 **Exam Pitfall:** **LIFO order is the trick** ➔ print-reverse pushes all items then pops; the explicit stack on the heap dodges Python's ~1000-frame `RecursionError`.
 
----
 ## ⚖️ Core Decision Matrix
 | Recursion shape | Convert via | Recurrence → cost | Example |
 | :--- | :--- | :--- | :--- |
@@ -109,7 +107,6 @@ tags: [CS/Algorithms, OOP/Python, CS/Complexity, CS/DataStructures]
 
 > [!NOTE] **Crossover Invariant:** same time Big-O, but recursion uses $\Theta(\text{depth})$ space vs iteration's $\Theta(1)$ — TCO would erase it (Python/Java lack it). The equivalence is to *general* iteration; the primitive-recursive / bounded-`for` fragment can't express **Ackermann**.
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -135,7 +132,6 @@ T(n) &= T(n-1) + \Theta(1) = T(n-2) + 2\Theta(1) = \dots \\
 $$
 **Final Extracted Output:** unary recursion ⟹ a path of $n$ frames ⟹ $\Theta(n)$ time and $\Theta(n)$ stack space.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- How do you prove a recursive algorithm correct, and how does it differ from proving a loop correct?
 > - **Core Insight Requirement:** Map recursion to induction, loops to invariants.

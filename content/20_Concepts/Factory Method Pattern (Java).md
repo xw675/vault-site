@@ -52,7 +52,7 @@ classDiagram
 ```
 *(`$` marks `createCard` static; `CardManager` depends on `Card` and instantiates a concrete subclass.)*
 
-## 🥋 Kata (write from blank)
+## 🥋 Kata
 > [!QUESTION]- Kata 1: Shapes are created from a code: `"C"`→Circle, `"S"`→Square, else Unknown. Write a `ShapeFactory.create(String code)` returning a `Shape`.
 > > [!SUCCESS]- Reference solution
 > > ```java

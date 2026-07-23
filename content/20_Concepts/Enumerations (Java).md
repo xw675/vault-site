@@ -44,7 +44,7 @@ public class Main {
 - **Stereotype** ➔ mark the box `<<enumeration>>` above the name; list constants inside.
 - **Relationship** ➔ a class *using* an enum has a **dependency** (dashed open arrow) on it — treat an enum like a simple `DataType` (as you would `Integer`). *FIT2099 note:* you may **omit enums** from class diagrams unless asked, since they're value types.
 
-## 🥋 Kata (write from blank)
+## 🥋 Kata
 > [!QUESTION]- Kata 1: Replace a magic-number status system (`0`=BURNED, `1`=PETRIFIED, `2`=CONFUSED) with an `enum` and a `switch` that prints each effect.
 > > [!SUCCESS]- Reference solution
 > > ```java

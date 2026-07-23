@@ -6,7 +6,7 @@ tags: [Monash/CS_DS, 2026/S1]
 # 📘 FIT1008: Introduction to Computer Science
 
 > [!INFO] Map of Content
-> Index for the **Algorithms & Algorithmic Complexity** lecture (FIT1008/2085). Each link below is a standalone atomic note. Start with [[Algorithm]] and follow the links.
+> Index for the **Algorithms & Algorithmic Complexity** strand (FIT1008/2085). Start with [[Algorithm]].
 
 ## 📊 Assessment Map
 

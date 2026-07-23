@@ -44,7 +44,7 @@ Truth table ($F=1$ on $010,011,100,110,111$) plotted with columns $XY = 00,01,11
 | 2 | pair (columns $11,10$, row $Z{=}0$) | $X{=}1$, $Z{=}0$ ($Y$ varies) | $X\overline{Z}$ |
 **Result:** $F = Y + X\overline{Z}$ — versus the 5-term raw SOP from [[Sum-of-Products (Functions to Circuits)]].
 
-## 🥋 Kata (write from blank)
+## 🥋 Kata
 > [!QUESTION]- Plot $F(X,Y,Z)$ with 1s at $000, 010, 100, 110$ (i.e. all rows with $Z=0$)… but draw the map first without reading ahead. Group and simplify.
 > > [!SUCCESS]- Answer
 > > - Map: entire $Z{=}0$ row is 1s ➔ one group of 4 (wrapping across all columns).

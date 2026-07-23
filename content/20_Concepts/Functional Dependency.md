@@ -29,7 +29,6 @@ tags: [CS/Databases, Math/Discrete, Monash/CS_DS]
 - **Transitive** ➔ non-key → non-key (3NF removes).
 - **Total (mutual)** ➔ $A\to B$ and $B\to A$ (both candidate keys).
 
----
 ## ⚖️ Core Decision Matrix
 | Dependency | Determinant | Removed at |
 | :--- | :--- | :--- |
@@ -40,7 +39,6 @@ tags: [CS/Databases, Math/Discrete, Monash/CS_DS]
 
 > [!NOTE] **Crossover Invariant:** keys are special FDs — a [[Super Key and Candidate Key|super key]] determines the whole tuple. "Bad" FDs (non-key determined by part of a key, or by another non-key) signal the redundancy [[Normalisation]] removes.
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -56,7 +54,6 @@ Classifying ASSIGNMENT FDs, key $(\text{proj\_num},\text{emp\_num})$:
 ## ⚠️ Pitfalls
 - 💡 **FDs hold for ALL valid data, not one instance** ➔ $A\to B$ is a business rule over every allowed row, not a coincidence in current data.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- Define a functional dependency and explain why it is directional.
 > - **Core Insight Requirement:** Single-valued mapping.

@@ -41,7 +41,7 @@ switch (operator) {
 - **for vs for-each** ➔ `for (int i = 0; i < xs.length; i++)` when you need the **index**; `for (String s : xs)` to just visit each element.
 - **do-while** ➔ runs the body **before** testing — ideal for "keep asking until valid input".
 
-## 🥋 Kata (write from blank)
+## 🥋 Kata
 > [!QUESTION]- Kata 1: Print every divisor of 100 (numbers that divide it evenly), using a `for` loop.
 > > [!SUCCESS]- Reference solution
 > > ```java

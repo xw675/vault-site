@@ -31,7 +31,6 @@ aliases: [UNF]
 
 > [!NOTE] **Crossover Invariant:** an accurate UNF ensures the business rules survive into the normalised schema; errors here propagate. Multivalued attributes are the repeating groups ([[Attribute (Conceptual Modelling)]]); the bracketed group is what 1NF splits out.
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -47,7 +46,6 @@ Building the UNF:
 ## ⚠️ Pitfalls
 - 💡 **No PK, no flattening at UNF** ➔ don't indicate a primary key and don't expand the repeating data into rows; brackets capture the repeating group [[First Normal Form (1NF)|1NF]] will remove.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- How do you represent a form as a UNF, and what must you not do?
 > - **Core Insight Requirement:** Subject + bracketed repeating group.

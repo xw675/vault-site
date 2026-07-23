@@ -32,7 +32,7 @@ INSERT INTO drone_detail (
 - **Build + populate (CTAS)** ➔ `CREATE TABLE drone_detail AS (SELECT drone_id AS dd_id, drone_pur_date AS dd_pur_date, dt_model AS dd_model FROM drone.drone NATURAL JOIN drone.drone_type);`.
 - **Create-then-fill** ➔ `CREATE TABLE` + `ALTER … ADD PRIMARY KEY` first, then `INSERT … SELECT` to keep the intended constraints.
 
-## 🥋 Kata (write from blank)
+## 🥋 Kata 
 > [!QUESTION]- Kata 1: Create `drone_detail(dd_id, dd_pur_date, dd_model)` **with a primary key on `dd_id`**, populated from `DRONE ⋈ DRONE_TYPE`. Why can't a single CTAS do it all?
 > > [!SUCCESS]- Reference solution
 > > ```sql

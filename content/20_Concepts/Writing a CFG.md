@@ -33,7 +33,7 @@ $$S\to\varepsilon \mid (S) \mid SS$$
 
 - **Where does the matching go?** ➔ any non-empty balanced string starts with $($; its partner $)$ is either **at the very end** (rule $(S)$) or **before the end** (rule $SS$) — exactly the two recursive cases.
 
-## 🥋 Katas (write from blank)
+## 🥋 Katas 
 > [!QUESTION]- Kata 1: A grammar for HALF-AND-HALF $=\{\mathtt{a}^{n}\mathtt{b}^{n}: n\ge 0\}$.
 > > [!SUCCESS]- Reference solution
 > > $$S\to \mathtt{a}S\mathtt{b}\mid\varepsilon$$

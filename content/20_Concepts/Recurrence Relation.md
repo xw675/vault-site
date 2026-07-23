@@ -31,7 +31,6 @@ tags: [Math/Discrete, Math/Sequences, Monash/CS_DS]
 
 > [!NOTE] **Crossover Invariant:** the recurrence is easiest to *write*; the closed form reveals **growth** and gives any term directly. When no closed form exists (e.g. [[Fibonacci Sequence|Fibonacci]] at first), bounds can still be proved by induction. The programming analogue is [[Recursion]].
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -47,7 +46,6 @@ $f_1=1,\ f_n=2f_{n-1}+1$:
 ## ⚠️ Pitfalls
 - 💡 **$k$-step rule needs $k$ base cases** ➔ $f_n=4f_{n-2}$ with only $f_1$ fixes just odd positions; add $f_2$ for the even ones.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- What are the two ingredients of a recurrence, and why does $f_n=4f_{n-2}$ need two base cases?
 > - **Core Insight Requirement:** Depth = base count.

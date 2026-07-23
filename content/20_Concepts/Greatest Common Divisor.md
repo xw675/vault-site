@@ -33,7 +33,6 @@ $$\gcd(20,12)=\gcd(12,8)=\gcd(8,4)=4\ (4\mid8)$$
 
 > [!NOTE] **Crossover Invariant:** $\gcd(a,b)$ is also the **smallest positive** $xa+yb$ — the bridge to coprimality and modular inverses. Order is irrelevant to the value but convenient (larger first) for the algorithm.
 
----
 ## 📊 Exam Execution Trace
 
 ### Applied Exercise
@@ -49,7 +48,6 @@ $$
 ## ⚠️ Pitfalls
 - 💡 **Subtraction = slow mod** ➔ repeatedly subtracting $b$ until $<b$ computes $a\bmod b$; one $\bmod$ replaces many subtractions (the Euclidean speed-up).
 
----
 ## 🧠 Active Recall
 > [!FAQ]- State and justify $\gcd(a,b)=\gcd(b,a-b)$, and use it for $\gcd(20,12)$.
 > - **Core Insight Requirement:** Same common divisors.

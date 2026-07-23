@@ -28,7 +28,6 @@ tags: [CS/Databases, SWE/Design, Monash/CS_DS]
 - **Three forms** ➔ natural language | structured docs | formal/conceptual (business rules, use cases).
 - **One central DB** ➔ many stakeholder *views*, no data duplication (each unit/enrolment stored once).
 
----
 ## ⚖️ Core Decision Matrix
 | Stage | Deliverable | Depends on |
 | :--- | :--- | :--- |
@@ -39,7 +38,6 @@ tags: [CS/Databases, SWE/Design, Monash/CS_DS]
 
 > [!NOTE] **Crossover Invariant:** the technology-independent stages let business stakeholders agree on *meaning* before any platform commitment, postponing vendor lock-in to physical design. A single integrated database backs all user views.
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -56,7 +54,6 @@ Classifying dependence per stage:
 ## ⚠️ Pitfalls
 - 💡 **Logical = type-dependent, Physical = vendor-dependent** ➔ a relational logical design is identical on Oracle vs SQL Server; only physical storage differs per DBMS.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- Name the four stages and their technology-dependence.
 > - **Core Insight Requirement:** Independence decreases down the stages.

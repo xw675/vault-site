@@ -41,7 +41,7 @@ cat hourly_44201_2014-06.csv.gz | gunzip | less
 - **Setup** ➔ Windows: install **Cygwin**; MacOS (Big Sur+): `chsh -s /bin/bash` (default is now zsh).
 - **Parallel / scripts** ➔ run a program in the background with `myprogram &`; Python scripts can be used as shell programs too.
 
-## 🥋 Kata (write from blank)
+## 🥋 Kata 
 > [!QUESTION]- Kata 1: Count how many lines in `data.csv` contain "ERROR", and save just those lines to `errors.txt`.
 > > [!SUCCESS]- Reference solution
 > > ```bash

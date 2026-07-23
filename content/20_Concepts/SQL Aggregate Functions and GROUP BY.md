@@ -32,7 +32,7 @@ ORDER BY dt_code;
 - **Filter rows first (WHERE)** ➔ `WHERE drone_flight_time > 50 GROUP BY dt_code` — drops rows, then groups.
 - **Filter groups after (HAVING)** ➔ `GROUP BY dt_code HAVING AVG(drone_flight_time) > 50` — keeps only group means over 50.
 
-## 🥋 Kata (write from blank)
+## 🥋 Kata 
 > [!QUESTION]- Kata 1: For each `dt_code`, show the average flight time, but only for types whose average exceeds 50; order by `dt_code`.
 > > [!SUCCESS]- Reference solution
 > > ```sql

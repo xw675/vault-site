@@ -34,7 +34,6 @@ aliases: [Big Data, 3Vs, Four Vs, Volume, Velocity, Variety]
 - **Aspirations** ➔ **Visualisation** (a method for analysis) and **Value** (what we want out of the data).
 - **Definition** ➔ Big Data = data beyond commonly used tools' ability to capture/curate/manage/process in tolerable time — a **moving target**; a cost-free byproduct of digital interaction, enabled by the **cloud**.
 
----
 ## ⚖️ Core Decision Matrix
 | Strategy | Move | Pro | Con |
 | :--- | :--- | :--- | :--- |
@@ -43,7 +42,6 @@ aliases: [Big Data, 3Vs, Four Vs, Volume, Velocity, Variety]
 
 > [!NOTE] **Crossover Invariant:** the original "Big Data" is the **intersection** of all three Vs — large volume, high velocity, *and* variable structure at once; any one alone a classic RDBMS can often still handle.
 
----
 ## 📊 Exam Execution Trace
 
 ### Applied Exercise
@@ -54,7 +52,6 @@ $$
 $$
 **Final Extracted Output:** a continuous 80,000 semi-structured JSON records/sec — a write **stream**, not a batch; an OLTP RDBMS cannot keep up on ingest *or* real-time query.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- Why does Variety, more than Volume, push organisations off the relational model?
 > - **Core Insight Requirement:** Rigid schema vs varying records.

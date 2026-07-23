@@ -32,7 +32,6 @@ tags: [Math/GraphTheory, Math/Discrete, Monash/CS_DS]
 $$\text{walk} \supseteq \text{trail (no repeat edge)} \supseteq \text{path (no repeat vertex)}$$
 $$\text{distance}(v,w)=\text{length of shortest path}=\text{length of shortest walk}$$
 
----
 ## ⚖️ Core Decision Matrix
 | Traversal | Repeat edge? | Repeat vertex? |
 | :--- | :--- | :--- |
@@ -43,7 +42,6 @@ $$\text{distance}(v,w)=\text{length of shortest path}=\text{length of shortest w
 
 > [!NOTE] **Crossover Invariant:** whenever a walk from $v$ to $w$ exists, a path does too (cut the loops) — the basis of [[Connectivity]]. A length-0 walk (single vertex) is the reflexive case making connectivity an [[Equivalence Relation]].
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -59,7 +57,6 @@ $G$ ($ab,ac,bc,cd$), classify sequences:
 ## ⚠️ Pitfalls
 - 💡 **A path can't be closed** ➔ closing repeats the start vertex; that role belongs to a [[Cycle (Graph Theory)|cycle]] (closed trail, no interior repeat).
 
----
 ## 🧠 Active Recall
 > [!FAQ]- Define walk, trail, and path, and how they nest.
 > - **Core Insight Requirement:** Repetition rules.

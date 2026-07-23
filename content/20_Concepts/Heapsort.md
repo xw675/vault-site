@@ -27,7 +27,6 @@ tags: [CS/Algorithms, CS/Sorting, CS/Complexity, OOP/Python]
 - **Extract** ➔ $n$ sinks cost $\Theta(n\log n)$ ➔ total $\Theta(n)+\Theta(n\log n)=\Theta(n\log n)$.
 - **No best case** ➔ even pre-sorted input is not faster.
 
----
 ## ⚙️ Core Implementation
 ### 🔹 In-place `heapsort` (build + extract via `sink`)
 > [!code]- `heapsort` with `sink` / `largest_child`
@@ -58,7 +57,6 @@ tags: [CS/Algorithms, CS/Sorting, CS/Complexity, OOP/Python]
 > ```
 > 💡 **Exam Pitfall:** **`2*k == size` guard is essential** ➔ without it a node with only a left child reads `a[2*k+1]` past the heap (`IndexError`); defend with testing, code review, proofs.
 
----
 ## ⚖️ Core Decision Matrix
 *(Domain A complexity table — Best / Average / Worst Time, Space, Stability.)*
 
@@ -70,7 +68,6 @@ tags: [CS/Algorithms, CS/Sorting, CS/Complexity, OOP/Python]
 
 > [!NOTE] **Crossover Invariant:** pick **heapsort** when the worst-case *bound* + $O(1)$ space matter (real-time); **quicksort** when average speed wins (its `sink`'s non-local $k\to2k$ jumps thrash cache); **merge sort** when **stability** is required.
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -95,7 +92,6 @@ T(n) &= \underbrace{\Theta(n)}_{\text{bottom-up build}} + \underbrace{\sum_{k=1}
 $$
 **Final Extracted Output:** total $\Theta(n\log n)$ — the $\Theta(n)$ build is dominated by the $\Theta(n\log n)$ extraction phase.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- Heapsort and quicksort are both in-place. Given a hard real-time deadline, which and why?
 > - **Core Insight Requirement:** Trade guaranteed bound against average speed.

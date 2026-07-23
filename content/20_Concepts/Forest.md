@@ -30,7 +30,6 @@ tags: [Math/GraphTheory, Math/Discrete, Monash/CS_DS]
 
 $$m=\sum_{i=1}^k m_i=\sum_{i=1}^k(n_i-1)=\Bigl(\sum n_i\Bigr)-k=n-k$$
 
----
 ## ⚖️ Core Decision Matrix
 | Object | Connected? | Edges |
 | :--- | :--- | :--- |
@@ -41,7 +40,6 @@ $$m=\sum_{i=1}^k m_i=\sum_{i=1}^k(n_i-1)=\Bigl(\sum n_i\Bigr)-k=n-k$$
 
 > [!NOTE] **Crossover Invariant:** a forest relaxes the [[Tree]]'s connectivity but keeps acyclicity; [[Kruskal's Greedy Algorithm]]'s partial result is always a forest, becoming a [[Spanning Tree]] once it connects up.
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -57,7 +55,6 @@ Forest, 10 vertices, components 4,3,3:
 ## ⚠️ Pitfalls
 - 💡 **Each extra component costs one fewer edge** ➔ $n-1$ (tree) → $n-k$; edges are exactly what would merge the $k$ trees into one.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- Define a forest and prove it has $n-k$ edges.
 > - **Core Insight Requirement:** Sum of tree edge counts.

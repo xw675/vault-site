@@ -30,7 +30,6 @@ tags: [Math/Probability, Math/Discrete, Monash/CS_DS]
 $$\mathrm{Var}(X)=E((X-\mu)^2)=E(X^2)-\mu^2,\qquad \sigma=\sqrt{\mathrm{Var}(X)}$$
 $$\mathrm{Pr}(|X-\mu|\ge t\sigma)\le\frac1{t^2}$$
 
----
 ## ⚖️ Core Decision Matrix
 | Quantity | Units | Note |
 | :--- | :--- | :--- |
@@ -41,7 +40,6 @@ $$\mathrm{Pr}(|X-\mu|\ge t\sigma)\le\frac1{t^2}$$
 
 > [!NOTE] **Crossover Invariant:** squaring weights far-out values heavily, so variance is sensitive to extremes. Chebyshev holds for *every* distribution (the fallback when shape is unknown); well-behaved distributions admit tighter bounds. Binomial variance $np(1-p)$ follows by additivity over independent trials.
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -57,7 +55,6 @@ Fair die ($\mu=3.5$):
 ## ⚠️ Pitfalls
 - 💡 **Variance additivity needs independence** ➔ $\mathrm{Var}(X+Y)=\mathrm{Var}(X)+\mathrm{Var}(Y)$ only for independent $X,Y$; expectation adds unconditionally.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- Give the two variance formulas, why $\sigma$ is needed, and the independence caveat.
 > - **Core Insight Requirement:** Second moment + units.

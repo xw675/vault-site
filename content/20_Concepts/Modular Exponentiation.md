@@ -32,7 +32,6 @@ tags: [Math/NumberTheory, CS/Algorithms, Monash/CS_DS]
 $$36=2^5+2^2 \Rightarrow 3^{36}=3^{32}\cdot3^4$$
 $$3^2{=}9,\ 9^2\equiv6,\ 6^2\equiv11,\ 11^2\equiv21\pmod{25};\quad \phi(25)=20\Rightarrow 3^{36}\equiv3^{16}\equiv21$$
 
----
 ## ⚖️ Core Decision Matrix
 | Trick | Effect | Cost |
 | :--- | :--- | :--- |
@@ -42,7 +41,6 @@ $$3^2{=}9,\ 9^2\equiv6,\ 6^2\equiv11,\ 11^2\equiv21\pmod{25};\quad \phi(25)=20\R
 
 > [!NOTE] **Crossover Invariant:** three independent savings — fewer multiplications, smaller products, smaller exponent. Modular exponentiation is the workhorse of public-key cryptography precisely because it is easy forward but hard to invert (discrete log).
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -58,7 +56,6 @@ $7^{13}\bmod11$, $13=(1101)_2$:
 ## ⚠️ Pitfalls
 - 💡 **Exponent reduction needs coprimality** ➔ $a^m\equiv a^{m\bmod\phi(n)}$ requires $\gcd(a,n)=1$; without it the shortcut can fail. Reduce mod $n$ at *every* step to keep numbers small.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- How does square-and-multiply compute $3^{36}$ in 6 multiplications, and the general bound?
 > - **Core Insight Requirement:** Binary exponent.

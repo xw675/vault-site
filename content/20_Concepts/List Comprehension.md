@@ -18,7 +18,6 @@ tags: [OOP/Python, CS/DataStructures]
 - **Declarative** ➔ the alternative to `map`/`filter` ([[Higher-Order Function|HOFs]]).
 - **Materialises** ➔ builds the whole list ($O(n)$ memory); body should be a pure-ish transform/filter — side-effecting comprehensions are an anti-pattern (use a loop).
 
----
 ## ⚙️ Core Implementation
 ### 🔹 Transform, filter, nest — and the three forms
 > [!code]- comprehension vs HOF vs generator
@@ -33,7 +32,6 @@ tags: [OOP/Python, CS/DataStructures]
 > ```
 > 💡 **Exam Pitfall:** **All three are $O(n)$ *time*** ➔ the comprehension uses $O(n)$ memory (materialised, reusable, indexable), the [[Generator Expression]] $O(1)$ (lazy, single-pass) — pick the generator when you iterate once or the source is huge.
 
----
 ## ⚖️ Core Decision Matrix
 | Form | Time | Space | When |
 | :--- | :--- | :--- | :--- |
@@ -43,7 +41,6 @@ tags: [OOP/Python, CS/DataStructures]
 
 > [!NOTE] **Crossover Invariant:** comprehensions are concise and faster than an equivalent `append` loop (C-optimised list-building) but materialise everything; deeply nested comprehensions hurt readability — fall back to loops.
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -66,7 +63,6 @@ $$
 $$
 **Final Extracted Output:** the comprehension is the eager, materialised form of the filter→map pipeline.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- Give the same transform as a list comprehension and a generator expression, and state when each is correct.
 > - **Core Insight Requirement:** Materialise vs stream.

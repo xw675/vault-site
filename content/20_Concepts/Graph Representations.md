@@ -24,7 +24,6 @@ tags: [Math/GraphTheory, CS/DataStructures, Monash/CS_DS]
 - **Total $1$s** ➔ $2m$.
 - **"Matrix"** ➔ algebraic operations reveal structure.
 
----
 ## ⚖️ Core Decision Matrix
 | Representation | Space | Adjacency test | Best for |
 | :--- | :--- | :--- | :--- |
@@ -35,7 +34,6 @@ tags: [Math/GraphTheory, CS/DataStructures, Monash/CS_DS]
 
 > [!NOTE] **Crossover Invariant:** the adjacency matrix is the [[Binary Relation]]'s $0/1$ matrix over $V\times V$; row/column sums are degrees, total $1$s $=2m$. Sparse real graphs favour the list; the incidence matrix is mostly theoretical.
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -51,7 +49,6 @@ Rows for $a,c,e$ (order $a$–$g$):
 ## ⚠️ Pitfalls
 - 💡 **Edge list needs $V$** ➔ isolated vertices ($e$) have no edges; matrix is $n^2$ bits regardless, list stores only actual edges.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- Describe the adjacency matrix and adjacency list, and when each is preferable.
 > - **Core Insight Requirement:** Dense vs sparse.

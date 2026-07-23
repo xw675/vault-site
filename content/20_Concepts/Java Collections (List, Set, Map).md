@@ -54,7 +54,7 @@ books.get(9780393634990L);                // "Hello World"
 - **Map iteration** ➔ `for (Long k : books.keySet())` (keys), `for (String v : books.values())` (values), or `books.entrySet().forEach(e -> ... e.getKey() ... e.getValue())`.
 - **LinkedList vs ArrayList** ➔ `LinkedList` faster for end insert/delete; `ArrayList` faster for generic store/index access.
 
-## 🥋 Kata (write from blank)
+## 🥋 Kata
 > [!QUESTION]- Kata 1: Count how many times each word appears in a `String[] words`, using a `Map<String,Integer>`. Print each word and its count.
 > > [!SUCCESS]- Reference solution
 > > ```java

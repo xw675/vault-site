@@ -75,7 +75,7 @@ classDiagram
 ```
 **Reads as:** `Player` **is-a** `Actor` (solid hollow triangle) and **implements** `Behaviour` (dashed hollow triangle); `Player` **has a** `Weapon` field (solid arrow, multiplicity 1); `AttackAction` **uses** an `Actor` only as a method parameter (dashed «use» arrow).
 
-## 🥋 Kata (write from blank)
+## 🥋 Kata 
 > [!QUESTION]- Kata 1: `Enemy` is an abstract class; `Goblin` extends it. A `Dungeon` stores many `Enemy` objects. A `SpawnAction` receives an `Enemy` as a parameter but never stores it. Draw it — which arrow for each link?
 > > [!SUCCESS]- Reference solution
 > > ```mermaid

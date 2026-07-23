@@ -43,7 +43,6 @@ tags: [CS/Algorithms, CS/Sorting, CS/Complexity, OOP/Python]
 - **Insertion yes / Selection no** ➔ append-to-back ➔ one pass; "final" prefix blocks latecomers.
 - **Graduate** ➔ frequent updates ➔ balanced [[Binary Tree]]/[[Heap]] ($O(\log n)$/update).
 
----
 ## ⚙️ Core Implementation
 ### 🔹 Bubble Sort (II, adaptive)
 > [!code]- `bubble_sort` with early-exit flag
@@ -94,7 +93,6 @@ tags: [CS/Algorithms, CS/Sorting, CS/Complexity, OOP/Python]
 > ```
 > 💡 **Exam Pitfall:** **Flat "$O(n^2)$" hides the best case** ➔ on sorted input the `while` never fires ⟹ $O(n)$; the weak "sorted-not-final" invariant is what makes it **online**.
 
----
 ## ⚖️ Core Decision Matrix
 *(complexity table — Best / Average / Worst Time, Space, Stability.)*
 
@@ -109,7 +107,6 @@ tags: [CS/Algorithms, CS/Sorting, CS/Complexity, OOP/Python]
 
 > [!NOTE] **Crossover Invariant:** choose an $O(n^2)$ sort when $n$ small (low overhead), nearly-sorted (insertion → $O(n)$), or writes dominate (selection's $\Theta(n)$ swaps); else $O(n\log n)$. All entries carry a $\times\,O(\text{CompEq})$ factor.
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -133,7 +130,6 @@ $$
 $$
 **Final Extracted Output:** worst case $= \Theta(n^2)$ for bubble/selection/insertion; bubble & insertion reach $O(n)$ best.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- Why must a correct sort satisfy *both* permutation and ordering?
 > - **Core Insight Requirement:** Recognise that ordering alone admits element-loss bugs.

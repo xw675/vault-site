@@ -34,7 +34,7 @@ as.character(y)    # [1] "8"   (type conversion)
 - **for / while** ➔ `for(i in 1:3) print(i^2)` → 1,4,9; a `while(i<=6)` loop with `i = i+1` prints squares.
 - **break vs next** ➔ in `for(i in 1:5)`, `if(i==3) break` prints 1,2; `if(i==3) next` prints 1,2,4,5.
 
-## 🥋 Kata (write from blank)
+## 🥋 Kata 
 > [!QUESTION]- Kata 1: Print the squares of 1..5 but **skip** 3, using a for loop.
 > > [!SUCCESS]- Reference solution
 > > ```r

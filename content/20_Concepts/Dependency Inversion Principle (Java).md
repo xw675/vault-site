@@ -58,7 +58,7 @@ classDiagram
   Dungeon --> "*" DungeonResident : residents
 ```
 
-## 🥋 Kata (write from blank)
+## 🥋 Kata
 > [!QUESTION]- Kata 1: A `Report` class `new`s a `MySQLDatabase` directly to save. Invert the dependency so it works with any store.
 > > [!SUCCESS]- Reference solution
 > > ```java

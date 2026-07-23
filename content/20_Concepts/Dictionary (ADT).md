@@ -23,7 +23,6 @@ tags: [CS/DataStructures, OOP/Python, CS/Abstraction]
 - **Tree-backed** ➔ balanced [[Binary Tree]] ➔ $O(\log n)$ keyed ops, **sorted key order** (range/successor, ordered iteration).
 - **Recurring choice** ➔ "$O(1)$ unordered vs $O(\log n)$ ordered".
 
----
 ## ⚙️ Core Implementation
 ### 🔹 Keyed operations
 > [!code]- `dict` usage
@@ -36,7 +35,6 @@ tags: [CS/DataStructures, OOP/Python, CS/Abstraction]
 > ```
 > 💡 **Exam Pitfall:** **Keys unique + hashable/comparable** ➔ hash map needs hashable, tree map needs comparable; a mutable-as-key whose hash/order changes after insertion is a classic bug.
 
----
 ## ⚖️ Core Decision Matrix
 | Operation | Hash map (expected) | Tree map (worst) |
 | :--- | :--- | :--- |
@@ -47,7 +45,6 @@ tags: [CS/DataStructures, OOP/Python, CS/Abstraction]
 
 > [!NOTE] **Crossover Invariant:** the hash map forfeits ordering for speed; the tree map keeps order at a $\log$ factor. Hash-map $O(1)$ is *expected* (good hashing) and *amortised* (rehash on growth) — adversarial keys degrade it to $O(n)$. A dictionary is a [[Set (ADT)]] *with values attached to each key* — same membership machinery.
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -71,7 +68,6 @@ k \in x &\Rightarrow \textbf{update} \text{ (overwrite value, keys unique)}
 $$
 **Final Extracted Output:** the unique-key invariant means the same syntax branches on membership — no duplicate keys ever coexist.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- You need range queries and ordered iteration — hash map or tree map, and what do you sacrifice?
 > - **Core Insight Requirement:** Order costs a log factor.

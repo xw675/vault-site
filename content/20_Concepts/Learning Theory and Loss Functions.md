@@ -33,7 +33,6 @@ $$
 \end{aligned}
 $$
 
----
 ## ⚖️ Core Decision Matrix
 | Term | Sign convention | Meaning |
 | :--- | :--- | :--- |

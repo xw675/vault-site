@@ -125,7 +125,7 @@ classDiagram
 ```
 *(Armour fields that always changed together are **Extracted** out of `Hero`; the `SavingsAccount` primitive soup is grouped into `Address` + `MedicareInfo`. Effect: ↓ **coupling** to raw fields, ↑ **cohesion** per class, ↑ **extensibility**.)*
 
-## 🥋 Kata (write from blank)
+## 🥋 Kata
 > [!QUESTION]- Kata 1: A `Customer` builds a phone string with `mobilePhone.getAreaCode()+getPrefix()+getNumber()`. Name the smell and refactor it.
 > > [!SUCCESS]- Reference solution
 > > ```java

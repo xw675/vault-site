@@ -32,7 +32,6 @@ tags: [Math/Relations, Math/Discrete, Monash/CS_DS]
 
 $$R(x)=\{y:x\,R\,y\},\qquad R^{-1}(y)=\{x:x\,R\,y\},\qquad y\,R^{-1}x\iff x\,R\,y$$
 
----
 ## ⚖️ Core Decision Matrix
 | Object | Constraint | Count ($m\times n$) |
 | :--- | :--- | :--- |
@@ -43,7 +42,6 @@ $$R(x)=\{y:x\,R\,y\},\qquad R^{-1}(y)=\{x:x\,R\,y\},\qquad y\,R^{-1}x\iff x\,R\,
 
 > [!NOTE] **Crossover Invariant:** relations model orders ($=,<,\le,\subseteq$), graph edges, and database rows; they are sets of pairs, so $R\cup S$, $R\cap S$ apply. The [[Function (Mathematics)]] is the single-valued, total specialisation.
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -59,7 +57,6 @@ $A=\{1,2,3\}$, $R=\{(1,2),(2,3),(1,3)\}$ ("$<$"):
 ## ⚠️ Pitfalls
 - 💡 **Inverse relation ≠ inverse function** ➔ $R^{-1}$ exists for *any* relation (swap pairs); it's a function only if $R$ is a bijection.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- Define a binary relation, and the extra constraint that makes one a function.
 > - **Core Insight Requirement:** Subset + functional constraint.

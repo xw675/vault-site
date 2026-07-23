@@ -33,7 +33,6 @@ aliases: [MongoDB, BSON, ObjectId, Embedded Document]
 - **Embedded (denormalised)** ➔ nest sub-documents inside the parent ➔ one read, no join.
 - **Reference (normalised)** ➔ store another document's ObjectId ➔ app-layer "join" (not engine-enforced).
 
----
 ## ⚙️ Core Implementation
 ### 🔹 Embedded document (drone with rental array)
 > [!code]- one document = DRONE + DRONE_TYPE + RENTAL rows
@@ -67,7 +66,6 @@ aliases: [MongoDB, BSON, ObjectId, Embedded Document]
 > ```
 > 💡 **Exam Pitfall:** **`JSON_ARRAYAGG` needs GROUP BY** ➔ it aggregates child rows (rentals) into one array per parent (drone); non-aggregated columns must be grouped.
 
----
 ## ⚖️ Core Decision Matrix
 | Approach | Store | Best when | Cost |
 | :--- | :--- | :--- | :--- |
@@ -76,7 +74,6 @@ aliases: [MongoDB, BSON, ObjectId, Embedded Document]
 
 > [!NOTE] **Crossover Invariant:** references mimic a [[Foreign Key and Referential Integrity|foreign key]] but are **not enforced** by the engine — integrity is the application's responsibility, unlike Oracle's referential integrity.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- When would you embed rental history in the drone document vs reference it in a separate collection?
 > - **Core Insight Requirement:** Read-together + change-independently.

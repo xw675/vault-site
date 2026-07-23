@@ -29,7 +29,6 @@ tags: [CS/Databases, SWE/Design, Monash/CS_DS]
 - **Conceptual** ➔ keep M:N; add a bridge **only when attributes** to record.
 - **Logical** ➔ **every** M:N resolved (relational DBs can't implement M:N).
 
----
 ## ⚙️ Core Implementation
 
 ### 🔹 ORDER–PRODUCT bridge
@@ -42,7 +41,6 @@ tags: [CS/Databases, SWE/Design, Monash/CS_DS]
 > $$\text{ORDER\_PRODUCT}(\underline{\text{orderno}}^{*}, \underline{\text{prodno}}^{*}, \text{op\_qtyordered}, \text{op\_lineprice})$$
 > 💡 **Exam Pitfall:** **Composite key needs both parents** ➔ to find one line's `op_qtyordered` you need *both* orderno and prodno (e.g. order 61384, product M128).
 
----
 ## ⚖️ Core Decision Matrix
 | Stage | M:N handling | Trigger |
 | :--- | :--- | :--- |
@@ -53,7 +51,6 @@ tags: [CS/Databases, SWE/Design, Monash/CS_DS]
 
 > [!NOTE] **Crossover Invariant:** the bridging entity inherits **both** parents' keys, so it joins them by two identifying relationships and is itself a weak entity. A bridge table is an [[n-ary Relation]] over the parents' keys.
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -77,7 +74,6 @@ $$
 $$
 **Final Extracted Output:** two 1:M (STUDENT makes ENROLMENT, UNIT has ENROLMENT); composite key holds the attributes.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- What problem does an associative entity solve, and how is its key formed?
 > - **Core Insight Requirement:** Attributes on an M:N.

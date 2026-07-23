@@ -28,7 +28,6 @@ tags: [CS/DataStructures, OOP/Python, CS/Abstraction, CS/BitManipulation, CS/Com
 - **Word-parallel algebra** ➔ member/add/remove + `|`/`&`/`& ~` all **$O(1)$** per word.
 - **Type/size boundary** ➔ **positive integers only**; `__len__` = popcount $O(|\text{elems}|)$ (driven by largest value).
 
----
 ## ⚙️ Core Implementation
 ### 🔹 ArraySet — linear scan, swap-with-last delete
 > [!code]- `ArraySet(Set[T])`
@@ -67,7 +66,6 @@ tags: [CS/DataStructures, OOP/Python, CS/Abstraction, CS/BitManipulation, CS/Com
 > ```
 > 💡 **Exam Pitfall:** **`__len__` is popcount $O(|\text{elems}|)$** ➔ governed by the largest value, not the count (a lone $10^6$ scans ~$10^6$ bits); use `int.bit_count()`/Kernighan, never a bit-by-bit loop.
 
----
 ## ⚖️ Core Decision Matrix
 | Variant / Strategy | Trigger Condition | member / add / remove | union / ∩ / ∖ | `__len__` | Element types |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -79,7 +77,6 @@ tags: [CS/DataStructures, OOP/Python, CS/Abstraction, CS/BitManipulation, CS/Com
 
 > [!NOTE] **Crossover Invariant:** ArraySet and BVSet are exact inverses (any-type/$O(1)$-size vs ints-only/$O(1)$-membership). BVSet's $O(1)$ union is really $O(\lceil u/64\rceil)$ — a ~64× constant-factor speedup, valid only for integer universes that aren't enormous/sparse.
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -105,7 +102,6 @@ $$
 $$
 **Final Extracted Output:** `add` $\Theta(N)$ (no-duplicates check), `remove` $O(1)$ (swap-with-last in an unordered set).
 
----
 ## 🧠 Active Recall
 > [!FAQ]- The same Set ADT yields $O(1)$ on one implementation and $O(N)$ on another — state the design lesson.
 > - **Core Insight Requirement:** Separate interface from cost.

@@ -33,7 +33,6 @@ $$\mathrm{Pr}(A\mid B)=\frac{\mathrm{Pr}(A\cap B)}{\mathrm{Pr}(B)},\qquad \mathr
 
 > [!NOTE] **Crossover Invariant:** independence ⟺ $\mathrm{Pr}(A\mid B)=\mathrm{Pr}(A)$ ⟺ $\mathrm{Pr}(A\cap B)=\mathrm{Pr}(A)\mathrm{Pr}(B)$; the symmetric multiplication rule yields [[Bayes' Theorem]].
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -49,7 +48,6 @@ Scrabble: $\mathrm{Pr}(\text{vowel})=0.42$, $\mathrm{Pr}(\text{non-blank})=0.98$
 ## ⚠️ Pitfalls
 - 💡 **Numerator is $A\cap B$, not $A$** ➔ $\mathrm{Pr}(X)/\mathrm{Pr}(B)$ only when $X\subseteq B$; otherwise use $A\cap B$. Conditioning on an impossible event is undefined.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- Define $\mathrm{Pr}(A\mid B)$ and justify the division by $\mathrm{Pr}(B)$.
 > - **Core Insight Requirement:** Renormalise on $B$.

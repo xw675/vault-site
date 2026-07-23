@@ -29,7 +29,6 @@ aliases: [2NF]
 
 > [!NOTE] **Crossover Invariant:** partial dependencies are judged against **any** candidate key (general definition), not only the chosen PK. The ENROLMENT example produced two new relations (STUDENT, UNIT) from two partial dependencies.
 
----
 ## 📊 Exam Execution Trace
 
 ### Applied Exercise
@@ -46,7 +45,6 @@ $$
 ## ⚠️ Pitfalls
 - 💡 **Single-attribute keys are automatically 2NF** ➔ no "part" to depend on; PART (key part_no) had no partial dependency and is unchanged.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- Give the 2NF condition (general definition) and the 1NF→2NF steps.
 > - **Core Insight Requirement:** Full dependence on a candidate key.

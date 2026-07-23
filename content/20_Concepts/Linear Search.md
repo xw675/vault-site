@@ -25,7 +25,6 @@ tags: [CS/Algorithms, CS/Search, CS/Complexity]
 - **Reference matters** ➔ `naive(k)` guessing $1..k$ is $O(k)$ in the *value* but $O(2^n)$ in its *bit-length* $n$ ($k=2^n$).
 - **Lesson** ➔ always state complexity *relative to input size* — "linear" is meaningless without naming the reference.
 
----
 ## ⚙️ Core Implementation
 ### 🔹 `linear_search` (sequential scan)
 > [!code]- scan any iterable
@@ -38,7 +37,6 @@ tags: [CS/Algorithms, CS/Search, CS/Complexity]
 > ```
 > 💡 **Exam Pitfall:** **"Linear" needs a reference** ➔ `naive(k)` looks $O(k)$ but is $O(2^n)$ in the bit-size $n$ of $k$ — complexity is only meaningful relative to input *size*, not value.
 
----
 ## ⚖️ Core Decision Matrix
 | Search | Time (worst) | Precondition | Structure |
 | :--- | :--- | :--- | :--- |
@@ -48,7 +46,6 @@ tags: [CS/Algorithms, CS/Search, CS/Complexity]
 
 > [!NOTE] **Crossover Invariant:** binary/hash search beat linear asymptotically, but linear is the *only* option when data is unsorted **or** lacks $O(1)$ random access (linked structures). For one-off searches on tiny/unsorted data, linear's $O(1)$ setup wins over sorting first ($O(n\log n)$).
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -72,7 +69,6 @@ T(n) &= T(n-1) + O(1),\quad T(0)=O(1) \\
 $$
 **Final Extracted Output:** worst/average $O(n)$ — one comparison per element, no shortcut without a precondition.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- When is linear search the *right* choice despite being $O(n)$ vs binary's $O(\log n)$?
 > - **Core Insight Requirement:** Preconditions and setup cost.

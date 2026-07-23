@@ -36,7 +36,7 @@ plt.show()
 - **Report the fit** ➔ `print('slope %f intercept %f' % (slope, intercept)); print('r %f' % r_value)`.
 - **Predict one point** ➔ `slope*70 + intercept` — but only trust it where the relationship is actually linear.
 
-## 🥋 Kata (write from blank)
+## 🥋 Kata
 > [!QUESTION]- Kata 1: Fit Age → Runs for a players DataFrame, print the slope and r-value, and plot the line over the data.
 > > [!SUCCESS]- Reference solution
 > > ```python

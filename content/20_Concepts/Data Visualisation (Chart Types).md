@@ -34,7 +34,6 @@ aliases: [Data Visualisation, Histogram, Bar Chart, Pie Chart, Motion Chart]
 - **Five dimensions** ➔ x-axis, y-axis, bubble **size**, bubble **colour**, and **time**.
 - **Trade-off** ➔ + deep trends, good for exploration, intuitive; − not for static media, controls complex/overwhelming.
 
----
 ## ⚖️ Core Decision Matrix
 | Data type | Charts | Note |
 | :--- | :--- | :--- |
@@ -45,7 +44,6 @@ aliases: [Data Visualisation, Histogram, Bar Chart, Pie Chart, Motion Chart]
 
 > [!NOTE] **Crossover Invariant:** a **histogram** and a **bar chart** look alike but differ by data type — histograms bin *continuous* numeric data (bars touch, order matters), bar charts show *categorical* counts (bars separate, order free).
 
----
 ## 📊 Exam Execution Trace
 
 ### Applied Exercise
@@ -59,7 +57,6 @@ w &= \frac{\max-\min}{K} = \frac{100-0}{20} = 5 \\
 $$
 **Final Extracted Output:** width $5$; $y=47$ falls in bin 10 (the 45–50 interval).
 
----
 ## 🧠 Active Recall
 > [!FAQ]- A histogram and a bar chart look identical — what actually distinguishes them?
 > - **Core Insight Requirement:** Continuous vs categorical.

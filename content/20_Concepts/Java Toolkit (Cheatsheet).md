@@ -124,7 +124,7 @@ int[] a = new int[5];  int[] b = {1,2,3};    // .length, 0-based
 | **Long method / God class** | **Extract Method / Extract Class** (SRP) |
 *(Full catalogue: [[Design Smells (Java)]]; discipline: [[Refactoring (Java)]].)*
 
-## 🥋 Integration Katas (≥3 tools each — write from blank)
+## 🥋 Integration Katas
 > [!QUESTION]- Kata 1: Model `Pet` so cats/dogs each make their own sound, with a factory that builds one from a `String` code, and no `switch(type)` anywhere. (uses: abstract class + polymorphism + Factory Method + collections)
 > > [!SUCCESS]- Reference solution
 > > ```java

@@ -33,7 +33,6 @@ tags: [CS/DataStructures, OOP/Python, CS/Abstraction, CS/Complexity]
 - **`rear` payoff** ➔ tail-append $O(1)$ (vs $O(n)$ for a plain [[List (ADT)|LinkList]]); unbounded, no wrap logic.
 - **Invariant** ➔ `front is None` ⇔ `rear is None`; the two empty-boundary transitions must keep both in sync.
 
----
 ## ⚙️ Core Implementation
 ### 🔹 Abstract Base — the contract
 > [!code]- `Queue(ABC, Generic[T])`
@@ -104,7 +103,6 @@ tags: [CS/DataStructures, OOP/Python, CS/Abstraction, CS/Complexity]
 > ```
 > 💡 **Exam Pitfall:** **Empty-boundary transitions** ➔ append-to-empty must set `front` too; serve-the-last must reset `rear = None`, preserving `front is None ⇔ rear is None`.
 
----
 ## ⚖️ Core Decision Matrix
 | Variant / Strategy | Trigger Condition | Advantage (Pro) | Disadvantage (Con) / Complexity Bound | Cache / Memory Impact |
 | :--- | :--- | :--- | :--- | :--- |
@@ -114,7 +112,6 @@ tags: [CS/DataStructures, OOP/Python, CS/Abstraction, CS/Complexity]
 
 > [!NOTE] **Crossover Invariant:** circular = linear's $O(1)$ **without** the space leak (used in network rings, audio buffers, OS run-queues); choose **linked** only when size is genuinely unbounded — doubly-link for an $O(1)$ deque, Michael–Scott CAS for lock-free concurrency.
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -144,7 +141,6 @@ $$
 $$
 **Final Extracted Output:** fullness requires a `length` counter (or the sacrifice-a-slot trick), not a position test.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- Why does an array-backed queue need two indices while a stack needs one, and what problem does that create?
 > - **Core Insight Requirement:** Connect "both ends move" to the wasted-space flaw.

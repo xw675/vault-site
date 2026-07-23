@@ -30,7 +30,6 @@ aliases: [Bernoulli Trial, Bernoulli Distribution]
 - **$\mathrm{Var}(Z)=np(1-p)$** ➔ variances add only under [[Independent Events|independence]]; $\sigma=\sqrt{np(1-p)}$.
 - **Approximation** ➔ large $n$, small $np$ ⟹ [[Poisson Distribution|Poisson]]($np$).
 
----
 ## 📊 Exam Execution Trace & Applied Exercises
 
 ### 1. Manual Execution Trace Layout
@@ -48,7 +47,6 @@ $Z\sim\mathrm{Bin}(4,\tfrac12)$:
 - 💡 **Linearity needs no independence, variance does** ➔ $E=np$ always holds; $\mathrm{Var}=np(1-p)$ requires independent trials.
 - 💡 **Renaming success swaps $p\leftrightarrow1-p$** ➔ which outcome is "success" is a modelling choice; keep it fixed through the calculation.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- Derive the binomial pmf $\binom{n}{k}p^k(1-p)^{n-k}$.
 > - **Core Insight Requirement:** One sequence × count.

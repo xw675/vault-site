@@ -25,7 +25,6 @@ tags: [CS/Algorithms, OOP/Python, CS/Complexity]
 - **Distinct subproblems** ➔ two calls per level (like naive [[Recursion|Fibonacci]]), but they use **different pegs**.
 - **No memoisation** ➔ $2^n-1$ moves are genuinely required **output**; space is $\Theta(n)$ (one live path), not $\Theta(2^n)$.
 
----
 ## ⚙️ Core Implementation
 ### 🔹 `tower_Hanoi` (binary, direct recursion)
 > [!code]- recursive disc moves
@@ -41,7 +40,6 @@ tags: [CS/Algorithms, OOP/Python, CS/Complexity]
 > ```
 > 💡 **Exam Pitfall:** **Exponential time/output ≠ exponential space** ➔ the call tree has $2^n-1$ nodes but only one path is live, so stack is $\Theta(n)$; an iterative version emits the identical sequence with $\Theta(1)$ control state.
 
----
 ## ⚖️ Core Decision Matrix
 | Aspect | Tower of Hanoi | naive [[Recursion|Fibonacci]] |
 | :--- | :--- | :--- |
@@ -53,7 +51,6 @@ tags: [CS/Algorithms, OOP/Python, CS/Complexity]
 
 > [!NOTE] **Crossover Invariant:** vs [[Divide and Conquer]] — Hanoi divides into two subproblems + a $\Theta(1)$ combine, but the subproblems are size $n-1$ (not $n/2$), hence exponential not log-linear.
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -81,7 +78,6 @@ T(n) &= 2T(n-1)+1 = 2^{n-1}+2^{n-2}+\dots+1 \\
 $$
 **Final Extracted Output:** exactly $2^n-1$ moves — the provable minimum for 3 pegs (Q.E.D.).
 
----
 ## 🧠 Active Recall
 > [!FAQ]- Derive the exact move count and prove it is optimal.
 > - **Core Insight Requirement:** Recurrence + a matching lower bound.

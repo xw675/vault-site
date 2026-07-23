@@ -24,7 +24,6 @@ aliases: [Client-Supplier, Composition, has-a, Coupling]
 - **Information hiding** ➔ `MealMachine` calls `coffee.serve()` without knowing *how* `serve()` works — only its signature.
 - **Coupling** ➔ the client depends on the supplier's **public interface**; keep that interface small/stable to keep coupling **loose**.
 
----
 ## ⚙️ Core Implementation
 ### 🔹 MealMachine (client of Coffee & Bread)
 > [!code]- classDiagram + Java
@@ -57,7 +56,6 @@ aliases: [Client-Supplier, Composition, has-a, Coupling]
 
 > [!NOTE] **Crossover Invariant:** measure this design on coupling (how many suppliers, how much of each interface it uses), **cohesion** (does `MealMachine` do one job?), **extensibility** (could a new meal item slot in without editing `MealMachine` much?). Loose coupling to small interfaces is the goal.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- What must a client know about its supplier, and what must it *not* need to know?
 > > [!SUCCESS]- Answer

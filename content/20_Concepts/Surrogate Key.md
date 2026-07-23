@@ -25,7 +25,6 @@ tags: [CS/Databases, SWE/Design, Monash/CS_DS]
 - **Manual add** ➔ new PK attribute (`et_no`); don't use a modeller's auto option.
 - **Former composite → attributes** ➔ enforce **UNIQUE (NOT NULL)** on the natural key.
 
----
 ## ⚙️ Core Implementation
 
 ### 🔹 EMPLOYEE_TRAINING with surrogate
@@ -41,7 +40,6 @@ tags: [CS/Databases, SWE/Design, Monash/CS_DS]
 > ```
 > 💡 **Exam Pitfall:** **Keep the natural key as UNIQUE** ➔ without it, the same employee could record the same training on the same date twice — violating the business rules the [[Normalisation]] captured.
 
----
 ## ⚖️ Core Decision Matrix
 | Aspect | Natural PK | Surrogate PK |
 | :--- | :--- | :--- |
@@ -52,7 +50,6 @@ tags: [CS/Databases, SWE/Design, Monash/CS_DS]
 
 > [!NOTE] **Crossover Invariant:** the natural key encodes the [[Normalisation]] rules, so it must be kept and enforced; the surrogate only replaces it *as the PK*, not the rule. Added at the **end** of logical design, after 3NF and ER mapping.
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -76,7 +73,6 @@ $$
 $$
 **Final Extracted Output:** a UNIQUE (NOT NULL) constraint on the natural key preserves the business rule.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- What is a surrogate key, when may it be added, and why?
 > - **Core Insight Requirement:** Simplify composite keys.

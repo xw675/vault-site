@@ -50,7 +50,7 @@ stateDiagram-v2
 
 - **Order is free** ➔ any rule may be applied to any eligible edge; the resulting NFAs differ in shape but all recognise the same language.
 
-## 🥋 Kata (write from blank)
+## 🥋 Kata
 > [!QUESTION]- Kata: Convert $\mathtt{a}(\mathtt{aa}\cup\mathtt{bb})^{*}\mathtt{b}$ into an NFA with only letter/$\varepsilon$ labels.
 > > [!SUCCESS]- Reference solution
 > > 1. **Concatenation** ⟹ three edges in series: $\mathtt{a}$, then $(\mathtt{aa}\cup\mathtt{bb})^{*}$, then $\mathtt{b}$.

@@ -26,7 +26,6 @@ tags: [CS/DataStructures, CS/Complexity, Math/GraphTheory]
 - **Unrooted tree** ➔ a connected acyclic [[Graph|graph]] ➔ the **minimal connected** graph.
 - **Named theorems** ➔ **(T1)** tree iff minimal connected | **(T2)** $\ge2$ vertices ⟹ a **leaf** (degree-1) | **(T3)** $n$ vertices ⟹ $n-1$ edges (by [[Mathematical Induction|induction]]).
 
----
 ## ⚙️ Core Implementation
 *Recursion is natural:* a tree is a node plus subtrees, so [[Recursion]] / structural induction is the standard tool. A *trie* (prefix tree) shares common prefixes (`ta`→`table`/`tap`).
 
@@ -40,7 +39,6 @@ tags: [CS/DataStructures, CS/Complexity, Math/GraphTheory]
 > ```
 > 💡 **Exam Pitfall:** **Empty tree returns −1** ➔ so a single node has height 0; operation cost follows a root-to-node path bounded by the height — self-balancing is the entire performance story.
 
----
 ## ⚖️ Core Decision Matrix
 *A graph $G=(V,E)$ is a tree iff **any one** equivalent condition holds:*
 
@@ -54,7 +52,6 @@ tags: [CS/DataStructures, CS/Complexity, Math/GraphTheory]
 
 > [!NOTE] **Crossover Invariant:** trees are the **minimal connected** graphs ➔ they underlie **spanning trees** (Prim/Kruskal). Cost is $O(\text{height})$: balanced $O(\log n)$, degenerate "stick" $O(n)$ — no better than a [[List (ADT)|LinkList]] (a degenerate tree, one child per node).
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -79,7 +76,6 @@ $$
 $$
 **Final Extracted Output:** $\lvert E\rvert = \lvert V\rvert - 1$ — trees are the minimal connected graphs (Q.E.D.).
 
----
 ## 🧠 Active Recall
 > [!FAQ]- Give three equivalent definitions of a tree on $\lvert V\rvert$ vertices and explain why they imply $\lvert E\rvert = \lvert V\rvert - 1$.
 > - **Core Insight Requirement:** Equivalent characterisations + the edge count.

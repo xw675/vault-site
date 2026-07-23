@@ -71,7 +71,7 @@ class Child extends Parent {
 - **`final` blocks inheritance** ➔ [[Static and Final (Java)|`final class`]] can't be extended; a `final` method can't be overridden.
 - **Implicit constructor chaining** ➔ if a child constructor omits `super(...)`, Java inserts a call to the **no-arg** `super()`; a class with no constructor gets a default one that just calls `super()`.
 
-## 🥋 Kata (write from blank)
+## 🥋 Kata
 > [!QUESTION]- Kata 1: `Vehicle` stores a `private int registration` set in its constructor. Write `Car extends Vehicle` adding a `private String brand`, whose constructor takes `(int rego, String brand)` and initialises both.
 > > [!SUCCESS]- Reference solution
 > > ```java

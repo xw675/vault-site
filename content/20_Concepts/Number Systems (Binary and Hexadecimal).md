@@ -40,7 +40,7 @@ aliases: [Binary Numbers, Hexadecimal, Base Conversion]
 | 4 | $2^3$ | $1+0$ | $1$ | $0$ |
 **Result:** $1110_2 = 14_{10}$ ✓ ($9+5$).
 
-## 🥋 Kata (write from blank)
+## 🥋 Kata 
 > [!QUESTION]- (a) Convert $174_{10}$ to binary and hex. (b) How many different values can 6 bits represent, and what is the largest? (c) Add $10111_2 + 1101_2$.
 > > [!SUCCESS]- Answer
 > > - (a) $174 = 10101110_2 = AE_{16}$ (check: $128{+}32{+}8{+}4{+}2 = 174$).

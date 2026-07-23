@@ -31,7 +31,6 @@ tags: [Math/Probability, Math/Discrete, Monash/CS_DS]
 $$A\cap B=\emptyset \Rightarrow \mathrm{Pr}(A\sqcup B)=\mathrm{Pr}(A)+\mathrm{Pr}(B)$$
 $$\mathrm{Pr}(A_1\sqcup\cdots\sqcup A_n)=\sum_i\mathrm{Pr}(A_i)$$
 
----
 ## ⚖️ Core Decision Matrix
 | Relation | Joint | Rule |
 | :--- | :--- | :--- |
@@ -42,7 +41,6 @@ $$\mathrm{Pr}(A_1\sqcup\cdots\sqcup A_n)=\sum_i\mathrm{Pr}(A_i)$$
 
 > [!NOTE] **Crossover Invariant:** this is the [[Counting Principles|Addition Principle]] for measures — disjoint "or" adds, mirroring $|A\sqcup B|=|A|+|B|$. "Separate on a Venn diagram" ≠ independent; disjoint positive-probability events are in fact dependent.
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -58,7 +56,6 @@ Two dice, total $\le5$ or $\ge10$:
 ## ⚠️ Pitfalls
 - 💡 **Add only when disjoint** ➔ $\mathrm{Pr}(A\cup B)=\mathrm{Pr}(A)+\mathrm{Pr}(B)$ iff $A\cap B=\emptyset$; else subtract $\mathrm{Pr}(A\cap B)$.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- When is $\mathrm{Pr}(A\cup B)=\mathrm{Pr}(A)+\mathrm{Pr}(B)$, and how does it define probability itself?
 > - **Core Insight Requirement:** Disjoint additivity.

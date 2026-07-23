@@ -23,7 +23,6 @@ tags: [CS/DataStructures, CS/Abstraction]
 - **Other axes** ➔ strong vs weak coercion | primitive (`int`) vs composite (`list`) | **value** (copied) vs **reference** (shared) semantics.
 - **Type safety** ➔ prevents applying an operation to an incompatible value.
 
----
 ## ⚙️ Core Implementation
 ### 🔹 Values, operations, implementation
 > [!code]- data types in Python
@@ -34,7 +33,6 @@ tags: [CS/DataStructures, CS/Abstraction]
 > ```
 > 💡 **Exam Pitfall:** **Value vs reference semantics** ➔ value copies on assignment (mutation can't affect the original); reference shares the object (mutation affects all names) — the classic Python-mutable-aliasing bug.
 
----
 ## ⚖️ Core Decision Matrix
 | Concept | Values + meaning | Operations | Implementation |
 | :--- | :--- | :--- | :--- |
@@ -44,7 +42,6 @@ tags: [CS/DataStructures, CS/Abstraction]
 
 > [!NOTE] **Crossover Invariant:** complexity follows implementation — the same ADT realised as different data types has different costs (the implementation is what a data type adds). Static-vs-dynamic trade-off: early error detection + optimisation vs flexibility + development speed.
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -69,7 +66,6 @@ $$
 $$
 **Final Extracted Output:** a data type is positioned by checking-time, coercion strength, and assignment semantics.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- In the unit's terms, distinguish an ADT, a data type, and a data structure, and place `list` in each role.
 > - **Core Insight Requirement:** Three rungs of the abstraction ladder.

@@ -26,7 +26,6 @@ aliases: [Data Science, Drew Conway Venn Diagram]
 - **Centre** ➔ all three overlap = **data science**.
 - **Applied** ➔ Microsoft traffic forecasting, iOS predictive text, Google Translate, Amazon recommender, health/saturated-fat studies.
 
----
 ## ⚖️ Core Decision Matrix
 | Overlap | Region | Note |
 | :--- | :--- | :--- |
@@ -37,7 +36,6 @@ aliases: [Data Science, Drew Conway Venn Diagram]
 
 > [!NOTE] **Crossover Invariant:** the danger zone is dangerous precisely *because* it omits maths/stats — results appear legitimate with no understanding of how they were produced; data science needs **all three** skill sets together.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- Why is "data science is what a data scientist does" a bad definition, and what is a better one?
 > - **Core Insight Requirement:** Circular vs substantive.

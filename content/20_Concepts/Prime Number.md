@@ -28,7 +28,6 @@ tags: [Math/NumberTheory, Math/Discrete, Monash/CS_DS]
 - **Uniqueness** ➔ Fundamental Theorem of Arithmetic (stronger, later).
 - **$1$ excluded** ➔ admitting it wrecks unique factorisation.
 
----
 ## ⚖️ Core Decision Matrix
 | Concept | About | Test difficulty |
 | :--- | :--- | :--- |
@@ -39,7 +38,6 @@ tags: [Math/NumberTheory, Math/Discrete, Monash/CS_DS]
 
 > [!NOTE] **Crossover Invariant:** primality is a property of *one* number; coprimality a relation between *two*. Testing coprimality is easy; testing primality is harder and *factorising* harder still — the gap cryptography depends on.
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -55,7 +53,6 @@ Factoring 84:
 ## ⚠️ Pitfalls
 - 💡 **Existence ≠ uniqueness** ➔ this proves a factorisation *exists*; that it is *unique* is the Fundamental Theorem, proved separately.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- Prove every integer $\ge2$ is a product of primes, and why *strong* induction is needed.
 > - **Core Insight Requirement:** Factor into smaller parts.

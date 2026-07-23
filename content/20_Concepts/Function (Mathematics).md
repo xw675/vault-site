@@ -32,7 +32,6 @@ tags: [Math/Functions, Math/Discrete, Monash/CS_DS]
 $$f:\text{domain}\to\text{codomain},\qquad x\mapsto f(x); \qquad f:\mathbb R\to\mathbb R,\ x\mapsto x^2$$
 $$\text{graph}(f)=\{(x,f(x)):x\in\text{dom}(f)\}\subseteq\text{dom}(f)\times\text{codomain}$$
 
----
 ## ⚖️ Core Decision Matrix
 | Aspect | Requirement | Consequence |
 | :--- | :--- | :--- |
@@ -43,7 +42,6 @@ $$\text{graph}(f)=\{(x,f(x)):x\in\text{dom}(f)\}\subseteq\text{dom}(f)\times\tex
 
 > [!NOTE] **Crossover Invariant:** a function is the **triple** (domain, codomain, rule), not the rule alone — same formula on different domains gives different functions. The rule ($x\mapsto x^2$) is the *what*; an algorithm is the *how*.
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -59,7 +57,6 @@ $f:\{1,2,3\}\to\mathbb Z$, $f(x)=2x-1$:
 ## ⚠️ Pitfalls
 - 💡 **$\to$ links sets, $\mapsto$ links elements** ➔ $A\to B$ is a signature; $x\mapsto f(x)$ maps one element to its value — not interchangeable.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- Why are two functions with identical rules but different domains different functions?
 > - **Core Insight Requirement:** Function = triple.

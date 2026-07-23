@@ -43,7 +43,7 @@ aliases: [Two's Complement, Sign and Magnitude, Ones' Complement, Overflow]
 | 1's complement | flip all bits | **two** | medium | $-(2^{n-1}{-}1) \dots 2^{n-1}{-}1$ |
 | **2's complement** | flip + add 1 | one | long addition works | $-2^{n-1} \dots 2^{n-1}{-}1$ |
 
-## 🥋 Kata (write from blank)
+## 🥋 Kata 
 > [!QUESTION]- Using 4 bits: (a) write $-6$ in 2's complement; (b) compute $(-6) + (+3)$ and state whether it overflows; (c) compute $(+5) + (+4)$ and state whether it overflows.
 > > [!SUCCESS]- Answer
 > > - (a) $6 = 0110 \to$ flip $1001 \to +1 = 1010 = -6$.

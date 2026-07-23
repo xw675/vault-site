@@ -31,7 +31,6 @@ tags: [Math/Probability, Math/Discrete, Monash/CS_DS]
 $$\mathrm{Pr}(A\cap B)=\mathrm{Pr}(A)\mathrm{Pr}(B)$$
 $$\text{series: } p\cdot p=p^2;\qquad \text{parallel: } 1-(1-p)^2=2p-p^2$$
 
----
 ## ⚖️ Core Decision Matrix
 | Structure | Survival | Method |
 | :--- | :--- | :--- |
@@ -42,7 +41,6 @@ $$\text{series: } p\cdot p=p^2;\qquad \text{parallel: } 1-(1-p)^2=2p-p^2$$
 
 > [!NOTE] **Crossover Invariant:** probability is multiplicative over independent intersections (as it is additive over disjoint unions) — the tool for decomposing a complex event into independent pieces; the complement route is quickest for "at least one".
 
----
 ## 📊 Exam Execution Trace
 
 ### Applied Exercise
@@ -59,7 +57,6 @@ $$
 ## ⚠️ Pitfalls
 - 💡 **Independent ≠ mutually exclusive** ➔ disjoint positive-probability events are *dependent* ($0\neq\mathrm{Pr}(A)\mathrm{Pr}(B)$); "separate on a Venn diagram" is not independence.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- Define independence and why mutually exclusive events (positive probability) are never independent.
 > - **Core Insight Requirement:** Product vs zero.

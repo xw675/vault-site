@@ -32,7 +32,6 @@ $$\text{STUDENT}(\underline{\text{StudentID}}, \text{Email}, \text{Name}, \text{
 $$\text{super keys}: \{\text{StudentID}\}, \{\text{Email}\}, \{\text{StudentID}, \text{Email}\}, \{\text{Email}, \text{DOB}\}, \dots$$
 $$\text{candidate keys (minimal)}: \{\text{StudentID}\}, \{\text{Email}\}$$
 
----
 ## ⚖️ Core Decision Matrix
 | Set | Unique? | Minimal? | Type |
 | :--- | :--- | :--- | :--- |
@@ -43,7 +42,6 @@ $$\text{candidate keys (minimal)}: \{\text{StudentID}\}, \{\text{Email}\}$$
 
 > [!NOTE] **Crossover Invariant:** keys are maximal [[Functional Dependency|functional dependencies]] — a super key determines all attributes, a CK is a minimal determinant. Design procedure: super keys → candidate keys → [[Primary Key]]. Minimality echoes the FIT1058 [[Subset and Superset|minimal-set]] idea.
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -59,7 +57,6 @@ Classifying STUDENT sets:
 ## ⚠️ Pitfalls
 - 💡 **The full attribute set is always a super key** ➔ tuples are unique ([[Relation Properties]]); candidate keys are only the *minimal* ones.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- Distinguish a super key from a candidate key, with the STUDENT example.
 > - **Core Insight Requirement:** Minimality.

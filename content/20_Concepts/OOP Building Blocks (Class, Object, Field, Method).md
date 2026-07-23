@@ -27,7 +27,6 @@ aliases: [Class, Object, Field, Attribute, Method, Instance]
 ### 3. Methods (Behaviours)
 - **Method/behaviour** ➔ an **action** an object can perform — update or return its data (`serveCoffee()`).
 
----
 ## ⚙️ Core Implementation
 ### 🔹 CoffeeMachine
 > [!code]- classDiagram + Java
@@ -54,7 +53,6 @@ aliases: [Class, Object, Field, Attribute, Method, Instance]
 
 > [!NOTE] **Crossover Invariant:** the class file name **must** match the class name ([[Java Program Structure]]); each object gets its own copy of the fields, so two `CoffeeMachine`s can hold different `brand` values while sharing the one `serveCoffee()` behaviour.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- Distinguish class, object, field, and method with the coffee-machine example.
 > > [!SUCCESS]- Answer

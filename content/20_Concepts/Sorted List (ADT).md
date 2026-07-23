@@ -23,7 +23,6 @@ tags: [CS/DataStructures, OOP/Python, CS/Abstraction, CS/Complexity]
 - **Distinctive ops** ➔ `index` via [[Binary Search]] ($O(\log n)$) | `add` = find slot $O(\log n)$ + shift $O(n)$.
 - **Shift dominates** ➔ `add` is $\Theta(n)$ unless the item belongs at the very end.
 
----
 ## ⚙️ Core Implementation
 ### 🔹 SortedArrayList — binary-search `index`, shift-on-`add`
 > [!code]- `index` (binary search) + `add`
@@ -44,7 +43,6 @@ tags: [CS/DataStructures, OOP/Python, CS/Abstraction, CS/Complexity]
 > ```
 > 💡 **Exam Pitfall:** **$\log n$ search win is masked in `add`** ➔ the $\Theta(n)$ shift dominates; `add` is $O(\log n)$ only when the item lands at the end.
 
----
 ## ⚖️ Core Decision Matrix
 | Variant / Strategy | `index` (search) | `add` | Ordered iteration | Cache / Note |
 | :--- | :--- | :--- | :--- | :--- |
@@ -54,7 +52,6 @@ tags: [CS/DataStructures, OOP/Python, CS/Abstraction, CS/Complexity]
 
 > [!NOTE] **Crossover Invariant:** the array can't make `add` cheap ($O(\log n)$ find but $O(n)$ shift); the sorted linked list is the inverse (slow find, fast splice). Only a **balanced [[Binary Tree]]** links a node in place ➔ $O(\log n)$ insert *and* search.
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -79,7 +76,6 @@ $$
 $$
 **Final Extracted Output:** `add` $= \Theta(n)$ in general — the contiguous-block shift, not the search, is the bottleneck.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- Why is a SortedList modelled as a *separate* abstract class rather than a subclass of List?
 > - **Core Insight Requirement:** Recognise the broken Liskov substitution.

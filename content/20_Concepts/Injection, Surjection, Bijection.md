@@ -31,7 +31,6 @@ tags: [Math/Functions, Math/Discrete, Monash/CS_DS]
 $$\textbf{Injective: } f(x_1)=f(x_2)\Rightarrow x_1=x_2$$
 $$\textbf{Surjective: } \forall y\in B\ \exists x\in A:\ f(x)=y \iff \text{Image}(f)=B$$
 
----
 ## ⚖️ Core Decision Matrix
 | Map | Injective? | Surjective? | Note |
 | :--- | :--- | :--- | :--- |
@@ -42,7 +41,6 @@ $$\textbf{Surjective: } \forall y\in B\ \exists x\in A:\ f(x)=y \iff \text{Image
 
 > [!NOTE] **Crossover Invariant:** for finite $f:A\to A$, injective ⟺ surjective ⟺ bijective — no repeats among $\lvert A\rvert$ outputs fills all $\lvert A\rvert$ slots, and vice versa. Infinite sets have "room" to be one without the other.
 
----
 ## 📊 Exam Execution Trace
 
 ### Applied Exercise
@@ -59,7 +57,6 @@ $$
 ## ⚠️ Pitfalls
 - 💡 **Surjectivity is codomain-relative** ➔ the same rule can be onto a tight codomain but not a larger one; injective ⟹ inverse on the image, bijective ⟹ inverse on the whole codomain.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- Give the formal definitions of injective and surjective, and explain "lossless" vs "lossy".
 > - **Core Insight Requirement:** Distinct outputs / full image.

@@ -34,7 +34,7 @@ x[1:3]                      # "Jan" "Feb" "Mar"    (range)
 - **Element-wise ops** ➔ `v1 * v2`, `v1 + v2`, etc., require equal length; each position is computed independently.
 - **NA detection** ➔ `is.na(c("Java", NA, "R", NA))` → `FALSE TRUE FALSE TRUE`.
 
-## 🥋 Kata (write from blank)
+## 🥋 Kata 
 > [!QUESTION]- Kata 1: Given `x <- c("Java", NA, "Python", "R", NA)`, check whether it has any missing values and flag which elements are missing.
 > > [!SUCCESS]- Reference solution
 > > ```r

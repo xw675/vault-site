@@ -33,7 +33,6 @@ $$e_{(k,k')}=e'_{k'}\circ e_k,\qquad d_{(k,k')}=d_k\circ d'_{k'}$$
 
 > [!NOTE] **Crossover Invariant:** security comes from hardness, not secrecy of method; cascading independently-hard layers is harder to break, but poorly chosen layers can **cancel** — more layers ≠ guaranteed stronger.
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -49,7 +48,6 @@ Caesar shift $k=3$ on $\mathbb Z_{26}$, "HAL" $=(7,0,11)$:
 ## ⚠️ Pitfalls
 - 💡 **Self-inverse cancels** ➔ a cipher with $e_k\circ e_k=i_M$ composed with the *same* key an even number of times returns the plaintext — repeating one key adds **no** security.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- State the cryptosystem axiom and why each $e_k$ must be a bijection.
 > - **Core Insight Requirement:** Invertible = bijective.

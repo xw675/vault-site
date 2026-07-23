@@ -35,7 +35,6 @@ $$\sigma_{\text{project\_code}=\text{'25-5A'}}(\text{PRDETAIL}) \quad(\text{rows
 $$\pi_{\text{project\_manager}}(\text{PRDETAIL}) \quad(\text{7 rows} \to \text{4 distinct})$$
 $$\pi_{\text{project\_manager}}\bigl(\sigma_{\text{project\_code}=\text{'25-5A'}}(\text{PRDETAIL})\bigr) = \{\text{George F. Dorts}\}$$
 
----
 ## ⚖️ Core Decision Matrix
 | Operator | Cuts | Duplicates |
 | :--- | :--- | :--- |
@@ -46,7 +45,6 @@ $$\pi_{\text{project\_manager}}\bigl(\sigma_{\text{project\_code}=\text{'25-5A'}
 
 > [!NOTE] **Crossover Invariant:** both are **unary** (single relation); combining relations needs joins/set operations. Select-then-project (filter rows, then narrow columns) is the natural, cheaper order the optimiser exploits. A σ predicate expresses FIT1058 [[Quantifiers (Existential and Universal)|logical conditions]].
 
----
 ## 📊 Exam Execution Trace
 
 ### Applied Exercise
@@ -63,7 +61,6 @@ $$
 ## ⚠️ Pitfalls
 - 💡 **PROJECT deduplicates, SELECT does not** ➔ π's result is a relation (no duplicates, [[Relation Properties]]); σ only drops non-matching rows.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- Contrast SELECT ($\sigma$) and PROJECT ($\pi$), and why does PROJECT remove duplicates?
 > - **Core Insight Requirement:** Rows vs columns.

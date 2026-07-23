@@ -27,7 +27,6 @@ tags: [Math/NumberTheory, CS/Algorithms, Monash/CS_DS]
 
 $$\gcd(174,48)=\gcd(48,\underbrace{30}_{174\bmod48})=\gcd(30,\underbrace{18}_{48\bmod30})=\gcd(18,\underbrace{12}_{30\bmod18})=\gcd(12,\underbrace{6}_{18\bmod12})=6$$
 
----
 ## ⚖️ Core Decision Matrix
 | Form | Step cost | When it hurts |
 | :--- | :--- | :--- |
@@ -37,7 +36,6 @@ $$\gcd(174,48)=\gcd(48,\underbrace{30}_{174\bmod48})=\gcd(30,\underbrace{18}_{48
 
 > [!NOTE] **Crossover Invariant:** the remainder form runs in $O(\log\min(a,b))$ divisions (worst case: consecutive [[Fibonacci Sequence|Fibonacci]] numbers). It is the standard test for [[Coprimality]] ($\gcd=1$) and, extended, computes [[Modular Inverse|modular inverses]].
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -54,7 +52,6 @@ $\gcd(252,198)$, iterating $(a,b)\to(b,\,a\bmod b)$:
 ## ⚠️ Pitfalls
 - 💡 **Keep going until $b\mid a$, don't stop at the first small remainder** ➔ the answer is the *last divisor*, not the last remainder; and record $q=\lfloor a/b\rfloor$ if the Bézout coefficients are wanted.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- Why is the remainder form faster than the subtraction form, and why does it terminate?
 > - **Core Insight Requirement:** One modulo = many subtractions; monotone decrease.

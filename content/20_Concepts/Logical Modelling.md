@@ -35,7 +35,6 @@ $$\neg\text{Hagrid}\vee\text{Norberta} \quad(\text{Hagrid only if Norberta})$$
 $$(\neg\text{Fred}\vee\text{George})\wedge(\text{Fred}\vee\neg\text{George}) \quad(\text{none or both})$$
 $$(\neg V\vee\neg B)\wedge(\neg V\vee\neg D)\wedge(\neg B\vee\neg D) \quad(\text{at most one of }V,B,D)$$
 
----
 ## ⚖️ Core Decision Matrix
 | Rule | Logical form | CNF |
 | :--- | :--- | :--- |
@@ -46,7 +45,6 @@ $$(\neg V\vee\neg B)\wedge(\neg V\vee\neg D)\wedge(\neg B\vee\neg D) \quad(\text
 
 > [!NOTE] **Crossover Invariant:** the outermost operator is always $\wedge$ — you cannot ignore inconvenient rules. Cardinality constraints use [[Binomial Coefficient|$\binom{n}{k+1}$]]-many clauses, so encodings can grow quickly.
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -62,7 +60,6 @@ Encoding three rules:
 ## ⚠️ Pitfalls
 - 💡 **"At most one" = forbid every pair** ➔ a "not both" clause $(\neg a\vee\neg b)$ for each pair; AND-ing all parts gives the single CNF.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- Why is a rule set modelled as a conjunction, and how are "Hagrid only if Norberta" / "none or both of Fred and George" encoded?
 > - **Core Insight Requirement:** All rules hold at once.

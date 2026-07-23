@@ -33,7 +33,6 @@ $$\textbf{terms}: \quad -5,\ 22/7,\ y,\ 3\times x+1,\ 2\times\pi\times x$$
 $$\textbf{not terms}: \quad 2+3+,\ \log x\ (\text{unavailable}),\ x\wedge y\ (\text{connective, not a function})$$
 $$\text{Parent}(\text{Turing},X)\ (\text{free }X) \xrightarrow{X:=\text{Sara Turing}} \text{Parent}(\text{Turing},\text{Sara Turing})\ (\text{proposition})$$
 
----
 ## ⚖️ Core Decision Matrix
 | Object | Ranges / fixed | Quantifiable? | Role |
 | :--- | :--- | :--- | :--- |
@@ -44,7 +43,6 @@ $$\text{Parent}(\text{Turing},X)\ (\text{free }X) \xrightarrow{X:=\text{Sara Tur
 
 > [!NOTE] **Crossover Invariant:** math favours single letters ($x,\theta$) because juxtaposition means multiplication (`myVar` reads as a product). Term ≠ formula: a term names an object; a predicate application is a statement.
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -61,7 +59,6 @@ Classify expressions and variable occurrences:
 ## ⚠️ Pitfalls
 - 💡 **$x\wedge y$ is not a term** ➔ $\wedge$ combines *statements*, not objects; and constants can't be quantified ($\exists 5$, $\forall\text{Annie}$ are errors).
 
----
 ## 🧠 Active Recall
 > [!FAQ]- What is a term, and which of $3\times x+1$, $\log x$, $x\wedge y$ qualify?
 > - **Core Insight Requirement:** Constant/variable/function-applied.

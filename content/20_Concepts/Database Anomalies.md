@@ -23,7 +23,6 @@ tags: [CS/Databases, SWE/Design, Monash/CS_DS]
 - **Existence tied** ➔ one subject's existence depends on another's.
 - **Fix** ➔ split into single-subject relations ([[Normalisation]]).
 
----
 ## ⚖️ Core Decision Matrix
 | Anomaly | Trigger | Consequence |
 | :--- | :--- | :--- |
@@ -34,7 +33,6 @@ tags: [CS/Databases, SWE/Design, Monash/CS_DS]
 
 > [!NOTE] **Crossover Invariant:** update anomalies directly threaten consistency (two mobile numbers for one rep). Diagnosis guides design: which anomaly a table suffers points to the [[Functional Dependency|partial/transitive dependency]] to remove.
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -50,7 +48,6 @@ Diagnosing DRUG/SLSREP:
 ## ⚠️ Pitfalls
 - 💡 **Anomalies are structural, not data-entry errors** ➔ they persist regardless of care until the schema is normalised.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- Describe the insert, update, and delete anomalies with an example each.
 > - **Core Insight Requirement:** Redundancy-driven failures.

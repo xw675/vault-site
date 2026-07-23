@@ -38,7 +38,7 @@ ON     manufacturer.manuf_id = drone_type.manuf_id;
 | **JOIN … USING** | `USING (col)` | removed | same column name |
 | **NATURAL JOIN** | implicit (all common names) | removed | same column name(s) |
 
-## 🥋 Kata (write from blank)
+## 🥋 Kata 
 > [!QUESTION]- Kata 1: Join `MANUFACTURER` and `DRONE_TYPE` on `manuf_id` with a **single** `manuf_id` column in the output, assuming the column name matches in both.
 > > [!SUCCESS]- Reference solution
 > > ```sql

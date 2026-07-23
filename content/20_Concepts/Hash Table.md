@@ -43,7 +43,6 @@ tags: [CS/DataStructures, OOP/Python, CS/Algorithms, CS/Complexity]
 - **Caps** ➔ chaining tolerates $\alpha\le1$ (linear $\Theta(1+\alpha)$); open addressing $\alpha<2/3$ (probes climb steeply as $\alpha\to1$).
 - **Rehash** ➔ cross threshold ⟹ double $m$, reinsert all $n$ ($O(n)$, but $O(1)$ amortised).
 
----
 ## ⚙️ Core Implementation
 ### 🔹 Hash Function — polynomial / Horner
 > [!code]- `hash(word, m)` and the `hash2` non-zero step
@@ -138,7 +137,6 @@ tags: [CS/DataStructures, OOP/Python, CS/Algorithms, CS/Complexity]
 > ```
 > 💡 **Exam Pitfall:** **Quadratic may never find an empty slot** even when one exists; double hashing's step must be non-zero and coprime to $m$ to visit *every* slot.
 
----
 ## ⚖️ Core Decision Matrix
 | Variant / Strategy | Trigger Condition | Advantage (Pro) | Disadvantage (Con) / Complexity Bound | Cache / Memory Impact |
 | :--- | :--- | :--- | :--- | :--- |
@@ -149,7 +147,6 @@ tags: [CS/DataStructures, OOP/Python, CS/Algorithms, CS/Complexity]
 
 > [!NOTE] **Crossover Invariant:** dictionary backings — unsorted [[List (ADT)]] $O(N)$, [[Sorted List (ADT)]] $O(\log N)$ search/$O(N)$ add, balanced [[Binary Tree]] $O(\log N)$ + **ordered**, **Hash Table** $O(1)^*$ but **unordered**. Use a hash table for big $N$ + no ordering; a BST for range/successor/worst-case guarantees.
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -176,7 +173,6 @@ $$
 $$
 **Final Extracted Output:** per-insert $O(1)$ amortised (geometric doubling); keyed ops $\Theta(1+\alpha) = O(1)$ at bounded load.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- Derive the expected search cost of a chained hash table and state the assumption it relies on.
 > - **Core Insight Requirement:** Apply SUHA to chain length.

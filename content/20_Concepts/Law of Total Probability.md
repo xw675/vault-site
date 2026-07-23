@@ -32,7 +32,6 @@ $$\mathrm{Pr}(B)=\sum_{i=1}^n\mathrm{Pr}(B\mid A_i)\,\mathrm{Pr}(A_i),\qquad U=\
 
 > [!NOTE] **Crossover Invariant:** the sum $\sum_i\mathrm{Pr}(B\mid A_i)\mathrm{Pr}(A_i)$ is exactly the **denominator** (normaliser) of the extended [[Bayes' Theorem]].
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -48,7 +47,6 @@ Three coins (Fair, DoubleHead, DoubleTail), $\mathrm{Pr}(\text{Heads})$:
 ## ⚠️ Pitfalls
 - 💡 **Partition must cover with no overlap** ➔ a gap or overlap breaks the equality; each $\mathrm{Pr}(A_i)>0$ so the conditionals exist.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- State the law of total probability and derive it from additivity.
 > - **Core Insight Requirement:** Distribute + add + multiply.

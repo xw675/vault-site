@@ -27,7 +27,6 @@ tags: [Math/Discrete, CS/Complexity, Math/Sequences]
 - **Arithmetic** $\sum k=\Theta(n^2)$ ➔ nested loops whose inner count shrinks by one.
 - **Geometric** $\sum 2^i=2^{k+1}-1$ ➔ [[Binary Tree]] node counts, $\log n$ height.
 
----
 ## ⚖️ Core Decision Matrix
 | Sum | Closed form | Order |
 | :--- | :--- | :--- |
@@ -38,7 +37,6 @@ tags: [Math/Discrete, CS/Complexity, Math/Sequences]
 
 > [!NOTE] **Crossover Invariant:** the constant $\tfrac12$ and lower-order $-\tfrac n2$ drop under [[Big-O Notation]], leaving $\Theta(n^2)$ — but the **exact** closed form is needed for tight constants or off-by-one correctness.
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -55,7 +53,6 @@ Counting a shrinking nested loop, $n=5$:
 ## ⚠️ Pitfalls
 - 💡 **Shrinking inner count is still $\Theta(n^2)$** ➔ not $\Theta(n)$; a sum of $\Theta(n)$ terms each averaging $\Theta(n)$ is quadratic.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- A nested loop's inner count shrinks by one each pass — why is it $\Theta(n^2)$, not $\Theta(n)$, and what is the exact count?
 > - **Core Insight Requirement:** A shrinking sum is still quadratic.

@@ -24,7 +24,6 @@ aliases: [Supervised Learning, Unsupervised Learning, Classification, Clustering
 - **Tasks** ➔ **clustering** (discover natural groupings, e.g. customers by purchasing behaviour) · **association** (rules describing large parts of the data, e.g. buy X ⇒ also buy Y).
 - **Algorithms** ➔ k-means (clustering); Apriori (association-rule learning).
 
----
 ## ⚖️ Core Decision Matrix
 | Style | Data | Tasks | Example algorithms |
 | :--- | :--- | :--- | :--- |

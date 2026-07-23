@@ -27,7 +27,6 @@ tags: [CS/Databases, SWE/Design, Monash/CS_DS]
 - **Non-identifying** ➔ make the offending relationship an FK **not** in the PK.
 - **1:1 total** ➔ usually consolidate into one relation.
 
----
 ## ⚖️ Core Decision Matrix
 | Configuration | Problem | Fix |
 | :--- | :--- | :--- |
@@ -38,7 +37,6 @@ tags: [CS/Databases, SWE/Design, Monash/CS_DS]
 
 > [!NOTE] **Crossover Invariant:** because an identifying relationship makes one PK depend on another, any cycle of identifying relationships is unresolvable; making at least one non-identifying (FK not in PK) preserves the link while breaking the circle. This is why FK/identifier placement must be reasoned about.
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -54,7 +52,6 @@ Tracing a loop:
 ## ⚠️ Pitfalls
 - 💡 **Identifying = key inheritance** ➔ a cycle of identifying relationships makes every PK depend transitively on itself; change one to non-identifying to break it.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- Why can a recursive identifying and a 1:1 total identifying relationship not exist?
 > - **Core Insight Requirement:** Self / mutual dependence.

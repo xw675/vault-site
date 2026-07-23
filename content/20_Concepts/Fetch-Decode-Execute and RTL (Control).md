@@ -43,7 +43,7 @@ aliases: [Fetch-Decode-Execute, RTL, Control Unit, Clock]
 | 6 | $\text{MBR} \leftarrow M[\text{MAR}]$ | decode |
 | 7 | $\text{AC} \leftarrow \text{AC}+\text{MBR}$ | execute |
 
-## 🥋 Kata (write from blank)
+## 🥋 Kata
 > [!QUESTION]- Write the full RTL sequence for `Jump X`, and state how many cycles it takes under the unit's one-transfer-per-cycle convention.
 > > [!SUCCESS]- Answer
 > > - Steps 1–4 (fetch, identical always) → 5: $\text{MAR} \leftarrow X$ → 6: $\text{PC} \leftarrow \text{MAR}$ — **6 cycles**, and memory is NOT read for an operand.

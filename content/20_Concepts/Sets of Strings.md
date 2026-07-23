@@ -33,7 +33,6 @@ tags: [Math/SetTheory, Math/Discrete, CS/Theory]
 $$A^0=\{\varepsilon\},\ A^1=\{0,1\},\ A^3=\{000,001,010,011,100,101,110,111\}$$
 $$A^*=\bigcup_{k=0}^{\infty}A^k,\qquad \lvert A^k\rvert=\lvert A\rvert^k$$
 
----
 ## ⚖️ Core Decision Matrix
 | Object | Meaning | Size |
 | :--- | :--- | :--- |
@@ -44,7 +43,6 @@ $$A^*=\bigcup_{k=0}^{\infty}A^k,\qquad \lvert A^k\rvert=\lvert A\rvert^k$$
 
 > [!NOTE] **Crossover Invariant:** strings are ordered (`ab`≠`ba`), alphabets are not; a length-$k$ string is an element of $A^k=A\times\cdots\times A$ ([[Cartesian Product]]), and $A^*$ is the infinite union $\bigcup_k A^k$.
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -60,7 +58,6 @@ $A=\{a,b\}$ by length:
 ## ⚠️ Pitfalls
 - 💡 **$A^0=\{\varepsilon\}\neq\emptyset$** ➔ $A^0$ has one element (the empty string), $\lvert A^0\rvert=1$; the empty set has none. A box containing one empty box is not empty.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- Why is $A^0=\{\varepsilon\}$ different from $\emptyset$, and what are their cardinalities?
 > - **Core Insight Requirement:** One element vs none.

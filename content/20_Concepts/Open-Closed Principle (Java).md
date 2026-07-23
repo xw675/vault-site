@@ -58,7 +58,7 @@ classDiagram
   Player --> "*" ConsumableItem : inventory
 ```
 
-## 🥋 Kata (write from blank)
+## 🥋 Kata 
 > [!QUESTION]- Kata 1: A `Renderer` has `if (shape instanceof Circle) ... else if (shape instanceof Square) ...` to compute area. Refactor to obey OCP.
 > > [!SUCCESS]- Reference solution
 > > ```java

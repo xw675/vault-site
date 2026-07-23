@@ -25,7 +25,6 @@ tags: [Math/GraphTheory, Math/Discrete, Monash/CS_DS]
 
 > [!NOTE] **Crossover Invariant:** larger graphs are analysed by the special [[Subgraph|subgraphs]] they contain. $C_n$ has an [[Euler Tour]] (every degree 2) for all $n\ge3$; $C_n$ is [[Bipartite Graph|bipartite]] iff $n$ even.
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -41,7 +40,6 @@ $n=4$:
 ## ⚠️ Pitfalls
 - 💡 **$K_n$ maximal, $\overline{K_n}$ minimal** ➔ they bound the average degree $2m/n$ between 0 and $n-1$; a triangle is a $K_3$, an odd cycle blocks bipartiteness.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- Give the vertex/edge counts and degrees of $K_n,\overline{K_n},P_{n-1},C_n$.
 > - **Core Insight Requirement:** Four benchmarks.

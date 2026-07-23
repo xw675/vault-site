@@ -28,7 +28,6 @@ tags: [Math/Logic, Math/Discrete, Monash/CS_DS]
 - **Correspondence** ➔ for "$x\in A$": $\wedge\leftrightarrow\cap$, $\vee\leftrightarrow\cup$, $\neg\leftrightarrow$ complement.
 - **Payoff** ➔ every set-algebra law has an identical logical form ➔ results transfer both ways.
 
----
 ## ⚖️ Core Decision Matrix
 | Connective | Arity | T exactly when | Set dual |
 | :--- | :--- | :--- | :--- |
@@ -41,7 +40,6 @@ tags: [Math/Logic, Math/Discrete, Monash/CS_DS]
 
 > [!NOTE] **Crossover Invariant:** inclusive $\vee$ is T when either *or both* hold; exclusive $\oplus$ excludes the both-true case — they agree on three rows and differ only at TT. "and"/"or" are narrower than English: defined *solely* by the truth tables, no temporal/causal meaning.
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -58,7 +56,6 @@ Evaluate $(P\wedge\neg Q)\vee Q$:
 ## ⚠️ Pitfalls
 - 💡 **$\Rightarrow$ is F only on T→F** ➔ every other row is T (including F→anything, "vacuously true"); and "or" means **inclusive** $\vee$, not $\oplus$.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- Give the truth tables of $\wedge$, $\vee$, $\Rightarrow$, and the one row separating inclusive from exclusive or.
 > - **Core Insight Requirement:** Row-by-row values.

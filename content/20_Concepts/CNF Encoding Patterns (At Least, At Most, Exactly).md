@@ -48,7 +48,7 @@ $$\text{exactly } z \;=\; (\text{at least } z)\ \wedge\ (\text{at most } z)$$
 | $P\Rightarrow Q$ | $(\neg P\vee Q)$ | rewrite implication |
 | $P\Leftrightarrow Q$ | $(\neg P\vee Q)\wedge(P\vee\neg Q)$ | two clauses |
 
-## 🥋 Kata (write from blank)
+## 🥋 Kata
 > [!QUESTION]- Kata 1: A mouse is on the clock, the floor, or the bread, and can be in only one place at once. Write this in CNF.
 > > [!SUCCESS]- Reference solution
 > > This is "**exactly one** of three options" with $S=\{C,F,B\}$:

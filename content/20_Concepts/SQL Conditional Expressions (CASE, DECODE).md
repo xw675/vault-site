@@ -37,7 +37,7 @@ ORDER BY emp_no;
 - **DECODE equivalent** ➔ `DECODE(emp_type,'F','Full time','C','Contract')` ≡ a simple CASE on equality.
 - **Range needs searched CASE** ➔ `CASE WHEN mark >= 50 THEN 'Pass' ELSE 'Fail' END` — DECODE can't do `>=`.
 
-## 🥋 Kata (write from blank)
+## 🥋 Kata 
 > [!QUESTION]- Kata 1: Label employees `'Full time'`/`'Contract'` for type F/C using DECODE; show name (fname + space + lname) and the label.
 > > [!SUCCESS]- Reference solution
 > > ```sql

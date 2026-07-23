@@ -30,7 +30,6 @@ aliases: [Key-Value Store, Document Store, Column Family, Graph Database]
 - **Structure** ➔ [[Graph|nodes + edges]] with properties/labels/direction; built on graph theory.
 - **Strength** ➔ **traversal** ("friends-of-friends who like jazz") — cheap where relational needs many JOINs. *Neo4j, HyperGraphDB.*
 
----
 ## ⚖️ Core Decision Matrix
 | Model | Data shape | Best access | Query inside value? |
 | :--- | :--- | :--- | :--- |
@@ -41,7 +40,6 @@ aliases: [Key-Value Store, Document Store, Column Family, Graph Database]
 
 > [!NOTE] **Crossover Invariant:** the first three are **aggregation-oriented** (group one entity's data together, retrieve as a unit); the graph model is **traversal-oriented** (follow relationships across entities) — the opposite optimisation.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- Why can't a key-value store answer "find all customers with balance 0", but a document store can?
 > - **Core Insight Requirement:** Opaque value vs understood structure.

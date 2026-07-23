@@ -32,7 +32,6 @@ aliases: [Recovery, Transaction Log, Checkpoint, REDO, UNDO, Forward Recovery]
 - **Steps** ➔ replace disk → reload last backup → REDO committed transactions from the log → forward-recover to pre-crash state.
 - **Backups** ➔ full copies, often daily (after close of business); keep on-site (fast) + off-site (disaster).
 
----
 ## ⚖️ Core Decision Matrix
 | Policy | DB written | On soft crash |
 | :--- | :--- | :--- |
@@ -41,7 +40,6 @@ aliases: [Recovery, Transaction Log, Checkpoint, REDO, UNDO, Forward Recovery]
 
 > [!NOTE] **Crossover Invariant:** deferred-write never has uncommitted data on disk, so it needs **no UNDO** — the write policy alone determines whether before-images are ever replayed.
 
----
 ## 📊 Exam Execution Trace
 
 ### Applied Exercise
@@ -55,7 +53,6 @@ $$
 $$
 **Final Extracted Output:** UNDO T2 to erase its partial writes; REDO T1 to guarantee its durability.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- Why does deferred-write recovery need no UNDO list, while write-through needs both?
 > - **Core Insight Requirement:** Uncommitted data on disk or not.

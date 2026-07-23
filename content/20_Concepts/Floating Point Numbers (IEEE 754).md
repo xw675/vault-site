@@ -32,7 +32,7 @@ s &= 001001, \quad e = 2 && \text{(exponent stored in excess-}K\text{ in real IE
 $$
 **Final Extracted Output:** significand $001001$, exponent $2$, sign $0$.
 
-## 🥋 Kata (write from blank)
+## 🥋 Kata
 > [!QUESTION]- Convert $10.75_{10}$ to binary, normalise it, and state the significand and exponent. Then explain in one sentence why a banking system must not store balances as floats.
 > > [!SUCCESS]- Answer
 > > - $10.75 = 1010.11_2 = 1.01011 \times 2^3$ ⟹ significand $01011\dots$, exponent $3$.

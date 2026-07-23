@@ -30,7 +30,6 @@ tags: [CS/Databases, SWE/Design, Monash/CS_DS]
 - **"may"** ➔ min 0 (optional, circle).
 - **"must"** ➔ min 1 (mandatory, bar).
 
----
 ## ⚙️ Core Implementation
 
 ### 🔹 The four end-symbols
@@ -44,7 +43,6 @@ tags: [CS/Databases, SWE/Design, Monash/CS_DS]
 > `||` one-and-only-one | `o|` zero-or-one | `|{` one-or-many | `o{` zero-or-many.
 > 💡 **Exam Pitfall:** **A plain line (implying 1,1) is not acceptable** ➔ every end needs its optionality (min) and multiplicity (max); the min is dictated by the brief, not a notation choice.
 
----
 ## ⚖️ Core Decision Matrix
 | Symbol | Min | Max | Meaning |
 | :--- | :--- | :--- | :--- |
@@ -55,7 +53,6 @@ tags: [CS/Databases, SWE/Design, Monash/CS_DS]
 
 > [!NOTE] **Crossover Invariant:** M:N is allowed conceptually — it stays on the [[Conceptual Model]] and is resolved into an [[Associative Entity]] / two 1:M only when attributes are needed or at the [[Conceptual vs Logical Model|logical stage]]. Line *style* (solid/dashed, [[Identifying vs Non-Identifying Relationship]]) is independent of the cardinality symbols.
 
----
 ## 📊 Exam Execution Trace
 
 ### Applied Exercise
@@ -69,7 +66,6 @@ $$
 $$
 **Final Extracted Output:** `CUSTOMER ||--o{ ORDER`.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- What do the bar, circle, and crow's foot mean, and why show min and max at both ends?
 > - **Core Insight Requirement:** Optionality + multiplicity independent.

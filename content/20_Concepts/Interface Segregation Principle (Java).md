@@ -51,7 +51,7 @@ classDiagram
 ```
 *(**Realization** (dashed triangle, `<|..`): each class implements only the capabilities it truly has — no empty stubs. `Icarus` realizes both; `Hercules` just one ⇒ ↓ coupling to unused methods.)*
 
-## 🥋 Kata (write from blank)
+## 🥋 Kata
 > [!QUESTION]- Kata 1: A `Machine` interface has `print()`, `scan()`, `fax()`. A simple printer must stub `scan()`/`fax()`. Refactor by ISP.
 > > [!SUCCESS]- Reference solution
 > > ```java

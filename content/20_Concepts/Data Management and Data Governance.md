@@ -28,7 +28,6 @@ aliases: [Data Management, Data Governance, DAMA]
 - **Focus** ➔ narrowly on **access, protection, compliance, and usage** — to bring maximum business benefit.
 - **Issues it handles** ➔ how data is organised/protected/accessed; **who** may access which portion (privacy/confidentiality); **who** manages and is **accountable**; policies for **compliance** (GDPR, PDPA).
 
----
 ## ⚖️ Core Decision Matrix
 | | Data Management | Data Governance |
 | :--- | :--- | :--- |

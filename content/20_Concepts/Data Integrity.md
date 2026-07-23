@@ -23,7 +23,6 @@ tags: [CS/Databases, SWE/Design, Monash/CS_DS]
 - **Referential** ➔ protects **relationships** (PK–FK links).
 - **Column/domain** ➔ protects **attribute values** (the domain).
 
----
 ## ⚙️ Core Implementation
 
 ### 🔹 The three rules as DDL
@@ -35,7 +34,6 @@ tags: [CS/Databases, SWE/Design, Monash/CS_DS]
 > ```
 > 💡 **Exam Pitfall:** **Entity integrity ⟹ usable PK** ➔ a NULL PK can't identify a tuple, a duplicate PK makes two tuples indistinguishable ([[Relation Properties]]); NULL FKs are allowed (optional participation).
 
----
 ## ⚖️ Core Decision Matrix
 | Rule | Guards | Constraint |
 | :--- | :--- | :--- |
@@ -45,7 +43,6 @@ tags: [CS/Databases, SWE/Design, Monash/CS_DS]
 
 > [!NOTE] **Crossover Invariant:** constraints are part of the schema, so the DBMS rejects any insert/update/delete that would violate them — no per-operation application code. Referential integrity constrains deletes (block or cascade). NULL allowances are SQL/RDBMS features (classical algebra has none).
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -69,7 +66,6 @@ $$
 $$
 **Final Extracted Output:** PK must be unique + non-NULL to be a reliable handle on each tuple.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- State the three data-integrity rules and what each protects.
 > - **Core Insight Requirement:** Identity / relationships / values.

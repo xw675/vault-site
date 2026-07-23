@@ -71,7 +71,7 @@ sequenceDiagram
 - **Guard** ➔ the condition in **square brackets** `[amt <= balance]` on the left of the fragment.
 - **Nesting** ➔ legal to nest (`opt` in `loop` in `alt`), but heavy nesting becomes **illegible** — for complex/recursive logic use **pseudocode** instead.
 
-## 🥋 Kata (write from blank)
+## 🥋 Kata 
 > [!QUESTION]- Kata 1: A `:Bank` calls `withdraw(amt:int)` on `account:Account`. If `amt <= balance` the account returns `success` and sets its balance; otherwise it returns `failure`. Sketch it (which fragment?).
 > > [!SUCCESS]- Reference solution
 > > ```mermaid

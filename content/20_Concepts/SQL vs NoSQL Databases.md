@@ -32,7 +32,6 @@ aliases: [SQL vs NoSQL, Database Types, Polyglot Persistence]
 - **Both offer** ➔ large-scale distributed processing, robustness, general query languages, and some consistency (often **"eventual"** as nodes propagate updates).
 - **Polyglot persistence** ➔ "NoSQL" = *Not only SQL*; systems may sit alongside SQL and support SQL-like queries.
 
----
 ## ⚖️ Core Decision Matrix
 | Aspect | SQL (RDBMS) | NoSQL |
 | :--- | :--- | :--- |

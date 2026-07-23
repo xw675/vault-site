@@ -31,7 +31,6 @@ tags: [Math/NumberTheory, CS/Cryptography, Monash/CS_DS]
 
 $$k_{AB}=y_B^{x_A}=(a^{x_B})^{x_A}=a^{x_Ax_B}=(a^{x_A})^{x_B}=y_A^{x_B}=k_{BA}\pmod p$$
 
----
 ## ⚖️ Core Decision Matrix
 | Item | Public? | Role |
 | :--- | :--- | :--- |
@@ -42,7 +41,6 @@ $$k_{AB}=y_B^{x_A}=(a^{x_B})^{x_A}=a^{x_Ax_B}=(a^{x_A})^{x_B}=y_A^{x_B}=k_{BA}\p
 
 > [!NOTE] **Crossover Invariant:** DH solves key distribution — only public numbers are exchanged — but conveys no chosen message, so it must be paired with a secret-key [[Cryptosystem]]. Security needs a large prime and primitive-root base (max $\phi(p)=p-1$).
 
----
 ## 📊 Exam Execution Trace
 
 ### Applied Exercise
@@ -59,7 +57,6 @@ $$
 ## ⚠️ Pitfalls
 - 💡 **Key never transmitted** ➔ the shared $a^{x_Ax_B}$ is computed independently; an eavesdropper sees only $p,a,a^{x_A},a^{x_B}$ and faces the DH/Discrete-Log problem.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- Walk through Diffie-Hellman and show why Alice and Bob compute the same key.
 > - **Core Insight Requirement:** Commuting exponents.

@@ -33,7 +33,6 @@ $$\text{Given }\varepsilon>0,\text{ choose }N>\tfrac1\varepsilon.\ n>N\Rightarro
 
 > [!NOTE] **Crossover Invariant:** an infinite [[Geometric Series]] is the *limit* of partial sums (exists iff $|r|<1$); for diverging sequences, [[Big-O Notation|growth order]] replaces a finite limit. Only the infinite tail matters, never a finite prefix.
 
----
 ## 📊 Exam Execution Trace
 
 ### Applied Exercise
@@ -50,7 +49,6 @@ $$
 ## ⚠️ Pitfalls
 - 💡 **Order matters** ➔ $\forall\varepsilon\,\exists N$ lets $N$ depend on $\varepsilon$; swapping to $\exists N\,\forall\varepsilon$ demands one cutoff for all $\varepsilon$ — a far stronger, usually false claim.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- State the $\varepsilon$–$N$ definition and prove $\lim\frac1n=0$.
 > - **Core Insight Requirement:** $N$ as a function of $\varepsilon$.

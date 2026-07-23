@@ -25,7 +25,6 @@ tags: [Math/GraphTheory, Math/Discrete, Monash/CS_DS]
 - **Model** ➔ land masses = vertices, bridges = edges.
 - **Verdict** ➔ degrees $5,3,3,3$ all odd ⟹ no Euler tour; launched graph theory.
 
----
 ## ⚖️ Core Decision Matrix
 | Graph | Degrees | Euler tour? |
 | :--- | :--- | :--- |
@@ -36,7 +35,6 @@ tags: [Math/GraphTheory, Math/Discrete, Monash/CS_DS]
 
 > [!NOTE] **Crossover Invariant:** a single pass over the degrees settles existence — no route search. Abstraction is the lesson: keep land-masses-and-bridges, discard geometry. Contrast a [[Cycle (Graph Theory)|cycle]] (uses each *vertex* once) with a tour (each *edge* once).
 
----
 ## 📊 Exam Execution Trace
 
 ### Applied Exercise
@@ -53,7 +51,6 @@ $$
 ## ⚠️ Pitfalls
 - 💡 **Euler tour vs Euler trail** ➔ a closed tour needs all-even degrees; an open Euler *trail* allows exactly two odd-degree vertices (start/end).
 
----
 ## 🧠 Active Recall
 > [!FAQ]- State Euler's theorem and the intuition behind the even-degree condition.
 > - **Core Insight Requirement:** Edge pairing.

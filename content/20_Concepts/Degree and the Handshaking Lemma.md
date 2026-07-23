@@ -28,7 +28,6 @@ tags: [Math/GraphTheory, Math/Discrete, Monash/CS_DS]
 
 > [!NOTE] **Crossover Invariant:** global $n,m$ give the local average $2m/n$ (real networks far below max $n-1$). The equal-degree theorem is proof by [[Proof Techniques|cases]] + pigeonhole; [[Euler Tour]] existence hinges on all degrees being even.
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -44,7 +43,6 @@ $G$: $E=\{ab,ac,bc,cd,fg\}$:
 ## ⚠️ Pitfalls
 - 💡 **Necessary, not sufficient** ➔ an odd count of odd numbers can't be a degree sequence, but satisfying the parity rules doesn't guarantee a graph exists.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- State and prove the Handshaking Lemma, and give its average-degree corollary.
 > - **Core Insight Requirement:** Double counting.

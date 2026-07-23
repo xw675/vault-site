@@ -33,7 +33,6 @@ tags: [Math/SetTheory, Math/Discrete, Monash/CS_DS]
 $$\{x\in\mathbb Z : x\text{ even}\}=\{2n : n\in\mathbb Z\}$$
 $$|\{\text{Harry},\text{Ron},\text{Hermione}\}|=3,\quad |\emptyset|=0,\quad |\mathcal P(A)|=2^{|A|},\quad |A\times B|=|A|\,|B|$$
 
----
 ## ⚖️ Core Decision Matrix
 | Specification | Form | Best when |
 | :--- | :--- | :--- |
@@ -44,7 +43,6 @@ $$|\{\text{Harry},\text{Ron},\text{Hermione}\}|=3,\quad |\emptyset|=0,\quad |\ma
 
 > [!NOTE] **Crossover Invariant:** order and repetition carry no information ($\{1,2,3\}=\{1,1,2,3\}$) — this is exactly what separates a **set** from a **tuple/sequence**, where $(1,2,3)\neq(3,2,1)$ (the domain of the [[Cartesian Product]]). The computational counterpart is the [[Set (ADT)]] with `add`/`contains`/`remove`.
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -60,7 +58,6 @@ Testing membership of $A=\{n\in\mathbb Z : -2\le n<3\}$:
 ## ⚠️ Pitfalls
 - 💡 **"$\{0,2,-2,4,\dots\}$" is an informal description, not a definition** ➔ it relies on guessing the pattern and never states the membership condition; use the condition/construction forms.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- Specify the even integers two formal ways, and explain why $\{0,2,-2,4,\dots\}$ is not one.
 > - **Core Insight Requirement:** Predicate vs generator vs pattern-guessing.

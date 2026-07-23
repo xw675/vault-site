@@ -67,7 +67,7 @@ Once minimised, the machine is trivial to run from its table:
 - **Finish** by reporting a **match** if `currentState` is a Final state, otherwise no match.
 - **Note** ➔ better algorithms exist: some build a **minimum-state DFA directly from a regular expression** without an intermediate NFA, and there are more compact table encodings than the plain two-dimensional array.
 
-## 🥋 Kata (write from blank)
+## 🥋 Kata
 > [!QUESTION]- Kata: A 4-state DFA has Start $A$; $A\xrightarrow{\mathtt{a}}B$, $A\xrightarrow{\mathtt{b}}A$; $B\xrightarrow{\mathtt{a}}B$, $B\xrightarrow{\mathtt{b}}C$; $C$ Final with $C\xrightarrow{\mathtt{a}}B$, $C\xrightarrow{\mathtt{b}}A$; $D$ Final, unreachable, with $D\xrightarrow{\mathtt{a}}B$, $D\xrightarrow{\mathtt{b}}A$. Minimise.
 > > [!SUCCESS]- Reference solution
 > > 1. **Colour** ➔ Finals $\{C,D\}$ blue; non-Finals $\{A,B\}$ red.

@@ -36,7 +36,7 @@ aliases: [writing regular expressions, description to regex, regex recipes, cont
 - **Watch the ordering** ➔ for multiple patterns, check whether the wording constrains their order.
 - **Ask how strings are built up** ➔ this reveals which operation was applied **last**, which is the top of the parse tree.
 
-## 🥋 Katas (write from blank)
+## 🥋 Katas 
 > [!QUESTION]- Kata 1: EVEN-EVEN — all strings where $\mathtt{a}$ and $\mathtt{b}$ each occur an **even** number of times.
 > > [!SUCCESS]- Reference solution
 > > $$\big(\mathtt{aa}\cup\mathtt{bb}\cup(\mathtt{ab}\cup\mathtt{ba})(\mathtt{aa}\cup\mathtt{bb})^{*}(\mathtt{ab}\cup\mathtt{ba})\big)^{*}$$

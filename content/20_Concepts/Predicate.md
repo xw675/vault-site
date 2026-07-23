@@ -44,7 +44,6 @@ aliases: [predicate, free variable, bound variable, arity, k-ary, truth-valued f
 $$\text{Parent}(\text{Ada},\text{Byron})=\text{True},\qquad \text{Parent}(\text{Boole},\text{Everest})=\text{False}$$
 $$\text{Parent}(\text{Plato},\text{Ariston})\wedge\text{Parent}(\text{Hypatia},\text{Theon}) \quad (\text{combine with connectives})$$
 
----
 ## ⚖️ Core Decision Matrix
 | Arity | Form | Name | Example |
 | :--- | :--- | :--- | :--- |
@@ -54,7 +53,6 @@ $$\text{Parent}(\text{Plato},\text{Ariston})\wedge\text{Parent}(\text{Hypatia},\
 
 > [!NOTE] **Crossover Invariant:** predicates beat plain propositions because a variable-carrying statement generalises over a whole domain; a fixed proposition is just a predicate with all arguments bound. Equality is the sole assumed predicate; all others need declared arity + domains.
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -70,7 +68,6 @@ Domain $\{2,3,4\}$, predicates $\text{Even}(x)$, $\text{Lt}(x,y)\equiv x<y$:
 ## ⚠️ Pitfalls
 - 💡 **Arguments must fit the domains** ➔ a predicate's arguments are [[Term, Variable, and Constant|terms]] whose types match each slot ($<$ on $\mathbb R$ needs real arguments); a bare predicate with a free variable is *not yet* a proposition until fixed or quantified.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- How is a predicate related to a relation, and what does calling it a "predicate" add?
 > - **Core Insight Requirement:** Relation as truth-function.

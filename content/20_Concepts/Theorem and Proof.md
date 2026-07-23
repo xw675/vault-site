@@ -27,7 +27,6 @@ tags: [Math/Logic, Math/Proof, Monash/CS_DS]
 - **Format** ➔ open **Proof.**, close $\square$ / *Q.E.D.*
 - **Numbering** ➔ useful for *analysis* only, omitted in a normal written proof.
 
----
 ## ⚖️ Core Decision Matrix
 | Label | Role | Proven? |
 | :--- | :--- | :--- |
@@ -38,7 +37,6 @@ tags: [Math/Logic, Math/Proof, Monash/CS_DS]
 
 > [!NOTE] **Crossover Invariant:** theorem/lemma/proposition/corollary differ in *role*, not truth — all are proven. A proof must be verifiable (auditable independently) and read strictly top-to-bottom.
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -56,7 +54,6 @@ Classifying each proof line:
 ## ⚠️ Pitfalls
 - 💡 **Never depend on a later step** ➔ each line may use *only* what is already established; a step referencing a not-yet-proved fact is circular reasoning.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- What are the three permissible kinds of step, and the two structural requirements a proof must meet?
 > - **Core Insight Requirement:** Step kinds + verifiability/readability.

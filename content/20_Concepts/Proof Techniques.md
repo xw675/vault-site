@@ -38,7 +38,6 @@ aliases: [proof by construction, proof by cases, proof by contradiction, exhaust
 - **Subset relation** $A\subseteq B$ ➔ take a **general** member of $A$, **name** it, use $A$'s definition, follow the consequences, aim at $B$'s definition. *(the blueprint used for $\text{DOUBLEWORD}\subseteq\text{EVEN-EVEN}$ in [[Formal Languages (Alphabets, Words, Languages)]])*
 - **Numerical equality** $A=B$ ➔ transform $A$ into $B$ algebraically if you can; if not, prove **$A\le B$** and **$A\ge B$**.
 
----
 ## ⚖️ Core Decision Matrix
 | Claim shape | Technique | Key first move |
 | :--- | :--- | :--- |
@@ -50,7 +49,6 @@ aliases: [proof by construction, proof by cases, proof by contradiction, exhaust
 
 > [!NOTE] **Crossover Invariant:** method follows the goal — the quantifier picks the pattern. Exhaustion needs a *finite* (or finitely-partitioned) domain; contradiction needs a true axiom framework, so a derived absurdity convicts only the assumed negation. Real proofs often **combine** several.
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -66,7 +64,6 @@ Matching claims to techniques:
 ## ⚠️ Pitfalls
 - 💡 **Construction ≠ universal proof** ➔ exhibiting one witness settles $\exists$ only; a $\forall$ claim needs cases/arbitrary-element, and contradiction relies on a *true* framework so the lone false assumption is convicted.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- Match each proof method to the claim it suits, and give construction's pitfall.
 > - **Core Insight Requirement:** Quantifier ↔ method.

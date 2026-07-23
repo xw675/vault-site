@@ -57,7 +57,7 @@ curve(dnorm(x, 5, 2), add = TRUE, col = "red")  # true density overlaid
 ```
 **Expected output:** a bell-shaped histogram with the red theoretical density tracking it; sample mean/sd close to 5/2. *(plotting: see [[R Visualisation (base graphics)]].)*
 
-## 🥋 Kata (write from blank)
+## 🥋 Kata 
 > [!QUESTION]- Kata 1: Estimate $P(X>1.5)$ for $X\sim N(0,1)$ two ways — exactly, and by simulation — reproducibly.
 > > [!SUCCESS]- Reference solution
 > > ```r

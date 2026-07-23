@@ -60,7 +60,7 @@ $$
 $$
 - **When to reach for it** ➔ when the language is "close to" a known non-regular one; intersecting with a simple regex like $\mathtt{a}^{*}\mathtt{b}^{*}$ often strips away the noise.
 
-## 🥋 Kata (write from blank)
+## 🥋 Kata 
 > [!QUESTION]- Kata: Prove $L=\{\mathtt{a}^{n}\mathtt{b}^{m}: n>m\ge 0\}$ is not regular.
 > > [!SUCCESS]- Reference solution
 > > 1. Assume regular; let $N$ be the number of states of an accepting FA.

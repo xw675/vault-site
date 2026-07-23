@@ -30,7 +30,6 @@ tags: [Math/Probability, Math/Discrete, Monash/CS_DS]
 
 $$\sum_{k=0}^{\infty}\frac{e^{-\mu}\mu^k}{k!}=e^{-\mu}\sum_{k=0}^{\infty}\frac{\mu^k}{k!}=e^{-\mu}e^{\mu}=1$$
 
----
 ## ⚖️ Core Decision Matrix
 | Aspect | Poisson | vs Binomial |
 | :--- | :--- | :--- |
@@ -41,7 +40,6 @@ $$\sum_{k=0}^{\infty}\frac{e^{-\mu}\mu^k}{k!}=e^{-\mu}\sum_{k=0}^{\infty}\frac{\
 
 > [!NOTE] **Crossover Invariant:** Poisson suits "could be any count" of rare independent events; it is the unbounded limit of the binomial. The $e^x$-series normalisation mirrors the geometric-series argument for other pmfs.
 
----
 ## 📊 Exam Execution Trace
 
 ### Applied Exercise
@@ -58,7 +56,6 @@ $$
 ## ⚠️ Pitfalls
 - 💡 **$\mu$ is mean AND variance** ➔ the single parameter does double duty; the binomial→Poisson swap needs large $n$ with small $np$.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- State the Poisson pmf, show it sums to 1, and give mean and variance.
 > - **Core Insight Requirement:** $e^x$ series.

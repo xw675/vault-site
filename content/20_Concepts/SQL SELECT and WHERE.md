@@ -31,7 +31,7 @@ WHERE  drone_pur_price > 2000;
 - **Range two ways** ➔ `BETWEEN 50 AND 100` ≡ `col >= 50 AND col <= 100`.
 - **NOT over a bracket** ➔ `NOT(dt_model='DJI' OR dt_model='PARROT')` ≡ `dt_model!='DJI' AND dt_model!='PARROT'` (De Morgan).
 
-## 🥋 Kata (write from blank)
+## 🥋 Kata 
 > [!QUESTION]- Kata 1: Drones whose model is DJI **or** Parrot (case-insensitive) **and** priced over 500 — show id, model, price.
 > > [!SUCCESS]- Reference solution
 > > ```sql

@@ -23,7 +23,6 @@ tags: [CS/DataStructures, OOP/Python, CS/Complexity, CS/Abstraction]
 - **`decrease_key`** ➔ raise an element's priority ➔ used by **Dijkstra**/**Prim**.
 - **Heap choice** ➔ binary heap: decrease-key $O(\log V)$ → Dijkstra $O((V+E)\log V)$; **Fibonacci heap:** $O(1)$ amortised → $O(E+V\log V)$ (optimal); **$d$-ary heap** tunes branching.
 
----
 ## ⚙️ Core Implementation
 ### 🔹 The interface
 > [!code]- `add` / `get_max`
@@ -33,7 +32,6 @@ tags: [CS/DataStructures, OOP/Python, CS/Complexity, CS/Abstraction]
 > ```
 > 💡 **Exam Pitfall:** **Only the extreme is touched** ➔ a priority queue needs **no full ordering**; a heap's partial order gives $O(\log n)$ both ways, which a fully-sorted list ($O(n)$ insert) can't match.
 
----
 ## ⚖️ Core Decision Matrix
 | Implementation | `get_max()` | `add` | `decrease_key` |
 | :--- | :--- | :--- | :--- |
@@ -47,7 +45,6 @@ tags: [CS/DataStructures, OOP/Python, CS/Complexity, CS/Abstraction]
 
 > [!NOTE] **Crossover Invariant:** linear structures trade `add` vs `get_max`; only **non-linear** structures (heap, balanced tree) make both fast. Applications: Dijkstra/Prim, event-driven simulation, Huffman coding, OS scheduling, A* search.
 
----
 ## 📊 Exam Execution Trace
 
 ### Applied Exercise
@@ -61,7 +58,6 @@ $$
 $$
 **Final Extracted Output:** the heap balances both ops at $O(\log n)$; the sorted list is stuck with one $O(n)$ operation.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- Dijkstra does $V$ inserts, $V$ extract-mins, $E$ decrease-keys — compare a binary vs Fibonacci heap and when the difference matters.
 > - **Core Insight Requirement:** decrease-key cost dominates on dense graphs.

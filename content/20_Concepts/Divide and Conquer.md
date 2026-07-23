@@ -27,7 +27,6 @@ tags: [CS/Algorithms, CS/Complexity]
 - **Assumption** ➔ subproblems are **independent** (non-overlapping), solved once.
 - **Overlap break** ➔ $\text{fib}(n)$ recomputing $\text{fib}(n-2)$ ⟹ exponential ➔ use **memoisation / dynamic programming**.
 
----
 ## ⚙️ Core Implementation
 *Split/combine trade-off:* [[Merge Sort]] = trivial split, heavy combine; [[Quick Sort]] = heavy split, trivial combine; [[Binary Search]] = single-subproblem "decrease and conquer".
 
@@ -43,7 +42,6 @@ tags: [CS/Algorithms, CS/Complexity]
 > ```
 > 💡 **Exam Pitfall:** **Shrink by factor vs by one** ➔ halving gives depth $\log n$, peeling one element gives depth $n$ — the $\Theta(n\log n)$ vs $\Theta(n^2)$ divide and quicksort's bad-pivot degeneration.
 
----
 ## ⚖️ Core Decision Matrix
 | Split balance | Levels × work/level | Result | Example |
 | :--- | :--- | :--- | :--- |
@@ -54,7 +52,6 @@ tags: [CS/Algorithms, CS/Complexity]
 
 > [!NOTE] **Crossover Invariant:** balanced splits give depth $\log_b n$; lopsided ones push depth toward $n$, collapsing $\Theta(n\log n)$ to $\Theta(n^2)$. Space: recursion stack $\Theta(\text{depth})$; merge-style combine adds $\Theta(n)$ scratch, partition-style is in-place.
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -80,7 +77,6 @@ $$
 $$
 **Final Extracted Output:** split balance alone decides $\Theta(n\log n)$ vs $\Theta(n^2)$ — the depth term dominates.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- Why is merge sort $\Theta(n\log n)$ but a naïve "process one element then recurse on the rest" is $\Theta(n^2)$?
 > - **Core Insight Requirement:** Factor-shrink vs one-element-shrink.

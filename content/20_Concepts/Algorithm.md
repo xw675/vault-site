@@ -28,7 +28,6 @@ tags: [CS/Algorithms, CS/Foundations]
 - **Class boundary** ➔ polynomial = **tractable** (P) | only-exponential = **intractable** (NP-hard).
 - **Randomised** ➔ trade worst-case guarantee for strong *expected* cost (randomised [[Quick Sort]]).
 
----
 ## ⚙️ Core Implementation
 ### 🔹 Euclid's algorithm — finite, halting, correct
 > [!code]- `gcd` with invariant + variant
@@ -41,7 +40,6 @@ tags: [CS/Algorithms, CS/Foundations]
 > ```
 > 💡 **Exam Pitfall:** **Variant ≠ invariant** ➔ termination needs a strictly-decreasing non-negative measure (here `b`); partial correctness alone does **not** prove halting.
 
----
 ## ⚖️ Core Decision Matrix
 | Concept | What it is | Owns | Example |
 | :--- | :--- | :--- | :--- |
@@ -51,7 +49,6 @@ tags: [CS/Algorithms, CS/Foundations]
 
 > [!NOTE] **Crossover Invariant:** a *specific* algorithm sets an **upper** bound; the *problem* sets the **lower** bound ($\Omega$). When the algorithm's $O$ meets the problem's $\Omega$ ➔ **provably optimal**.
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -76,7 +73,6 @@ $$
 $$
 **Final Extracted Output:** `gcd` is **totally correct** — invariant gives partial correctness, variant `b` gives termination.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- Distinguish partial correctness, termination, and total correctness, and name the proof device for each.
 > - **Core Insight Requirement:** Separate "correct-if-halts" from "halts", and combine them.

@@ -31,7 +31,6 @@ tags: [Math/Logic, Math/Proof, Monash/CS_DS]
 
 $$P\Rightarrow Q \equiv \neg P\vee Q, \qquad P\Rightarrow Q \equiv P\subseteq Q$$
 
----
 ## ⚖️ Core Decision Matrix
 | Statement | Formal | As sets |
 | :--- | :--- | :--- |
@@ -42,7 +41,6 @@ $$P\Rightarrow Q \equiv \neg P\vee Q, \qquad P\Rightarrow Q \equiv P\subseteq Q$
 
 > [!NOTE] **Crossover Invariant:** $P\Rightarrow Q$ asserts neither $P$ nor $Q$ individually — only the conditional link. Implication ↔ subset is the bridge: proving containment proves implication and vice versa; double inclusion is iff.
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -59,7 +57,6 @@ Verify $P\Rightarrow Q\equiv\neg P\vee Q$ and compare the converse:
 ## ⚠️ Pitfalls
 - 💡 **Beware the converse** ➔ $P\Rightarrow Q$ gives *no* information about $Q\Rightarrow P$; seeing the right domino fallen doesn't prove the left fell. "$P$ only if $Q$" = $P\Rightarrow Q$; "$P$ if $Q$" = $Q\Rightarrow P$.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- Why is $P\Rightarrow Q$ equivalent to $P\subseteq Q$, and what is the one forbidden configuration?
 > - **Core Insight Requirement:** Scenario-sets.

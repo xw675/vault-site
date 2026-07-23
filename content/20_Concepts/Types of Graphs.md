@@ -28,7 +28,6 @@ tags: [Math/GraphTheory, Math/Discrete, Monash/CS_DS]
 $$\{v,w\}\ \text{a set of distinct vertices} \Rightarrow \text{no loop } \{v,v\}$$
 $$E\ \text{a set},\ \{v,w\}=\{w,v\} \Rightarrow \text{no parallel edges}$$
 
----
 ## ⚖️ Core Decision Matrix
 | Class | Edges | Adjacency |
 | :--- | :--- | :--- |
@@ -39,7 +38,6 @@ $$E\ \text{a set},\ \{v,w\}=\{w,v\} \Rightarrow \text{no parallel edges}$$
 
 > [!NOTE] **Crossover Invariant:** simple undirected graphs capture the main computational issues, so theorems transfer broadly; weights/directions add modelling power (road cost, one-way, flow) at the cost of more complex algorithms.
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -55,7 +53,6 @@ Allowed in a simple graph?
 ## ⚠️ Pitfalls
 - 💡 **Directed ≠ undirected** ➔ a digraph uses ordered pairs, so adjacency need not be symmetric ($(a,b)$ without $(b,a)$) — the general [[Binary Relation]] case.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- What is a simple graph, and why do "edges are sets" force its two conditions?
 > - **Core Insight Requirement:** Sets forbid duplicates.

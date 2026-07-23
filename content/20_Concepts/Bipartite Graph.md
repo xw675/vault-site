@@ -32,7 +32,6 @@ $$\text{bipartite} \iff \text{2-colourable} \iff \text{no odd closed walk} \iff 
 
 > [!NOTE] **Crossover Invariant:** the distance-parity colouring works per component (pick a ground vertex in each); the no-odd-walk hypothesis guarantees consistency. Odd cycles are the sole obstruction (via the odd-closed-walk ⟺ odd-cycle equivalence).
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -48,7 +47,6 @@ $$\text{bipartite} \iff \text{2-colourable} \iff \text{no odd closed walk} \iff 
 ## ⚠️ Pitfalls
 - 💡 **One odd cycle disproves it** ➔ to prove bipartite exhibit the parts / 2-colouring; to disprove, exhibit an odd cycle (e.g. a triangle).
 
----
 ## 🧠 Active Recall
 > [!FAQ]- Give the three equivalent characterisations of a bipartite graph.
 > - **Core Insight Requirement:** Parts / colouring / odd cycle.

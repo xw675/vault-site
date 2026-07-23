@@ -32,7 +32,6 @@ aliases: [association, dependency, multiplicity, aggregation, composition, has-a
 - **Aggregation** ➔ hollow diamond ◇ — a "whole-part" where the part can outlive the whole; often a modelling **placebo** (adds little over plain association).
 - **Composition** ➔ filled diamond ◆ — the whole is **responsible for creating** the part and controls its **lifetime** (part dies with the whole).
 
----
 ## ⚙️ Core Implementation
 ### 🔹 SmartHomeDriver — association + dependency
 > [!code]- classDiagram
@@ -55,7 +54,6 @@ aliases: [association, dependency, multiplicity, aggregation, composition, has-a
 
 > [!NOTE] **Crossover Invariant:** more associations and dependencies = more **coupling**. Judge a design on Domain-B metrics — prefer fewer, thinner links to small public interfaces; a dependency (transient) is looser coupling than an association (stored) for the same collaboration.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- A `Printer` receives a `Document` as a method parameter and prints it, but never stores it. Association or dependency? Draw the arrow.
 > > [!SUCCESS]- Answer

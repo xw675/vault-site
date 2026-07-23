@@ -27,7 +27,6 @@ aliases: [ERD]
 - **Only relationships** ➔ entities link only through relationships, never by sharing attributes.
 - **Exception** ➔ a weak/child entity may include a parent's key *as part of its identifier* ([[Identifying vs Non-Identifying Relationship]]).
 
----
 ## ⚙️ Core Implementation
 
 ### 🔹 Crow's Foot ERD
@@ -40,7 +39,6 @@ aliases: [ERD]
 > ```
 > 💡 **Exam Pitfall:** **Standards matter** ➔ singular entity names (no spaces/hyphens, underscores ok), key attributes flagged `Key`, every relationship has a verb label + **both** cardinalities, lines straight and non-crossing.
 
----
 ## ⚖️ Core Decision Matrix
 | Aspect | Chen | Crow's Foot |
 | :--- | :--- | :--- |
@@ -51,7 +49,6 @@ aliases: [ERD]
 
 > [!NOTE] **Crossover Invariant:** Chen is expressive but bulky; Crow's Foot is compact and implementation-friendly but pushes relationship-attributes into an [[Associative Entity]]. The ERD lets stakeholders agree on structure before implementation.
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -75,7 +72,6 @@ $$
 $$
 **Final Extracted Output:** an [[Associative Entity]] holds `op_qtyordered`, resolving the M:N.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- Contrast Chen and Crow's Foot notation, and a consequence of Crow's Foot's limitation.
 > - **Core Insight Requirement:** Attributes on relationships.

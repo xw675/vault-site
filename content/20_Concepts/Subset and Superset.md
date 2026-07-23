@@ -32,7 +32,6 @@ tags: [Math/SetTheory, Math/Logic, Math/Discrete]
 $$A\subseteq B \iff (\forall x:\ x\in A\Rightarrow x\in B), \qquad A=B \iff (A\subseteq B)\wedge(B\subseteq A)$$
 $$A\subseteq A,\qquad \emptyset\subseteq A \text{ (vacuously)},\qquad A\subseteq B\subseteq C\Rightarrow A\subseteq C$$
 
----
 ## ⚖️ Core Decision Matrix
 | Property | Holds for $\subseteq$? | Statement |
 | :--- | :--- | :--- |
@@ -43,7 +42,6 @@ $$A\subseteq A,\qquad \emptyset\subseteq A \text{ (vacuously)},\qquad A\subseteq
 
 > [!NOTE] **Crossover Invariant:** $\subseteq$ is a **partial order**; antisymmetry *is* double inclusion, the standard route to set equality. $\emptyset$ and $A$ itself are the universal extreme subsets of every set.
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -59,7 +57,6 @@ Double-inclusion proof of $A=B$:
 ## ⚠️ Pitfalls
 - 💡 **$\emptyset\subseteq A$ holds vacuously** ➔ no element of $\emptyset$ can violate the implication; and $\subseteq$ allows $A=B$ whereas $\subset$ forbids it.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- State the standard technique for proving two sets equal, and why it works.
 > - **Core Insight Requirement:** Antisymmetry.

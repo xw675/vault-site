@@ -39,7 +39,7 @@ WHERE cust_id NOT IN (SELECT DISTINCT cust_id FROM cust_train);
 ```
 - **Blanket update (intentional)** ➔ `UPDATE drone SET drone_cost_hr = drone_cost_hr * 1.1;` raises *all* — only when that is the requirement.
 
-## 🥋 Kata (write from blank)
+## 🥋 Kata
 > [!QUESTION]- Kata 1: Correct course `DJIHY` — set `train_desc = 'DJI Hobby Drone Training'` and `train_hrs = 5`, matching the code case-insensitively.
 > > [!SUCCESS]- Reference solution
 > > ```sql

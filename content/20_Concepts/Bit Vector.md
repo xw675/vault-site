@@ -23,7 +23,6 @@ tags: [CS/DataStructures, CS/BitManipulation]
 - **Count = popcount** ➔ naïve $O(u)$ | **Kernighan `n &= n-1`** $O(\text{popcount})$ | hardware `POPCNT` $O(u/w)$.
 - **Universe-bound** ➔ holding only $\{10^6\}$ still spans ~$10^6$ bits ➔ cost tracks max value, not count.
 
----
 ## ⚙️ Core Implementation
 ### 🔹 Bitwise set operations
 > [!code]- member / add / remove / algebra
@@ -35,7 +34,6 @@ tags: [CS/DataStructures, CS/BitManipulation]
 > ```
 > 💡 **Exam Pitfall:** **Counting is popcount, not maintained** ➔ use `int.bit_count()` / Kernighan's `n &= n-1` (clears the lowest set bit), never a bit-by-bit Python loop; a lone huge value makes `__len__` linear in that value.
 
----
 ## ⚖️ Core Decision Matrix
 | Operation | Complexity | Why |
 | :--- | :--- | :--- |
@@ -46,7 +44,6 @@ tags: [CS/DataStructures, CS/BitManipulation]
 
 > [!NOTE] **Crossover Invariant:** right for **dense** small-integer sets with heavy membership/algebra (graph adjacency, dataflow analysis); wrong for **sparse** sets over a huge universe — use a hash set ($O(1)$ expected, space ∝ count) or a **Bloom filter** (probabilistic, sub-linear).
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -71,7 +68,6 @@ $$
 $$
 **Final Extracted Output:** ~$64\times$ constant-factor gain — same $\Theta$ order, dramatically smaller constant on dense universes.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- What is "word-parallelism" and why does it make bit-vector set algebra so fast?
 > - **Core Insight Requirement:** One instruction, 64 bits.

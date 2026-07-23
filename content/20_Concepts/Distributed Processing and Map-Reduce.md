@@ -31,7 +31,6 @@ aliases: [Distributed Processing, Map-Reduce, MapReduce, Batch, Streaming]
 - **Pattern** ➔ (1) **divide** data across machines → (2) **map()** each record to **key-value** pairs → (3) **sort/merge** identical keys → (4) **reduce** (merge) per key.
 - **History** ➔ Google moved on (~2005) to "Cloud Dataflow"; the idea lives on in Hadoop/Spark.
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace — word count

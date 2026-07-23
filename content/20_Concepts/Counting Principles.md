@@ -25,7 +25,6 @@ aliases: [Addition Principle, Multiplication Principle, Sum Rule, Product Rule]
 - **Signature** ➔ "this *and then* that"; nested loops run $rc$ times.
 - **Repeated choice** ➔ $r$ independent picks from $n$ options ⟹ $n^r$ ([[Counting Functions]]).
 
----
 ## ⚖️ Core Decision Matrix
 | Situation | Rule | Loop Structure | Breaks When |
 | :--- | :--- | :--- | :--- |
@@ -40,7 +39,6 @@ aliases: [Addition Principle, Multiplication Principle, Sum Rule, Product Rule]
 - 💡 **Overlap breaks addition** ➔ $A\cap B\neq\emptyset$ ⟹ use $|A|+|B|-|A\cap B|$; the addition principle is the disjoint special case of inclusion–exclusion.
 - 💡 **Dependence breaks multiplication** ➔ if stage 2's options shrink with stage 1 (selection without replacement), factors aren't constant — that's the falling factorial, not $n^r$.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- A password is 2 letters then 2 digits, or 4 digits. How do the two principles combine, and which hypotheses are you invoking?
 > - **Core Insight Requirement:** Parse and/or structure into multiply/add.

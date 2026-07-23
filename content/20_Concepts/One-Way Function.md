@@ -32,7 +32,6 @@ tags: [Math/NumberTheory, CS/Cryptography, Monash/CS_DS]
 $$\text{forward: } x\mapsto a^x\bmod n\ (\text{easy, square-and-multiply})$$
 $$\text{inverse: } \text{given } y, \text{ find } x=\log_a y\ (\text{Discrete Log, believed hard})$$
 
----
 ## ⚖️ Core Decision Matrix
 | Direction | Problem | Difficulty |
 | :--- | :--- | :--- |
@@ -43,7 +42,6 @@ $$\text{inverse: } \text{given } y, \text{ find } x=\log_a y\ (\text{Discrete Lo
 
 > [!NOTE] **Crossover Invariant:** the asymmetry (cheap forward, infeasible backward) is the whole point — protecting information that must stay quickly verifiable. Password hashing is keyless (no recipient recovers $P_i$), unlike a [[Cryptosystem]].
 
----
 ## 📊 Exam Execution Trace
 
 ### Applied Exercise
@@ -60,7 +58,6 @@ $$
 ## ⚠️ Pitfalls
 - 💡 **Belief, not proof** ➔ security rests on the *assumed* hardness of Discrete Log/factorisation; a fast algorithm would break these schemes.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- What makes a function one-way, and why is modular exponentiation with a primitive-root base a candidate?
 > - **Core Insight Requirement:** Easy/hard asymmetry.

@@ -29,7 +29,6 @@ tags: [Math/GraphTheory, Math/Discrete, Monash/CS_DS]
 
 $$m\le 3n-6\ (n\ge3),\qquad m\le 2n-4\ (\text{triangle-free})$$
 
----
 ## ⚖️ Core Decision Matrix
 | Graph | $n,m$ | Bound | Planar? |
 | :--- | :--- | :--- | :--- |
@@ -40,7 +39,6 @@ $$m\le 3n-6\ (n\ge3),\qquad m\le 2n-4\ (\text{triangle-free})$$
 
 > [!NOTE] **Crossover Invariant:** $K_5$ and $K_{3,3}$ are the smallest nonplanar graphs (utilities puzzle = $K_{3,3}$). A [[Bipartite Graph|bipartite]] graph is triangle-free, so the stronger $2n-4$ bound applies. Bounds come from [[Euler's Formula (Planar Graphs)|Euler's formula]].
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -56,7 +54,6 @@ Edge-bound test:
 ## ⚠️ Pitfalls
 - 💡 **Violating a bound proves nonplanarity; passing it does not prove planarity** ➔ $K_{3,3}$ passes $3n-6$ but, being bipartite (triangle-free), breaks $2n-4$.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- What does planarity mean, and what are faces, boundaries, and sides?
 > - **Core Insight Requirement:** Existence of a crossing-free drawing.

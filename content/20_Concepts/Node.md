@@ -25,7 +25,6 @@ tags: [CS/DataStructures, OOP/Python]
 - **XOR** ➔ `prev XOR next` in one field ➔ space hack that breaks GC.
 - **Cost per node** ➔ 1 item ref + $k$ link refs ➔ heavy for tiny payloads; scattered allocation hurts **cache locality**.
 
----
 ## ⚙️ Core Implementation
 ### 🔹 `Node` and a chain
 > [!code]- building `1 -> 2 -> 3`
@@ -39,7 +38,6 @@ tags: [CS/DataStructures, OOP/Python]
 > ```
 > 💡 **Exam Pitfall:** **Pointer overhead + cache misses** ➔ a 1-byte payload may carry 8–16 bytes of pointers; separately-allocated nodes cache-miss per hop (~100× an array's sequential hit) even at the same $O(n)$.
 
----
 ## ⚖️ Core Decision Matrix
 | Variant | Links | Buys | Costs |
 | :--- | :--- | :--- | :--- |
@@ -50,7 +48,6 @@ tags: [CS/DataStructures, OOP/Python]
 
 > [!NOTE] **Crossover Invariant:** $O(1)$ splice/relink at a held node vs $O(i)$ to reach an arbitrary position, plus per-node pointer overhead and poor locality — arrays win on access + cache, nodes win on growth + splicing.
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -74,7 +71,6 @@ $$
 $$
 **Final Extracted Output:** no address arithmetic ⟹ traversal is the only route ⟹ $O(i)$ — also why [[Binary Search]] can't run on a linked list.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- Compare singly-, doubly-, and circular-linked nodes by capability and cost.
 > - **Core Insight Requirement:** Links bought vs pointers paid.

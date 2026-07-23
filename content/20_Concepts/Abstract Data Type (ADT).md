@@ -23,7 +23,6 @@ tags: [CS/DataStructures, CS/Abstraction, OOP/Python]
 - **Substitutability** ➔ any implementation may replace another **if it honours the same contract**.
 - **Boundary** ➔ violating encapsulation (poking internals) forfeits substitutability.
 
----
 ## ⚙️ Core Implementation
 ### 🔹 Programming against the contract
 > [!code]- `reverse` depends only on the LIFO interface
@@ -37,7 +36,6 @@ tags: [CS/DataStructures, CS/Abstraction, OOP/Python]
 > ```
 > 💡 **Exam Pitfall:** **WHAT decoupled from HOW** ➔ `reverse` works unchanged for **any** Stack implementation; swapping `ArrayStack(n)` for a linked stack changes only the constructor call.
 
----
 ## ⚖️ Core Decision Matrix
 | Advantage | What it buys | Trade-off |
 | :--- | :--- | :--- |
@@ -48,7 +46,6 @@ tags: [CS/DataStructures, CS/Abstraction, OOP/Python]
 
 > [!NOTE] **Crossover Invariant:** interface ≠ cost — a [[Priority Queue (ADT)]] is $O(1)$/$O(n)$ as a sorted list but $O(\log n)$/$O(\log n)$ as a [[Heap]]; choosing the implementation to fit the workload is the central design act.
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -72,7 +69,6 @@ $$
 $$
 **Final Extracted Output:** substitutability follows from contract conformance, not shared code — the whole point of separating ADT from data structure.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- Why can you swap one implementation of an ADT for another without changing client code?
 > - **Core Insight Requirement:** Clients depend on the contract, not internals.

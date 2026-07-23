@@ -53,7 +53,7 @@ NFA: $1$ Start with self-loop $\mathtt{a}$; $1\xrightarrow{\varepsilon}2$; $2$ s
 - **Start set** ➔ $\{1\}$ closes under $\varepsilon$ to $\{1,2,3\}$ — the machine is "already" in states 2 and 3 before reading anything.
 - **$\emptyset$ is a real state** ➔ it is the **dead/sink** state: once there, every letter keeps you there and it is never Final.
 
-## 🥋 Kata (write from blank)
+## 🥋 Kata 
 > [!QUESTION]- Kata: An NFA has Start $1$ with $1\xrightarrow{\mathtt{a}}1$, $1\xrightarrow{\mathtt{a}}2$, and $2$ Final with no outgoing transitions. Determinise it.
 > > [!SUCCESS]- Reference solution
 > > | DFA state | $\mathtt{a}$ | $\mathtt{b}$ | Final? |

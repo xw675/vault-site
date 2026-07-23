@@ -22,7 +22,6 @@ tags: [CS/DataStructures, CS/Complexity, OOP/Python]
 - **×1.5** (CPython ~1.125+const) ➔ less slack, freed blocks reusable, more copies.
 - **Shrinking** ➔ needs **hysteresis** (halve only at ¼ full) to avoid $O(n)$ thrashing at a boundary.
 
----
 ## ⚙️ Core Implementation
 ### 🔹 Grow-on-overflow `append`
 > [!code]- resize + insert
@@ -37,7 +36,6 @@ tags: [CS/DataStructures, CS/Complexity, OOP/Python]
 > ```
 > 💡 **Exam Pitfall:** **Growth must be multiplicative** ➔ a constant *additive* (+$k$) growth makes $n$ appends $\Theta(n^2)$; the multiplicative factor is exactly what makes resizes geometrically rare.
 
----
 ## ⚖️ Core Decision Matrix
 | Situation | `append` | Why |
 | :--- | :--- | :--- |
@@ -47,7 +45,6 @@ tags: [CS/DataStructures, CS/Complexity, OOP/Python]
 
 > [!NOTE] **Crossover Invariant:** three proofs of amortised $O(1)$ (doubling) — **Aggregate:** copies cost $1+2+4+\dots+n<2n$ ⟹ $O(1)$ each. **Accounting:** charge 3 credits/append (1 write + 2 banked); never negative. **Potential:** $\Phi=2\cdot\text{len}-\text{capacity}$; normal append amortised $1+\Delta\Phi=3$, resize's $O(n)$ copy cancelled by the drop in $\Phi$. Same argument powers [[Hash Table]] rehashing; **amortised ≠ average** — a worst-case-sequence guarantee with no probability.
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -72,7 +69,6 @@ $$
 $$
 **Final Extracted Output:** rare geometric resizes ⟹ $O(1)$ amortised append; additive growth would give $\Theta(n)$ per append.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- Prove doubling-on-overflow makes append $O(1)$ amortised, and show why additive growth fails.
 > - **Core Insight Requirement:** Geometric vs arithmetic copy totals.

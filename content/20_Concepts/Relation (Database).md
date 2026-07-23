@@ -31,7 +31,6 @@ tags: [CS/Databases, Math/SetTheory, Monash/CS_DS]
 $$\text{CUSTOMER}(\underline{\text{custno}}, \text{custname}, \text{custadd}, \text{custcredlimit}) \quad(\text{heading, degree } 4)$$
 $$r(\text{CUSTOMER})=\{t_1, t_2, t_3\} \quad(\text{body, cardinality } 3)$$
 
----
 ## ⚖️ Core Decision Matrix
 | Term | Meaning | Belongs to |
 | :--- | :--- | :--- |
@@ -42,7 +41,6 @@ $$r(\text{CUSTOMER})=\{t_1, t_2, t_3\} \quad(\text{body, cardinality } 3)$$
 
 > [!NOTE] **Crossover Invariant:** because the body is a *set*, no duplicate tuples and tuples/attributes are unordered ([[Relation Properties]]). An $n$-degree relation is a subset of the [[Cartesian Product]] of its attribute domains — the [[n-ary Relation]].
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -58,7 +56,6 @@ CUSTOMER with 3 rows:
 ## ⚠️ Pitfalls
 - 💡 **Degree fixed, cardinality varies** ➔ degree is a design-time schema property; cardinality is run-time data that changes as rows are inserted/deleted.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- Define the heading and body of a relation, and the terms degree and cardinality.
 > - **Core Insight Requirement:** Schema vs instance.

@@ -32,7 +32,6 @@ aliases: [Model, Predictive Model, Classifier, Feature Space]
 - **Reality** ➔ classes **overlap** and there are **many feature dimensions** (some more useful than others).
 - **Testing** ➔ evaluate on **test instances not used in training** — that measures real predictive ability.
 
----
 ## ⚖️ Core Decision Matrix
 | Output | Model type | Example |
 | :--- | :--- | :--- |
@@ -42,7 +41,6 @@ aliases: [Model, Predictive Model, Classifier, Feature Space]
 
 > [!NOTE] **Crossover Invariant:** more **training data** improves test performance, and (with enough data) more **features** helps too — but only up to a limit; beyond it, extra features stop paying off.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- What separates a classifier from a regression model, and why evaluate on test (not training) data?
 > - **Core Insight Requirement:** Output type + generalisation.

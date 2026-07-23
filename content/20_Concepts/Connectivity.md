@@ -35,7 +35,6 @@ $$\text{refl (0-walk)},\ \text{sym (reverse)},\ \text{trans (concatenate)} \Righ
 
 > [!NOTE] **Crossover Invariant:** because the walk relation is an [[Equivalence Relation]], components are automatically disjoint and cover $V$ ([[Set Partition]]) — no overlaps, nothing left out. Walk- and path-connectivity coincide.
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -51,7 +50,6 @@ $G$: $E=\{ab,ac,bc,cd,fg\}$:
 ## ⚠️ Pitfalls
 - 💡 **A component must be maximal** ➔ the triangle $\{a,b,c\}$ inside $\{a,b,c,d\}$ is connected but not a component; an isolated vertex is its own component.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- Show connectivity is an equivalence relation and that its classes are the components.
 > - **Core Insight Requirement:** Reflexive/symmetric/transitive.

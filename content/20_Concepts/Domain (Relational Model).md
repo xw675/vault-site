@@ -33,7 +33,6 @@ $$\text{dom}(\text{custadd})=\text{address},\quad \text{dom}(\text{custcredlimit
 
 > [!NOTE] **Crossover Invariant:** a domain is a *logical* constraint; the DBMS maps it to a concrete column type at physical design. The FIT1058 [[Sets of Numbers|number sets]] are example numeric domains.
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -49,7 +48,6 @@ Validating attribute values:
 ## ⚠️ Pitfalls
 - 💡 **A value outside the domain is rejected** ➔ an `Age` attribute holds integers in $0$–$120$, never the text "twenty" (column/domain integrity).
 
----
 ## 🧠 Active Recall
 > [!FAQ]- What is a domain, and how does it relate to data integrity?
 > - **Core Insight Requirement:** Valid-value set per attribute.

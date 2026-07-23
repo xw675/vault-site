@@ -27,7 +27,6 @@ tags: [CS/Databases, SWE/Design, Monash/CS_DS]
 - **No invented structure** ➔ plausible-but-unstated relationships violate the rule.
 - **Notations** ➔ Chen vs **Crow's Foot** (unit standard); methodologies UML/ER/semantic.
 
----
 ## ⚙️ Core Implementation
 
 ### 🔹 A minimal conceptual ER fragment
@@ -41,7 +40,6 @@ tags: [CS/Databases, SWE/Design, Monash/CS_DS]
 > ```
 > 💡 **Exam Pitfall:** **Conceptual ≠ logical** ➔ keep M:N relationships and multivalued attributes at the conceptual stage; surrogate keys are **banned** here — resolve only in [[Conceptual vs Logical Model|logical modelling]].
 
----
 ## ⚖️ Core Decision Matrix
 | Aspect | Conceptual | Logical |
 | :--- | :--- | :--- |
@@ -52,7 +50,6 @@ tags: [CS/Databases, SWE/Design, Monash/CS_DS]
 
 > [!NOTE] **Crossover Invariant:** abstraction lets stakeholders agree on *meaning* before choosing a platform. The rule "all-and-only the brief" is absolute — even a real-world-plausible relationship not in the brief must not be added.
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -76,7 +73,6 @@ $$
 $$
 **Final Extracted Output:** invalid — adding unstated structure violates the "all-and-only" rule.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- What are the two key characteristics of a conceptual model, and why do they matter?
 > - **Core Insight Requirement:** Common language before platform.

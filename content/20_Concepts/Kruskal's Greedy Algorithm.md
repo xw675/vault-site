@@ -32,7 +32,6 @@ $$X=\emptyset;\ \text{repeatedly add } \min\nolimits_w\{e:\ X\cup\{e\}\text{ acy
 
 > [!NOTE] **Crossover Invariant:** the partial $X$ is always a forest; the cheapest-edge rule among cycle-free options attains the global minimum. Recognising the structures where greedy provably works (matroids) is the deeper lesson.
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -49,7 +48,6 @@ Costs $ab{=}1,bc{=}2,cd{=}2,da{=}3,ac{=}4$:
 ## ⚠️ Pitfalls
 - 💡 **Greedy ≠ optimal in general** ➔ Kruskal is a celebrated exception; for most problems "maximise short-term gain" misses the global optimum.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- State Kruskal's algorithm and why the optimum must be a spanning tree.
 > - **Core Insight Requirement:** No redundant edge.

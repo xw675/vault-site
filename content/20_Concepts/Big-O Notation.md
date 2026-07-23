@@ -38,7 +38,6 @@ tags: [CS/Complexity, Math/Analysis, CS/Algorithms, Math/Sequences]
 - **Tractability line** ➔ **polynomial vs exponential** = tractable vs intractable (P-vs-NP frontier).
 - **Doubling $n$** ➔ $O(n^2)\to4T$ (scalable); $O(2^n)\to T^2$ (catastrophic); class jumps need a new idea, not micro-optimisation.
 
----
 ## ⚙️ Core Implementation
 ### 🔹 Dominant-term reasoning + log rules
 > [!code]- worked $O$ judgements
@@ -64,7 +63,6 @@ tags: [CS/Complexity, Math/Analysis, CS/Algorithms, Math/Sequences]
 > ```
 > 💡 **Exam Pitfall:** **Sum keeps the max, not the sum** ➔ Product multiplies; these manipulate **upper bounds only** and cannot yield a lower bound.
 
----
 ## ⚖️ Core Decision Matrix
 | Notation | Bound | Condition | Limit | Describes |
 | :--- | :--- | :--- | :--- | :--- |
@@ -76,7 +74,6 @@ tags: [CS/Complexity, Math/Analysis, CS/Algorithms, Math/Sequences]
 
 > [!NOTE] **Crossover Invariant:** growth ladder on doubling $n$ — $O(1)$ unchanged · $O(\log n)$ $+1$ · $O(n)$ $\times2$ · $O(n^2)$ $\times4$ · $O(2^n)$ **squared**. $\Theta$ exists when best=worst ([[Merge Sort]] $\Theta(n\log n)$); **quicksort has no single $\Theta$** ($\Theta(n\log n)$ avg, $\Theta(n^2)$ worst).
 
----
 ## 📊 Exam Execution Trace
 
 ### Applied Exercise
@@ -90,7 +87,6 @@ f_1\le c_1 g_1\ (n\ge n_1),\; f_2\le c_2 g_2\ (n\ge n_2) \Rightarrow\; & f_1+f_2
 $$
 **Final Extracted Output:** with $c=c_1+c_2$, $n_0=\max(n_1,n_2)$ the definition holds ⟹ the sum keeps the dominant term.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- State the formal definition of $O$ and prove $4n^2 + 1000n + 100 = O(n^2)$.
 > - **Core Insight Requirement:** Exhibit witnesses $c, n_0$.

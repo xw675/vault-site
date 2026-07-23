@@ -39,7 +39,7 @@ plot(outputTree)
 ```
 - **Predict form** ➔ `lm(height ~ weight)` builds a model to predict `height` (response) from `weight` (predictor).
 
-## 🥋 Kata (write from blank)
+## 🥋 Kata 
 > [!QUESTION]- Kata 1: Fit a linear model predicting `height` from `weight`, then print just the slope.
 > > [!SUCCESS]- Reference solution
 > > ```r

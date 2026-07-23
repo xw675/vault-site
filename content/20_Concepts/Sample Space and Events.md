@@ -32,7 +32,6 @@ tags: [Math/Probability, Math/Discrete, Monash/CS_DS]
 $$U=\{1,\dots,6\}\times\{1,\dots,6\},\ |U|=36\ (\text{uniform})$$
 $$\text{vs totals } \{2,\dots,12\}\ (\text{valid but non-uniform})$$
 
----
 ## ⚖️ Core Decision Matrix
 | Space | Uniform? | Expressive? |
 | :--- | :--- | :--- |
@@ -43,7 +42,6 @@ $$\text{vs totals } \{2,\dots,12\}\ (\text{valid but non-uniform})$$
 
 > [!NOTE] **Crossover Invariant:** the sample space *is* the [[Set Operations (Mathematics)|universal set]], which makes "not $A$" ($\overline A$) well-defined; a uniform fine space makes $|A|/|U|$ ([[Probability|Equally Likely Outcomes]]) usable, but accuracy of the model comes first.
 
----
 ## 📊 Exam Execution Trace
 
 ### Applied Exercise
@@ -60,7 +58,6 @@ $$
 ## ⚠️ Pitfalls
 - 💡 **Coarse spaces lose information** ➔ the $11$-total space can't represent "doubles"; the fine $36$-pair space is both uniform and more expressive.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- What are a sample space and event, and why prefer the 36-pair over the 11-total space?
 > - **Core Insight Requirement:** Uniform + expressive.

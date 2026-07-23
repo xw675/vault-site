@@ -36,7 +36,6 @@ $$\text{STUDENT}\times\text{MARK} \quad(2\times3=6 \text{ tuples})$$
 $$\sigma_{\text{STUDENT.ID}=\text{MARK.ID}} \quad(6\to3,\ =\text{equi join})$$
 $$\pi_{\dots}\ (\text{drop MARK.ID}) = \{(1,\text{Alice},1004,95),(1,\text{Alice},1045,90),(2,\text{Bob},1045,55)\}$$
 
----
 ## ⚖️ Core Decision Matrix
 | Join | Predicate | Shared column |
 | :--- | :--- | :--- |
@@ -47,7 +46,6 @@ $$\pi_{\dots}\ (\text{drop MARK.ID}) = \{(1,\text{Alice},1004,95),(1,\text{Alice
 
 > [!NOTE] **Crossover Invariant:** every join is a [[Cartesian Product]] filtered by the predicate (natural join also projects) — joins are derived, not primitive. Equi joins on PK = FK are the everyday case ([[Foreign Key and Referential Integrity]]); pure algebra drops unmatched tuples (inner join, no [[NULL Value|NULLs]]).
 
----
 ## 📊 Exam Execution Trace
 
 ### Applied Exercise
@@ -65,7 +63,6 @@ $$
 ## ⚠️ Pitfalls
 - 💡 **Natural join needs a shared attribute** ➔ if relations share matching attribute(s) the predicate is implicit; without one, use an equi join and **state the predicate**.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- Distinguish theta, equi, and natural joins.
 > - **Core Insight Requirement:** Comparison and column handling.

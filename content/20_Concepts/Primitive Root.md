@@ -32,7 +32,6 @@ tags: [Math/NumberTheory, Math/Discrete, Monash/CS_DS]
 $$x \text{ primitive} \iff x^k\not\equiv1\pmod n \text{ for } k<\phi(n)$$
 $$3 \bmod 7:\ 3,2,6,4,5,1\ (\text{first }1\text{ at }k=6=\phi(7)) \Rightarrow \text{primitive}$$
 
----
 ## ⚖️ Core Decision Matrix
 | $n$ | Primitive root? | Reason |
 | :--- | :--- | :--- |
@@ -43,7 +42,6 @@ $$3 \bmod 7:\ 3,2,6,4,5,1\ (\text{first }1\text{ at }k=6=\phi(7)) \Rightarrow \t
 
 > [!NOTE] **Crossover Invariant:** a primitive root's powers cover *all* of $\mathbb Z_n^*$ — the widest spread — making $x\mapsto a^x$ hardest to invert, so a primitive root of a large prime is chosen for the [[One-Way Function]] behind [[Diffie-Hellman Key Agreement]].
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -59,7 +57,6 @@ Powers of 2 mod 11 ($\phi=10$):
 ## ⚠️ Pitfalls
 - 💡 **Existence restricted** ➔ only $n=1,2,4,p^k,2p^k$ have primitive roots; 8 does not (all of $\mathbb Z_8^*$ have order $\le2<4$).
 
----
 ## 🧠 Active Recall
 > [!FAQ]- Define a primitive root and verify 3 is one mod 7 but 2 is not.
 > - **Core Insight Requirement:** Order = $\phi(n)$.

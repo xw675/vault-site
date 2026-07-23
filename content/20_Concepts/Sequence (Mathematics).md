@@ -33,7 +33,6 @@ tags: [Math/Discrete, Math/Sequences, Monash/CS_DS]
 $$\text{closed: } (n^2)_{n=1}^{\infty} = 1,4,9,16,25,\dots$$
 $$\text{recurrence: } f_1=1,\ f_n=n f_{n-1}\ (\text{factorials})$$
 
----
 ## ⚖️ Core Decision Matrix
 | Feature | Sequence | Set |
 | :--- | :--- | :--- |
@@ -44,7 +43,6 @@ $$\text{recurrence: } f_1=1,\ f_n=n f_{n-1}\ (\text{factorials})$$
 
 > [!NOTE] **Crossover Invariant:** sequences are fundamental to computation — memory is laid out in order, and time-vs-input-size is the sequence [[Big-O Notation]] analyses. Closed form gives any term in one step; a recurrence is often more natural but hides growth until unrolled.
 
----
 ## 📊 Exam Execution Trace
 
 ### Applied Exercise
@@ -61,7 +59,6 @@ $$
 ## ⚠️ Pitfalls
 - 💡 **"$f_1,f_2,\dots$" is not a definition** ➔ many sequences share any finite prefix; pin it with a closed form or a recurrence + base case.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- Define a sequence precisely, and how it differs from a set.
 > - **Core Insight Requirement:** Ordered + repeatable.

@@ -54,7 +54,7 @@ y_pred = model.predict(X_test)      # apply to UNSEEN data
 - **Metric choice is the exam question** ➔ spam filter wants precision, disease screen wants recall — derive from the confusion matrix, don't memorise ([[Classification Evaluation (Confusion Matrix and Metrics)]]).
 - **Read coefficients** ➔ `model.coef_`, `model.intercept_` — same quantities as R's `fit$coefficients` ([[R Toolkit (Cheatsheet)]]).
 
-## 🥋 Kata (write from blank)
+## 🥋 Kata 
 > [!QUESTION]- df has `hours`, `attendance` → `passed` (0/1). Build an 80/20 split, fit a decision tree, print the confusion matrix and accuracy, and state which metric you'd report if failing students are rare and missing one is costly.
 > > [!SUCCESS]- Reference solution
 > > ```python

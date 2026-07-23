@@ -53,7 +53,7 @@ classDiagram
 - **Direction is free** ➔ neither strictly top-down nor bottom-up — design "**progresses from knowns to unknowns**" (Beck & Cunningham); two teams reached the same design from opposite ends.
 - **Card too full ⇒ SRP** ➔ copy to a fresh card and state responsibilities more **abstractly**; if it *still* won't fit, the object **does too much** — **split it by responsibility** (SRP).
 
-## 🥋 Kata (write from blank)
+## 🥋 Kata
 > [!QUESTION]- Kata 1: A `Seminar` card's Responsibilities list grows to: name, number, fees, waiting list, enrolled students, instructor, add student, drop student, compute average mark, print transcript. What's the smell and the fix?
 > > [!SUCCESS]- Reference solution
 > > - **Smell:** the card is overloaded — `Seminar` is trying to do enrolment *and* assessment/reporting ➔ **SRP** violation (a [[Design Smells (Java)|God Class]] in the making).

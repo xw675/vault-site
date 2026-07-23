@@ -30,7 +30,6 @@ tags: [CS/Databases, SWE/Design, Monash/CS_DS]
 $$\text{EMPLOYEE}(\underline{\text{emp\_id}}, \text{emp\_name}) \qquad \text{EMP\_SKILL}(\underline{\text{emp\_id}^{*}, \text{emp\_skill}})$$
 $$\text{EMP\_DEPENDENT}(\underline{\text{emp\_id}^{*}, \text{edep\_id}}, \text{edep\_firstname}, \dots)$$
 
----
 ## ⚖️ Core Decision Matrix
 | Construct | Mapping | Reason |
 | :--- | :--- | :--- |
@@ -41,7 +40,6 @@ $$\text{EMP\_DEPENDENT}(\underline{\text{emp\_id}^{*}, \text{edep\_id}}, \text{e
 
 > [!NOTE] **Crossover Invariant:** atomicity is the driver — composite and multivalued attributes both violate the relational atomic-value rule ([[First Normal Form (1NF)]]). A weak entity's inherited parent PK lands **inside** the child's composite PK (solid-line [[Identifying vs Non-Identifying Relationship|identifying relationship]]).
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -57,7 +55,6 @@ Mapping attribute types:
 ## ⚠️ Pitfalls
 - 💡 **Bare multivalued split leaves redundancy** ➔ the same skill repeats across employees ([[Database Anomalies]]); add a `SKILL` lookup relation to store each description once.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- How are composite and multivalued attributes mapped, and why?
 > - **Core Insight Requirement:** Atomicity.

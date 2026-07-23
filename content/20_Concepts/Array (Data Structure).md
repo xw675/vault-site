@@ -23,7 +23,6 @@ tags: [CS/DataStructures, OOP/Python]
 - **Cache locality** ➔ a fetch loads a whole **cache line** (~64 B) ⟹ sequential access prefetches neighbours.
 - **Multidim** ➔ **row-major** $\text{addr}(A[i][j])=\text{base}+(i\cdot\text{cols}+j)\cdot\text{slot\_size}$; column-major of a row-major array thrashes the cache.
 
----
 ## ⚙️ Core Implementation
 ### 🔹 `ArrayR` — fixed-size referential array
 > [!code]- access / set / capacity
@@ -36,7 +35,6 @@ tags: [CS/DataStructures, OOP/Python]
 > ```
 > 💡 **Exam Pitfall:** **Construction is $O(n)$, access is $O(1)$** ➔ `ArrayR(n)` initialises all $n$ slots (linear), but access computes one address; algorithms amortise the allocation over many constant-time accesses.
 
----
 ## ⚖️ Core Decision Matrix
 | Operation | Complexity | Reason |
 | :--- | :--- | :--- |
@@ -48,7 +46,6 @@ tags: [CS/DataStructures, OOP/Python]
 
 > [!NOTE] **Crossover Invariant:** $O(1)$ random access + cache-friendliness vs **fixed capacity** (growth = full copy) and $O(n)$ structural edits — the mirror image of a [[List (ADT)|LinkList]]. ADTs built on it: [[Stack (ADT)|ArrayStack]], [[List (ADT)|ArrayList]], [[Hash Table]], [[Heap]].
 
----
 ## 📊 Exam Execution Trace
 
 ### Applied Exercise
@@ -62,7 +59,6 @@ $$
 $$
 **Final Extracted Output:** consecutive $j$ are adjacent in memory ⟹ row-major (inner $j$) traversal is cache-optimal.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- Two $O(n)$ traversals — array vs linked list — differ several-fold in speed. Explain via the memory hierarchy.
 > - **Core Insight Requirement:** Contiguity vs scatter.

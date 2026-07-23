@@ -24,7 +24,6 @@ tags: [CS/DataStructures, OOP/Python]
 - **Pipeline fusion** ➔ chain filter→map→reduce with no intermediate lists.
 - **General form** ➔ `yield` (a generator function = restricted **coroutine**); a genexp is sugar for a simple `yield` loop.
 
----
 ## ⚙️ Core Implementation
 ### 🔹 List vs generator
 > [!code]- eager `[...]` vs lazy `(...)`
@@ -36,7 +35,6 @@ tags: [CS/DataStructures, OOP/Python]
 > ```
 > 💡 **Exam Pitfall:** **Only `()` vs `[]` differs, but three consequences follow** ➔ lazy iterator (not list), $O(1)$ (not $O(n)$) memory, and single-use (no `len`/indexing/re-loop).
 
----
 ## ⚖️ Core Decision Matrix
 | | [[List Comprehension]] `[...]` | Generator `(...)` |
 | :--- | :--- | :--- |
@@ -48,7 +46,6 @@ tags: [CS/DataStructures, OOP/Python]
 
 > [!NOTE] **Crossover Invariant:** generators win on memory + early-exit; lists win when you need random access, `len`, or to loop more than once. A genexp is equivalent to a `yield`-based generator function — both suspend at each yield and resume on `next` (a restricted coroutine).
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -74,7 +71,6 @@ $$
 $$
 **Final Extracted Output:** laziness lets `any`/`next` terminate early — unreachable for a materialised list.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- Beyond memory, name two things lazy generators enable that an eager list cannot.
 > - **Core Insight Requirement:** Infinite + short-circuit.

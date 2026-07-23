@@ -34,7 +34,6 @@ tags: [Math/Relations, Math/Discrete, Monash/CS_DS]
 $$\text{refl } \forall x:xRx,\quad \text{sym } xRy\Rightarrow yRx,\quad \text{antisym } xRy\wedge yRx\Rightarrow x{=}y,\quad \text{trans } xRy\wedge yRz\Rightarrow xRz$$
 $$S\circ R=\{(x,z):\exists y,\ xRy\wedge yScz\}$$
 
----
 ## ⚖️ Core Decision Matrix
 | Relation | R | S | AntiS | T |
 | :--- | :--- | :--- | :--- | :--- |
@@ -45,7 +44,6 @@ $$S\circ R=\{(x,z):\exists y,\ xRy\wedge yScz\}$$
 
 > [!NOTE] **Crossover Invariant:** relations are sets of pairs, so $R\cup S$ ($\text{Parent}=\text{Mother}\cup\text{Father}$), $R\cap S$ apply. $R^+$ is always transitive and minimal; under six-degrees $\text{knows}^+=\text{knows}^{(6)}$.
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -62,7 +60,6 @@ $A=\{1,2,3\}$, $R=\{(1,1),(2,2),(3,3),(1,2),(2,1)\}$:
 ## ⚠️ Pitfalls
 - 💡 **Symmetric and antisymmetric are not opposites** ➔ $=$ is both; many relations are neither. Antisymmetry says mutual relation forces equality, not that symmetry fails.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- Define the four properties; why is $=$ special and which does $\le$ satisfy?
 > - **Core Insight Requirement:** Symmetry vs antisymmetry.

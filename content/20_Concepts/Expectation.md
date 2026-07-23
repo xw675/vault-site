@@ -33,7 +33,6 @@ $$E(XY)=E(X)E(Y)\ (\text{independent only})$$
 
 > [!NOTE] **Crossover Invariant:** linearity splits a complex variable into simple summands — a [[Binomial Distribution|binomial]] $Z=\sum X_i$ of [[Binomial Distribution|Bernoullis]] gives $E(Z)=np$ instantly. $E$ can lie far from every value (skewed data), where the median is more representative.
 
----
 ## 📊 Exam Execution Trace
 
 ### Applied Exercise
@@ -50,7 +49,6 @@ $$
 ## ⚠️ Pitfalls
 - 💡 **Linearity needs no independence** ➔ $E(X+Y)=E(X)+E(Y)$ holds even for dependent variables; only the *product* rule requires independence.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- Define $E(X)$ and state linearity — does it need independence?
 > - **Core Insight Requirement:** Additive always.

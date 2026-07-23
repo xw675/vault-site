@@ -28,7 +28,6 @@ tags: [CS/Algorithms, CS/Sorting, CS/Complexity, OOP/Python]
 - **Linked variant** ➔ [[List (ADT)|LinkList]] merges by **relinking** ➔ $\Theta(\log n)$ stack, no scratch.
 - **External sort** ➔ sequential access pattern ➔ basis of multiway sorts for data $>$ RAM.
 
----
 ## ⚙️ Core Implementation
 ### 🔹 `merge_sort` + auxiliary recursion + the $O(n)$ merge
 > [!code]- `merge_sort`, `merge_sort_aux`, `merge_arrays`
@@ -56,7 +55,6 @@ tags: [CS/Algorithms, CS/Sorting, CS/Complexity, OOP/Python]
 > ```
 > 💡 **Exam Pitfall:** **Merge `<=` is load-bearing** ➔ `<` emits the right element first on ties, breaking stability; guard empty input (`mid = -1//2 = -1` recurses forever).
 
----
 ## ⚖️ Core Decision Matrix
 *(complexity table — Best / Average / Worst Time, Space, Stability.)*
 
@@ -68,7 +66,6 @@ tags: [CS/Algorithms, CS/Sorting, CS/Complexity, OOP/Python]
 
 > [!NOTE] **Crossover Invariant:** merge sort's space/stability trade is the inverse of quicksort's — pick merge for **worst-case guarantees, stability, linked lists, or external data**; quicksort when in-place + smaller constant outweigh the $\Theta(n^2)$ risk.
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -93,7 +90,6 @@ T(n) &= 2\,T(n/2) + \Theta(n) = \Theta(n)\cdot \underbrace{\log_2 n}_{\text{leve
 $$
 **Final Extracted Output:** best = average = worst = $\Theta(n\log n)$ — no input degrades it.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- Explain merge sort's complexity and why it has no bad case.
 > - **Core Insight Requirement:** Tie the recurrence to order-independence.

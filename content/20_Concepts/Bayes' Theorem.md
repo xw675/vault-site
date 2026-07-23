@@ -27,7 +27,6 @@ tags: [Math/Probability, DS/MachineLearning, Monash/CS_DS]
 
 > [!NOTE] **Crossover Invariant:** posteriors over a partition sum to 1, so a missing one can be found by subtraction. Bayesian updating underpins statistics and machine learning; if $A,B$ independent the posterior equals the prior.
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -43,7 +42,6 @@ Three coins, observe Heads:
 ## ⚠️ Pitfalls
 - 💡 **Direction matters** ➔ $\mathrm{Pr}(A\mid B)\neq\mathrm{Pr}(B\mid A)$; Bayes is the correction factor $\mathrm{Pr}(A)/\mathrm{Pr}(B)$ (base-rate fallacy).
 
----
 ## 🧠 Active Recall
 > [!FAQ]- State and prove Bayes' Theorem.
 > - **Core Insight Requirement:** Two forms of $\mathrm{Pr}(A\cap B)$.

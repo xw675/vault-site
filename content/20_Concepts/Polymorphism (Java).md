@@ -69,7 +69,7 @@ class Barrack {
 ```
 - **Abstract supertype** ➔ the base is often an [[Abstract Classes (Java)|abstract class]]: `Assessment a = new Test();` — you code to `Assessment`, each subclass implements `mark()`.
 
-## 🥋 Kata (write from blank)
+## 🥋 Kata 
 > [!QUESTION]- Kata 1: A `Shape` has `area()` returning `0`. `Circle` (radius r) overrides it to `πr²`. Store a `Circle` in a `Shape` variable and print its area. Why does the override run?
 > > [!SUCCESS]- Reference solution
 > > ```java

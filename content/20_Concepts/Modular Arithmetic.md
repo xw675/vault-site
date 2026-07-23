@@ -38,7 +38,6 @@ aliases: [Modulo Operation, Congruence, mod]
 - 💡 **$-6\bmod5=4$, not $-1$** ➔ the floor convention forces $r\in[0,d-1]$; a language's `%` might return $-1$ but mathematical mod never does.
 - 💡 **$\mathbb Z_n$ equation ≠ congruence** ➔ "$2+3=1$ in $\mathbb Z_4$" is an equation (the only value there); "$2+3\equiv1\pmod4$" is a congruence (also $\equiv37$); but "$2+3=37$ in $\mathbb Z_4$" is wrong ($37\notin\mathbb Z_4$).
 
----
 ## 🧠 Active Recall
 > [!FAQ]- Give three equivalent definitions of $a\equiv b\pmod n$ and explain why the classes partition $\mathbb Z$.
 > - **Core Insight Requirement:** Congruence is an equivalence.

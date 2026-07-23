@@ -68,7 +68,7 @@ classDiagram
 
 - **Default method** ➔ (Java 8+) `default void show() { ... }` gives an interface a *concrete* method, adding functionality **without breaking** existing implementers (aka "defender" / "virtual extension" method).
 
-## 🥋 Kata (write from blank)
+## 🥋 Kata
 > [!QUESTION]- Kata 1: Define a `Comparable`-style interface `Rankable` with `int rank()`. Make `Player` implement it. Why prefer an interface here over extending a `Rankable` base class?
 > > [!SUCCESS]- Reference solution
 > > ```java

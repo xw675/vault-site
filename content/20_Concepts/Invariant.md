@@ -24,7 +24,6 @@ tags: [CS/Algorithms, CS/Foundations]
 - **Termination** ➔ loop ends + negated guard ⟹ postcondition.
 - **Total correctness** ➔ maintenance + termination give **partial**; a **variant** (non-negative integer measure strictly decreasing, e.g. `end - start`) proves halting ⟹ **total**.
 
----
 ## ⚖️ Core Decision Matrix
 | Algorithm | Key loop invariant | What it enables |
 | :--- | :--- | :--- |
@@ -37,7 +36,6 @@ tags: [CS/Algorithms, CS/Foundations]
 
 > [!NOTE] **Crossover Invariant:** class invariants generalise to objects — a property every public method preserves (a [[Queue (ADT)|CircularQueue]]'s `front`/`rear`/`count` consistency). Invariants prove *correctness*; [[Big-O Notation|asymptotic analysis]] proves *cost* — the two halves of analysis.
 
----
 ## 📊 Exam Execution Trace
 
 ### Applied Exercise
@@ -55,7 +53,6 @@ $$
 ## ⚠️ Pitfalls
 - 💡 **Invariant ≠ termination** ➔ it proves correctness *if* the loop halts; you still need a separate **variant** (a strictly-decreasing non-negative measure) for total correctness.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- State the three obligations of a loop-invariant proof and which combination gives total vs partial correctness.
 > - **Core Insight Requirement:** Partial vs total.

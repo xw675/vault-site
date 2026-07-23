@@ -6,7 +6,7 @@ tags: [Monash/CS_DS, 2025/S2]
 # 📘 FIT1058: Foundations of Computing
 
 > [!INFO] Map of Content
-> Index for the **Discrete Mathematics** strand of FIT1058 — sets, functions, relations, logic & proof, and sequences/series/growth. Each link below is a standalone atomic note. Start with [[Set (Mathematics)]] and follow the links.
+> Index for the **Discrete Mathematics** strand of FIT1058 — sets, functions, relations, logic & proof, sequences/series/growth. Start with [[Set (Mathematics)]].
 
 ## 📊 Assessment Map
 

@@ -30,7 +30,6 @@ tags: [Math/Probability, Math/Discrete, Monash/CS_DS]
 
 $$\mathrm{Pr}(X=k)=\sum_{x:X(x)=k}\mathrm{Pr}(x),\qquad \mathrm{Pr}(X+Y=k)=\sum_{i+j=k}\mathrm{Pr}((X=i)\wedge(Y=j))$$
 
----
 ## ⚖️ Core Decision Matrix
 | Object | Has | Note |
 | :--- | :--- | :--- |
@@ -41,7 +40,6 @@ $$\mathrm{Pr}(X=k)=\sum_{x:X(x)=k}\mathrm{Pr}(x),\qquad \mathrm{Pr}(X+Y=k)=\sum_
 
 > [!NOTE] **Crossover Invariant:** a sample space breaks outcomes into equiprobable atoms; a random variable extracts a *useful number*, lumping many outcomes (all pairs summing to 9). The distribution of $X+Y$ generally differs from the parts.
 
----
 ## 📊 Exam Execution Trace
 
 ### Applied Exercise
@@ -57,7 +55,6 @@ $$
 ## ⚠️ Pitfalls
 - 💡 **Never "$\mathrm{Pr}(X)$"** ➔ $X$ ranges over many values; only events like $\{X=k\}$ have a probability. A variable is never independent of itself.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- What is a random variable, and why write $\mathrm{Pr}(X=k)$ rather than $\mathrm{Pr}(X)$?
 > - **Core Insight Requirement:** Function, not event.

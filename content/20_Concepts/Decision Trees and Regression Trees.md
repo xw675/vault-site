@@ -28,7 +28,6 @@ aliases: [Decision Tree, Regression Tree, Recursive Partitioning, Information Ga
 - **Which feature to split** ➔ chosen by a **purity / information-gain** measure (e.g. **entropy**); algorithms differ — **ID3, C4.5, CART**.
 - **When to stop** ➔ further splits stop helping: minimum samples per node, maximum depth, or negligible accuracy gain.
 
----
 ## ⚙️ Core Implementation
 ### 🔹 Decision tree — "play tennis?"
 > [!code]- Mermaid tree + rule
@@ -44,7 +43,6 @@ aliases: [Decision Tree, Regression Tree, Recursive Partitioning, Information Ga
 > ```
 > 💡 **Exam Pitfall:** **Read the tree as OR-of-AND rules** ➔ good day = (Sunny **and** Normal) **or** Overcast **or** (Rain **and** Weak); everything else is a bad day.
 
----
 ## ⚖️ Core Decision Matrix
 | Tree | Predicts | Leaf value |
 | :--- | :--- | :--- |

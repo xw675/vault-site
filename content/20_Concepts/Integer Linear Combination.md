@@ -34,7 +34,6 @@ $$12\mathbb Z+20\mathbb Z=4\mathbb Z:\ 2\cdot12-1\cdot20=4$$
 
 > [!NOTE] **Crossover Invariant:** the crucial corollary — $\gcd(m,n)=1$ iff some $xm+yn=1$ — is the definition-level link to [[Coprimality]] and [[Modular Inverse|inverses mod $n$]]. Closure under differences underlies $m\mathbb Z+n\mathbb Z=\Delta\mathbb Z$.
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -50,7 +49,6 @@ Combinations of 12, 20:
 ## ⚠️ Pitfalls
 - 💡 **Existence ≠ construction** ➔ Bézout guarantees $x,y$; the [[Extended Euclidean Algorithm]] actually finds them, and they are non-unique.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- State Bézout's identity and why $\gcd(m,n)$ is the smallest positive $xm+yn$.
 > - **Core Insight Requirement:** Shared greatest element.

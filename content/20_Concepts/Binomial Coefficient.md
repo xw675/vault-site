@@ -30,7 +30,6 @@ tags: [Math/Combinatorics, Math/Discrete, Monash/CS_DS]
 $$\binom{n}{k}=\frac{n(n-1)\cdots(n-k+1)}{k!}=\frac{n!}{(n-k)!\,k!}$$
 $$\binom{n}{k}=\binom{n}{n-k},\qquad \binom{n}{k}=\binom{n-1}{k-1}+\binom{n-1}{k}$$
 
----
 ## ⚖️ Core Decision Matrix
 | Case | Value | Reason |
 | :--- | :--- | :--- |
@@ -41,7 +40,6 @@ $$\binom{n}{k}=\binom{n}{n-k},\qquad \binom{n}{k}=\binom{n-1}{k-1}+\binom{n-1}{k
 
 > [!NOTE] **Crossover Invariant:** two computation routes — closed form (direct) or Pascal's identity (recursive, no large factorials, good for many coefficients). Outside $0\le k\le n$, $\binom{n}{k}=0$.
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -57,7 +55,6 @@ Pascal's triangle rows:
 ## ⚠️ Pitfalls
 - 💡 **Divide by $k!$** ➔ ordered selection $\frac{n!}{(n-k)!}$ counts each subset $k!$ times; forgetting the division confuses permutations with combinations.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- Derive $\binom{n}{k}=\frac{n!}{(n-k)!\,k!}$ from first principles.
 > - **Core Insight Requirement:** Order then correct.

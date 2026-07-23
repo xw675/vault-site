@@ -31,7 +31,6 @@ aliases: [Concurrency, Locking, Shared Lock, Exclusive Lock, Two-Phase Locking, 
 - **Growing phase** ➔ acquire **all** needed locks (no release yet); once held, apply changes.
 - **Shrinking phase** ➔ issue COMMIT/ROLLBACK, then release locks — never acquire after releasing.
 
----
 ## ⚖️ Core Decision Matrix
 | Lock type | Grants | Coexists with | Requested by |
 | :--- | :--- | :--- | :--- |
@@ -40,7 +39,6 @@ aliases: [Concurrency, Locking, Shared Lock, Exclusive Lock, Two-Phase Locking, 
 
 > [!NOTE] **Crossover Invariant:** an X request must wait until **every** other lock (S or X) on the item is released; multiple S locks are compatible, so readers never block readers — only a writer forces the wait.
 
----
 ## 📊 Exam Execution Trace
 
 ### 1. Lost Update (no locking)
@@ -65,7 +63,6 @@ aliases: [Concurrency, Locking, Shared Lock, Exclusive Lock, Two-Phase Locking, 
 
 **Final Extracted Output:** T1's X-lock on A is blocked until T2 commits and drops its S(A); only then does T1 acquire X(A).
 
----
 ## 🧠 Active Recall
 > [!FAQ]- At time 2 T1 wants to UPDATE A but must wait — why, and when is it unblocked?
 > - **Core Insight Requirement:** X needs all other locks released.

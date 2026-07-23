@@ -24,7 +24,6 @@ tags: [CS/Programming, OOP/Python]
 - **map/filter/reduce** ➔ transform / select / aggregate ➔ compose into pipelines.
 - **Decorator** ➔ a HOF wrapping a function (`@dec` is `f = dec(f)`) ➔ memoisation rescues naive [[Recursion|Fibonacci]].
 
----
 ## ⚙️ Core Implementation
 ### 🔹 Taking, returning, and the three list HOFs
 > [!code]- closures + map/filter/reduce
@@ -43,7 +42,6 @@ tags: [CS/Programming, OOP/Python]
 > ```
 > 💡 **Exam Pitfall:** **A closure keeps a reference to the captured variable** ➔ even after the enclosing call returns — `g = return_f(30)` behaves as "add 30" forever; this is how HOFs build *configured* functions at run time.
 
----
 ## ⚖️ Core Decision Matrix
 | Tool | Form | Replaces / adds |
 | :--- | :--- | :--- |
@@ -56,7 +54,6 @@ tags: [CS/Programming, OOP/Python]
 
 > [!NOTE] **Crossover Invariant:** abstraction/reuse (one `traverse(tree, f)` covers infinitely many behaviours) + composability ($f\circ g$ pipelines); the trade-off is that nested closures / point-free style can obscure control flow.
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -81,7 +78,6 @@ $$
 $$
 **Final Extracted Output:** `@lru_cache` memoisation turns naive Fibonacci from $\Theta(\varphi^n)$ to $\Theta(n)$ — a HOF wrapper.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- What is a closure, and how does it let `return_f(x)` produce a function that "remembers" `x`?
 > - **Core Insight Requirement:** Captured environment outlives the call.

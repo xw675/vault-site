@@ -35,7 +35,7 @@ public Fraction getFuel() { return new Fraction(fuel); }    // caller gets a cop
 - **Where to copy** ➔ any time a mutable object crosses the class boundary: **out** of a getter, **into** a setter, and **into** a constructor.
 - **Why** ➔ a private field should be changed **only by its own class**; a shared reference hands that control away.
 
-## 🥋 Kata (write from blank)
+## 🥋 Kata
 > [!QUESTION]- Kata 1: `Meeting` stores a `private Date start`. Its constructor and `getStart()` currently pass the `Date` by reference. Make both defensive.
 > > [!SUCCESS]- Reference solution
 > > ```java

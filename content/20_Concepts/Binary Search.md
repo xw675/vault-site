@@ -21,7 +21,6 @@ tags: [CS/Algorithms, CS/Search, CS/Complexity]
 - **Halving** ➔ each pass is $O(1)$ and halves the window ⟹ $n/2^b=1 \Rightarrow b=\log_2 n$ passes.
 - **Loop invariant** ➔ *if present, the target's index lies in $[lo,hi]$*; order justifies discarding a half; `hi-lo` strictly shrinks (termination).
 
----
 ## ⚙️ Core Implementation
 ### 🔹 `index` via binary search
 > [!code]- `SortedArrayList.index`
@@ -40,7 +39,6 @@ tags: [CS/Algorithms, CS/Search, CS/Complexity]
 > ```
 > 💡 **Exam Pitfall:** **Use `mid = low + (high-low)//2`** ➔ `(low+high)//2` can **overflow** in fixed-width ints; and the data **must be sorted** or discarding a half is unjustified.
 
----
 ## ⚖️ Core Decision Matrix
 | Aspect | Complexity | Why |
 | :--- | :--- | :--- |
@@ -51,7 +49,6 @@ tags: [CS/Algorithms, CS/Search, CS/Complexity]
 
 > [!NOTE] **Crossover Invariant:** vs [[Linear Search]] ($O(n)$) always better; vs [[Hash Table]] ($O(1)$ expected but unordered) binary search keeps order for predecessor/successor/range. A balanced [[Binary Tree]] is "binary search made dynamic" — $O(\log n)$ search **and** insert/delete, which a sorted array can't.
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -74,7 +71,6 @@ $$
 $$
 **Final Extracted Output:** halving ⟹ $\log_2 n$ passes of $O(1)$ ⟹ $\Theta(\log n)$ — vs linear search's $O(n)$.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- Why is binary search $\Theta(\log n)$, and why is that exponentially better than linear search?
 > - **Core Insight Requirement:** Halving vs decrementing the candidate set.

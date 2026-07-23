@@ -40,7 +40,6 @@ aliases: [Compliance, PDPA, GDPR, PCI, Data Regulations]
 - **Notifiable Data Breaches (NDB) Act 2017** ➔ requires eligible data breaches to be **notified** to the OAIC and affected individuals — Australia's counterpart to GDPR's breach-notification duty.
 - *(Applied session lab: `30_Projects/FIT1043_Labs/Week11-NoSQL-Privacy.pdf`.)*
 
----
 ## ⚖️ Core Decision Matrix
 | Aspect | PDPA | GDPR (EU) |
 | :--- | :--- | :--- |

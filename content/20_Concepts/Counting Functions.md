@@ -30,7 +30,6 @@ tags: [Math/Combinatorics, Math/Functions, Monash/CS_DS]
 
 $$\#\{f:A\to B\}=n^m,\qquad \#\text{injections}=\frac{n!}{(n-m)!},\qquad \#\text{bijections}=n!\ (m=n)$$
 
----
 ## ⚖️ Core Decision Matrix
 | Type | Count | Reason |
 | :--- | :--- | :--- |
@@ -41,7 +40,6 @@ $$\#\{f:A\to B\}=n^m,\qquad \#\text{injections}=\frac{n!}{(n-m)!},\qquad \#\text
 
 > [!NOTE] **Crossover Invariant:** every bijection is an injection with $m=n$: $\tfrac{n!}{0!}=n!$ (consistent). Relations ($2^{mn}$, [[n-ary Relation]]) vastly outnumber functions ($n^m$) because they drop single-valuedness.
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -57,7 +55,6 @@ $\lvert A\rvert=2$, $\lvert B\rvert=3$:
 ## ⚠️ Pitfalls
 - 💡 **Injections keep order, subsets don't** ➔ $\tfrac{n!}{(n-m)!}$ is the *ordered* selection; dividing by $m!$ gives $\binom{n}{m}$ ([[Binomial Coefficient]]). Injections vanish when $m>n$.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- Derive the number of functions and injections from a size-$m$ to a size-$n$ set.
 > - **Core Insight Requirement:** Independent vs shrinking choices.

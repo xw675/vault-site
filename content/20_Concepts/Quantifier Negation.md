@@ -34,7 +34,6 @@ $$
 
 > [!NOTE] **Crossover Invariant:** negation = disproof — $\neg\forall x\,P(x)=\exists x\,\neg P(x)$ is exactly why one counterexample disproves a universal, and $\neg\exists=\forall\neg$ why disproving an existential needs all cases.
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -50,7 +49,6 @@ Negating $\forall X\,(\text{dog}(X)\Rightarrow\text{happy}(X))$:
 ## ⚠️ Pitfalls
 - 💡 **$\Rightarrow$ negates to $\wedge$** ➔ a restricted universal's implication becomes the existential's conjunction; a double flip $\neg\forall Y\neg P\equiv\exists Y\,P$ returns the original.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- State the two quantifier-negation laws and show "not all dogs are happy" = "there is an unhappy dog".
 > - **Core Insight Requirement:** Flip + De Morgan the body.

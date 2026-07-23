@@ -39,7 +39,7 @@ CoffeeMachine nespresso = new CoffeeMachine("Nespresso"); // calls #2
 - **The three D's** ➔ **Declaration** (`Integer x;` — name + type), **Instantiation** (`new Integer(42)` — build the object), **Initialisation** (assign it: `x = new Integer(42)`).
 - **All in one line** ➔ `Integer theAnswer = new Integer(42);`.
 
-## 🥋 Kata (write from blank)
+## 🥋 Kata
 > [!QUESTION]- Kata 1: A `Student` has a `name` and an `id`. Provide a no-arg constructor and one that sets both fields.
 > > [!SUCCESS]- Reference solution
 > > ```java

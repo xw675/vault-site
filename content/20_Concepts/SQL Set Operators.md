@@ -42,7 +42,7 @@ ORDER BY drone_id;                    -- result: drones NEVER rented
 - **UNION with labels** ➔ combine `WHERE emp_type='F'` (label `'Full Time'`) with `WHERE emp_type='C'` (label `'Casual'`), then `ORDER BY emp_no`.
 - **INTERSECT** ➔ `SELECT emp_lname FROM drone.employee INTERSECT SELECT cust_lname FROM drone.customer` — surnames in both.
 
-## 🥋 Kata (write from blank)
+## 🥋 Kata 
 > [!QUESTION]- Kata 1: List surnames that appear in **both** `EMPLOYEE` (`emp_lname`) and `CUSTOMER` (`cust_lname`), ordered.
 > > [!SUCCESS]- Reference solution
 > > ```sql

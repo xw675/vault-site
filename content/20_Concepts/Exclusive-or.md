@@ -32,7 +32,6 @@ tags: [Math/Logic, Math/Discrete, Monash/CS_DS]
 
 $$P_1\oplus\cdots\oplus P_n=\text{True} \iff \#\{i: P_i=\text{True}\}\text{ is odd}$$
 
----
 ## ⚖️ Core Decision Matrix
 | Relation | Formula | Meaning |
 | :--- | :--- | :--- |
@@ -43,7 +42,6 @@ $$P_1\oplus\cdots\oplus P_n=\text{True} \iff \#\{i: P_i=\text{True}\}\text{ is o
 
 > [!NOTE] **Crossover Invariant:** for "$x\in A$"/"$x\in B$", $\oplus$ corresponds to [[Set Operations (Mathematics)|Symmetric Difference]] $A\triangle B$ — just as $\vee\leftrightarrow\cup$, $\wedge\leftrightarrow\cap$. XOR is the logical "exactly one".
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -60,7 +58,6 @@ Accumulate $1\oplus 0\oplus 1\oplus 1$ left to right:
 ## ⚠️ Pitfalls
 - 💡 **$\oplus$ vs $\vee$ split only at TT** ➔ agree on three rows; $\vee$ gives T at both-true, $\oplus$ gives F.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- How does exclusive-or relate to equivalence and to inclusive-or?
 > - **Core Insight Requirement:** Opposite of $\Leftrightarrow$; splits from $\vee$ at TT.

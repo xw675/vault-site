@@ -39,7 +39,6 @@ aliases: [Primitive Types, Reference Types, Type Casting, Value vs Reference, Ja
 - **String Pool** ➔ Java shares identical string **literals**, so `"test" == "test"` is `true` (same pooled address); but `new String("test") == new String("test")` is `false` (two distinct heap objects), while `.equals()` is `true` for both.
 - **Rule** ➔ for objects (especially `String`), always use `.equals()` for value comparison; reserve `==` for primitives and identity checks.
 
----
 ## ⚖️ Core Decision Matrix
 | | Primitive (`int`) | Reference (`Integer`, `String`, your class) |
 | :--- | :--- | :--- |

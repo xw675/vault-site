@@ -28,7 +28,6 @@ tags: [CS/DataStructures, OOP/Python, CS/Algorithms, CS/Complexity]
 - **Notation by traversal** ➔ preorder→**prefix** | inorder→**infix** (drops brackets) | postorder→**postfix/RPN**.
 - **Ordering principle** ➔ by **expression structure**, not by key (unlike a [[Binary Search Tree (BST)]]).
 
----
 ## ⚙️ Core Implementation
 ### 🔹 Node + recursive size
 > [!code]- `BinaryTreeNode` / `BinaryTree`
@@ -78,7 +77,6 @@ tags: [CS/DataStructures, OOP/Python, CS/Algorithms, CS/Complexity]
 > ```
 > 💡 **Exam Pitfall:** **Postfix/prefix need no parentheses or precedence** ➔ tree structure encodes grouping, so a machine evaluates RPN in one left-to-right pass with a stack.
 
----
 ## ⚖️ Core Decision Matrix
 | Aspect | Cost / Result | Trigger / Note |
 | :--- | :--- | :--- |
@@ -91,7 +89,6 @@ tags: [CS/DataStructures, OOP/Python, CS/Algorithms, CS/Complexity]
 
 > [!NOTE] **Crossover Invariant:** balance is the whole game — without it, sorted/adversarial input ➔ height-$N$ stick ➔ $O(N)$. Specialisations: [[Binary Search Tree (BST)]] (key order → search), **Expression Tree** (structure order → notation), and a *complete* + heap-ordered tree is a [[Heap]].
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -116,7 +113,6 @@ $$
 $$
 **Final Extracted Output:** preorder fixes roots, inorder splits subtrees ⟹ unique tree; **pre+post** alone is *not* unique.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- Why does a BST built from already-sorted keys degrade to $O(n)$, and what determines height generally?
 > - **Core Insight Requirement:** Insertion order sets the shape.

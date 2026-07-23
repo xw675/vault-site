@@ -29,7 +29,6 @@ aliases: [Underfitting, Overfitting, Bias, Variance, Bias-Variance Tradeoff, Tra
 - **Split** ➔ divide data into **non-overlapping** training and test sets.
 - **Rule** ➔ build the model on **training**; evaluate on **test**; **never** evaluate on the training set (it hides overfitting).
 
----
 ## ⚖️ Core Decision Matrix
 | Complexity | Bias | Variance | Fit |
 | :--- | :--- | :--- | :--- |

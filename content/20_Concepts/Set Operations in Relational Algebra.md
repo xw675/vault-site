@@ -34,7 +34,6 @@ tags: [CS/Databases, Math/SetTheory, Monash/CS_DS]
 $$\text{STOREA}=\{1,2,3\},\ \text{STOREB}=\{1,2,33\} \quad(\text{by product\_id})$$
 $$A\cup B=\{1,2,3,33\},\quad A\cap B=\{1,2\},\quad A-B=\{3\},\quad B-A=\{33\}$$
 
----
 ## ⚖️ Core Decision Matrix
 | Operation | Symbol | Symmetric? | Result |
 | :--- | :--- | :--- | :--- |
@@ -45,7 +44,6 @@ $$A\cup B=\{1,2,3,33\},\quad A\cap B=\{1,2\},\quad A-B=\{3\},\quad B-A=\{33\}$$
 
 > [!NOTE] **Crossover Invariant:** these are exactly the FIT1058 set operations on the tuple sets — inclusion–exclusion and De Morgan carry over, with union-compatibility as the new precondition. Closure holds, so set ops compose with σ/π and joins. Unlike joins (different schemas), set ops need **identical** schemas.
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -61,7 +59,6 @@ STOREA$=\{1,2,3\}$, STOREB$=\{1,2,33\}$:
 ## ⚠️ Pitfalls
 - 💡 **Union-compatibility required** ➔ same arity + positionally compatible domains (both `(product_id, product_name)`); difference is directional.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- Define union, intersection, and difference on relations, and the union-compatibility requirement.
 > - **Core Insight Requirement:** Set ops + compatibility.

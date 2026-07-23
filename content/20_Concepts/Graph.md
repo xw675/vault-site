@@ -29,7 +29,6 @@ tags: [Math/GraphTheory, Math/Discrete, Monash/CS_DS]
 
 $$v\sim w \iff \{v,w\}\in E,\qquad \{v,w\}=\{w,v\}\ (\text{undirected, no self-loop})$$
 
----
 ## ⚖️ Core Decision Matrix
 | Term | Relates | Example |
 | :--- | :--- | :--- |
@@ -40,7 +39,6 @@ $$v\sim w \iff \{v,w\}\in E,\qquad \{v,w\}=\{w,v\}\ (\text{undirected, no self-l
 
 > [!NOTE] **Crossover Invariant:** adjacency $\sim$ is a symmetric, irreflexive [[Binary Relation]] on $V$ — the bridge to relation theory; [[Connectivity]] turns the *walk* relation into an [[Equivalence Relation]]. Here graphs are **simple** unless stated ([[Types of Graphs]]).
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -56,7 +54,6 @@ $G=(\{a,\dots,g\},\{ab,ac,bc,cd,fg\})$:
 ## ⚠️ Pitfalls
 - 💡 **Must give both $V$ and $E$** ➔ an isolated vertex leaves no trace in the edge list; edges are *sets*, so no vertex is adjacent to itself.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- Define a graph, and distinguish adjacency from incidence.
 > - **Core Insight Requirement:** Vertex–vertex vs vertex–edge.

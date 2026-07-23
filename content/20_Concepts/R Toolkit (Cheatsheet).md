@@ -83,7 +83,7 @@ aliases: [R Cheatsheet, R Basics, R simulation cheatsheet]
 
 *(the four prefixes `d`/`p`/`q`/`r` attach to every distribution suffix: `norm`, `binom`, `pois`, `unif`, `exp`, …)*
 
-## 🥋 Kata (write from blank)
+## 🥋 Kata 
 > [!QUESTION]- Load `students.csv` (columns Name, Age, Score); report dimensions and structure; mean and sd of Score; the top-3 rows by Score (descending); boxplot Score and extract its outliers; fit Score ~ Age and state the slope.
 > > [!SUCCESS]- Reference solution
 > > ```r

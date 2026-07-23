@@ -38,7 +38,6 @@ aliases: [CNF, clause, conjunctive normal form]
 
 $$\text{only False row TF} \to (\neg X\vee Y) \;\Rightarrow\; P=(\neg X\vee Y)\ (\equiv X\Rightarrow Y)$$
 
----
 ## ⚖️ Core Decision Matrix
 | | CNF | [[Disjunctive Normal Form|DNF]] |
 | :--- | :--- | :--- |
@@ -49,7 +48,6 @@ $$\text{only False row TF} \to (\neg X\vee Y) \;\Rightarrow\; P=(\neg X\vee Y)\ 
 
 > [!NOTE] **Crossover Invariant:** because rule sets decompose as "this $\wedge$ that $\wedge$ …", CNF is usually written **directly** from the problem, not via the truth-table route; each clause encodes one constraint.
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -66,7 +64,6 @@ $P$ with output T,T,F,T (rows FF,FT,TF,TT):
 ## ⚠️ Pitfalls
 - 💡 **Clause literals are flipped vs DNF** ➔ CNF negates the row-true literals (False rows); DNF keeps them (True rows). Both can blow up to $2^k$ rows.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- What is CNF, and why is it preferred over DNF for modelling real rules?
 > - **Core Insight Requirement:** Rule sets are conjunctions of disjunctions.

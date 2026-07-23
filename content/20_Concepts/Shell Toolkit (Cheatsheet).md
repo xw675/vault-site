@@ -92,7 +92,7 @@ cat big.csv.gz | gunzip | awk -F',' 'NR>1 {print $6,$14}' | sort -n | head
 | Windows setup | install **Cygwin** | provides a Unix shell on Windows |
 | macOS (Big Sur+) | `chsh -s /bin/bash` | default is now **zsh**; switch to bash |
 
-## 🥋 Integration Katas (≥3 tools, write from blank)
+## 🥋 Integration Katas
 > [!QUESTION]- Kata 1: From gzipped `air.csv.gz` (comma-delimited, header on line 1), print the **10 largest** values of column 14, ignoring the header.
 > > [!SUCCESS]- Reference solution
 > > ```bash

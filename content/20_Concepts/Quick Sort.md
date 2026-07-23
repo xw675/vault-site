@@ -27,7 +27,6 @@ tags: [CS/Algorithms, CS/Sorting, CS/Complexity, OOP/Python]
 - **Risk** ➔ naïve recursion stacks $O(n)$ frames.
 - **Fix** ➔ recurse smaller partition first, loop (tail-call) on larger ➔ depth $\le\log_2 n$ ⇒ $O(\log n)$ space.
 
----
 ## ⚙️ Core Implementation
 ### 🔹 `quick_sort` + Lomuto `partition`
 > [!code]- `quick_sort`, `quick_sort_aux`, `partition`
@@ -55,7 +54,6 @@ tags: [CS/Algorithms, CS/Sorting, CS/Complexity, OOP/Python]
 > ```
 > 💡 **Exam Pitfall:** **Worst case needs lopsided-at-every-level** ➔ fixed pivot on sorted input ⟹ $\Theta(n^2)$; median-of-three/random makes it improbable. Cut to [[Sorting Problem|Insertion Sort]] for arrays $\lesssim 20$.
 
----
 ## ⚖️ Core Decision Matrix
 *(Domain A complexity table — Best / Average / Worst Time, Space, Stability.)*
 
@@ -67,7 +65,6 @@ tags: [CS/Algorithms, CS/Sorting, CS/Complexity, OOP/Python]
 
 > [!NOTE] **Crossover Invariant:** quicksort's no-merge, cache-friendly, in-place partition gives the **smallest constant** among $\Theta(n\log n)$ sorts — choose it unless a worst-case *bound* (heapsort) or **stability** (merge sort) is required. A quicksort run mirrors the [[Binary Tree|BST]] shape of inserting the same pivots.
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -93,7 +90,6 @@ $$
 $$
 **Final Extracted Output:** expected $\Theta(n\log n)$ (balanced splits), worst $\Theta(n^2)$ (degenerate pivots).
 
----
 ## 🧠 Active Recall
 > [!FAQ]- Why is quicksort $\Theta(n\log n)$ on average despite a $\Theta(n^2)$ worst case?
 > - **Core Insight Requirement:** Tie cost to split balance and pivot policy.

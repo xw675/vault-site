@@ -46,7 +46,7 @@ $$(\neg P_{A,s}\vee\neg P_{B,s})\wedge(\neg P_{A,s}\vee\neg P_{C,s})\wedge(\neg 
 | **none or both** of $P,Q$ | $P\Leftrightarrow Q$ | $(\neg P\vee Q)\wedge(P\vee\neg Q)$ |
 | **no more than one** of $P,Q,R$ | pairwise not-both | $(\neg P\vee\neg Q)\wedge(\neg P\vee\neg R)\wedge(\neg Q\vee\neg R)$ |
 
-## 🥋 Kata (write from blank)
+## 🥋 Kata
 > [!QUESTION]- Kata: A guest list must include at least one of $\{H,R,He,G\}$; may include Hagrid only if it includes Norberta; includes none or both of Fred and George; and no more than one of $\{V,B,D\}$. Write the whole thing in CNF.
 > > [!SUCCESS]- Reference solution
 > > $$

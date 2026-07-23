@@ -34,7 +34,6 @@ $$q=\lfloor a/b\rfloor,\qquad \text{new }(a,x,y)=(b,z,w),\qquad \text{new }(b,z,
 
 > [!NOTE] **Crossover Invariant:** the coefficients $x,y$ are exactly what [[Coprimality]] needs ($xm+yn=1$) and what yields [[Modular Inverse|$x^{-1}$ in $\mathbb Z_n$]] (from $yx+zn=1$, inverse is $y\bmod n$) — central to RSA-style key setup.
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -51,7 +50,6 @@ EEA on $(26,7)$:
 ## ⚠️ Pitfalls
 - 💡 **Invariant $a=xm+yn$** ➔ true for seeds and preserved by the update; the final $b$-triple's $0=zm+wn$ is a free consistency check.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- What invariant do the EEA triples maintain, and how does it give both the answer and a check?
 > - **Core Insight Requirement:** $a=xm+yn$ preserved.

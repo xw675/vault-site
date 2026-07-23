@@ -36,7 +36,6 @@ aliases: [Equally Likely Outcomes, Laplace Probability]
 - 💡 **Only if equally likely** ➔ dice totals are non-uniform, so $|A|/|U|$ is wrong on the 11 totals — refine to the uniform 36-pair space.
 - 💡 **No uniform distribution on $\mathbb N$** ➔ any constant weight fails normalisation; state finiteness before using Laplace.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- State the axioms of a probability assignment and the equally-likely special case.
 > - **Core Insight Requirement:** Normalise, then sum.

@@ -33,7 +33,6 @@ tags: [CS/DataStructures, OOP/Python, CS/Abstraction, CS/Complexity]
 - **Modifying version** ➔ holds list + `previous` ➔ delete/insert *during* traversal in $O(1)$.
 - **vs fail-fast** ➔ *provides* controlled mutation instead of *forbidding* it (ArrayList same edit = $O(n)$).
 
----
 ## ⚙️ Core Implementation
 ### 🔹 ArrayList — $O(1)$ access, $O(n)$ shift
 > [!code]- `ArrayList(List[T])`
@@ -102,7 +101,6 @@ tags: [CS/DataStructures, OOP/Python, CS/Abstraction, CS/Complexity]
 > ```
 > 💡 **Exam Pitfall:** **Modifying iterator needs `previous` + the list** ➔ to rewire the predecessor and reset `head`/`length` when the first node goes; a read-only iterator needs only `current`.
 
----
 ## ⚖️ Core Decision Matrix
 | Operation | **ArrayList** | **LinkList** | Cause |
 | :--- | :--- | :--- | :--- |
@@ -115,7 +113,6 @@ tags: [CS/DataStructures, OOP/Python, CS/Abstraction, CS/Complexity]
 
 > [!NOTE] **Crossover Invariant:** array = $O(1)$ access / $O(n)$ edit; linked = the exact inverse ➔ choose **array** for index-heavy/read-heavy, **linked** for frequent insert/delete at known positions. In-place delete = $O(1)$ (LinkListIterator relink) vs $O(n)$ (ArrayList shift).
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -142,7 +139,6 @@ $$
 $$
 **Final Extracted Output:** `remove = index + delete_at_index` ⟹ one component is always $\Theta(N)$, so the sum is $\Theta(N)$.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- Array-backed and linked-backed lists implement the same ADT — give random-access and head-insertion costs and the design rule.
 > - **Core Insight Requirement:** Recognise the mirror-image cost profile.

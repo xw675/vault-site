@@ -32,7 +32,6 @@ tags: [Math/SetTheory, Math/Discrete, Monash/CS_DS]
 $$\mathbb N=\{1,2,\dots\},\ \mathbb N_0=\{0,1,\dots\},\ \mathbb Z,\ \mathbb Q=\{p/q:q\neq0\},\ \mathbb R$$
 $$[a,b]=\{x\in\mathbb R:a\le x\le b\},\quad [a,b)=\{a\le x<b\},\quad (a,b)=\{a<x<b\}$$
 
----
 ## ⚖️ Core Decision Matrix
 | Symbol | Set | Note |
 | :--- | :--- | :--- |
@@ -43,7 +42,6 @@ $$[a,b]=\{x\in\mathbb R:a\le x\le b\},\quad [a,b)=\{a\le x<b\},\quad (a,b)=\{a<x
 
 > [!NOTE] **Crossover Invariant:** each name denotes the set *and* its operations — context decides whether "$\mathbb Z$" means the elements or the system $(\mathbb Z,+,\times)$. A number set (e.g. $\mathbb Z$) often serves as the universal set $U$ for a numeric problem.
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -60,7 +58,6 @@ Smallest standard set each value belongs to:
 ## ⚠️ Pitfalls
 - 💡 **$\mathbb N$ vs $\mathbb N_0$** ➔ differ only by $0$ ($0\in\mathbb N_0$, $0\notin\mathbb N$ in this unit); a square bracket includes its endpoint, a round bracket excludes it.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- Distinguish $\mathbb N$, $\mathbb N_0$, $\mathbb Z^+$, and $\mathbb R^+_0$.
 > - **Core Insight Requirement:** Sign superscript, zero subscript.

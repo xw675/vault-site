@@ -41,7 +41,7 @@ g.columns = g.columns.droplevel(0)        # drop the top ('age') level
 g.rename(columns={'count':'passengers','mean':'avg age'}, inplace=True)
 ```
 
-## 🥋 Kata (write from blank)
+## 🥋 Kata
 > [!QUESTION]- Kata 1: For each `class` in `titanic`, return the passenger **count** (`who`) and **mean** `age` in one call.
 > > [!SUCCESS]- Reference solution
 > > ```python

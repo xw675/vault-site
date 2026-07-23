@@ -30,7 +30,6 @@ tags: [CS/Databases, SWE/Design, Monash/CS_DS]
 - **SET NULL** ➔ deleting the parent nulls the child's FK (only if the FK column allows NULL).
 - **Chosen at design time** ➔ read participation from the data model — **mandatory** FK ⟹ RESTRICT (SET NULL would orphan it; CASCADE would destroy history).
 
----
 ## ⚙️ Core Implementation
 
 ### 🔹 EMP–DEPT
@@ -46,7 +45,6 @@ tags: [CS/Databases, SWE/Design, Monash/CS_DS]
 > ```
 > 💡 **Exam Pitfall:** **Match the full PK or be NULL** ➔ the president has NULL `deptno` (no department, allowed); a partial match on a composite PK is invalid.
 
----
 ## ⚖️ Core Decision Matrix
 | FK state | Valid? | Meaning |
 | :--- | :--- | :--- |
@@ -57,7 +55,6 @@ tags: [CS/Databases, SWE/Design, Monash/CS_DS]
 
 > [!NOTE] **Crossover Invariant:** a conceptual [[Relationship (Conceptual Modelling)|relationship]] becomes a concrete FK column ([[Conceptual vs Logical Model]]); a NULL FK is the circle (min 0) of [[Cardinality (Crow's Foot Notation)|Crow's Foot]]. Deletes of a referenced PK are restricted or cascaded.
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -81,7 +78,6 @@ $$
 $$
 **Final Extracted Output:** NULL allowed; an unmatched value is rejected.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- Define a foreign key and state the referential integrity rule.
 > - **Core Insight Requirement:** PK in another relation.

@@ -28,7 +28,6 @@ aliases: [Data Quality, Missing Values, Outliers, Duplicates, IQR]
 - **Outliers** ➔ *detect* `df.describe()` range, **boxplot (IQR rule)**, **3σ rule**; *fix* as for missing values.
 - **Duplicates** ➔ *detect* pick candidate **keys** (fix other issues first, try different keys); *fix* merge/combine or remove.
 
----
 ## ⚖️ Core Decision Matrix
 | Problem | Detect with | Fix with |
 | :--- | :--- | :--- |
@@ -41,7 +40,6 @@ aliases: [Data Quality, Missing Values, Outliers, Duplicates, IQR]
 
 > [!NOTE] **Crossover Invariant:** missing values and outliers share the **same fix menu** (impute vs remove) — the differentiator is detection, and every removal/imputation needs a domain justification.
 
----
 ## 📊 Exam Execution Trace
 
 ### Applied Exercise
@@ -56,7 +54,6 @@ $$
 $$
 **Final Extracted Output:** anything $< -350{,}000$ or $> 1{,}650{,}000$ is an outlier (so a $\$2{,}000{,}000$ listing flags).
 
----
 ## 🧠 Active Recall
 > [!FAQ]- State the IQR outlier rule, and why you shouldn't auto-delete detected outliers.
 > - **Core Insight Requirement:** IQR bounds + judgement.

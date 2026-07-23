@@ -31,7 +31,6 @@ tags: [Math/Discrete, Math/Sequences, Monash/CS_DS]
 
 $$S_n=\sum_{i=1}^{n}s_i=s_1+s_2+\dots+s_n,\qquad \sum_{i=1}^n s_i=\sum_{j=1}^n s_j\ (\text{reindex})$$
 
----
 ## ⚖️ Core Decision Matrix
 | Aspect | Notation | Program |
 | :--- | :--- | :--- |
@@ -42,7 +41,6 @@ $$S_n=\sum_{i=1}^{n}s_i=s_1+s_2+\dots+s_n,\qquad \sum_{i=1}^n s_i=\sum_{j=1}^n s
 
 > [!NOTE] **Crossover Invariant:** studying the partial-sum sequence $(S_n)$ is often the goal; its closed form comes from [[Arithmetic Series|arithmetic]] / [[Geometric Series|geometric]] series formulas. Mathematically the sum is unique; in floating-point, order changes accumulated error.
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -59,7 +57,6 @@ $\sum_{i=1}^5(2i-1)$:
 ## ⚠️ Pitfalls
 - 💡 **Reindex everywhere** ➔ change both limits and the summand together, and avoid a name already used outside; the index is a bound, local variable.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- Name every part of $\sum_{i=1}^n s_i$ and why the letter $i$ doesn't matter.
 > - **Core Insight Requirement:** Bound local index.

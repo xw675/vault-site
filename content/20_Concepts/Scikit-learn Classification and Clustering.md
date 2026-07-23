@@ -53,7 +53,7 @@ km.labels_               # cluster id per point
 plt.scatter(df['Distance_Feature'], df['Speeding_Feature'], c=km.labels_)
 ```
 
-## 🥋 Kata (write from blank)
+## 🥋 Kata 
 > [!QUESTION]- Kata 1: Cluster drivers into 4 groups on two features, then colour the scatter by cluster and mark the centroids.
 > > [!SUCCESS]- Reference solution
 > > ```python

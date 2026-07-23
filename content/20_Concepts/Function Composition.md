@@ -33,7 +33,6 @@ tags: [Math/Functions, Math/Discrete, Monash/CS_DS]
 $$(g\circ f)(x)=g(f(x)),\qquad (g\circ f)^{-1}=f^{-1}\circ g^{-1}$$
 $$(\text{Father}\circ\text{Mother})(p)=\text{Father}(\text{Mother}(p))\ (\text{maternal grandfather})$$
 
----
 ## ⚖️ Core Decision Matrix
 | Property | Holds? | Statement |
 | :--- | :--- | :--- |
@@ -44,7 +43,6 @@ $$(\text{Father}\circ\text{Mother})(p)=\text{Father}(\text{Mother}(p))\ (\text{m
 
 > [!NOTE] **Crossover Invariant:** composition models multi-stage computation; non-commutativity means swapping stages changes the result. Cascading two ciphers gives key space $K\times K'$ and decryption $d_k\circ d'_{k'}$ (socks-and-shoes).
 
----
 ## 📊 Exam Execution Trace
 
 ### Applied Exercise
@@ -62,7 +60,6 @@ $$
 ## ⚠️ Pitfalls
 - 💡 **Written order ≠ evaluation order** ➔ in $g\circ f$, $f$ runs first though $g$ is written first; to invert, reverse ($f^{-1}\circ g^{-1}$).
 
----
 ## 🧠 Active Recall
 > [!FAQ]- State the matching condition for $g\circ f$ and why written order reverses evaluation order.
 > - **Core Insight Requirement:** Codomain meets domain.

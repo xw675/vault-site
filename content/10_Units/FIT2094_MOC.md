@@ -6,7 +6,7 @@ tags: [Monash/CS_DS, 2026/S1]
 # 📘 FIT2094: Databases
 
 > [!INFO] Map of Content
-> Index for **FIT2094 Databases**. Each link below is a standalone atomic note. Start with [[Database Design Life Cycle]] and follow the links. Conceptual modelling uses **Crow's Foot** notation throughout.
+> Index for **FIT2094 Databases** — conceptual modelling in **Crow's Foot** throughout. Start with [[Database Design Life Cycle]].
 
 ## 📊 Assessment Map
 

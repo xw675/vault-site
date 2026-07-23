@@ -36,7 +36,6 @@ $$\neg(\neg J\wedge\neg K\wedge\neg M)\;=\;(\neg\neg J\vee\neg\neg K\vee\neg\neg
 
 $$P=(\neg X\wedge\neg Y)\vee(\neg X\wedge Y)\vee(X\wedge Y)$$
 
----
 ## ⚖️ Core Decision Matrix
 | Property | DNF | Why |
 | :--- | :--- | :--- |
@@ -47,7 +46,6 @@ $$P=(\neg X\wedge\neg Y)\vee(\neg X\wedge Y)\vee(X\wedge Y)$$
 
 > [!NOTE] **Crossover Invariant:** DNF makes satisfiability trivial (inspect the parts — a part with no $X\wedge\neg X$ names a satisfying assignment), but real specifications list conditions that hold *together* (a conjunction), which suits CNF.
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -64,7 +62,6 @@ $P$ with output T,T,F,T:
 ## ⚠️ Pitfalls
 - 💡 **DNF keeps row-true literals plain** ➔ opposite of CNF's False-row negation; reduce $\neg\neg X$ to $X$ before calling it a literal.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- Construct the DNF of an expression from its truth table.
 > - **Core Insight Requirement:** True rows → implicants.

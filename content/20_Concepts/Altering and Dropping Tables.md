@@ -37,7 +37,7 @@ ALTER TABLE cust_train DROP CONSTRAINT training_cust_train_fk;
 - **Plain `DROP`** ➔ `DROP TABLE customer PURGE;` — `PURGE` skips the recycle bin (immediate, unrecoverable).
 - **Referenced parent** ➔ `DROP TABLE customer CASCADE CONSTRAINTS PURGE;` first removes FK constraints *pointing at* `customer`, then drops it; the old `cust_id` values survive as plain attributes in ex-child tables.
 
-## 🥋 Kata (write from blank)
+## 🥋 Kata
 > [!QUESTION]- Kata 1: `training` has a `train_type` column that should only ever be `'P'` or `'F'`, and must never be null. Add both rules with named/mandatory constraints.
 > > [!SUCCESS]- Reference solution
 > > ```sql

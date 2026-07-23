@@ -31,7 +31,6 @@ tags: [Math/NumberTheory, Math/Discrete, Monash/CS_DS]
 $$\phi(p)=p-1,\quad \phi(p^m)=p^{m-1}(p-1),\quad \phi(ab)=\phi(a)\phi(b)\ (\gcd(a,b)=1)$$
 $$\phi(150)=150(1-\tfrac12)(1-\tfrac13)(1-\tfrac15)=40$$
 
----
 ## ⚖️ Core Decision Matrix
 | $n$ | $\phi(n)$ | Note |
 | :--- | :--- | :--- |
@@ -42,7 +41,6 @@ $$\phi(150)=150(1-\tfrac12)(1-\tfrac13)(1-\tfrac15)=40$$
 
 > [!NOTE] **Crossover Invariant:** $\phi(n)=\lvert\mathbb Z_n^*\rvert$ is the size of the multiplicative group — the exponent in [[Euler's Theorem and Fermat's Little Theorem|Euler's theorem]] and the order of a [[Primitive Root|generator]]. Easy given the factorisation, hard without — the asymmetry RSA rests on.
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -58,7 +56,6 @@ $\phi(360)$, $360=2^3\cdot3^2\cdot5$:
 ## ⚠️ Pitfalls
 - 💡 **"Multiplicative" needs coprimality** ➔ $\phi(ab)=\phi(a)\phi(b)$ only when $\gcd(a,b)=1$, not for all $a,b$; the product ranges over *distinct* primes.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- State the three rules for $\phi$ and compute $\phi(150)$.
 > - **Core Insight Requirement:** Prime power + multiplicativity.

@@ -41,7 +41,7 @@ ORDER BY dt_code, drone_id;
 - **Correlated form** ➔ `WHERE drone_pur_price = (SELECT MIN(drone_pur_price) FROM drone.drone d2 WHERE d2.dt_code = d1.dt_code)`.
 - **Inline view form** ➔ `FROM (SELECT dt_code, MIN(drone_pur_price) minprice FROM drone.drone GROUP BY dt_code) mintable JOIN drone.drone d ON mintable.dt_code=d.dt_code AND mintable.minprice=d.drone_pur_price`.
 
-## 🥋 Kata (write from blank)
+## 🥋 Kata 
 > [!QUESTION]- Kata 1: For each drone, show `times_rented` and its share of all completed rentals as a percentage, using a scalar subquery in the SELECT list.
 > > [!SUCCESS]- Reference solution
 > > ```sql

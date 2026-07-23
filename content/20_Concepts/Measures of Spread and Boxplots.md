@@ -29,7 +29,6 @@ aliases: [Measures of Spread, Range, Variance, Standard Deviation, Boxplot, Five
 - **Five numbers** ➔ min, $Q_1$, median, $Q_3$, max ➔ captures **centrality, spread, and skew** in one plot.
 - **Outlier rule** ➔ suspected outliers are $> Q_3 + 1.5\,\text{IQR}$ or $< Q_1 - 1.5\,\text{IQR}$.
 
----
 ## ⚖️ Core Decision Matrix
 | Measure | Formula | Robust to outliers? |
 | :--- | :--- | :--- |
@@ -39,7 +38,6 @@ aliases: [Measures of Spread, Range, Variance, Standard Deviation, Boxplot, Five
 
 > [!NOTE] **Crossover Invariant:** a wider spread ($s$ from $0.5 \to 1.5$) fattens the distribution and lengthens the range; the boxplot shows the same story visually — a taller box = larger IQR.
 
----
 ## 📊 Exam Execution Trace
 
 ### Applied Exercise
@@ -53,7 +51,6 @@ $$
 $$
 **Final Extracted Output:** IQR $=200$; any value $> 900$ (or $< Q_1-300 = 100$) is a suspected outlier.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- What five numbers make a boxplot, and what three properties does it show at once?
 > - **Core Insight Requirement:** Five-number summary.

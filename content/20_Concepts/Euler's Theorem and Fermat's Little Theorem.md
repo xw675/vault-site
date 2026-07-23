@@ -31,7 +31,6 @@ tags: [Math/NumberTheory, Math/Discrete, Monash/CS_DS]
 $$\gcd(x,n)=1 \Rightarrow x^{\phi(n)}\equiv1\pmod n;\qquad x^{p-1}\equiv1\pmod p\ (p\text{ prime})$$
 $$a^m\equiv a^{m\bmod\phi(n)}\pmod n$$
 
----
 ## ⚖️ Core Decision Matrix
 | Theorem | Modulus | Exponent | Condition |
 | :--- | :--- | :--- | :--- |
@@ -41,7 +40,6 @@ $$a^m\equiv a^{m\bmod\phi(n)}\pmod n$$
 
 > [!NOTE] **Crossover Invariant:** the theorem shrinks the exponent in [[Modular Exponentiation]] from $m$ to $m\bmod\phi(n)$, often turning a huge power into a small one — the algebra behind RSA and key-exchange correctness.
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -57,7 +55,6 @@ $3^{100}\bmod7$:
 ## ⚠️ Pitfalls
 - 💡 **Coprimality required** ➔ without $\gcd(x,n)=1$ the powers never reach 1 (they get stuck — see [[Primitive Root]]).
 
----
 ## 🧠 Active Recall
 > [!FAQ]- State Euler's theorem and FLT, and how one specialises to the other.
 > - **Core Insight Requirement:** Group size exponent.

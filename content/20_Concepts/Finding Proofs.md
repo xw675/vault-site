@@ -26,7 +26,6 @@ tags: [Math/Proof, Math/Logic, Monash/CS_DS]
 - **Gödel (1931)** ➔ any consistent arithmetic-capable system has **true but unprovable** statements.
 - **Church–Turing (1936)** ➔ the *Entscheidungsproblem* is **undecidable** — no algorithm decides provability.
 
----
 ## ⚖️ Core Decision Matrix
 | Goal shape | Blueprint | First line |
 | :--- | :--- | :--- |
@@ -36,7 +35,6 @@ tags: [Math/Proof, Math/Logic, Monash/CS_DS]
 
 > [!NOTE] **Crossover Invariant:** blueprints are heuristics, not recipes — they organise the argument, but choosing *which* definition to unpack or *which* bound to use is the creative content. Double containment / mutual inequality splits one hard equality into two easier one-directional arguments.
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -52,7 +50,6 @@ Element-chasing $A\cap B\subseteq A$:
 ## ⚠️ Pitfalls
 - 💡 **Match blueprint to goal shape** ➔ $\subseteq$ → element chasing; set $=$ → double containment; the two-sided inequality is the fallback when direct transformation stalls.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- Why is there no general algorithm for finding proofs?
 > - **Core Insight Requirement:** Foundational limits.

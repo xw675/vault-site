@@ -31,7 +31,6 @@ tags: [Math/SetTheory, Math/Combinatorics, Math/Discrete]
 $$\lvert A\times B\rvert=\lvert A\rvert\cdot\lvert B\rvert,\qquad \lvert A_1\times\cdots\times A_n\rvert=\prod_{i=1}^n\lvert A_i\rvert$$
 $$A\times B\neq B\times A \text{ (in general)},\qquad \lvert A^k\rvert=\lvert A\rvert^k$$
 
----
 ## ⚖️ Core Decision Matrix
 | Constructor | Size | Growth |
 | :--- | :--- | :--- |
@@ -41,7 +40,6 @@ $$A\times B\neq B\times A \text{ (in general)},\qquad \lvert A^k\rvert=\lvert A\
 
 > [!NOTE] **Crossover Invariant:** the two principal set constructors grow very differently — Cartesian product multiplies sizes, the power set exponentiates. Product is not commutative but its cardinality is order-independent.
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -57,7 +55,6 @@ $A=\{1,2\}$, $B=\{x,y\}$:
 ## ⚠️ Pitfalls
 - 💡 **Not commutative** ➔ $(a,b)$ and $(b,a)$ are different tuples; $A\times B$ and $B\times A$ have equal size but differ as sets.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- Why is $\lvert A\times B\rvert=\lvert A\rvert\cdot\lvert B\rvert$, and why are the elements *ordered* pairs?
 > - **Core Insight Requirement:** Independent choice + role.

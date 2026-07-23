@@ -33,7 +33,6 @@ tags: [Math/Combinatorics, Math/Discrete, Monash/CS_DS]
 $$\text{ordered: } n^r \text{ (with)},\ (n)_r=\tfrac{n!}{(n-r)!} \text{ (without)}$$
 $$\text{unordered: } \binom{r+n-1}{r} \text{ (with)},\ \binom{n}{r}=\tfrac{(n)_r}{r!} \text{ (without)}$$
 
----
 ## ⚖️ Core Decision Matrix
 | | Without replacement | With replacement |
 | :--- | :--- | :--- |
@@ -42,7 +41,6 @@ $$\text{unordered: } \binom{r+n-1}{r} \text{ (with)},\ \binom{n}{r}=\tfrac{(n)_r
 
 > [!NOTE] **Crossover Invariant:** ordered counts exceed their unordered partners by exactly $r!$ (the orderings of the chosen items), so $\binom{n}{r}=(n)_r/r!$. Each cell was met before: $n^r$ = functions/strings, $(n)_r$ = injections, $\binom{n}{r}$ = subsets.
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -59,7 +57,6 @@ $n=5$, $r=3$, all four modes:
 ## ⚠️ Pitfalls
 - 💡 **Replacement's "simpler" side flips** ➔ for *ordered*, with-replacement ($n^r$) is simpler; for *unordered*, without-replacement ($\binom{n}{r}$) is simpler and the with-replacement case needs the bijection trick.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- Give the four selection counts for choosing $r$ from $n$.
 > - **Core Insight Requirement:** Order × replacement.

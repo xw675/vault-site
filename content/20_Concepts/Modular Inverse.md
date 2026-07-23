@@ -27,7 +27,6 @@ tags: [Math/NumberTheory, Math/Discrete, Monash/CS_DS]
 - **Method** ➔ run [[Extended Euclidean Algorithm]] on $x,n$; if $\gcd=1$, inverse $=y\bmod n$.
 - **Sets** ➔ $\mathbb Z_6^*=\{1,5\}$, $\mathbb Z_7^*=\{1,\dots,6\}$.
 
----
 ## ⚖️ Core Decision Matrix
 | Element | Invertible in $\mathbb Z_n$? | Reason |
 | :--- | :--- | :--- |
@@ -38,7 +37,6 @@ tags: [Math/NumberTheory, Math/Discrete, Monash/CS_DS]
 
 > [!NOTE] **Crossover Invariant:** invertibility is governed entirely by [[Coprimality]] with $n$; $\lvert\mathbb Z_n^*\rvert=\phi(n)$ ([[Euler Totient Function]]). The inverse, when it exists, is unique in $\mathbb Z_n$.
 
----
 ## 📊 Exam Execution Trace
 
 ### Manual Execution Trace
@@ -54,7 +52,6 @@ $3^{-1}$ in $\mathbb Z_7$:
 ## ⚠️ Pitfalls
 - 💡 **$0$ never invertible, prime modulus special** ➔ if $n=p$ prime, every nonzero element is coprime to $p$ ⟹ all invertible ($\mathbb Z_p^*=\{1,\dots,p-1\}$, a field); composite $n$ leaves some elements non-invertible.
 
----
 ## 🧠 Active Recall
 > [!FAQ]- For which $x$ does an inverse exist in $\mathbb Z_n$, and why does $\mathbb Z_6$ lack one for 2 while $\mathbb Z_7$ has one for every nonzero element?
 > - **Core Insight Requirement:** Coprimality condition.
